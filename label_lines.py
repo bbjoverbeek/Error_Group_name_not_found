@@ -19,6 +19,8 @@ def main(argv):
                 line = re.sub(r'(\s)\1{11}', 'D|\t\t\t', line)
             elif line.isupper():
                 line = re.sub(r'(.+)', r'S|\t\1', line)
+            elif line != "\n":
+                line = "N|\t" + line
 
             print(line)
 
