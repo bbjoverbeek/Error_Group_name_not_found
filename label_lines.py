@@ -17,8 +17,8 @@ def main(argv):
                 line = re.sub(r'(\s)\1{23}', 'C|\t\t\t\t\t', line)
             elif re.match(r'(\s)\1{11}', line):
                 line = re.sub(r'(\s)\1{11}', 'D|\t\t\t', line)
-            #elif re.match(r'([A-Z]+)\1+', line):
-                #line = re.sub(r'([A-Z]+)\1+', r'BBBBBBB|\t\1', line)
+            elif line.isupper():
+                line = re.sub(r'(.+)', r'S|\t\1', line)
 
             print(line)
 
