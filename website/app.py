@@ -1,6 +1,5 @@
 from flask import Flask, url_for, render_template, request
 import os
-from open_subtitles import generate_subtitles
 
 # the virtual invironment for this file has been placed wrong, because
 # in order for the order files to work they should be placed inside this
