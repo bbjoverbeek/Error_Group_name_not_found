@@ -111,19 +111,32 @@ nav {
 }
 
 .content {
-    width: 80%;
-    margin: 0 10%;
+    width: 95%;
+    margin: 0 2.5%;
 }
 
 
+footer {
+    background-color: #7c9999;
+}
 
+footer > div > ul > li{
+    display: inline-block;
+}
 
+footer > div > ul > li > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
 
-
+footer > div > ul > li > a:hover {
+    background-color: #6b8686;
+    border-radius: 2px;
+}
 
 
 .index_header {
-    margin: 0;
     background-image: url("/static/images/index_header_image.jpg");
     background-position: center;
     height: 425px;
@@ -133,7 +146,8 @@ nav {
 .index_header > h1 {
     text-align: center;
     font-size: 85px;
-    margin-top: 100px;
+    margin: 75px 5% 0 5%;
+    width: 90%;
     color: white;
     font-family: "Montserrat";
 }
@@ -223,10 +237,7 @@ nav {
         width: 200px;
     }
 
-    .content {
-        width: 90%;
-        margin: 0 10px;
-    }
+    
 
     .body_text {
         order: 2;
@@ -240,5 +251,10 @@ nav {
         font-size: 92.5px;
         width: 85%;
         margin-top: 100px;
+    }
+
+    .content {
+        width: 80%;
+        margin: 0 10%;
     }
 }
