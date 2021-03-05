@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+        <!-- The value of href is different because of the way files are handled Flask -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+        <!-- These are links for the font style 'fira sans' and 'Montserrat'-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Montserrat:wght@900&display=swap" rel="stylesheet"> 
+
+        {% block head %} {% endblock %}
+    </head>
+    <body>
+        <nav>
+            <ul class="navigation_container" >
+                <li><a class="navigation_link" href="{{ url_for('index') }}" >Home</a></li>
+                <li><a class="navigation_link" href="{{ url_for('about') }}" >About</a></li>
+                <li><a class="navigation_link" href="{{ url_for('documentation') }}" >Documentation</a></li>
+            </ul>
+        </nav>
+
+        {% block content %} {% endblock %}
+    </body>
+</html>

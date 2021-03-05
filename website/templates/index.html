@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+<script>
+    const subtitles = document.querySelector('subtitles');
+    subtitles.addEventListener('change', confirmSubtitlesUploaded)
+
+    function confirmSubtitlesUploaded() {
+
+        document.getElementById("subtitles_p_uploaded").innerHTML("Subtitles are uploaded")
+    }
+   
+</script> 
+
+{% block head %} 
+
+<title>Home</title>
+
+{% endblock %}
+
+{% block content %} 
+<div class="container">
+    <div class="row">
+        <div class="col-12 index_header">
+            <br>
+            <h1>Complete Movie Script Generator</h1>
+        </div>
+    </div>
+
+
+
+    <div class="row content">
+        <div class="col-8 body_text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sapien in urna laoreet egestas nec eu nibh. Donec finibus ullamcorper augue, nec vulputate nibh aliquet vitae. Vestibulum ac mauris metus. Quisque nec augue massa. Pellentesque nec orci dui. Nulla ut sollicitudin urna. Aliquam sit amet lacus eget elit scelerisque vulputate. Donec vel mi orci.
+            
+                Morbi vel posuere ante. Phasellus volutpat tincidunt arcu, sit amet gravida lectus ultricies eget. Morbi et odio eget quam ornare scelerisque id et leo. Nulla facilisi. Aliquam eget lacinia diam. Sed iaculis velit id gravida facilisis. Nulla id finibus sapien. Fusce ac vulputate magna. Curabitur ut enim sit amet dui dictum vehicula. Nulla facilisi. Nulla dictum vehicula est, nec tempor neque rutrum ac.
+            
+                Sed convallis feugiat pulvinar. Nam augue quam, blandit non nibh quis, luctus dapibus tellus. Nulla eget euismod tellus. Quisque varius fringilla pellentesque. Mauris efficitur nec nisl sit amet convallis. Nullam tempus erat eu porttitor hendrerit. Proin cursus sem a porttitor eleifend. Donec dignissim id felis a vestibulum. Nullam porta lectus ac ante feugiat, a laoreet risus faucibus. Aliquam feugiat et augue ac condimentum.
+            
+                Integer feugiat finibus quam, in sollicitudin odio aliquam eget. Nulla lobortis nunc ut elit dictum blandit. Suspendisse faucibus risus at erat ornare gravida. Sed commodo interdum tincidunt. Donec scelerisque sem faucibus, facilisis nisi tincidunt, volutpat elit. Cras eget tortor dapibus, vulputate dolor sed, ullamcorper odio. Curabitur sodales mi ut odio porta consequat. Praesent a magna feugiat, fringilla dolor nec, varius nisi. Suspendisse scelerisque vitae eros nec posuere. Aenean semper tortor eget turpis accumsan, vel venenatis tortor fermentum. Fusce nulla nulla, efficitur sed velit quis, consectetur congue urna. Mauris quis magna lectus. Donec placerat euismod eros et interdum. Etiam sodales, lacus nec faucibus pharetra, lectus lorem pretium felis, vitae porta ex tortor sit amet orci. Pellentesque a tellus bibendum, aliquam sapien eget, vehicula odio. In hac habitasse platea dictumst.
+            
+                Integer ut velit vel elit ultricies feugiat sit amet at augue. Sed tempus, dui eu ullamcorper blandit, ipsum tortor rutrum nunc, eu aliquet risus augue vel lectus. Ut accumsan facilisis nulla nec cursus. Quisque dolor eros, consectetur quis enim ac, consectetur maximus sapien. Praesent suscipit metus ut odio porta, sed venenatis sapien sagittis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam posuere nibh eget efficitur dapibus. Nam ornare porttitor scelerisque. Morbi consequat, tellus in tempus ultrices, urna felis venenatis eros, tempus rutrum erat sapien nec leo. Mauris id pharetra quam, sed molestie mi. 
+            </p>            
+        </div>
+        <div class="col-4 index_form">
+            <h3>Script Generator</h3>
+            <form action="/" method="POST" enctype="multipart/form-data">
+                <label for="subtitles" class="upload_button">Upload your subtitles here</label>
+                <input type="file" name="subtitles_file" id="subtitles">
+                <p id="subtitles_p_uploaded"></p>
+                <br>
+                <label for="script" class="upload_button">Upload your script here</label> 
+                <input type="file" name="script_file" id="script">
+                <p id="script_p_uploaded"></p>
+                <br>
+                <label for="submit_button" class="label_submit">Submit</label>
+                <input type="submit" id="submit_button">
+            </form>
+        </div>
+    </div>
+
+    
+</div>
+
+
+
+
+    
+{% endblock %}
