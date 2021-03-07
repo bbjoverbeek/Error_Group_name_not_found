@@ -9,8 +9,7 @@
 
         <!-- These are links for the font style 'fira sans' and 'Montserrat'-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Montserrat:wght@900&display=swap" rel="stylesheet"> 
-
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Montserrat:wght@700&display=swap" rel="stylesheet"> 
         {% block head %} {% endblock %}
     </head>
     <body>
@@ -19,6 +18,7 @@
                 <li><a class="navigation_link" href="{{ url_for('index') }}" >Home</a></li>
                 <li><a class="navigation_link" href="{{ url_for('about') }}" >About</a></li>
                 <li><a class="navigation_link" href="{{ url_for('documentation') }}" >Documentation</a></li>
+                <li><a class="navigation_link navigation_link_image" href="{{ url_for('search') }}" ><img src=" {{ url_for('static', filename='images/search_logo.svg') }}"></a></li>
             </ul>
         </nav>
 
@@ -26,11 +26,28 @@
 
         <footer>
             <div class="row">
-                <ul>
-                    <li>
-                        <a href="https://github.com/bbjoverbeek/Error_Group_name_not_found">GitHub</a>
-                    </li>
-                </ul>
+                <div class="col-4 get_files">
+                    <p>Get your scripts and subtitles here:</p>
+                    <ul>
+                        <li><a href="https://www.opensubtitles.com/en">OpenSubtitles <span class="extra_info_footer">- subtitles</span></a></li>
+                        <li><a href="https://imsdb.com/">IMSDb <span class="extra_info_footer">- movie scripts</span></a></li>
+                    </ul>
+                 </div>
+                <div class="col-4 used_modules">
+                    <p>The used modules:</p>
+                    <ul>
+                        <li><a href="https://flask.palletsprojects.com/en/1.1.x/">Flask <span class="extra_info_footer">- web development</span></a></li>
+                        <li><a href="https://docs.python.org/3/library/re.html">Regular Expressions <span class="extra_info_footer">- text editing</span></a></li>
+
+                    </ul>
+                </div>
+                <div class="col-4 other_information">
+                    <p>Other information:</p>
+                    <ul>
+                        <li><a href="https://github.com/bbjoverbeek/Error_Group_name_not_found">GitHub <span class="extra_info_footer">- our repository</span></a></li>
+                        <li><a href="https://www.rug.nl/">RUG <span class="extra_info_footer">- university</span></a></li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </body>

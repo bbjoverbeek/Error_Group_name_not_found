@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block head %} 
+
+<title>Search</title>
+
+{% endblock %}
+
+{% block content %} 
+
+<div class="row other_header">
+    <div class="col-12">
+        <h1>
+            Search
+        </h1>
+    </div>
+</div>
+
+<div class="row content">
+    <div class="col-6 form search_form">
+        <h3 class="h3_search">Search Subtitles</h3>
+        <form action="/search_subtitles" method="POST">
+            <input name="movie_name" class="search_field" type="text" placeholder="search subtitles">
+        </form>
+        <p>This will also take you to another website, opensubtitles.org. After pressing enter, your search results are displayed on the website of opensubtitles.</p>
+    </div>
+    <div class="col-6 form search_form">
+        <h3 class="h3_search">Search Script</h3>
+        <form action="https://imsdb.com/search.php" method="POST">
+            <input class="search_field" type="text" placeholder="search script" name="search_query">
+        </form>
+        <p>Here you can look for movie scripts. When pressing enter on your keyboard your search query is sent to IMSDb and they will show all movies that have your search query in their name.</p>
+    </div>
+</div>
+
+<div class="content body_text search_text">
+    <p>
+        On <a class="inline_link" href="https://www.opensubtitles.com/en">OpenSubtitles</a> you can download a .srt file. On <a class="inline_link" href="https://www.opensubtitles.com/en">OpenSubtitles</a> this is unfortunately not as simple. You can open a webpage containing the script, but you cannot download it as a .txt file. In order to still get a text file you have to copy and paste  The script you can copy and past in a .txt file. This file can be uploaded to our website.
+    </p>
+</div>
+
+
+{% endblock %}

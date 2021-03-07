@@ -63,6 +63,7 @@ body {
 
 p {
     margin: 0;
+    color: rgb(39, 39, 39);
 }
 
 .body_text{
@@ -87,27 +88,36 @@ nav {
     background-color: rgb(39, 39, 39);
     display: flex;
     justify-content: center;
+    overflow-x: scroll;
 }
 
 .navigation_container > li {
     margin: 0;
-    display: inline-block;
+    padding: 0;
+    display: block;
 }
 
 .navigation_link {
     display: inline-block;
-    padding: 10px 30px;
-    color: whitesmoke;
+    padding: 15px 30px;
+    color: white;
     text-decoration: none;
     font-weight: bold;
+    margin: 0;
 }
 
-.navigation_link:visited {
-    color: whitesmoke;
+.navigation_link_image {
+    padding: 15px 20px 10px 20px;
 }
 
 .navigation_link:hover {
     background-color: rgb(65, 65, 65);
+}
+
+.navigation_link > img {
+    height: 20px;
+    padding: 0;
+    margin: 0;
 }
 
 .content {
@@ -116,24 +126,52 @@ nav {
 }
 
 
+
 footer {
     background-color: #7c9999;
-}
-
-footer > div > ul > li{
-    display: inline-block;
-}
-
-footer > div > ul > li > a {
-    color: white;
     padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer > div > div > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer > div > div > ul > li{
+    margin: 15px 0;
+    list-style-position: outside;
+}
+
+footer > div > div > ul > li > a {
+    color: whitesmoke;
+    padding: 5px;
     text-decoration: none;
 }
 
-footer > div > ul > li > a:hover {
+footer > div >div > ul > li > a:hover {
     background-color: #6b8686;
     border-radius: 2px;
 }
+
+footer > div > div > p {
+    display: inline-block;
+    color: rgb(39, 39, 39);
+    padding: 5px 5px 0 5px;
+}
+
+.extra_info_footer {
+    color: rgb(214, 214, 214);
+}
+
+footer > div {
+    margin: 2.5%;
+    padding: 7.5px;
+}
+
+
 
 
 .index_header {
@@ -143,16 +181,23 @@ footer > div > ul > li > a:hover {
     background-size: cover;
 }
 
-.index_header > h1 {
+.transparent_background {
+    padding: 10px 0;
+    margin: 75px 4% 0 4%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    width: 92%;
+}
+
+.index_header > .transparent_background > h1 {
     text-align: center;
-    font-size: 85px;
-    margin: 75px 5% 0 5%;
-    width: 90%;
-    color: white;
+    font-size: 79px;
+    margin: 0;
+    color: #dbe2e2;
     font-family: "Montserrat";
 }
 
-.index_form {
+.form {
     display: inline-block;
     margin: 20px 20px 20px 0;
     background-color: whitesmoke;
@@ -161,13 +206,13 @@ footer > div > ul > li > a:hover {
     border-radius: 3px;
 }
 
-.index_form > h3 {
+.form > h3 {
     color: rgb(39, 39, 39);
     text-align: center;
     font-size: 30px;
 }
 
-.index_form > form > input[type='file'] {
+.form > form > input[type='file'] {
 /*     z-index: -1;
     position: absolute;
     top: 10px;
@@ -187,6 +232,7 @@ footer > div > ul > li > a:hover {
 
 .upload_button:hover {
     background-color: rgb(65, 65, 65);
+    cursor: pointer;
 }
 
 .label_submit {
@@ -203,9 +249,10 @@ footer > div > ul > li > a:hover {
 
 .label_submit:hover{
     background-color: #9e7f6a;
+    cursor: pointer;
 }
 
-.index_form > form > input[type="submit"] {
+.form > form > input[type="submit"] {
     z-index: -1;
     position: absolute;
     top: 10px;
@@ -216,16 +263,75 @@ footer > div > ul > li > a:hover {
 
 
 
+.other_header > div > h1 {
+    font-family: "Montserrat";
+    font-size: 46px;
+    color: rgb(39, 39, 39);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.inline_link {
+    color: #7c9999;
+    text-decoration: none;
+}
+
+.inline_link:visited {
+    text-decoration: none;
+    color: #ba967e;
+}
+
+.inline_link:hover {
+    text-decoration: underline;
+    
+}
+
+
+
+.search_form {
+    padding: 0;
+}
+
+.h3_search {
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search_field {
+    height: 20px;
+    margin: 0 2%;
+    width: 95%;
+    padding: 0;
+}
+
+.search_form > form {
+    padding: 0;
+    margin: 0;
+}
+
+.search_form > p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 2%;
+}
+
+.search_text > p {
+    margin: 0 20px 20px 0;
+}
+
+
+
 @media (max-width: 767.98px) { 
     .row {
         flex-direction: column;
     }
 
-    .index_header > h1 {
-        margin: 0 5%;
+    .index_header > .transparent_background > h1 {
+        margin: 0 2.5%;
         width: 90%;
-        font-size: 55px;
-        margin-top: 100px;
+        font-size: 3.7em;
     }
 
     .index_form {
@@ -233,28 +339,124 @@ footer > div > ul > li > a:hover {
         order: 1;
     }
 
-    .index_form > form > label {
-        width: 200px;
+    .index_form > form {
+        padding: 0;
     }
 
+    .index_form > form > input[type='file'] {
+        margin-left: 2%;
+    }
+
+    .search_form {
+        margin: 20px;
+    }
+
+
+
+    .upload_button {
+        display: block;
+        width: 86%;
+        padding: 10px 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
     
+    .label_submit {
+        margin: 5px 15%;
+        padding: 10px 5%;
+        display: inline-block;
+        width: 60%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
 
     .body_text {
         order: 2;
     }
 
+    .other_header > div > h1 {
+        font-size: 36px;
+    }
+
+    .navigation_container {
+        justify-content: left;
+        overflow-x: scroll;
+    }
+
 }
 
 @media (min-width: 992px) {
-    .index_header > h1 {
-        margin: 0 7.5%;
-        font-size: 92.5px;
-        width: 85%;
-        margin-top: 100px;
+    .index_header > .transparent_background > h1 {
+        margin: 0 2.5%;
+        font-size: 95px;
     }
 
     .content {
         width: 80%;
         margin: 0 10%;
     }
+
+    footer > div {
+        width: 80%;
+        margin: 0 10%;
+    }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(39, 39, 39);
+    }
+    
+    p {
+        color: whitesmoke;
+    }
+    
+    
+    .form {
+        background-color: rgb(65, 65, 65);
+    }
+    
+    .form > h3 {
+        color: white;
+    }
+    
+    .upload_button {
+        background-color: #7c9999;
+        color: whitesmoke;
+       
+    }
+    
+    .upload_button:hover {
+        background-color: #6b8686;
+    }
+
+    .index_form > form > input {
+        color: white;
+    }
+    
+    .label_submit {
+        background-color: #ba967e;
+        color: whitesmoke;
+    }
+    
+    .label_submit:hover{
+        background-color: #9e7f6a;
+    }
+    
+    .other_header > div > h1 {
+        color: whitesmoke;
+    }
+    
+    .inline_link {
+        color: #7c9999;
+    }
+    
+    .inline_link:visited {
+        color: #ba967e;
+    }
+    
+    h2 {
+        color: whitesmoke;
+    }
+   
+  }
