@@ -8,11 +8,24 @@
 
 {% block content %} 
 
-<div class="row">
-    <div class="col-12 index_header">
-        <br>
-        <h1>Complete Movie Script Generator</h1>
+<div class="row other_header">
+    <div class="col-12">
+        <h1>
+            Documentation
+        </h1>
     </div>
 </div>
+
+<div class="row content">
+    <div class="col-8 body_text">
+        <h2>Required files</h2>
+        <p>Before you can use the script generator, you must have downloaded two files. A .srt file containing subtitles and a .txt file containing a movie script. These can be found at <a class="inline_link" href="https://www.opensubtitles.com/en">OpenSubtitles</a> for the subtitles and at <a class="inline_link" href="https://imsdb.com/">IMSDb</a> for the script files (other sides can be used as well, however, you do have to use the right type of files).</p>
+        <h2>Uploading files</h2>
+        <p>When you have downloaded the files onto your computer, you can upload them to the script generator. Upload the subtitles file in the first input field and the script file in the second. The files are correctly uploaded when the name of the file is shown beneath the button displaying <em>"upload your subtitles/script here"</em>. Please make sure that the subtitles and the script are from the same movie, otherwise the program won't work the way it should. After uploading the files, submit the files.</p> 
+        <h2>The results</h2>
+        <p>Once the files are submitted and processed, you are taken to another page where the results are displayed. A JSON file is ready to be downloaded as well.</p>
+    </div>
+</div>
+
 
 {% endblock %}
