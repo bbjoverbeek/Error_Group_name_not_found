@@ -13,11 +13,7 @@ def remove_front_tabs(text):
         if front_space_count < smallest_count and front_space_count != 1:
             smallest_count = front_space_count
 
-    for line in text:
-        line = line[smallest_count:]
-        new_text.append(line)
-
-    return new_text
+    return [line[smallest_count:] for line in text]
 
 
 def add_describing_letters(text):
