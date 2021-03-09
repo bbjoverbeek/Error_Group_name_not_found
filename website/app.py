@@ -1,5 +1,8 @@
+from logging import error
 from flask import Flask, url_for, render_template, redirect, request
-import os, re, requests
+import os
+import re
+import urllib.request
 
 
 # the virtual invironment for this file has been placed wrong, because
@@ -8,48 +11,90 @@ import os, re, requests
 
 app = Flask(__name__)
 
-
 app.config['UPLOADED_FILES'] = 'uploads_user'
 
 
-def get_script_file(link_html):
-    content = requests.get(link_html).content
-    pattern = re.compile("<pre>.*</pre>")
-    match = pattern.search(content)
-    html_script = match.group()
-    
-    text_script = re.sub("<.*?>", "", html_script)
-    
-    return text_script
+def get_script_file(url):
+    response = urllib.request.urlopen(url)
+    content = response.read().decode('utf-8')
+    return content
 
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == "POST":
-        if request.files:
-            subtitles_file = request.files['subtitles_file']
-            subtitles_file.save(os.path.join(app.config['UPLOADED_FILES'],
-                                             "subtitles_file.srt"))
-            
-            
-            # add the option for the user to either paste a url of the
-            # webpage containing the script or a input button to upload
-            # a .txt file. creating our own .txt file from the html file
-            # from imsdb can be done with the get_script_file function.
-            
-            script_file = request.files['script_file']
+        subtitles_file = request.files['subtitles_file']
+        script_file = request.files['script_file']
+        script_url = request.form['url_script']
+
+        no_file_string = "<FileStorage: '' ('application/octet-stream')>"
+
+        # Already giving variables the input the user provided
+
+        if str(subtitles_file) == no_file_string:
+            # With those ' and " it was difficult to use the conventions
+            # of pycodestyle
+            error_message = """You did not upload a subtitles file. In order
+            for the generator to work, subtitles need to be uploaded."""
+
+            return render_template('error.html', error_message=error_message)
+
+        subtitles_file.save(os.path.join(app.config['UPLOADED_FILES'],
+                                         "subtitles_file.srt"))
+
+        if not str(script_file) == no_file_string:
             script_file.save(os.path.join(app.config['UPLOADED_FILES'],
                                           "script_file.txt"))
-            
-            # Check if script and subtitles are from the same movie (maybe)
+            # Saving the uploaded script.
+        elif not script_url == "":
+            response = urllib.request.urlopen(script_url)
+            html = str(response.read().decode('iso-8859-1')).replace("\n",
+                                                                     "qq11qq")
+            # I do not think any movie has "qq11qq" in their script, at
+            # least I hope
 
-            with open(f"uploads_user/subtitles_file.srt") as subtitles:
-                subtitles_opened = subtitles.readlines()
-            # here should come the code of the modules editing the files
+            html = re.sub("<!--.*?-->", "", html)
+            html = re.sub("<title.*?</title>", "", html)
+            # removing some html that is not part of the script, but is
+            # in the body part that should contain the script.
 
-            return render_template('output.html', subtitles=subtitles_opened)
-            # render_template('output.html', results=results) to add the
-            # values of the results into the output.html file
+            pattern = re.compile("<pre>.*</pre>")
+            match = pattern.search(html)
+
+            try:
+                html = match.group().replace("qq11qq", "\n")
+            except AttributeError:
+                error_message = """This URL did not work. Please try another
+                URL or upload a file instead"""
+                return render_template('error.html',
+                                       error_message=error_message)
+            # This happens when the content between the tags
+            # "<pre>.*</pre>", which should be the script, cannot be
+            # found
+
+            script_file = re.sub("<.*?>", "", html)
+            with open("uploads_user/script_file.txt", "w") as file:
+                file.write(script_file)
+                # Saving the cleaned HTML file to script_file.txt
+        else:
+            error_message = """No URL or script file has been submitted. To
+            make the program work one of them needs to be submitted."""
+            return render_template('error.html', error_message=error_message)
+
+        with open("uploads_user/subtitles_file.srt") as subtitles:
+            subtitles_opened = subtitles.readlines()
+
+        with open("uploads_user/script_file.txt") as script:
+            script_opened = script.readlines()
+        # All outcomes url and normal files are saved as files, so they
+        # can be treated the same from now on
+
+        return render_template('output.html', subtitles=subtitles_opened,
+                               script=script_opened)
+
+        # Check if script and subtitles are from the same movie (maybe
+        # here should come the code of the modules editing the file
+
     else:
         return render_template('index.html')
 
@@ -74,9 +119,15 @@ def search_subtitles():
     if request.method == "POST":
         query = request.form.get('movie_name')
         query = str(query).rstrip()
-        return redirect(f"https://www.opensubtitles.org/nl/search2/sublanguageid-eng/moviename-{query}")
+        return redirect("https://www.opensubtitles.org/nl/search2/"
+                        f"sublanguageid-eng/moviename-{query}")
     else:
         return render_template('search.html')
+
+
+@app.route('/error')
+def error_page():
+    return render_template('error.html')
 
 
 if __name__ == "__main__":

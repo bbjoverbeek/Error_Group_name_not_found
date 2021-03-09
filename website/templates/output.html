@@ -19,6 +19,10 @@
 
 <div class="row content">
     <div class="col-8 body_text">
+        {% for line in script%}
+        <p>{{ line }}</p>
+        {% endfor %}
+
         {% for line in subtitles%}
         <p>{{ line }}</p>
         {% endfor %}

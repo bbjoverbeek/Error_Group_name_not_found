@@ -1,19 +1,9 @@
 {% extends "layout.html" %}
 
-<script>
-    const subtitles = document.querySelector('subtitles');
-    subtitles.addEventListener('change', confirmSubtitlesUploaded)
-
-    function confirmSubtitlesUploaded() {
-
-        document.getElementById("subtitles_p_uploaded").innerHTML("Subtitles are uploaded")
-    }
-   
-</script> 
-
 {% block head %} 
 
 <title>Home</title>
+<script src=" {{url_for('static', filename='javascript/main.js')}} "></script>
 
 {% endblock %}
 
@@ -48,15 +38,20 @@
         <form action="/" method="POST" enctype="multipart/form-data">
             <label for="subtitles" class="upload_button">Upload your subtitles here</label>
             <input type="file" name="subtitles_file" id="subtitles">
-            <p id="subtitles_p_uploaded"></p>
             <br>
-            <label for="script" class="upload_button">Upload your script here</label> 
-            <input type="file" name="script_file" id="script">
-            <p id="script_p_uploaded"></p>
+            <hr>
             <br>
+            <label for="script" class="upload_button" id="label_script_file">Upload your script here</label> 
+            <input type="file" name="script_file" id="script"> 
+            <input type="url" id="url_script" name="url_script" class="text_input" placeholder="Enter URL script (from IMSDb)">
+            <button type="button"  id="url_or_script" onclick="switchScriptUrlFile()">Use URL</button>
+            <br>
+            <br>
+            <hr>
             <label for="submit_button" class="label_submit">Submit</label>
             <input type="submit" id="submit_button">
         </form>
+
     </div>
 </div>
 
