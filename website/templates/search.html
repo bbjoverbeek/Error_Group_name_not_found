@@ -20,23 +20,30 @@
     <div class="col-6 form search_form">
         <h3 class="h3_search">Search Subtitles</h3>
         <form action="/search_subtitles" method="POST">
-            <input name="movie_name" class="search_field" type="text" placeholder="search subtitles">
+            <input name="movie_name" class="search_field text_input" type="text" placeholder="search subtitles">
         </form>
-        <p>This will also take you to another website, opensubtitles.org. After pressing enter, your search results are displayed on the website of opensubtitles.</p>
+        <p>After pressing enter, your search results are displayed on the website of opensubtitles. For more information how to get the subtitles, visit the <a class="inline_link" href="{{ url_for }}">documentation</a>.</p>
     </div>
     <div class="col-6 form search_form">
         <h3 class="h3_search">Search Script</h3>
         <form action="https://imsdb.com/search.php" method="POST">
-            <input class="search_field" type="text" placeholder="search script" name="search_query">
+            <input class="search_field text_input" type="text" placeholder="search script" name="search_query">
         </form>
-        <p>Here you can look for movie scripts. When pressing enter on your keyboard your search query is sent to IMSDb and they will show all movies that have your search query in their name.</p>
+        <p>When pressing enter on your keyboard your search query is sent to IMSDb. The movies scripts containing your search query are shown. For more information visit the <a class="inline_link" href="{{ url_for }}">documentation</a>.</p>
     </div>
 </div>
 
-<div class="content body_text search_text">
-    <p>
-        On <a class="inline_link" href="https://www.opensubtitles.com/en">OpenSubtitles</a> you can download a .srt file. On <a class="inline_link" href="https://www.opensubtitles.com/en">OpenSubtitles</a> this is unfortunately not as simple. You can open a webpage containing the script, but you cannot download it as a .txt file. In order to still get a text file you have to copy and paste  The script you can copy and past in a .txt file. This file can be uploaded to our website.
-    </p>
+<div class="row content">
+    <div class="col-8 body_text">
+        <h2>What to do after finding the movies</h2>
+        <p>
+            On <a class="inline_link" href="https://www.opensubtitles.com/en">OpenSubtitles</a> you can download a .srt file. 
+            On <a class="inline_link" href="https://imsdb.com/">IMSDb</a> you cannot simply download a text file, unfortunately. You can open a webpage 
+            containing the script, but you cannot download it as a text file file. In order to get a text file you have to copy and paste 
+            the text. This file can be uploaded to our website. However, you can use the URL of the script as well. Copy that URL from IMSDb and go to
+            the script generator. Clicking the "use URL" button will make a text field appear (sometimes you have to click twice though). Paste the URL in the text field.
+        </p>
+    </div>
 </div>
 
 

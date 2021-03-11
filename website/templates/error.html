@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block head %} 
+
+<title>Error</title>
+
+{% endblock %}
+
+{% block content %} 
+
+<div class="row other_header">
+    <div class="col-12">
+        <h1>
+            Something went wrong
+        </h1>
+    </div>
+</div>
+
+<div class="row content">
+    <div class="col-8 body_text">
+        <p>{{ error_message }}</p>
+        <br>
+        <p>Go <a class="inline_link" href="{{ url_for('index') }}">home</a> and try again. Or read the <a class="inline_link" href="{{ url_for('documentation') }}">documentation</a>.</p>
+    </div>
+</div>
+
+
+
+
+{% endblock %}

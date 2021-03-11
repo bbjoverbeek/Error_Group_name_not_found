@@ -199,11 +199,14 @@ footer > div {
 
 .form {
     display: inline-block;
-    margin: 20px 20px 20px 0;
     background-color: whitesmoke;
     padding: 5px;
     height: 100%;
     border-radius: 3px;
+}
+
+.index_form {
+    margin:  20px 20px 20px 0;
 }
 
 .form > h3 {
@@ -213,10 +216,10 @@ footer > div {
 }
 
 .form > form > input[type='file'] {
-/*     z-index: -1;
-    position: absolute;
-    top: 10px;
-    left: 8px; */
+    display: block;
+    margin: 5px;
+    width: 250px;
+
 }
 
 .upload_button {
@@ -229,6 +232,7 @@ footer > div {
     font-weight: bold;
     border-radius: 3px;
 }
+
 
 .upload_button:hover {
     background-color: rgb(65, 65, 65);
@@ -260,8 +264,58 @@ footer > div {
 }
 
 
+#url_script {
+    display: none;
+    border-radius: 2px;
+    font-family: 'Fira sans';
+}
+
+#url_or_script {
+    display: inline-block;
+    width: 50%;
+    margin: 5px 25%;
+    background-color: #7c9999;
+    color: white;
+    font-size: 14px;
+    padding: 5px 0;
+    border: 0px;
+    border-radius: 3px;
+    font-family: 'Fira sans';
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+#url_or_script:active{
+    background-color: #6b8686;
+}
+
+.text_input {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    width: 252px;
+}
+
+hr {
+    margin: 5px 2%;
+    border-radius: 1px;
+    border: 1px solid lightgray;
+}
 
 
+
+
+
+.body_text > h3 {
+    color: rgb(39, 39, 39);
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: rgb(39, 39, 39);
+}
 
 .other_header > div > h1 {
     font-family: "Montserrat";
@@ -290,6 +344,7 @@ footer > div {
 
 .search_form {
     padding: 0;
+    margin: 20px 20px 20px 20px;
 }
 
 .h3_search {
@@ -302,8 +357,8 @@ footer > div {
 .search_field {
     height: 20px;
     margin: 0 2%;
-    width: 95%;
-    padding: 0;
+    width: 91%;
+    padding: 5px 2%;
 }
 
 .search_form > form {
@@ -345,6 +400,13 @@ footer > div {
 
     .index_form > form > input[type='file'] {
         margin-left: 2%;
+    }
+
+    .text_input {
+        width: 85%;
+        margin: 2%;
+        padding: 5px 5%;
+
     }
 
     .search_form {
@@ -433,7 +495,26 @@ footer > div {
     .index_form > form > input {
         color: white;
     }
+
+    hr {
+        color: whitesmoke;
+    }
     
+    #url_or_script {
+        background-color: white;
+        color: rgb(39, 39, 39);
+    }
+
+    .text_input {
+        background-color: rgb(39, 39, 39);
+        color: white;
+    }
+
+    
+    #url_or_script:active{
+        background-color: lightgray;
+    }
+
     .label_submit {
         background-color: #ba967e;
         color: whitesmoke;
@@ -456,6 +537,10 @@ footer > div {
     }
     
     h2 {
+        color: whitesmoke;
+    }
+
+    .body_text > h3 {
         color: whitesmoke;
     }
    

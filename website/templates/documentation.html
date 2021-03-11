@@ -18,12 +18,26 @@
 
 <div class="row content">
     <div class="col-8 body_text">
-        <h2>Required files</h2>
-        <p>Before you can use the script generator, you must have downloaded two files. A .srt file containing subtitles and a .txt file containing a movie script. These can be found at <a class="inline_link" href="https://www.opensubtitles.com/en">OpenSubtitles</a> for the subtitles and at <a class="inline_link" href="https://imsdb.com/">IMSDb</a> for the script files (other sides can be used as well, however, you do have to use the right type of files).</p>
-        <h2>Uploading files</h2>
-        <p>When you have downloaded the files onto your computer, you can upload them to the script generator. Upload the subtitles file in the first input field and the script file in the second. The files are correctly uploaded when the name of the file is shown beneath the button displaying <em>"upload your subtitles/script here"</em>. Please make sure that the subtitles and the script are from the same movie, otherwise the program won't work the way it should. After uploading the files, submit the files.</p> 
-        <h2>The results</h2>
-        <p>Once the files are submitted and processed, you are taken to another page where the results are displayed. A JSON file is ready to be downloaded as well.</p>
+        <h2 id="Required files">Required files</h2>
+        <p>Before you can use the script generator, you must have two files. A .srt file containing subtitles and a .txt file containing a movie script. The subtitles can be found at  <a class="inline_link" href="https://www.opensubtitles.com/en">OpenSubtitles</a>  and the script at  <a class="inline_link" href="https://imsdb.com/">IMSDb</a>  or go to our  <a class="inline_link" href="{{ url_for('search') }}">search page</a>.</p>
+        
+        <br>
+        <h3 id="The subtitles">The subtitles</h3>
+        <p>You can search on our website for subtitles on on OpenSubtitles. When you have entered your search query, a list with movies will appear. Click on the movie you would like the subtitles of. Again a list will appear, but this time with the subtitles that are available for that movie. Click on the download button (the fifth column) of the subtitles you want. A zip file gets downloaded. Unzip the zip file on your computer and open the folder that will appear. The .srt file is the one that must be uploaded to the script generator. </p>
+        
+        <br>
+        <h3 id="The script">The script</h3>
+        <p>When getting your script from IMSDb you have to copy paste the text into a text file, because there is no download button. This text file should be uploaded to the script generator. You can also copy the URL of the script and paste that URL into the script generator after clicking “use URL” (you may have to press the button twice in order for it to show a text field to paste the URL in). </p>
+        
+        <br>
+        <h2 id="Uploading files">Uploading files</h2>
+        <p><b>If you uploaded a URL for the script you only have to follow these steps for the subtitles.</b> </p>
+        <p>When you have the files on your computer, you can upload them to the script generator. Upload the subtitles file in the first input field and the script file in the second. The files are uploaded correctly when the name of the file is shown beneath the button displaying <i>”upload your subtitles/script here”</i>. Please make sure that the subtitles and the script are from the same movie, otherwise the program won’t work the way it should. After providing both the subtitles and script, click submit. </p>
+        
+        <br>
+        <h2 id="The results">The results</h2>
+        <p>Once the files are submitted and processed, you are taken to another page where the results are displayed. A JSON file is ready to be downloaded as well. </p>
+        </p>
     </div>
 </div>
 
