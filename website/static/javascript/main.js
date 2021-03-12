@@ -17,7 +17,7 @@ function switchScriptUrlFile() {
         url_input.style.display = "none";
 
         file_input.style.display = "block";
-        file_label.style.display = "inline-block";
+        file_label.style.display = "block";
 
         button.innerHTML = "Use URL";
     }

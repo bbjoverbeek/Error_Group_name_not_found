@@ -7,6 +7,8 @@
 
 {% endblock %}
 
+{% block index %}current{% endblock %}
+
 {% block content %} 
 <div class="row">
     <div class="col-12 index_header">
@@ -38,15 +40,11 @@
         <form action="/" method="POST" enctype="multipart/form-data">
             <label for="subtitles" class="upload_button">Upload your subtitles here</label>
             <input type="file" name="subtitles_file" id="subtitles">
-            <br>
             <hr>
-            <br>
-            <label for="script" class="upload_button" id="label_script_file">Upload your script here</label> 
-            <input type="file" name="script_file" id="script"> 
-            <input type="url" id="url_script" name="url_script" class="text_input" placeholder="Enter URL script (from IMSDb)">
+            <label for="script" class="upload_button" style="display: block;" id="label_script_file">Upload your script here</label> 
+            <input type="file" name="script_file" style="display: block;" id="script"> 
+            <input type="url" id="url_script" style="display: none;" name="url_script" class="text_input" placeholder="Enter URL script (from IMSDb)">
             <button type="button"  id="url_or_script" onclick="switchScriptUrlFile()">Use URL</button>
-            <br>
-            <br>
             <hr>
             <label for="submit_button" class="label_submit">Submit</label>
             <input type="submit" id="submit_button">

@@ -99,7 +99,7 @@ nav {
 
 .navigation_link {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 15px 35px;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -125,6 +125,13 @@ nav {
     margin: 0 2.5%;
 }
 
+.current {
+    background-color: #ba967e;
+}
+
+.current:hover {
+    background-color: #9e7f6a;
+}
 
 
 footer {
@@ -171,13 +178,20 @@ footer > div {
     padding: 7.5px;
 }
 
+.logo_rug > div > a > img {
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+}
+
+
 
 
 
 .index_header {
     background-image: url("/static/images/index_header_image.jpg");
     background-position: center;
-    height: 425px;
+    height: 450px;
     background-size: cover;
 }
 
@@ -227,7 +241,7 @@ footer > div {
     color: whitesmoke;
     padding: 10px;
     margin: 5px;
-    display: inline-block;
+    display: block;
     width: 250px;
     font-weight: bold;
     border-radius: 3px;
@@ -243,7 +257,7 @@ footer > div {
     background-color: #ba967e;
     color: whitesmoke;
     padding: 10px;
-    margin: 5px;
+    margin: 0 5px 5px 5px;
     display: inline-block;
     width: 250px;
     font-weight: bold;
@@ -266,14 +280,15 @@ footer > div {
 
 #url_script {
     display: none;
-    border-radius: 2px;
     font-family: 'Fira sans';
+    height: 20px;
+    padding: 5px 2%;
 }
 
 #url_or_script {
     display: inline-block;
     width: 50%;
-    margin: 5px 25%;
+    margin: 5px 25% 0 25%;
     background-color: #7c9999;
     color: white;
     font-size: 14px;
@@ -298,11 +313,10 @@ footer > div {
 }
 
 hr {
-    margin: 5px 2%;
+    margin: 10px 5%;
     border-radius: 1px;
-    border: 1px solid lightgray;
+    border: 0.5px solid lightgray;
 }
-
 
 
 
@@ -311,6 +325,7 @@ hr {
     color: rgb(39, 39, 39);
     margin-top: 30px;
     margin-bottom: 5px;
+    font-size: 18px;
 }
 
 h2 {
@@ -340,6 +355,11 @@ h2 {
     
 }
 
+.list_documentation {
+    list-style-position: outside;
+    margin-left: -20px;
+}
+
 
 
 .search_form {
@@ -355,9 +375,9 @@ h2 {
 }
 
 .search_field {
-    height: 20px;
     margin: 0 2%;
     width: 91%;
+    height: 20px;
     padding: 5px 2%;
 }
 
@@ -409,6 +429,13 @@ h2 {
 
     }
 
+    #url_script {
+        width: 85.5%;
+        margin: 2%;
+        padding: 5px 5%;
+
+    }
+
     .search_form {
         margin: 20px;
     }
@@ -424,10 +451,10 @@ h2 {
     }
     
     .label_submit {
-        margin: 5px 15%;
+        margin: 0 2% 5px 2%;
         padding: 10px 5%;
         display: inline-block;
-        width: 60%;
+        width: 86%;
         text-align: center;
         margin-bottom: 2%;
     }
@@ -443,6 +470,11 @@ h2 {
     .navigation_container {
         justify-content: left;
         overflow-x: scroll;
+    }
+
+    .logo_rug > div {
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
@@ -462,6 +494,7 @@ h2 {
         width: 80%;
         margin: 0 10%;
     }
+    
 }
 
 @media (prefers-color-scheme: dark) {
@@ -507,7 +540,7 @@ h2 {
 
     .text_input {
         background-color: rgb(39, 39, 39);
-        color: white;
+        color: whitesmoke;
     }
 
     
@@ -537,6 +570,10 @@ h2 {
     }
     
     h2 {
+        color: whitesmoke;
+    }
+
+    .list_documentation {
         color: whitesmoke;
     }
 
