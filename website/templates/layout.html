@@ -15,10 +15,10 @@
     <body>
         <nav>
             <ul class="navigation_container" >
-                <li><a class="navigation_link" href="{{ url_for('index') }}" >Home</a></li>
-                <li><a class="navigation_link" href="{{ url_for('about') }}" >About</a></li>
-                <li><a class="navigation_link" href="{{ url_for('documentation') }}" >Documentation</a></li>
-                <li><a class="navigation_link navigation_link_image" href="{{ url_for('search') }}" ><img src=" {{ url_for('static', filename='images/search_logo.svg') }}"></a></li>
+                <li><a class="navigation_link {% block index %}{% endblock %}" href="{{ url_for('index') }}" >Home</a></li>
+                <li><a class="navigation_link {% block about %}{% endblock %}" href="{{ url_for('about') }}" >About</a></li>
+                <li><a class="navigation_link {% block documentation %}{% endblock %}" href="{{ url_for('documentation') }}" >Documentation</a></li>
+                <li><a class="navigation_link {% block search %}{% endblock %} navigation_link_image" href="{{ url_for('search') }}" ><img src=" {{ url_for('static', filename='images/search_logo.svg') }}"></a></li>
             </ul>
         </nav>
 
@@ -47,6 +47,11 @@
                         <li><a href="https://github.com/bbjoverbeek/Error_Group_name_not_found">GitHub <span class="extra_info_footer">- our repository</span></a></li>
                         <li><a href="https://www.rug.nl/">RUG <span class="extra_info_footer">- university</span></a></li>
                     </ul>
+                </div>
+            </div>
+            <div class="row logo_rug">
+                <div class="col-4">
+                    <a href="https://www.rug.nl/"><img src=" {{ url_for('static', filename='images/rug_logo.png') }}"></a>
                 </div>
             </div>
         </footer>
