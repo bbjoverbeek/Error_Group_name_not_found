@@ -14,10 +14,41 @@ app = Flask(__name__)
 app.config['UPLOADED_FILES'] = 'uploads_user'
 
 
-def get_script_file(url):
-    response = urllib.request.urlopen(url)
-    content = response.read().decode('utf-8')
-    return content
+def get_script_file(script_url):
+    """
+    The content of the url entered on the website needs to be
+    downloaded. This will be a HTML file. All HTML that is not part of
+    the script needs to be removed.
+    
+    :param script_url: the url where the script is stored.
+    :returns: a string that is the script, which needs to be stored as
+    a text file.
+    """
+    response = urllib.request.urlopen(script_url)
+    html = str(response.read().decode('iso-8859-1')).replace("\n", "qq11qq")
+    # I do not think any movie has "qq11qq" in their script, at
+    # least I hope
+
+    html = re.sub("<!--.*?-->", "", html)
+    html = re.sub("<title.*?</title>", "", html)
+    # removing some html that is not part of the script, but is in the
+    # body part that should contain the script.
+
+    pattern = re.compile("<pre>.*</pre>")
+    match = pattern.search(html)
+
+    try:
+        html = match.group().replace("qq11qq", "\n")
+    except AttributeError:
+        error_message = """This URL did not work. Please try another
+        URL and make sure the URL is from IMSDb or try to upload a file 
+        instead."""
+        return error_message
+    # This happens when the content between the tags "<pre>.*</pre>",
+    # which should be the script, cannot be found
+
+    script_file = re.sub("<.*?>", "", html)
+    return script_file
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -26,10 +57,9 @@ def index():
         subtitles_file = request.files['subtitles_file']
         script_file = request.files['script_file']
         script_url = request.form['url_script']
+        # Already giving variables the input the user provided
 
         no_file_string = "<FileStorage: '' ('application/octet-stream')>"
-
-        # Already giving variables the input the user provided
 
         if str(subtitles_file) == no_file_string:
             # With those ' and " it was difficult to use the conventions
@@ -47,35 +77,15 @@ def index():
                                           "script_file.txt"))
             # Saving the uploaded script.
         elif not script_url == "":
-            response = urllib.request.urlopen(script_url)
-            html = str(response.read().decode('iso-8859-1')).replace("\n",
-                                                                     "qq11qq")
-            # I do not think any movie has "qq11qq" in their script, at
-            # least I hope
-
-            html = re.sub("<!--.*?-->", "", html)
-            html = re.sub("<title.*?</title>", "", html)
-            # removing some html that is not part of the script, but is
-            # in the body part that should contain the script.
-
-            pattern = re.compile("<pre>.*</pre>")
-            match = pattern.search(html)
-
-            try:
-                html = match.group().replace("qq11qq", "\n")
-            except AttributeError:
-                error_message = """This URL did not work. Please try another
-                URL or upload a file instead"""
-                return render_template('error.html',
-                                       error_message=error_message)
-            # This happens when the content between the tags
-            # "<pre>.*</pre>", which should be the script, cannot be
-            # found
-
-            script_file = re.sub("<.*?>", "", html)
-            with open("uploads_user/script_file.txt", "w") as file:
-                file.write(script_file)
-                # Saving the cleaned HTML file to script_file.txt
+            script_file = get_script_file(script_url)
+            if "This URL did not work." in script_file:
+                print("hello")
+                return render_template('error.html', error_message=script_file)
+            else:
+                print("not the good one")
+                with open("uploads_user/script_file.txt", "w") as file:
+                    file.write(script_file)
+                    # Saving the cleaned HTML file to script_file.txt
         else:
             error_message = """No URL or script file has been submitted. To
             make the program work one of them needs to be submitted."""
@@ -97,6 +107,8 @@ def index():
 
     else:
         return render_template('index.html')
+        # so the homepage gets loaded when clicking on a link to the
+        # page
 
 
 @app.route('/about')
