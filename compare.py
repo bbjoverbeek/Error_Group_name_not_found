@@ -7,6 +7,23 @@ from label_lines import add_describing_letters, remove_front_tabs
 import pprint
 
 
+def add_D_to_C(script_list, index, i, script_D_dict, C_line):
+
+    if script_list[index + i] == '':
+        return script_D_dict
+    else:
+        if C_line == True:
+            script_D_dict[index] = {}
+            script_D_dict[index]['Dialogue'] = ''
+
+            character = script_list[index][2:-1].lstrip()
+            script_D_dict[index]['Character'] = str(character)
+        else:
+            script_D_dict[index]['Dialogue'] += script_list[index + i][2:-1].lstrip()
+        i += 1
+    
+    return add_D_to_C(script_list, index, i, script_D_dict, False)
+
 def main(argv):
 
     with open(argv[1], 'r') as inp:
@@ -19,26 +36,11 @@ def main(argv):
     script_list = add_describing_letters(script_list)
 
     script_D_dict = {}
-    index = 0
 
-    for line in script_list:
-        if line.startswith('C|'):
-            # Add Character to dictionary item
-            C_line = True
-            script_D_dict[index] = {}
-            script_D_dict[index]['Dialogue'] = ''
-            #TODO: make this a recursive function?
-            i = 0
-            while script_list[index + i] != '':
-                # Add next lines as dialogue of the character, until an empty line occcurs
-                if C_line == True:
-                    character = line[2:-1].lstrip()
-                    script_D_dict[index]['Character'] = str(character)
-                    C_line = False
-                else:
-                    script_D_dict[index]['Dialogue'] += script_list[index + i][2:-1].lstrip()
-                i += 1
-        index += 1
+    for index in range(len(script_list)):
+        if script_list[index].startswith('C|'):
+
+            script_D_dict = add_D_to_C(script_list, index, 0, script_D_dict, True)
 
     for item in subtitles_dict:
 
