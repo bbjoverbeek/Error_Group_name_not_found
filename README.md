@@ -23,10 +23,12 @@ Noor
 searched for libraries that would compare two strings
 or files and give the similarity ratio.
 She came up with different possible options for an extra
-application data.
+application of the data.
 
 Oscar 
 made the website using Flask. (user interface).
 He made function that takes a url from IMSDb and makes a text file.
 
 How to use the program / reproduce the results: 
+We used a web-based user interface, using flask. 
+And on this website it is possible to retreave the program for the script and the subtitles data.
