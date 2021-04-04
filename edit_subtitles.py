@@ -14,42 +14,53 @@ def open_subtitles(subtitles):
 
     return text
 
+
 def open_script(script):
-	"""This function opens the txt script file"""
+    """This function opens the txt script file"""
 
     with open(script, 'r') as inp:
         text = inp.readlines()
 
     return text
 
+
 def add_character_name(script):
-	"""This function collects the character names from the script file"""
+    """This function collects the character names from the script file"""
 
     character_name = []
     for line in script:
         if line.startswith("C|"):
-        	line = line[2:].lstrip()
-        	character_name.append(line)
+            line = line[2:].lstrip()
+            character_name.append(line)
     
     return character_name
 
+
 def update_subtitles(characters, subtitles):
-	"""This function adds the character names to each subtitle"""
+    """This function adds the character names to each subtitle"""
 
     for element in subtitles:
         for i in range(len(characters)):
-    	    new_dict = {"Characters": characters[i]}
-    	    element = new_dict
+            subtitles[element]['Character'] = characters[i]
 
-    return subtitles	
+    return subtitles
+
 
 def main(argv):
 
+
+    # Two functions to open the subtitles
     subtitles = open_subtitles(argv[1])
     ordered_subtitles = order_text(subtitles)
+
+
+    # Three functions to open the script
     script = open_script(argv[2])
     clean_script = remove_front_tabs(script)
     ordered_script = add_describing_letters(clean_script)
+
+
+    # Other functions to add the character to the subtitles
     characters = add_character_name(ordered_script)
     new_subtitles = update_subtitles(characters, ordered_subtitles)
     print(new_subtitles)

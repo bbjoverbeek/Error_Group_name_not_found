@@ -24,7 +24,7 @@ def order_text(text):
 
         # The following lines of code connect the different lines of element
         # to the correct name
-        number = element[0]
+        number = int(element[0])
         time = element[1]
         text = ' '.join(element[2:])
 
