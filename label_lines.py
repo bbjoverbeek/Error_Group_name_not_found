@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import sys
 import re
 
@@ -6,7 +8,6 @@ def remove_front_tabs(text):
     """Removes the excessive space in front of a text."""
 
     smallest_count = 1000
-    new_text = []
 
     for line in text:
         front_space_count = len(line) - len(line.lstrip())
