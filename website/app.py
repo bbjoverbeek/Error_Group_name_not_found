@@ -51,6 +51,7 @@ def get_script_file(script_url):
     return script_file
 
 
+#THE ROUTES FOR THE WEBSITE
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == "POST":
@@ -60,10 +61,10 @@ def index():
         # Already giving variables the input the user provided
 
         no_file_string = "<FileStorage: '' ('application/octet-stream')>"
+        # If the user did not give us a file, we will get this message,
+        # so when we get this message the user did not give us a file
 
         if str(subtitles_file) == no_file_string:
-            # With those ' and " it was difficult to use the conventions
-            # of pycodestyle
             error_message = """You did not upload a subtitles file. In order
             for the generator to work, subtitles need to be uploaded."""
 
@@ -80,7 +81,7 @@ def index():
             script_file = get_script_file(script_url)
             if "This URL did not work." in script_file:
                 print("hello")
-                return render_template('error.html', error_message=script_file)
+                return redirect(url_for('error_page', error_message=script_file))
             else:
                 print("not the good one")
                 with open("uploads_user/script_file.txt", "w") as file:
@@ -89,7 +90,7 @@ def index():
         else:
             error_message = """No URL or script file has been submitted. To
             make the program work one of them needs to be submitted."""
-            return render_template('error.html', error_message=error_message)
+            return redirect(url_for('error_page', error_message=error_message))
 
         with open("uploads_user/subtitles_file.srt") as subtitles:
             subtitles_opened = subtitles.readlines()
@@ -134,12 +135,12 @@ def search_subtitles():
         return redirect("https://www.opensubtitles.org/nl/search2/"
                         f"sublanguageid-eng/moviename-{query}")
     else:
-        return render_template('search.html')
+        return redirect(url_for("search_subtitles"))
 
 
-@app.route('/error')
-def error_page():
-    return render_template('error.html')
+@app.route('/error/<error_message>')
+def error_page(error_message):
+    return render_template('error.html', error_message=error_message)
 
 
 if __name__ == "__main__":

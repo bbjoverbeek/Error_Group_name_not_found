@@ -67,10 +67,15 @@ p {
 }
 
 .body_text{
-    margin: 20px;
+    margin: 20px 10%;
+    width: 80%;
     text-align: justify;
 }
 
+.flex_text {
+    margin: 20px;
+    text-align: justify;
+}
 
 
 
@@ -193,11 +198,14 @@ footer > div {
     background-position: center;
     height: 450px;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .transparent_background {
     padding: 10px 0;
-    margin: 75px 4% 0 4%;
+    margin: 46px 4% 0 4%;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     width: 92%;
@@ -205,7 +213,7 @@ footer > div {
 
 .index_header > .transparent_background > h1 {
     text-align: center;
-    font-size: 79px;
+    font-size: 9vw;
     margin: 0;
     color: #dbe2e2;
     font-family: "Montserrat";
@@ -321,7 +329,7 @@ hr {
 
 
 
-.body_text > h3 {
+.body_text > h3, .flex_text > h3 {
     color: rgb(39, 39, 39);
     margin-top: 30px;
     margin-bottom: 5px;
@@ -360,10 +368,10 @@ h2 {
     margin-left: -20px;
 }
 
-
-
 .search_form {
     padding: 0;
+    flex-basis: calc(50% - 40px);
+    min-height: 235px;
     margin: 20px 20px 20px 20px;
 }
 
@@ -386,14 +394,22 @@ h2 {
     margin: 0;
 }
 
+.search_form {
+    padding: 5px;
+}
+
 .search_form > p {
     font-size: 14px;
     font-weight: bold;
     margin: 2%;
 }
 
+.search_text h2 {
+    margin-top: 0;
+}
+
 .search_text > p {
-    margin: 0 20px 20px 0;
+    margin: 0 0 20px 0;
 }
 
 
@@ -404,9 +420,9 @@ h2 {
     }
 
     .index_header > .transparent_background > h1 {
-        margin: 0 2.5%;
+        margin: 0 5%;
+        font-size: 12vw;
         width: 90%;
-        font-size: 3.7em;
     }
 
     .index_form {
@@ -459,8 +475,13 @@ h2 {
         margin-bottom: 2%;
     }
 
-    .body_text {
+    .flex_text {
         order: 2;
+    }
+
+    .body_text {
+        margin: 20px;
+        width: calc(100% - 40px);
     }
 
     .other_header > div > h1 {
@@ -481,8 +502,8 @@ h2 {
 
 @media (min-width: 992px) {
     .index_header > .transparent_background > h1 {
-        margin: 0 2.5%;
-        font-size: 95px;
+        margin: 0 5%;
+        width: 90%;
     }
 
     .content {
@@ -506,7 +527,18 @@ h2 {
         color: whitesmoke;
     }
     
+    #Rectangle_2 {
+        fill: rgb(65, 65, 65);
+    }
+
+    #Rectangle_1 {
+        fill: rgb(29, 29, 29);
+    }
     
+    #SUBTITLES, #SCRIPT {
+        fill: whitesmoke;
+    }
+
     .form {
         background-color: rgb(65, 65, 65);
     }
@@ -577,7 +609,7 @@ h2 {
         color: whitesmoke;
     }
 
-    .body_text > h3 {
+    .body_text > h3, .flex_text > h3 {
         color: whitesmoke;
     }
    
