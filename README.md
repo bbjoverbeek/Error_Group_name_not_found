@@ -9,23 +9,18 @@ And summarize the differences between the script and subtitles, to give a percen
 ## Who did what? 
 
 ### Björn 
-labeled each line of the script (D for Dialoge etc.) 
-using regular expressions.
+- Labeled each line of the script (D for Dialoge etc.) using regular expressions.
 
 ### Dennis 
-put the '.str'(the subtitle)  file into a dictionary.
-Using the format: {number{time: x, text:"x"}}
+- Put the '.str'(the subtitle) file into a dictionary using the format: {number{time: x, text:"x"}}
 
 ### Noor 
-searched for libraries that would compare two strings
-or files and give the similarity ratio.
-She came up with different possible options for an extra
-application of the data.
+- Searched for libraries that would compare two strings or files and give the similarity ratio.
+- She came up with different possible options for an extra application of the data.
 
 ### Oscar 
-made the website using Flask. (user interface).
-He made function that takes a url from IMSDb and makes a text file.
+- Made the website using Flask (user interface).
+- He made a function that takes a url from IMSDb and makes a text file.
 
 ## How to use the program / reproduce the results: 
-We used a web-based user interface, using flask. 
-And on this website it is possible to retreave the program for the script and the subtitles data.
+We used a web-based user interface, using flask. On this website it is possible to retreave the program for the script and the subtitles data.
