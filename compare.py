@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import sys
 from difflib import SequenceMatcher
 import nltk
@@ -34,7 +36,7 @@ def add_D_to_C(script_list, index, i, script_D_dict, C_line):
 def process_subtitle(subtitles_dict, i):
     '''Add sentences split over multiple items together.'''
 
-    item = str(i) #TODO: make 'item' integer in create_subtitles module?
+    item = i #TODO: make 'item' integer in create_subtitles module?
 
     subtitles_dict[item]['text'] = str(subtitles_dict[item]['text'])
     subtitles_dict[item]['text'] = nltk.sent_tokenize(subtitles_dict[item]['text'])
@@ -45,7 +47,7 @@ def process_subtitle(subtitles_dict, i):
         return subtitles_dict, i+1
 
 
-    next_item = str(i + 1)
+    next_item = i + 1
     next_sentence = nltk.sent_tokenize(subtitles_dict[next_item]['text'])
 
 
