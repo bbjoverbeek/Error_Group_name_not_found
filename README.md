@@ -10,9 +10,11 @@ And summarize the differences between the script and subtitles, to give a percen
 
 ### Björn 
 - Labeled each line of the script (D for Dialoge etc.) using regular expressions.
+- Created the program to compare the subtitles and the script with each other.
 
 ### Dennis 
-- Put the '.str'(the subtitle) file into a dictionary using the format: {number{time: x, text:"x"}}
+- Put the '.srt'(the subtitle) file into a dictionary using the format: {number{time: x, text:"x"}}.
+- Created the pytests for the python scripts.
 
 ### Noor 
 - Searched for libraries that would compare two strings or files and give the similarity ratio.
@@ -24,3 +26,18 @@ And summarize the differences between the script and subtitles, to give a percen
 
 ## How to use the program / reproduce the results: 
 We used a web-based user interface, using flask. On this website it is possible to retreave the program for the script and the subtitles data.
+
+To access this website, you will need to run the following code in your terminal:
+
+``` 
+source env/bin/activate
+```
+  - This will create a virtual environment to run the website
+
+When you have created a virtual environment, you have to run the following code in order to open the website:
+
+```
+python3 app.py
+```
+
+Opening index.html will not work
