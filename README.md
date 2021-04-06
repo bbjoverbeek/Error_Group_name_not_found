@@ -32,7 +32,7 @@ To access this website, you will need to run the following code in your terminal
 ``` 
 source env/bin/activate
 ```
-  - This will create a virtual environment to run the website
+  - This will create a virtual environment to run the website.
 
 When you have created a virtual environment, you have to run the following code in order to open the website:
 
@@ -40,4 +40,6 @@ When you have created a virtual environment, you have to run the following code 
 python3 app.py
 ```
 
-Opening index.html will not work
+  - Opening index.html will not work.
+
+Additional explanation will be available on the website itself.
