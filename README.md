@@ -27,7 +27,13 @@ And summarize the differences between the script and subtitles, to give a percen
 ## How to use the program / reproduce the results: 
 We used a web-based user interface, using flask. On this website it is possible to retreave the program for the script and the subtitles data.
 
-To access this website, you will need to run the following code in your terminal:
+Before trying to access our website, you will need to install some extensions to make it work. This can be done by running the following line of code in your terminal:
+
+```
+pip3 install -r requirements.txt
+```
+
+Once this is installed, you need to run the following code in the terminal to access the website:
 
 ``` 
 source env/bin/activate
