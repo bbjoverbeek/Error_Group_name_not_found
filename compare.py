@@ -130,6 +130,8 @@ def main(argv):
                         highest_ratio = ratio
                         best_D_match = D_sentence
 
+                        
+
             print(f'subtitle_sentence:\n\t{sub_sentence}\nbest Dialogue match:\n\t{best_D_match}\nratio:{highest_ratio}\n')
 
         progress += 1

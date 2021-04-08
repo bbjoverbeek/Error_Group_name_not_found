@@ -33,24 +33,31 @@ def add_describing_letters(text):
     metadata = True
     newline_count = 0
 
-    for line in text:
+    for i in range(len(text)):
         if metadata is True:
-            line = re.sub(r'(.+)', r'M|\1', line)
-            if line == '':
+            text[i] = re.sub(r'(.+)', r'M|\1', text[i])
+            if text[i] != '':
+                newline_count = 0
+            if text[i] == '':
                 newline_count += 1
                 if newline_count == 4:
-                    metadata = False
+                    if text[i+1] == '':
+                        newline_count = 0
+                    elif re.match(r'^(\s)\1{5}', text[i+1]):
+                        newline_count = 0
+                    else:
+                        metadata = False
         if metadata is False:
-            if re.match(r'(\s)\1{23}', line):
-                line = re.sub(r'(\s)\1{23}', 'C|\t\t\t\t\t\t', line)
-            elif re.match(r'(\s)\1{11}', line):
-                line = re.sub(r'(\s)\1{11}', 'D|\t\t\t', line)
-            elif line.isupper():
-                line = re.sub(r'(.+)', r'S|\t\1', line)
-            elif line != '':
-                line = "N|\t" + line
+            if re.match(r'(\s)\1{23}', text[i]):
+                text[i] = re.sub(r'(\s)\1{23}', 'C|\t\t\t\t\t\t', text[i])
+            elif re.match(r'(\s)\1{11}', text[i]):
+                text[i] = re.sub(r'(\s)\1{11}', 'D|\t\t\t', text[i])
+            elif text[i].isupper():
+                text[i] = re.sub(r'(.+)', r'S|\t\1', text[i])
+            elif text[i] != '':
+                text[i] = "N|\t" + text[i]
 
-        new_text.append(line)
+        new_text.append(text[i])
 
     return new_text
 
