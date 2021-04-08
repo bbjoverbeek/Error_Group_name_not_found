@@ -10,24 +10,32 @@ import urllib.request
 # file
 
 app = Flask(__name__)
-
 app.config['UPLOADED_FILES'] = 'uploads_user'
+app.config['SECRET_KEY'] = "finalprojectadvancedprogrammingrejklsfjlklfkdklsfj"
 
+
+# SCRIPT AND SUBTITLES CODE
 
 def get_script_file(script_url):
     """
     The content of the url entered on the website needs to be
     downloaded. This will be a HTML file. All HTML that is not part of
     the script needs to be removed.
-    
+
     :param script_url: the url where the script is stored.
     :returns: a string that is the script, which needs to be stored as
     a text file.
     """
-    response = urllib.request.urlopen(script_url)
+    opener = urllib.request.FancyURLopener({})
+    url = script_url
+    response = opener.open(url)
+    
+    
+    # response = urllib.request.urlopen(script_url)
     html = str(response.read().decode('iso-8859-1')).replace("\n", "qq11qq")
     # I do not think any movie has "qq11qq" in their script, at
     # least I hope
+    # the decoding is the one that is used on the website of imsdb.
 
     html = re.sub("<!--.*?-->", "", html)
     html = re.sub("<title.*?</title>", "", html)
@@ -51,15 +59,27 @@ def get_script_file(script_url):
     return script_file
 
 
-#THE ROUTES FOR THE WEBSITE
+# .
+# .
+# .
+# .
+# .
+# Here is some whitespace to differentiate the server code from the
+# subtitles and script code
+# .
+# .
+# .
+# .
+# .
+
+# THE ROUTES FOR THE WEBSITE
+
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == "POST":
         subtitles_file = request.files['subtitles_file']
-        script_file = request.files['script_file']
-        script_url = request.form['url_script']
         # Already giving variables the input the user provided
-
         no_file_string = "<FileStorage: '' ('application/octet-stream')>"
         # If the user did not give us a file, we will get this message,
         # so when we get this message the user did not give us a file
@@ -67,12 +87,15 @@ def index():
         if str(subtitles_file) == no_file_string:
             error_message = """You did not upload a subtitles file. In order
             for the generator to work, subtitles need to be uploaded."""
-
-            return render_template('error.html', error_message=error_message)
+            return redirect(url_for('error_page', error_message=error_message))
 
         subtitles_file.save(os.path.join(app.config['UPLOADED_FILES'],
                                          "subtitles_file.srt"))
 
+        script_file = request.files['script_file']
+        script_url = request.form['url_script']
+        # Already giving variables the input the user provided
+        
         if not str(script_file) == no_file_string:
             script_file.save(os.path.join(app.config['UPLOADED_FILES'],
                                           "script_file.txt"))
@@ -81,7 +104,8 @@ def index():
             script_file = get_script_file(script_url)
             if "This URL did not work." in script_file:
                 print("hello")
-                return redirect(url_for('error_page', error_message=script_file))
+                return redirect(url_for('error_page', 
+                                        error_message=script_file))
             else:
                 print("not the good one")
                 with open("uploads_user/script_file.txt", "w") as file:
@@ -92,10 +116,10 @@ def index():
             make the program work one of them needs to be submitted."""
             return redirect(url_for('error_page', error_message=error_message))
 
-        with open("uploads_user/subtitles_file.srt") as subtitles:
+        with open("uploads_user/subtitles_file.srt", "r", encoding='utf-8') as subtitles:
             subtitles_opened = subtitles.readlines()
 
-        with open("uploads_user/script_file.txt") as script:
+        with open("uploads_user/script_file.txt", "r", encoding='utf-8') as script:
             script_opened = script.readlines()
         # All outcomes url and normal files are saved as files, so they
         # can be treated the same from now on
@@ -144,4 +168,7 @@ def error_page(error_message):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
+    # If you are running this file and you know the ip-address of your
+    # computer (connected to your router), you can open the website with
+    # the following url: http://<your_ip-address>:5000

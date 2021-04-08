@@ -21,14 +21,14 @@
 <div class="row content">
     <div class="col-6 form search_form">
         <h3 class="h3_search">Search Subtitles</h3>
-        <form action="/search_subtitles" method="POST">
+        <form action="/search_subtitles" method="POST" target="_blank">
             <input name="movie_name" class="search_field text_input" type="text" placeholder="search subtitles">
         </form>
         <p>After pressing enter, your search results are displayed on the website of opensubtitles. For more information how to get the subtitles, visit the <a class="inline_link" href="{{ url_for('documentation') }}">documentation</a>.</p>
     </div>
     <div class="col-6 form search_form">
         <h3 class="h3_search">Search Script</h3>
-        <form action="https://imsdb.com/search.php" method="POST">
+        <form action="https://imsdb.com/search.php" method="POST" target="_blank">
             <input class="search_field text_input" type="text" placeholder="search script" name="search_query">
         </form>
         <p>When pressing enter on your keyboard your search query is sent to IMSDb. The movies scripts containing your search query are shown. For more information visit the <a class="inline_link" href="{{ url_for('documentation') }}">documentation</a>.</p>
