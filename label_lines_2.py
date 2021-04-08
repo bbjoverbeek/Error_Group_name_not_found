@@ -146,7 +146,12 @@ def add_describing_letters(text, spaces_and_label):
 
     for i in range(len(text)):
         if not_only_spaces.search(text[i]):
-            if start_c.match(text[i]) and text[i].upper() == text[i]:
+            if re.search("THE END", text[i]):
+                # The text with "the end" seems to be placed differenly
+                # for all movies
+                text[i] = re.sub("^ *", "M|\t\t\t\t", text[i])
+
+            elif start_c.match(text[i]) and text[i].upper() == text[i]:
                 # if has the amount of spaces you would expect and if
                 # the text is uppercase
                 text[i] = re.sub("^ {" + str(spaces_and_label["spaces_C"])
