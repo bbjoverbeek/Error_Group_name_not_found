@@ -21,7 +21,7 @@ def order_text(text):
 
     for item in text:
         item = item.split("\n")
-        
+
         # The following lines of code connect the different lines of item
         # to the correct name
         number = int(item[0])

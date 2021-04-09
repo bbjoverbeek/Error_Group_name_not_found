@@ -41,10 +41,10 @@ def add_describing_letters(text):
             if text[i] == '':
                 newline_count += 1
                 if newline_count == 4:
-                    if text[i+1] == '':
+                    if text[i+1] == '' or re.match(r'^(\s)\1{23}[A-Z]+', text[i+1]):
                         newline_count = 0
-                    elif re.match(r'^(\s)\1{5}', text[i+1]):
-                        newline_count = 0
+                    elif re.match(r'^(\s)\1{5}.+', text[i+1]):
+                        metadata = False
                     else:
                         metadata = False
         if metadata is False:
