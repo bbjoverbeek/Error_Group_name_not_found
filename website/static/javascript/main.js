@@ -21,9 +21,4 @@ function switchScriptUrlFile() {
 
         button.innerHTML = "Use URL";
     }
-
-    // for some reason you have to press the button twice, but i do not
-    // know why
-
 }
-

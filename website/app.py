@@ -159,7 +159,7 @@ def search_subtitles():
         return redirect("https://www.opensubtitles.org/nl/search2/"
                         f"sublanguageid-eng/moviename-{query}")
     else:
-        return redirect(url_for("search_subtitles"))
+        return redirect(url_for("search"))
 
 
 @app.route('/error/<error_message>')

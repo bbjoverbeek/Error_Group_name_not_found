@@ -19,7 +19,39 @@
 </div>
 <div class="row content">
     <div class="col-8 body_text">
-        <h2>Required files</h2>
+            <h2 id="Project description">Project description</h2>
+            <p>For this project it is our goal to create a prepocessing tool that aligns script and subtitles. The character has to be added to the right subtitle and the timestamp has to be added to the right location in the script. For the script we have to label each line (M, metadata; S, scene boundary; N, scene desription; C, character name; D, dialoge) as well.  We chose to make a web-based user interface, using Flask. We have to give the output in a JSON or a CSV format and summarize the differences between the script and subtitles, to give a percentage.</p>
+
+            <h2 id="Who did what?">Who did what? </h2>
+            <h3 id="Björn">Björn </h3>
+            <ul><li>Labeled each line of the script (D for Dialoge etc.) using regular expressions.
+            </li><li>Created the program to compare the subtitles and the script with each other.
+            </li></ul>
+
+            <h3 id="Dennis">Dennis </h3>
+            <ul><li>Put the ‘.srt’ (the subtitle) file into a dictionary using the format: {number{time: x, text:”x”}}.
+            </li><li>Created the pytests for the python scripts.
+            </li></ul>
+
+            <h3 id="Noor">Noor </h3>
+            <ul><li>Searched for libraries that would compare two strings or files and give the similarity ratio.
+            </li><li>She came up with different possible options for an extra application of the data.
+            </li></ul>
+
+            <h3 id="Oscar">Oscar </h3>
+            <ul><li>Made the website using Flask (user interface).
+            </li><li>He made a function that takes a url from IMSDb and makes a text file.
+            </li></ul>
+
+            <h3 id="Unit tests:">Unit tests:</h3>
+
+            <p>If you want to perform unit tests, you would have to make a little change to test.py. We open the film files in every function by using a function from create_subtitles.py. To execute test.py on a film chosen by you, you have to change the filename inside these lines of codes. So:</p>
+
+            <pre><code class='code-multiline'>full_text = create_subtitles.open_file('shrek_subtitles.srt')</code></pre>
+            <p><br></p>
+            <p>becomes</p>
+
+            <pre><code class='code-multiline'>full_text = create_subtitles.open_file('yourfilm_subtitles.srt')</code></pre>
     </div>
 </div>
 

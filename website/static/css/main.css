@@ -357,13 +357,61 @@ hr {
 
 
 
-
+.body_text > h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
 
 .body_text > h3, .flex_text > h3 {
     color: rgb(39, 39, 39);
     margin-top: 30px;
     margin-bottom: 5px;
     font-size: 18px;
+}
+
+.body_text h2 + h3 {
+    margin-top: 10px;
+}
+
+code {
+    padding: 15px;
+    font-size: 14px;
+    font-family: "Fira Code";
+    overflow-x: scroll;
+}
+
+
+.note, code {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    width: calc(100% - 55px);
+    margin: 0 10px;
+}
+
+.note {
+    padding: 15px 20px 15px 15px;
+}
+
+.note p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.note svg {
+    fill: black;
+}
+
+.note_sign {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    margin-bottom: -2px;
+    margin-right: 12px;
 }
 
 h2 {
@@ -454,7 +502,7 @@ h2 {
     }
 
     .index_header {
-        clip-path: polygon(0% 0%, 0.55% 83.59%, 32.30% 95.38%, 99.45% 79.88%, 100% 0%);
+        width: 100vw;
         height: 50vh;
     }
 
@@ -547,9 +595,15 @@ h2 {
         margin: 0 10%;
     }
 
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     footer > div {
         width: 80%;
-        margin: 0 10%;
+        margin: 10px 10%;
     }
     
 }

@@ -42,7 +42,7 @@ def main(argv):
     text_dict = order_text(text)
 
     # I have added a commented print statement. Remove to test the program.
-    # print(text_dict)
+    print(text_dict)
 
 
 if __name__ == "__main__":
