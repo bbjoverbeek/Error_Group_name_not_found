@@ -218,7 +218,8 @@ def main(argv):
     dict_spaces_label = give_spaces_label(text, list_number_of_spaces)
 
     new_text = "".join(add_describing_letters(text, dict_spaces_label))
-    print(extra_application(new_text))
+    print('This Movie script does have ',extra_application(new_text)\
+    ,' Movie scene description lines')
 
 
 if __name__ == "__main__":
