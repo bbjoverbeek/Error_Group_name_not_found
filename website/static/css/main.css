@@ -67,10 +67,15 @@ p {
 }
 
 .body_text{
-    margin: 20px;
+    margin: 20px 10%;
+    width: 80%;
     text-align: justify;
 }
 
+.flex_text {
+    margin: 15px;
+    text-align: justify;
+}
 
 
 
@@ -123,6 +128,7 @@ nav {
 .content {
     width: 95%;
     margin: 0 2.5%;
+    /*! padding: 15px; */
 }
 
 .current {
@@ -136,7 +142,7 @@ nav {
 
 footer {
     background-color: #7c9999;
-    padding: 10px;
+    padding: 15px;
     font-size: 14px;
     font-weight: bold;
 }
@@ -156,6 +162,7 @@ footer > div > div > ul > li > a {
     color: whitesmoke;
     padding: 5px;
     text-decoration: none;
+    margin: -5px;
 }
 
 footer > div >div > ul > li > a:hover {
@@ -166,7 +173,7 @@ footer > div >div > ul > li > a:hover {
 footer > div > div > p {
     display: inline-block;
     color: rgb(39, 39, 39);
-    padding: 5px 5px 0 5px;
+    /*! padding: 5px 5px 0 5px; */
 }
 
 .extra_info_footer {
@@ -175,12 +182,18 @@ footer > div > div > p {
 
 footer > div {
     margin: 2.5%;
-    padding: 7.5px;
+    /*! padding: 7.5px; */
+    width: 95%;
+    justify-content: center;
+}
+
+.logo_rug {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .logo_rug > div > a > img {
     width: 200px;
-    padding: 10px;
     margin: auto;
 }
 
@@ -191,13 +204,18 @@ footer > div {
 .index_header {
     background-image: url("/static/images/index_header_image.jpg");
     background-position: center;
-    height: 450px;
+    clip-path: polygon(0% 0%, 0% 76.97%, 28.45% 94.86%, 100% 72.94%, 100% 0%);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    z-index: -1;
 }
 
 .transparent_background {
     padding: 10px 0;
-    margin: 75px 4% 0 4%;
+    margin: -15px 4% 0 4%;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     width: 92%;
@@ -205,7 +223,7 @@ footer > div {
 
 .index_header > .transparent_background > h1 {
     text-align: center;
-    font-size: 79px;
+    font-size: 7vw;
     margin: 0;
     color: #dbe2e2;
     font-family: "Montserrat";
@@ -214,13 +232,17 @@ footer > div {
 .form {
     display: inline-block;
     background-color: whitesmoke;
-    padding: 5px;
+    padding: 15px;
     height: 100%;
     border-radius: 3px;
 }
 
 .index_form {
-    margin:  20px 20px 20px 0;
+    margin:  15px;
+}
+
+.form > form {
+    margin-bottom: -20px;
 }
 
 .form > h3 {
@@ -231,16 +253,21 @@ footer > div {
 
 .form > form > input[type='file'] {
     display: block;
-    margin: 5px;
     width: 250px;
+    font-family: "Fira sans";
+}
 
+.form > form > .checkbox {
+    display: block;
+    margin: 5px 0;
+    padding: 0;
 }
 
 .upload_button {
     background-color: rgb(39, 39, 39);
     color: whitesmoke;
     padding: 10px;
-    margin: 5px;
+    margin: 5px 0;
     display: block;
     width: 250px;
     font-weight: bold;
@@ -257,12 +284,13 @@ footer > div {
     background-color: #ba967e;
     color: whitesmoke;
     padding: 10px;
-    margin: 0 5px 5px 5px;
+    margin: 5px 0 0 0;
     display: inline-block;
     width: 250px;
     font-weight: bold;
     border-radius: 3px;
     text-align: center;
+    transition: transform 200ms;
 }
 
 .label_submit:hover{
@@ -272,9 +300,10 @@ footer > div {
 
 .form > form > input[type="submit"] {
     z-index: -1;
-    position: absolute;
-    top: 10px;
+    position: relative;
+    top: -20px;
     left: 8px;
+    margin-bottom: -20px;
 }
 
 
@@ -288,7 +317,7 @@ footer > div {
 #url_or_script {
     display: inline-block;
     width: 50%;
-    margin: 5px 25% 0 25%;
+    margin: 10px 25% 0 25%;
     background-color: #7c9999;
     color: white;
     font-size: 14px;
@@ -298,30 +327,39 @@ footer > div {
     font-family: 'Fira sans';
     font-weight: bold;
     cursor: pointer;
-    
+    transition: transform 200ms;
 }
 
-#url_or_script:active{
+#url_or_script:hover{
     background-color: #6b8686;
+    cursor: pointer;
 }
 
 .text_input {
     padding: 5px;
-    margin: 5px;
+    margin: 5px 0;
     display: inline-block;
     width: 252px;
 }
 
 hr {
-    margin: 10px 5%;
+    margin: 15px 0;
     border-radius: 1px;
     border: 0.5px solid lightgray;
+}
+
+#url_or_script:active, .label_submit:active {
+    transform: scale(0.95);
 }
 
 
 
 
-.body_text > h3 {
+
+
+
+
+.body_text > h3, .flex_text > h3 {
     color: rgb(39, 39, 39);
     margin-top: 30px;
     margin-bottom: 5px;
@@ -360,10 +398,10 @@ h2 {
     margin-left: -20px;
 }
 
-
-
 .search_form {
     padding: 0;
+    flex-basis: calc(50% - 40px);
+    min-height: 235px;
     margin: 20px 20px 20px 20px;
 }
 
@@ -386,15 +424,27 @@ h2 {
     margin: 0;
 }
 
+.search_form {
+    padding: 5px;
+}
+
 .search_form > p {
     font-size: 14px;
     font-weight: bold;
     margin: 2%;
 }
 
-.search_text > p {
-    margin: 0 20px 20px 0;
+.search_text h2 {
+    margin-top: 0;
 }
+
+.search_text > p {
+    margin: 0 0 20px 0;
+}
+
+
+
+
 
 
 
@@ -403,14 +453,19 @@ h2 {
         flex-direction: column;
     }
 
+    .index_header {
+        clip-path: polygon(0% 0%, 0.55% 83.59%, 32.30% 95.38%, 99.45% 79.88%, 100% 0%);
+        height: 50vh;
+    }
+
     .index_header > .transparent_background > h1 {
-        margin: 0 2.5%;
+        margin: 0 5%;
+        font-size: 9vw;
         width: 90%;
-        font-size: 3.7em;
     }
 
     .index_form {
-        margin: 20px 20px 0 20px;
+        margin: 15px;
         order: 1;
     }
 
@@ -418,15 +473,12 @@ h2 {
         padding: 0;
     }
 
-    .index_form > form > input[type='file'] {
-        margin-left: 2%;
-    }
+
 
     .text_input {
         width: 85%;
         margin: 2%;
         padding: 5px 5%;
-
     }
 
     #url_script {
@@ -441,26 +493,31 @@ h2 {
     }
 
 
+    .index_form hr {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
     .upload_button {
         display: block;
-        width: 86%;
         padding: 10px 5%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 90%;
     }
     
     .label_submit {
-        margin: 0 2% 5px 2%;
         padding: 10px 5%;
-        display: inline-block;
-        width: 86%;
+        display: block;
+        width: 90%;
         text-align: center;
-        margin-bottom: 2%;
+    }
+
+    .flex_text {
+        order: 2;
     }
 
     .body_text {
-        order: 2;
+        margin: 15px;
+        width: calc(100% - 30px);
     }
 
     .other_header > div > h1 {
@@ -481,8 +538,8 @@ h2 {
 
 @media (min-width: 992px) {
     .index_header > .transparent_background > h1 {
-        margin: 0 2.5%;
-        font-size: 95px;
+        margin: 0 5%;
+        width: 90%;
     }
 
     .content {
@@ -506,7 +563,18 @@ h2 {
         color: whitesmoke;
     }
     
+    #Rectangle_2 {
+        fill: rgb(65, 65, 65);
+    }
+
+    #Rectangle_1 {
+        fill: rgb(29, 29, 29);
+    }
     
+    #SUBTITLES, #SCRIPT {
+        fill: whitesmoke;
+    }
+
     .form {
         background-color: rgb(65, 65, 65);
     }
@@ -538,11 +606,18 @@ h2 {
         color: rgb(39, 39, 39);
     }
 
+    #url_or_script:hover{
+        background-color: whitesmoke;
+    }
+
     .text_input {
         background-color: rgb(39, 39, 39);
         color: whitesmoke;
     }
 
+    .checkbox label {
+        color: whitesmoke;
+    }
     
     #url_or_script:active{
         background-color: lightgray;
@@ -577,7 +652,7 @@ h2 {
         color: whitesmoke;
     }
 
-    .body_text > h3 {
+    .body_text > h3, .flex_text > h3 {
         color: whitesmoke;
     }
    

@@ -19,18 +19,18 @@ def order_text(text):
     # This turns the text into different blocks per subtitle
     text = re.split("\n\n", text)
 
-    for element in text:
-        element = element.split("\n")
+    for item in text:
+        item = item.split("\n")
 
-        # The following lines of code connect the different lines of element
+        # The following lines of code connect the different lines of item
         # to the correct name
-        number = int(element[0])
-        time = element[1]
-        text = ' '.join(element[2:])
+        number = int(item[0])
+        time = item[1]
+        text = ' '.join(item[2:])
 
         # The following lines of code make two dictionaries,
         # with inside_dict sitting inside of mydict
-        inside_dict = {"time": time, "text": text}
+        inside_dict = {'time': time, 'text': text}
         mydict[number] = inside_dict
 
     return mydict
