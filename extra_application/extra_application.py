@@ -197,12 +197,8 @@ def extra_application(new_text):
         if len(line) > 0:
             if line[0] == 'N':
                 list_text.append(line)
-    for line in list_text:
-        new_list = line.split()
-        list_text_count.append(new_list)
-    for list_text_count in list_text:
-
-        if list_text_count[0] == 'N':
+    for list_text in list_text:
+        if list_text[0] == 'N':
             len_list_text_count = len_list_text_count + 1
     return(len_list_text_count)
 
