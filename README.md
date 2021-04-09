@@ -49,3 +49,13 @@ python3 app.py
   - Opening index.html will not work.
 
 Additional explanation will be available on the website itself.
+
+### Unit tests:
+
+If you want to perform unit tests, you would have to make a little change to test.py. We open the film files in every function by using a function from create_subtitles.py. To execute test.py on a film chosen by you, you have to change the filename inside these lines of codes. So:
+
+```full_text = create_subtitles.open_file('shrek_subtitles.srt')```
+
+becomes
+
+```full_text = create_subtitles.open_file('yourfilm_subtitles.srt')```

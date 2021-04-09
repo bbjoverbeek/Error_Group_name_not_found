@@ -4,6 +4,7 @@ import sys
 from difflib import SequenceMatcher
 import nltk
 import re
+import json
 
 # Remove the comment from the line below if you get the nltk punk error
 #nltk.download('punkt')
@@ -83,6 +84,11 @@ def process_subtitle(subtitles_dict, i):
 
 def main(argv):
 
+    # argument order: subtitles file   script file   subtitles output   script output   combined output
+    # argument example: subtitles.txt script.txt True False True
+
+    output_files = (argv[3], argv[4], argv[5])
+
     with open(argv[1], 'r') as inp:
         subtitles_str = inp.read()
     subtitles_dict = OrderedDict(order_text(subtitles_str))
@@ -111,6 +117,8 @@ def main(argv):
 
     total_items = len(subtitles_dict)
     progress = 0
+
+    average_ratio = [0, 0]
     
     for item in subtitles_dict:
 
@@ -130,13 +138,35 @@ def main(argv):
                         highest_ratio = ratio
                         best_D_match = D_sentence
 
-                        
 
-            print(f'subtitle_sentence:\n\t{sub_sentence}\nbest Dialogue match:\n\t{best_D_match}\nratio:{highest_ratio}\n')
+            if highest_ratio >= 0.7:
+
+                average_ratio[0] += highest_ratio 
+                average_ratio[1] += 1
+
+                subtitles_dict[item]['character'] = script_D_dict[dialogue_no]['Character']
+                script_D_dict[dialogue_no]['time'] = subtitles_dict[item]['time']    
+
+                print(f'subtitle_sentence:\n\t{sub_sentence}\nbest Dialogue match:\n\t{best_D_match}\nratio:{highest_ratio}\n')
 
         progress += 1
 
         print(f'{progress}/{total_items}', file=sys.stderr)
+
+    average_ratio = (average_ratio[0] / average_ratio[1]) * 100
+    print(f'The subtitles were {average_ratio}% equal to the script', file=sys.stderr)
+    
+
+    if output_files[0] == 'True':
+        with open('subtitles_output.json', 'w') as output:
+            json.dump(subtitles_dict, output)
+    if output_files[1] == 'True':
+        with open('script_output.json', 'w') as output:
+            json.dump(script_D_dict, output)
+    if output_files[2] == 'True':
+        with open('combined_output.json', 'w') as output:
+            json.dump(subtitles_dict, output)
+            json.dump(script_D_dict, output)
 
 
 if __name__ == "__main__":
