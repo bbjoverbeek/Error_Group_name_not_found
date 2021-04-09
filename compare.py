@@ -10,7 +10,7 @@ import json
 #nltk.download('punkt')
 
 from create_subtitles import order_text
-from label_lines import add_describing_letters, remove_front_tabs
+from label_lines import *
 
 # Modules for development purposes
 import pprint
@@ -18,7 +18,7 @@ from collections import OrderedDict
 
 def add_D_to_C(script_list, index, i, script_D_dict, C_line):
 
-    if script_list[index + i] == '':
+    if script_list[index + i] == ' \n':
         return script_D_dict
     else:
         if C_line == True:
@@ -104,9 +104,11 @@ def main(argv):
         subtitles_dict, i = process_subtitle(subtitles_dict, i)
 
     with open(argv[2], 'r') as inp:
-        script_list = inp.readlines()
-    script_list = remove_front_tabs(script_list)
-    script_list = add_describing_letters(script_list)
+        script_str = inp.readlines()
+
+    dict_spaces_label = give_spaces_label(script_str, detect_amount_of_spaces(script_str))
+
+    script_list = add_describing_letters(script_str, dict_spaces_label)
 
     script_D_dict = {}
 
@@ -126,7 +128,11 @@ def main(argv):
 
         for sub_sentence in subtitles_dict[item]['text']:
 
+            time = subtitles_dict[item]['time']  
+
             for dialogue_no in script_D_dict:
+
+                character = script_D_dict[dialogue_no]['Character']
 
                 dialogue_text = nltk.sent_tokenize(script_D_dict[dialogue_no]['Dialogue'])
 
@@ -139,34 +145,35 @@ def main(argv):
                         best_D_match = D_sentence
 
 
-            if highest_ratio >= 0.7:
+                if highest_ratio >= 0.7:
 
-                average_ratio[0] += highest_ratio 
-                average_ratio[1] += 1
+                    average_ratio[0] += highest_ratio 
+                    average_ratio[1] += 1
 
-                subtitles_dict[item]['character'] = script_D_dict[dialogue_no]['Character']
-                script_D_dict[dialogue_no]['time'] = subtitles_dict[item]['time']    
+                    subtitles_dict[item]['character'] = character
+                    script_D_dict[dialogue_no]['time'] = time 
 
-                print(f'subtitle_sentence:\n\t{sub_sentence}\nbest Dialogue match:\n\t{best_D_match}\nratio:{highest_ratio}\n')
+                #print(f'subtitle_sentence:\n\t{sub_sentence}\nbest Dialogue match:\n\t{best_D_match}\nratio:{highest_ratio}\n')
 
         progress += 1
 
         print(f'{progress}/{total_items}', file=sys.stderr)
 
     average_ratio = (average_ratio[0] / average_ratio[1]) * 100
-    print(f'The subtitles were {average_ratio}% equal to the script', file=sys.stderr)
+    print(f'The subtitles were {average_ratio:.2f}% equal to the script', file=sys.stderr)
     
 
     if output_files[0] == 'True':
         with open('subtitles_output.json', 'w') as output:
-            json.dump(subtitles_dict, output)
+            json.dump(subtitles_dict, output, indent=4)
     if output_files[1] == 'True':
         with open('script_output.json', 'w') as output:
-            json.dump(script_D_dict, output)
+            json.dump(script_D_dict, output, indent=4)
     if output_files[2] == 'True':
         with open('combined_output.json', 'w') as output:
-            json.dump(subtitles_dict, output)
-            json.dump(script_D_dict, output)
+            combined_output = subtitles_dict + script_D_dict
+            json.dump(combined_output, output, indent=4)
+            # TODO: this file needs help
 
 
 if __name__ == "__main__":
