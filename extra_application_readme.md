@@ -12,4 +12,4 @@ is a Sci-Fi movie, only with the count of the scene descriptions.
 Of course not all Sci-Fi movies have a generally higher scene description count.
 
 Research question? 
-- what is the chance the movie is a Sci-Fi movie?
+- What is the chance the movie is a Sci-Fi movie?
