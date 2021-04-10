@@ -84,11 +84,11 @@ def process_subtitle(subtitles_dict, i):
 
 def main(argv):
 
-    # argument order: subtitles file   script file   subtitles output   script output   combined output
-    # argument example: subtitles.txt script.txt True False True
+    # argument order: subtitles file   script file   subtitles output   script output
+    # argument example: subtitles.txt script.txt True False
 
-    output_files = (argv[3], argv[4], argv[5])
-    #output_files = ('True', 'True', 'True')
+    output_files = (argv[3], argv[4])
+    #output_files = ('True', 'True')
 
     with open(argv[1], 'r') as inp:
     #with open('shrek_subtitles.srt', 'r') as inp:
@@ -207,10 +207,6 @@ def main(argv):
     if output_files[1] == 'True':
         with open('script_output.json', 'w') as output:
             json.dump(script_D_dict, output, indent=4)
-    if output_files[2] == 'True':
-        with open('combined_output.json', 'w') as output:
-            json.dump(script_D_dict, output, indent=4)
-            # TODO: this file needs help
 
 
 if __name__ == "__main__":
