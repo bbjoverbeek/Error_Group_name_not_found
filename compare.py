@@ -5,6 +5,7 @@ from difflib import SequenceMatcher
 import nltk
 import re
 import json
+from datetime import datetime
 
 # Remove the comment from the line below if you get the nltk punk error
 #nltk.download('punkt')
@@ -37,6 +38,8 @@ def add_D_to_C(script_list, index, i, script_D_dict, C_line):
 def process_subtitle(subtitles_dict, i):
     '''Add sentences split over multiple items together.'''
 
+    #TODO: make time output spaces equal
+
     item = i
 
     subtitles_dict[item]['text'] = str(subtitles_dict[item]['text'])
@@ -66,9 +69,9 @@ def process_subtitle(subtitles_dict, i):
         start_time = re.match('.*-->', subtitles_dict[item]['time']).group(0)
 
         try:
-            end_time = re.search('-->.*', subtitles_dict[next_item]['time'])
+            end_time = re.search(' -->.*', subtitles_dict[next_item]['time'])
         except KeyError:
-            end_time = re.search('-->.*', subtitles_dict[item]['time'])
+            end_time = re.search(' -->.*', subtitles_dict[item]['time'])
 
         end_time = end_time.group(0)[4:]
 
@@ -81,20 +84,9 @@ def process_subtitle(subtitles_dict, i):
 
         return process_subtitle(subtitles_dict, i+1)
 
+def compare_script_to_subtitles(script, subtitles):
 
-def main(argv):
-
-    # argument order: subtitles file   script file   subtitles output   script output
-    # argument example: subtitles.txt script.txt True False
-
-    output_files = (argv[3], argv[4])
-    #output_files = ('True', 'True')
-
-    with open(argv[1], 'r') as inp:
-    #with open('shrek_subtitles.srt', 'r') as inp:
-        subtitles_str = inp.read()
-    subtitles_dict = OrderedDict(order_text(subtitles_str))
-
+    subtitles_dict = OrderedDict(order_text(subtitles))
 
     # Remove the <tags> from the text
     for item in subtitles_dict:
@@ -105,20 +97,16 @@ def main(argv):
     while i < len(subtitles_dict) +1:
         subtitles_dict, i = process_subtitle(subtitles_dict, i)
 
-    with open(argv[2], 'r') as inp:
-    #with open('shrek_script.txt', 'r') as inp:
-        script_str = inp.readlines()
+    dict_spaces_label = give_spaces_label(script, detect_amount_of_spaces(script))
+    script_list = add_describing_letters(script, dict_spaces_label)
 
-    dict_spaces_label = give_spaces_label(script_str, detect_amount_of_spaces(script_str))
-
-    script_list = add_describing_letters(script_str, dict_spaces_label)
 
     script_D_dict = {}
 
     for index in range(len(script_list)):
         if script_list[index].startswith('C|'):
-
             script_D_dict = add_D_to_C(script_list, index, 0, script_D_dict, True)
+
 
     total_items = len(subtitles_dict)
 
@@ -194,19 +182,39 @@ def main(argv):
 
         print(f'{progress}/{total_items}', file=sys.stderr)
 
-        #print(f'subtitle_sentence:\n\t{sub_sentence}\nbest Dialogue match:\n\t{best_D_match}\nratio:{highest_ratio}\n'
-
     print(average_ratio[0], average_ratio[1], file=sys.stderr)
     average_ratio = (average_ratio[0] / average_ratio[1]) * 100
+
+    return average_ratio, script_D_dict, subtitles_dict
+
+
+def main(argv):
+
+    # argument order: subtitles file   script file   subtitles output   script output
+    # argument example: subtitles.txt script.txt True False
+
+    with open(argv[1], 'r') as inp:
+    #with open('shrek_subtitles.srt', 'r') as inp:
+        subtitles_str = inp.read()
+    
+    with open(argv[2], 'r') as inp:
+    #with open('shrek_script.txt', 'r') as inp:
+        script_str = inp.readlines()
+
+    average_ratio, new_script, new_subtitles = compare_script_to_subtitles(script_str, subtitles_str)
+
     print(f'The subtitles were {average_ratio:.2f}% equal to the script', file=sys.stderr)
     
+    time = datetime.now().strftime("%d-%m-%Y_%H:%M:%S")
 
-    if output_files[0] == 'True':
-        with open('subtitles_output.json', 'w') as output:
-            json.dump(subtitles_dict, output, indent=4)
-    if output_files[1] == 'True':
-        with open('script_output.json', 'w') as output:
-            json.dump(script_D_dict, output, indent=4)
+    if argv[3] == 'True':
+        filename = 'subtitles_output_' + time + '.json'
+        with open(filename, 'w') as output:
+            json.dump(new_subtitles, output, indent=4)
+    if argv[4] == 'True':
+        filename = 'script_output_' + time + '.json'
+        with open(filename, 'w') as output:
+            json.dump(new_script, output, indent=4)
 
 
 if __name__ == "__main__":
