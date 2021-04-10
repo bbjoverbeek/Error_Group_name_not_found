@@ -17,7 +17,7 @@ def detect_amount_of_spaces(text):
     """
 
     pattern = re.compile("^ +[^ \n]")
-    list_number_of_spaces = list()
+    list_number_of_spaces = []
     for i in range(100, len(text) // 4):
         # We do not want to loop through the whole text, but we do want
         # to get a good impression so we loop a fourth of the text. The

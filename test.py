@@ -4,14 +4,15 @@ import re
 import create_subtitles
 import label_lines
 
+
 def test_open_file():
 
     with open('shrek_subtitles.srt', 'r') as inp:
         full_text = inp.read()
-    
+
     text = create_subtitles.open_file('shrek_subtitles.srt')
 
-    assert len(full_text) == len(text)    
+    assert len(full_text) == len(text)
 
 
 def test_order_text():
@@ -25,16 +26,40 @@ def test_order_text():
 
         time = mydict[item]['time']
         text = mydict[item]['text']
-        m = re.match('([0-9]+:)+[0-9]+,[0-9]+ --> ([0-9]+:)+[0-9]+,[0-9]+', time)
-        p = re.search('(<i>)?([A-Za-z0-9,-.!?\']+ *)+[.!?]*....', text)
-        assert mydict[item] == {'time': m.group(), 'text': p.group()}
+        m = re.match('([0-9]+:)+[0-9]+,[0-9]+ --> ([0-9]+:)+[0-9]+,[0-9]+',
+                     time)
+        assert mydict[item] == {'time': m.group(), 'text': str(text)}
 
-#def test_add_describing_letters():
 
-    #full_text = create_subtitles.open_file('shrek_script.txt')
+def test_detect_amount_of_spaces():
 
-    #text = label_lines.remove_front_tabs(full_text)
-    #text = label_lines.add_describing_letters(text)
-    #for line in text:
-        #assert line.startswith(('M|', 'C|', 'D|', 'S|', 'N|', ''))
-    #assert len(text) == len(full_text)
+    with open('shrek_script.txt', 'r') as inp:
+        full_text = inp.readlines()
+
+    mylist = label_lines.detect_amount_of_spaces(full_text)
+    for item in mylist:
+        assert item == int(item)
+
+
+def test_give_spaces_label():
+
+    with open('shrek_script.txt', 'r') as inp:
+        full_text = inp.readlines()
+
+    first_list = label_lines.detect_amount_of_spaces(full_text)
+    second_list = label_lines.give_spaces_label(full_text, first_list)
+
+    assert second_list['spaces_N'] == second_list['spaces_S'] == first_list[0]
+    assert second_list['spaces_C'] == max(first_list)
+
+
+def test_add_describing_letters():
+
+    with open('shrek_script.txt', 'r') as inp:
+        full_text = inp.readlines()
+
+    first_list = label_lines.detect_amount_of_spaces(full_text)
+    second_list = label_lines.give_spaces_label(full_text, first_list)
+    text = ''.join(label_lines.add_describing_letters(full_text, second_list))
+    for line in text:
+        assert line.startswith(('M|', 'C|', 'D|', 'S|', 'N|', ''))
