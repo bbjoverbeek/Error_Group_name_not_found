@@ -21,7 +21,7 @@ def extra_application(new_text):
 
 def main(argv):
     """Takes the file name/-path to the script file,
-    applies the functions, and prints the number of 
+    applies the functions, and prints the number of
     scene descriptions in a movie.
     """
 
@@ -30,12 +30,15 @@ def main(argv):
     with open(filename, 'r') as inp:
         text = inp.readlines()
 
-    list_number_of_spaces = label_lines.detect_amount_of_spaces(text)
-    dict_spaces_label = label_lines.give_spaces_label(text, list_number_of_spaces)
+    list_number_of_spaces = \
+        label_lines.detect_amount_of_spaces(text)
+    dict_spaces_label = \
+        label_lines.give_spaces_label(text, list_number_of_spaces)
 
-    new_text = "".join(label_lines.add_describing_letters(text, dict_spaces_label))
-    print('This movie script has ',extra_application(new_text)\
-    ,' movie scene description lines.')
+    new_text = \
+        "".join(label_lines.add_describing_letters(text, dict_spaces_label))
+    print('This movie script has ', extra_application(new_text), end=" ")
+    print(' movie scene description lines.')
 
 
 if __name__ == "__main__":
