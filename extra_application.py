@@ -16,7 +16,17 @@ def extra_application(new_text):
         if len(line) > 0:
             if line[0] == 'N':
                 list_text_count += 1
-    return list_text_count
+
+    list_scene_count = int()
+    for line in new_text_split:
+        if len(line) > 0:
+            if line[0] == 'S':
+                list_scene_count += 1
+    print("'S': ", list_scene_count)
+    print("'N': ",list_text_count)
+    average_scene_des = list_text_count / list_scene_count
+   
+    return average_scene_des
 
 
 def main(argv):
@@ -38,7 +48,7 @@ def main(argv):
     new_text = \
         "".join(label_lines.add_describing_letters(text, dict_spaces_label))
     print('This movie script has ', extra_application(new_text), end=" ")
-    print(' movie scene description lines.')
+    print(' scene description lines per scene.')
 
 
 if __name__ == "__main__":
