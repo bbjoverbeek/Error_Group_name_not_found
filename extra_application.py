@@ -22,11 +22,13 @@ def extra_application(new_text):
         if len(line) > 0:
             if line[0] == 'S':
                 list_scene_count += 1
-    print("'S': ", list_scene_count)
-    print("'N': ",list_text_count)
+
+    print("'S' scene boundary      :", list_scene_count)
+    print("'N' scene description   :", list_text_count)
+
     average_scene_des = list_text_count / list_scene_count
-   
-    return average_scene_des
+
+    return "{:.2f}".format(average_scene_des)
 
 
 def main(argv):
