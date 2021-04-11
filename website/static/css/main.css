@@ -66,6 +66,11 @@ p {
     color: rgb(39, 39, 39);
 }
 
+button {
+    font-family: "Fira sans";
+    font-weight: bold;
+}
+
 .body_text{
     margin: 20px 10%;
     width: 80%;
@@ -200,7 +205,6 @@ footer > div {
 
 
 
-
 .index_header {
     background-image: url("/static/images/index_header_image.jpg");
     background-position: center;
@@ -241,10 +245,6 @@ footer > div {
     margin:  15px;
 }
 
-.form > form {
-    margin-bottom: -20px;
-}
-
 .form > h3 {
     color: rgb(39, 39, 39);
     text-align: center;
@@ -280,20 +280,7 @@ footer > div {
     cursor: pointer;
 }
 
-.label_submit {
-    background-color: #ba967e;
-    color: whitesmoke;
-    padding: 10px;
-    margin: 5px 0 0 0;
-    display: inline-block;
-    width: 250px;
-    font-weight: bold;
-    border-radius: 3px;
-    text-align: center;
-    transition: transform 200ms;
-}
-
-.label_submit:hover{
+#process_files:hover, #submit_button:hover{
     background-color: #9e7f6a;
     cursor: pointer;
 }
@@ -330,7 +317,7 @@ footer > div {
     transition: transform 200ms;
 }
 
-#url_or_script:hover{
+#url_or_script:hover, .cancel_button:hover{
     background-color: #6b8686;
     cursor: pointer;
 }
@@ -348,9 +335,113 @@ hr {
     border: 0.5px solid lightgray;
 }
 
-#url_or_script:active, .label_submit:active {
-    transform: scale(0.95);
+#url_or_script:active, #process_files:active, #submit_button:active, .cancel_button:active {
+    transform: scale(0.98);
 }
+
+.active {
+    transform: scale(1) translate(-50%, -50%);
+}
+
+.not_active {
+    transform: scale(0) translate(-50%, -50%);
+}
+
+.process_buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+#process_files, #submit_button {
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: #ba967e;
+    text-align: center;
+    transition: transform 200ms;
+    border: none;
+}
+
+#process_files {
+    display: block;
+    width: 270px;
+}
+
+#continue_process {
+    position: fixed;
+    padding: 20px;
+    width: 30vw;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    top: 50%;
+    left: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#continue_process p, #continue_process h3 {
+    margin: 10px;
+    font-weight: bold;
+} 
+
+#continue_process h3 {
+    font-size: 24px;
+}
+
+#continue_process svg {
+    fill: rgb(29, 29, 29);
+    width: 40px;
+    height: 40px;
+    margin: 10px calc(50% - 20px) 30px calc(50% - 20px);
+}
+
+#submit_button, .cancel_button {
+    flex-basis: calc(50% - 23px);
+    min-width: calc(50% - 23px);
+    padding: 10px;
+    margin: 15px 10px;
+    display: inline-block;
+}
+
+.cancel_button {
+    background-color: #7c9999;
+    color: whitesmoke;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 16px;
+    text-align: center;
+    transition: transform 200ms;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -441,7 +532,7 @@ h2 {
     
 }
 
-.list_documentation {
+.inline_list {
     list-style-position: outside;
     margin-left: -20px;
 }
@@ -533,7 +624,10 @@ h2 {
         width: 85.5%;
         margin: 2%;
         padding: 5px 5%;
+    }
 
+    #continue_process {
+        width: 80vw;
     }
 
     .search_form {
@@ -550,6 +644,10 @@ h2 {
         display: block;
         padding: 10px 5%;
         width: 90%;
+    }
+
+    #process_files {
+        width: 100%;
     }
     
     .label_submit {
@@ -609,8 +707,13 @@ h2 {
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
+    .navigation_container{
+        
         background-color: rgb(39, 39, 39);
+    }
+
+    body {
+        background-color: rgb(29, 29, 29);
     }
     
     p {
@@ -622,7 +725,7 @@ h2 {
     }
 
     #Rectangle_1 {
-        fill: rgb(29, 29, 29);
+        fill:  rgb(39, 39, 39);
     }
     
     #SUBTITLES, #SCRIPT {
@@ -702,7 +805,20 @@ h2 {
         color: whitesmoke;
     }
 
-    .list_documentation {
+    .note {
+        background-color: rgb(39, 39, 39);
+    }
+
+    .note_sign svg {
+        fill: whitesmoke;
+    }
+
+    .inline_list {
+        color: whitesmoke;
+    }
+
+    code {
+        background-color:  rgb(39, 39, 39);
         color: whitesmoke;
     }
 

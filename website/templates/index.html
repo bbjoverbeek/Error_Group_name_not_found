@@ -20,7 +20,7 @@
 
 
 
-<div class="row content">
+<div class="row index_content content">
     <div class="col-8 flex_text">
         <h2>What does this website do</h2>
 
@@ -129,9 +129,10 @@
                 </g>
                 </g>
             </svg>
-                     
-        <p>
+            
+  
 
+        <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sapien in urna laoreet egestas nec eu nibh. Donec finibus ullamcorper augue, nec vulputate nibh aliquet vitae. Vestibulum ac mauris metus. Quisque nec augue massa. Pellentesque nec orci dui. Nulla ut sollicitudin urna. Aliquam sit amet lacus eget elit scelerisque vulputate. Donec vel mi orci.
         
             Morbi vel posuere ante. Phasellus volutpat tincidunt arcu, sit amet gravida lectus ultricies eget. Morbi et odio eget quam ornare scelerisque id et leo. Nulla facilisi. Aliquam eget lacinia diam. Sed iaculis velit id gravida facilisis. Nulla id finibus sapien. Fusce ac vulputate magna. Curabitur ut enim sit amet dui dictum vehicula. Nulla facilisi. Nulla dictum vehicula est, nec tempor neque rutrum ac.
@@ -155,28 +156,30 @@
             <button type="button"  id="url_or_script" onclick="switchScriptUrlFile()">Use URL</button>
             <hr>
             <div class="checkbox">
-                <input type="checkbox" name="checkbox1" checked>
+                <input type="checkbox" name="checkbox1" id="checkbox1" checked>
                 <label for="checkbox1">checkbox1</label>
             </div>
             <div class="checkbox">
-                <input type="checkbox" name="checkbox1" checked>
-                <label for="checkbox1">checkbox1</label>
-            </div>
-            <div class="checkbox">
-                <input type="checkbox" name="checkbox1" checked>
-                <label for="checkbox1">checkbox1</label>
+                <input type="checkbox" name="checkbox2" id="checkbox2" checked>
+                <label for="checkbox2">checkbox2</label>
             </div>
             <hr>
-            <label for="submit_button" class="label_submit">Submit</label>
-            <input type="submit" id="submit_button">
+
+            <button id="process_files" onclick="show_continue_process()" type="button">Process files</button>
+
+            <div id="continue_process" class="not_active">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/></svg>
+                <h3>Be aware</h3>
+                <p>This process may take a while. In our personal experiences we have seen this taking up to 10 minutes. Due to technical difficulties we were not able to add a progress bar. Choose to submit the files and wait a few minutes or to cancel the action.</p>
+                <div class="process_button">
+                    <button type="submit" id="submit_button">Submit</button>
+                    <button class="cancel_button"  type="button" onclick="show_continue_process()">Cancel</button>
+                </div>
+            </div>
         </form>
 
     </div>
 </div>
-
-
-
-
 
 
     
