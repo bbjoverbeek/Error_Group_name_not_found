@@ -17,3 +17,7 @@ Research question?
 
 Longer movies generally have more scene description lines. 
 To remove this advantage we devide the scene description line ('N') by the scene boundary ('S').
+
+Some Romcoms do not have scene descriptions. 
+The Addams familly script has 2 scene boundaries and 7 scene descriptions. 
+While mission impossible has 267 scene boundaries and 1453 scene descriptions.
