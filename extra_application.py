@@ -36,7 +36,7 @@ def extra_application(new_text):
     average_scene_des = list_text_count / list_scene_count
 
     return "This movie script has {:.2f} "\
-    "scene description lines per scene".format(average_scene_des)
+        "scene description lines per scene".format(average_scene_des)
 
 
 def main(argv):
