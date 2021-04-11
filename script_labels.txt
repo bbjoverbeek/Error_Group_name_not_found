@@ -1,0 +1,3677 @@
+M|				SHREK
+
+M|				Written by
+
+M|				William Steig & Ted Elliott
+
+
+
+
+C|						SHREK
+D|			Once upon a time there was a lovely 
+D|			princess. But she had an enchantment 
+D|			upon her of a fearful sort which could 
+D|			only be broken by love's first kiss. 
+D|			She was locked away in a castle guarded 
+D|			by a terrible fire-breathing dragon. 
+D|			Many brave knights had attempted to 
+D|			free her from this dreadful prison, 
+D|			but non prevailed. She waited in the 
+D|			dragon's keep in the highest room of 
+D|			the tallest tower for her true love 
+D|			and true love's first kiss. (laughs) 
+D|			Like that's ever gonna happen. What 
+D|			a load of - (toilet flush)
+ 
+N|	Allstar - by Smashmouth begins to play. Shrek goes about his 
+N|	day. While in a nearby town, the villagers get together to go 
+N|	after the ogre.
+ 
+S|	NIGHT - NEAR SHREK'S HOME
+
+C|						MAN1
+D|			Think it's in there?
+
+C|						MAN2
+D|			All right. Let's get it!
+
+C|						MAN1
+D|			Whoa. Hold on. Do you know what that 
+D|			thing can do to you?
+ 
+C|						MAN3
+D|			Yeah, it'll grind your bones for it's 
+D|			bread.
+ 
+N|	Shrek sneaks up behind them and laughs.
+
+C|						SHREK
+D|			Yes, well, actually, that would be a 
+D|			giant. Now, ogres, oh they're much worse. 
+D|			They'll make a suit from your freshly 
+D|			peeled skin.
+ 
+C|						MEN
+D|			No!
+
+C|						SHREK
+D|			They'll shave your liver. Squeeze the 
+D|			jelly from your eyes! Actually, it's 
+D|			quite good on toast.
+ 
+C|						MAN1
+D|			Back! Back, beast! Back! I warn ya! 
+D|			(waves the torch at Shrek.)
+ 
+N|	Shrek calmly licks his fingers and extinguishes the torch. The 
+N|	men shrink back away from him. Shrek roars very loudly and long 
+N|	and his breath extinguishes all the remaining torches until the 
+N|	men are in the dark.
+ 
+C|						SHREK
+D|			This is the part where you run away. 
+D|			(The men scramble to get away. He laughs.) 
+D|			And stay out! (looks down and picks 
+D|			up a piece of paper. Reads.) "Wanted. 
+D|			Fairy tale creatures."(He sighs and 
+D|			throws the paper over his shoulder.)
+ 
+                         
+S|	THE NEXT DAY
+
+N|	There is a line of fairy tale creatures. The head of the guard 
+N|	sits at a table paying people for bringing the fairy tale creatures 
+N|	to him. There are cages all around. Some of the people in line 
+N|	are Peter Pan, who is carrying Tinkerbell in a cage, Gipetto 
+N|	who's carrying Pinocchio, and a farmer who is carrying the three 
+N|	little pigs.
+ 
+C|						GUARD
+D|			All right. This one's full. Take it 
+D|			away! Move it along. Come on! Get up!
+ 
+                         
+C|						HEAD GUARD
+D|			Next!
+
+C|						GUARD
+D|			(taking the witch's broom) Give me that! 
+D|			Your flying days are over. (breaks the 
+D|			broom in half)
+ 
+C|						HEAD GUARD
+D|			That's 20 pieces of silver for the witch. 
+D|			Next!
+ 
+C|						GUARD
+D|			Get up! Come on!
+
+C|						HEAD GUARD
+D|			Twenty pieces.
+
+C|						LITTLE BEAR
+D|			(crying) This cage is too small.
+
+C|						DONKEY
+D|			Please, don't turn me in. I'll never 
+D|			be stubborn again. I can change. Please! 
+D|			Give me another chance!
+ 
+C|						OLD WOMAN
+D|			Oh, shut up. (jerks his rope)
+
+C|						DONKEY
+D|			Oh!
+
+C|						HEAD GUARD
+D|			Next! What have you got?
+
+C|						GIPETTO
+D|			This little wooden puppet.
+
+C|						PINOCCHIO
+D|			I'm not a puppet. I'm a real boy. (his 
+D|			nose grows)
+ 
+C|						HEAD GUARD
+D|			Five shillings for the possessed toy. 
+D|			Take it away.
+ 
+C|						PINOCCHIO
+D|			Father, please! Don't let them do this! 
+D|			Help me!
+ 
+N|	Gipetto takes the money and walks off. The old woman steps up 
+N|	to the table.
+ 
+C|						HEAD GUARD
+D|			Next! What have you got?
+
+C|						OLD WOMAN
+D|			Well, I've got a talking donkey.
+
+C|						HEAD GUARD
+D|			Right. Well, that's good for ten shillings, 
+D|			if you can prove it.
+ 
+C|						OLD WOMAN
+D|			Oh, go ahead, little fella.
+
+N|	Donkey just looks up at her.
+
+C|						HEAD GUARD
+D|			Well?
+
+C|						OLD WOMAN
+D|			Oh, oh, he's just...he's just a little 
+D|			nervous. He's really quite a chatterbox. 
+D|			Talk, you boneheaded dolt...
+ 
+C|						HEAD GUARD
+D|			That's it. I've heard enough. Guards!
+ 
+                         
+C|						OLD WOMAN
+D|			No, no, he talks! He does. (pretends 
+D|			to be Donkey) I can talk. I love to 
+D|			talk. I'm the talkingest damn thing 
+D|			you ever saw.
+ 
+C|						HEAD GUARD
+D|			Get her out of my sight.
+
+C|						OLD WOMAN
+D|			No, no! I swear! Oh! He can talk!
+
+N|	The guards grab the old woman and she struggles with them. One 
+N|	of her legs flies out and kicks Tinkerbell out of Peter Pan's 
+N|	hands, and her cage drops on Donkey's head. He gets sprinkled 
+N|	with fairy dust and he's able to fly.
+ 
+C|						DONKEY
+D|			Hey! I can fly!
+
+C|						PETER PAN
+D|			He can fly!
+
+C|						3 LITTLE PIGS
+D|			He can fly!
+
+C|						HEAD GUARD
+D|			He can talk!
+
+C|						DONKEY
+D|			Ha, ha! That's right, fool! Now I'm 
+D|			a flying, talking donkey. You might 
+D|			have seen a housefly, maybe even a superfly 
+D|			but I bet you ain't never seen a donkey 
+D|			fly. Ha, ha! (the pixie dust begins 
+D|			to wear off) Uh-oh. (he begins to sink 
+D|			to the ground.)
+ 
+N|	He hits the ground with a thud.
+
+C|						HEAD GUARD
+D|			Seize him! (Donkey takes of running.) 
+D|			After him!
+ 
+C|						GUARDS
+D|			He's getting away! Get him! This way! 
+D|			Turn!
+ 
+N|	Donkey keeps running and he eventually runs into Shrek. Literally. 
+N|	Shrek turns around to see who bumped into him. Donkey looks scared 
+N|	for a moment then he spots the guards coming up the path. He 
+N|	quickly hides behind Shrek.
+ 
+C|						HEAD GUARD
+D|			You there. Ogre!
+
+C|						SHREK
+D|			Aye?
+
+C|						HEAD GUARD
+D|			By the order of Lord Farquaad I am authorized 
+D|			to place you both under arrest and transport 
+D|			you to a designated resettlement facility.
+ 
+                         
+C|						SHREK
+D|			Oh, really? You and what army?
+
+N|	He looks behind the guard and the guard turns to look as well 
+N|	and we see that the other men have run off. The guard tucks tail 
+N|	and runs off. Shrek laughs and goes back about his business and 
+N|	begins walking back to his cottage.
+ 
+C|						DONKEY
+D|			Can I say something to you? Listen, 
+D|			you was really, really, really somethin' 
+D|			back here. Incredible!
+ 
+C|						SHREK
+D|			Are you talkin' to...(he turns around 
+D|			and Donkey is gone) me? (he turns back 
+D|			around and Donkey is right in front 
+D|			of him.) Whoa!
+ 
+C|						DONKEY
+D|			Yes. I was talkin' to you. Can I tell 
+D|			you that you that you was great back 
+D|			here? Those guards! They thought they 
+D|			was all of that. Then you showed up, 
+D|			and bam! They was trippin' over themselves 
+D|			like babes in the woods. That really 
+D|			made me feel good to see that.
+ 
+C|						SHREK
+D|			Oh, that's great. Really.
+
+C|						DONKEY
+D|			Man, it's good to be free.
+
+C|						SHREK
+D|			Now, why don't you go celebrate your 
+D|			freedom with your own friends? Hmm?
+ 
+                         
+C|						DONKEY
+D|			But, uh, I don't have any friends. And 
+D|			I'm not goin' out there by myself. Hey, 
+D|			wait a minute! I got a great idea! I'll 
+D|			stick with you. You're mean, green, 
+D|			fightin' machine. Together we'll scare 
+D|			the spit out of anybody that crosses 
+D|			us.
+ 
+N|	Shrek turns and regards Donkey for a moment before roaring very 
+N|	loudly.
+ 
+C|						DONKEY
+D|			Oh, wow! That was really scary. If you 
+D|			don't mind me sayin', if that don't 
+D|			work, your breath certainly will get 
+D|			the job done, 'cause you definitely 
+D|			need some Tic Tacs or something, 'cause 
+D|			you breath stinks! You almost burned 
+D|			the hair outta my nose, just like the 
+D|			time...(Shrek covers his mouth but Donkey 
+D|			continues to talk, so Shrek removes 
+D|			his hand.) ...then I ate some rotten 
+D|			berries. I had strong gases leaking 
+D|			out of my butt that day.
+ 
+C|						SHREK
+D|			Why are you following me?
+
+C|						DONKEY
+D|			I'll tell you why. (singing) 'Cause 
+D|			I'm all alone, There's no one here beside 
+D|			me, My problems have all gone, There's 
+D|			no one to deride me, But you gotta have 
+D|			faith...
+ 
+C|						SHREK
+D|			Stop singing! It's no wonder you don't 
+D|			have any friends.
+ 
+C|						DONKEY
+D|			Wow. Only a true friend would be that 
+D|			cruelly honest.
+ 
+C|						SHREK
+D|			Listen, little donkey. Take a look at 
+D|			me. What am I?
+ 
+C|						DONKEY
+D|			(looks all the way up at Shrek) Uh ...really 
+D|			tall?
+ 
+C|						SHREK
+D|			No! I'm an ogre! You know. "Grab your 
+D|			torch and pitchforks." Doesn't that 
+D|			bother you?
+ 
+C|						DONKEY
+D|			Nope.
+
+C|						SHREK
+D|			Really?
+
+C|						DONKEY
+D|			Really, really.
+
+C|						SHREK
+D|			Oh.
+
+C|						DONKEY
+D|			Man, I like you. What's you name?
+
+C|						SHREK
+D|			Uh, Shrek.
+
+C|						DONKEY
+D|			Shrek? Well, you know what I like about 
+D|			you, Shrek? You got that kind of I-don't-care-what-nobody-thinks-of-me 
+D|			thing. I like that. I respect that, 
+D|			Shrek. You all right. (They come over 
+D|			a hill and you can see Shrek's cottage.) 
+D|			Whoa! Look at that. Who'd want to live 
+D|			in place like that?
+ 
+C|						SHREK
+D|			That would be my home.
+
+C|						DONKEY
+D|			Oh! And it is lovely! Just beautiful. 
+D|			You know you are quite a decorator. 
+D|			It's amazing what you've done with such 
+D|			a modest budget. I like that boulder. 
+D|			That is a nice boulder. I guess you 
+D|			don't entertain much, do you?
+ 
+C|						SHREK
+D|			I like my privacy.
+
+C|						DONKEY
+D|			You know, I do too. That's another thing 
+D|			we have in common. Like I hate it when 
+D|			you got somebody in your face. You've 
+D|			trying to give them a hint, and they 
+D|			won't leave. There's that awkward silence. 
+D|			(awkward silence) Can I stay with you?
+ 
+                         
+C|						SHREK
+D|			Uh, what?
+
+C|						DONKEY
+D|			Can I stay with you, please?
+
+C|						SHREK
+D|			(sarcastically) Of course!
+
+C|						DONKEY
+D|			Really?
+
+C|						SHREK
+D|			No.
+
+C|						DONKEY
+D|			Please! I don't wanna go back there! 
+D|			You don't know what it's like to be 
+D|			considered a freak. (pause while he 
+D|			looks at Shrek) Well, maybe you do. 
+D|			But that's why we gotta stick together. 
+D|			You gotta let me stay! Please! Please!
+ 
+                         
+C|						SHREK
+D|			Okay! Okay! But one night only.
+
+C|						DONKEY
+D|			Ah! Thank you! (he runs inside the cottage)
+ 
+                         
+C|						SHREK
+D|			What are you...? (Donkey hops up onto 
+D|			a chair.) No! No!
+ 
+C|						DONKEY
+D|			This is gonna be fun! We can stay up 
+D|			late, swappin' manly stories, and in 
+D|			the mornin' I'm makin' waffles.
+ 
+C|						SHREK
+D|			Oh!
+
+C|						DONKEY
+D|			Where do, uh, I sleep?
+
+C|						SHREK
+D|			(irritated) Outside!
+
+C|						DONKEY
+D|			Oh, well, I guess that's cool. I mean, 
+D|			I don't know you, and you don't know 
+D|			me, so I guess outside is best, you 
+D|			know. Here I go. Good night. (Shrek 
+D|			slams the door.) (sigh) I mean, I do 
+D|			like the outdoors. I'm a donkey. I was 
+D|			born outside. I'll just be sitting by 
+D|			myself outside, I guess, you know. By 
+D|			myself, outside. I'm all alone...there's 
+D|			no one here beside me...
+ 
+S|	SHREK'S COTTAGE - NIGHT
+
+N|	Shrek is getting ready for dinner. He sits himself down and lights 
+N|	a candle made out of earwax. He begins to eat when he hears a 
+N|	noise. He stands up with a huff.
+ 
+C|						SHREK
+D|			(to Donkey) I thought I told you to 
+D|			stay outside.
+ 
+C|						DONKEY
+D|			(from the window) I am outside.
+
+N|	There is another noise and Shrek turns to find the person that 
+N|	made the noise. He sees several shadows moving. He finally turns 
+N|	and spots 3 blind mice on his table.
+ 
+C|						BLIND MOUSE1
+D|			Well, gents, it's a far cry from the 
+D|			farm, but what choice do we have?
+ 
+                         
+C|						BLIND MOUSE2
+D|			It's not home, but it'll do just fine.
+ 
+                         
+C|						GORDO
+D|			(bouncing on a slug) What a lovely bed.
+ 
+                         
+C|						SHREK
+D|			Got ya. (Grabs a mouse, but it escapes 
+D|			and lands on his shoulder.)
+ 
+C|						GORDO
+D|			I found some cheese. (bites Shrek's 
+D|			ear)
+ 
+C|						SHREK
+D|			Ow!
+
+C|						GORDO
+D|			Blah! Awful stuff.
+
+C|						BLIND MOUSE1
+D|			Is that you, Gordo?
+
+C|						GORDO
+D|			How did you know?
+
+C|						SHREK
+D|			Enough! (he grabs the 3 mice) What are 
+D|			you doing in my house? (He gets bumped 
+D|			from behind and he drops the mice.) 
+D|			Hey! (he turns and sees the Seven Dwarves 
+D|			with Snow White on the table.) Oh, no, 
+D|			no, no. Dead broad off the table.
+ 
+                         
+C|						DWARF
+D|			Where are we supposed to put her? The 
+D|			bed's taken.
+ 
+C|						SHREK
+D|			Huh?
+
+N|	Shrek marches over to the bedroom and throws back the curtain. 
+N|	The Big Bad Wolf is sitting in the bed. The wolf just looks at 
+N|	him.
+ 
+C|						BIG BAD WOLF
+D|			What?
+
+S|	TIME LAPSE
+
+N|	Shrek now has the Big Bad Wolf by the collar and is dragging 
+N|	him to the front door.
+ 
+C|						SHREK
+D|			I live in a swamp. I put up signs. I'm 
+D|			a terrifying ogre! What do I have to 
+D|			do get a little privacy? (He opens the 
+D|			front door to throw the Wolf out and 
+D|			he sees that all the collected Fairy 
+D|			Tale Creatures are on his land.) Oh, 
+D|			no. No! No!
+ 
+N|	The 3 bears sit around the fire, the pied piper is playing his 
+N|	pipe and the rats are all running to him, some elves are directing 
+N|	flight traffic so that the fairies and witches can land...etc.
+ 
+               
+C|						SHREK
+D|			What are you doing in my swamp? (this 
+D|			echoes and everyone falls silent.)
+ 
+                         
+N|	Gasps are heard all around. The 3 good fairies hide inside a 
+N|	tent.
+ 
+C|						SHREK
+D|			All right, get out of here. All of you, 
+D|			move it! Come on! Let's go! Hapaya! 
+D|			Hapaya! Hey! Quickly. Come on! (more 
+D|			dwarves run inside the house) No, no! 
+D|			No, no. Not there. Not there. (they 
+D|			shut the door on him) Oh! (turns to 
+D|			look at Donkey)
+ 
+C|						DONKEY
+D|			Hey, don't look at me. I didn't invite 
+D|			them.
+ 
+C|						PINOCCHIO
+D|			Oh, gosh, no one invited us.
+
+C|						SHREK
+D|			What?
+
+C|						PINOCCHIO
+D|			We were forced to come here.
+
+C|						SHREK
+D|			(flabbergasted) By who?
+
+C|						LITTLE PIG
+D|			Lord Farquaad. He huffed and he puffed 
+D|			and he...signed an eviction notice.
+ 
+                         
+C|						SHREK
+D|			(heavy sigh) All right. Who knows where 
+D|			this Farquaad guy is?
+ 
+N|	Everyone looks around at each other but no one answers.
+
+C|						DONKEY
+D|			Oh, I do. I know where he is.
+
+C|						SHREK
+D|			Does anyone else know where to find 
+D|			him? Anyone at all?
+ 
+C|						DONKEY
+D|			Me! Me!
+
+C|						SHREK
+D|			Anyone?
+
+C|						DONKEY
+D|			Oh! Oh, pick me! Oh, I know! I know! 
+D|			Me, me!
+ 
+C|						SHREK
+D|			(sigh) Okay, fine. Attention, all fairy 
+D|			tale things. Do not get comfortable. 
+D|			Your welcome is officially worn out. 
+D|			In fact, I'm gonna see this guy Farquaad 
+D|			right now and get you all off my land 
+D|			and back where you came from! (Pause. 
+D|			Then the crowd goes wild.) Oh! (to Donkey) 
+D|			You! You're comin' with me.
+ 
+C|						DONKEY
+D|			All right, that's what I like to hear, 
+D|			man. Shrek and Donkey, two stalwart 
+D|			friends, off on a whirlwind big-city 
+D|			adventure. I love it!
+ 
+C|						DONKEY
+D|			(singing) On the road again. Sing it 
+D|			with me, Shrek. I can't wait to get 
+D|			on the road again.
+ 
+C|						SHREK
+D|			What did I say about singing?
+
+C|						DONKEY
+D|			Can I whistle?
+
+C|						SHREK
+D|			No.
+
+C|						DONKEY
+D|			Can I hum it?
+
+C|						SHREK
+D|			All right, hum it.
+
+N|	Donkey begins to hum 'On the Road Again'.
+
+S|	DULOC - KITCHEN
+
+N|	A masked man is torturing the Gingerbread Man. He's continually 
+N|	dunking him in a glass of milk. Lord Farquaad walks in.
+ 
+C|						FARQUAAD
+D|			That's enough. He's ready to talk.
+ 
+                         
+N|	The Gingerbread Man is pulled out of the milk and slammed down 
+N|	onto a cookie sheet. Farquaad laughs as he walks over to the 
+N|	table. However when he reaches the table we see that it goes 
+N|	up to his eyes. He clears his throat and the table is lowered.
+ 
+               
+C|						FARQUAAD
+D|			(he picks up the Gingerbread Man's legs 
+D|			and plays with them) Run, run, run, 
+D|			as fast as you can. You can't catch 
+D|			me. I'm the gingerbread man.
+ 
+C|						GINGERBREAD MAN
+D|			You are a monster.
+
+C|						FARQUAAD
+D|			I'm not the monster here. You are. You 
+D|			and the rest of that fairy tale trash, 
+D|			poisoning my perfect world. Now, tell 
+D|			me! Where are the others?
+ 
+C|						GINGERBREAD MAN
+D|			Eat me! (He spits milk into Farquaad's 
+D|			eye.)
+ 
+C|						FARQUAAD
+D|			I've tried to be fair to you creatures. 
+D|			Now my patience has reached its end! 
+D|			Tell me or I'll...(he makes as if to 
+D|			pull off the Gingerbread Man's buttons)
+ 
+                         
+C|						GINGERBREAD MAN
+D|			No, no, not the buttons. Not my gumdrop 
+D|			buttons.
+ 
+C|						FARQUAAD
+D|			All right then. Who's hiding them?
+ 
+                         
+C|						GINGERBREAD MAN
+D|			Okay, I'll tell you. Do you know the 
+D|			muffin man?
+ 
+C|						FARQUAAD
+D|			The muffin man?
+
+C|						GINGERBREAD MAN
+D|			The muffin man.
+
+C|						FARQUAAD
+D|			Yes, I know the muffin man, who lives 
+D|			on Drury Lane?
+ 
+C|						GINGERBREAD MAN
+D|			Well, she's married to the muffin man.
+ 
+                         
+C|						FARQUAAD
+D|			The muffin man?
+
+C|						GINGERBREAD MAN
+D|			The muffin man!
+
+C|						FARQUAAD
+D|			She's married to the muffin man.
+
+N|	The door opens and the Head Guard walks in.
+
+C|						HEAD GUARD
+D|			My lord! We found it.
+
+C|						FARQUAAD
+D|			Then what are you waiting for? Bring 
+D|			it in.
+ 
+N|	More guards enter carrying something that is covered by a sheet. 
+N|	They hang up whatever it is and remove the sheet. It is the Magic 
+N|	Mirror.
+ 
+C|						GINGERBREAD MAN
+D|			(in awe) Ohhhh...
+
+C|						FARQUAAD
+D|			Magic mirror...
+
+C|						GINGERBREAD MAN
+D|			Don't tell him anything! (Farquaad picks 
+D|			him up and dumps him into a trash can 
+D|			with a lid.) No!
+ 
+C|						FARQUAAD
+D|			Evening. Mirror, mirror on the wall. 
+D|			Is this not the most perfect kingdom 
+D|			of them all?
+ 
+C|						MIRROR
+D|			Well, technically you're not a king.
+ 
+                         
+C|						FARQUAAD
+D|			Uh, Thelonius. (Thelonius holds up a 
+D|			hand mirror and smashes it with his 
+D|			fist.) You were saying?
+ 
+C|						MIRROR
+D|			What I mean is you're not a king yet. 
+D|			But you can become one. All you have 
+D|			to do is marry a princess.
+ 
+C|						FARQUAAD
+D|			Go on.
+
+C|						MIRROR
+D|			(chuckles nervously) So, just sit back 
+D|			and relax, my lord, because it's time 
+D|			for you to meet today's eligible bachelorettes. 
+D|			And here they are! Bachelorette number 
+D|			one is a mentally abused shut-in from 
+D|			a kingdom far, far away. She likes sushi 
+D|			and hot tubbing anytime. Her hobbies 
+D|			include cooking and cleaning for her 
+D|			two evil sisters. Please welcome Cinderella. 
+D|			(shows picture of Cinderella) Bachelorette 
+D|			number two is a cape-wearing girl from 
+D|			the land of fancy. Although she lives 
+D|			with seven other men, she's not easy. 
+D|			Just kiss her dead, frozen lips and 
+D|			find out what a live wire she is. Come 
+D|			on. Give it up for Snow White! (shows 
+D|			picture of Snow White) And last, but 
+D|			certainly not last, bachelorette number 
+D|			three is a fiery redhead from a dragon-guarded 
+D|			castle surrounded by hot boiling lava! 
+D|			But don't let that cool you off. She's 
+D|			a loaded pistol who likes pina colads 
+D|			and getting caught in the rain. Yours 
+D|			for the rescuing, Princess Fiona! (Shows 
+D|			picture of Princess Fiona) So will it 
+D|			be bachelorette number one, bachelorette 
+D|			number two or bachelorette number three?
+ 
+                         
+C|						GUARDS
+D|			Two! Two! Three! Three! Two! Two! Three!
+ 
+                         
+C|						FARQUAAD
+D|			Three? One? Three?
+
+C|						THELONIUS
+D|			Three! (holds up 2 fingers) Pick number 
+D|			three, my lord!
+ 
+C|						FARQUAAD
+D|			Okay, okay, uh, number three!
+
+C|						MIRROR
+D|			Lord Farquaad, you've chosen Princess 
+D|			Fiona.
+ 
+C|						FARQUAAD
+D|			Princess Fiona. She's perfect. All I 
+D|			have to do is just find someone who 
+D|			can go...
+ 
+C|						MIRROR
+D|			But I probably should mention the little 
+D|			thing that happens at night.
+ 
+C|						FARQUAAD
+D|			I'll do it.
+
+C|						MIRROR
+D|			Yes, but after sunset...
+
+C|						FARQUAAD
+D|			Silence! I will make this Princess Fiona 
+D|			my queen, and DuLoc will finally have 
+D|			the perfect king! Captain, assemble 
+D|			your finest men. We're going to have 
+D|			a tournament. (smiles evilly)
+ 
+N|	DuLoc Parking Lot - Lancelot Section
+
+N|	Shrek and Donkey come out of the field that is right by the parking 
+N|	lot. The castle itself is about 40 stories high.
+ 
+C|						DONKEY
+D|			But that's it. That's it right there. 
+D|			That's DuLoc. I told ya I'd find it.
+ 
+                         
+C|						SHREK
+D|			So, that must be Lord Farquaad's castle.
+ 
+                         
+C|						DONKEY
+D|			Uh-huh. That's the place.
+
+C|						SHREK
+D|			Do you think maybe he's compensating 
+D|			for something? (He laughs, but then 
+D|			groans as Donkey doesn't get the joke. 
+D|			He continues walking through the parking 
+D|			lot.)
+ 
+C|						DONKEY
+D|			Hey, wait. Wait up, Shrek.
+
+C|						MAN
+D|			Hurry, darling. We're late. Hurry.
+ 
+                         
+C|						SHREK
+D|			Hey, you! (The attendant, who is wearing 
+D|			a giant head that looks like Lord Farquaad, 
+D|			screams and begins running through the 
+D|			rows of rope to get to the front gate 
+D|			to get away from Shrek.) Wait a second. 
+D|			Look, I'm not gonna eat you. I just 
+D|			- - I just - - (He sighs and then begins 
+D|			walking straight through the rows. The 
+D|			attendant runs into a wall and falls 
+D|			down. Shrek and Donkey look at him then 
+D|			continue on into DuLoc.)
+ 
+S|	DULOC
+
+N|	They look around but all is quiet.
+
+C|						SHREK
+D|			It's quiet. Too quiet. Where is everybody?
+ 
+                         
+C|						DONKEY
+D|			Hey, look at this!
+
+N|	Donkey runs over and pulls a lever that is attached to a box 
+N|	marked 'Information'. The music winds up and then the box doors 
+N|	open up. There are little wooden people inside and they begin 
+N|	to sing.
+ 
+C|						WOODEN PEOPLE
+D|			Welcome to DuLoc such a perfect town
+ 
+                         
+N|	Here we have some rules
+
+N|	Let us lay them down
+
+N|	Don't make waves, stay in line
+
+N|	And we'll get along fine
+
+N|	DuLoc is perfect place
+
+N|	Please keep off of the grass
+
+N|	Shine your shoes, wipe your... face
+
+N|	DuLoc is, DuLoc is
+
+N|	DuLoc is perfect place.
+
+N|	Suddenly a camera takes Donkey and Shrek's picture.
+
+C|						DONKEY
+D|			Wow! Let's do that again! (makes ready 
+D|			to run over and pull the lever again)
+ 
+                         
+C|						SHREK
+D|			(grabs Donkey's tail and holds him still) 
+D|			No. No. No, no, no! No.
+ 
+N|	They hear a trumpet fanfare and head over to the arena.
+
+C|						FARQUAAD
+D|			Brave knights. You are the best and 
+D|			brightest in all the land. Today one 
+D|			of you shall prove himself...
+ 
+N|	As Shrek and Donkey walk down the tunnel to get into the arena 
+N|	Donkey is humming the DuLoc theme song.
+ 
+C|						SHREK
+D|			All right. You're going the right way 
+D|			for a smacked bottom.
+ 
+C|						DONKEY
+D|			Sorry about that.
+
+C|						FARQUAAD
+D|			That champion shall have the honor - 
+D|			- no, no - - the privilege to go forth 
+D|			and rescue the lovely Princess Fiona 
+D|			from the fiery keep of the dragon. If 
+D|			for any reason the winner is unsuccessful, 
+D|			the first runner-up will take his place 
+D|			and so on and so forth. Some of you 
+D|			may die, but it's a sacrifice I am willing 
+D|			to make. (cheers) Let the tournament 
+D|			begin! (He notices Shrek) Oh! What is 
+D|			that? It's hideous!
+ 
+C|						SHREK
+D|			(turns to look at Donkey and then back 
+D|			at Farquaad) Ah, that's not very nice. 
+D|			It's just a donkey.
+ 
+C|						FARQUAAD
+D|			Indeed. Knights, new plan! The one who 
+D|			kills the ogre will be named champion! 
+D|			Have it him!
+ 
+C|						MEN
+D|			Get him!
+
+C|						SHREK
+D|			Oh, hey! Now come on! Hang on now. (bumps 
+D|			into a table where there are mugs of 
+D|			beer)
+ 
+C|						CROWD
+D|			Go ahead! Get him!
+
+C|						SHREK
+D|			(holds up a mug of beer) Can't we just 
+D|			settle this over a pint?
+ 
+C|						CROWD
+D|			Kill the beast!
+
+C|						SHREK
+D|			No? All right then. (drinks the beer) 
+D|			Come on!
+ 
+N|	He takes the mug and smashes the spigot off the large barrel 
+N|	of beer behind him. The beer comes rushing out drenching the 
+N|	other men and wetting the ground. It's like mud now. Shrek slides 
+N|	past the men and picks up a spear that one of the men dropped. 
+N|	As Shrek begins to fight Donkey hops up onto one of the larger 
+N|	beer barrels. It breaks free of it's ropes and begins to roll. 
+N|	Donkey manages to squish two men into the mud. There is so much 
+N|	fighting going on here I'm not going to go into detail. Suffice 
+N|	to say that Shrek kicks butt.
+ 
+C|						DONKEY
+D|			Hey, Shrek, tag me! Tag me!
+
+N|	Shrek comes over and bangs a man's head up against Donkeys. Shrek 
+N|	gets up on the ropes and interacts with the crowd.
+ 
+C|						SHREK
+D|			Yeah!
+
+N|	A man tries to sneak up behind Shrek, but Shrek turns in time 
+N|	and sees him.
+ 
+C|						WOMAN
+D|			The chair! Give him the chair!
+
+N|	Shrek smashes a chair over the guys back. Finally all the men 
+N|	are down. Donkey kicks one of them in the helmet, and the ding 
+N|	sounds the end of the match. The audience goes wild.
+ 
+C|						SHREK
+D|			Oh, yeah! Ah! Ah! Thank you! Thank you 
+D|			very much! I'm here till Thursday. Try 
+D|			the veal! Ha, ha! (laughs)
+ 
+N|	The laughter stops as all of the guards turn their weapons on 
+N|	Shrek.
+ 
+C|						HEAD GUARD
+D|			Shall I give the order, sir?
+
+C|						FARQUAAD
+D|			No, I have a better idea. People of 
+D|			DuLoc, I give you our champion!
+ 
+C|						SHREK
+D|			What?
+
+C|						FARQUAAD
+D|			Congratulations, ogre. You're won the 
+D|			honor of embarking on a great and noble 
+D|			quest.
+ 
+C|						SHREK
+D|			Quest? I'm already in a quest, a quest 
+D|			to get my swamp back.
+ 
+C|						FARQUAAD
+D|			Your swamp?
+
+C|						SHREK
+D|			Yeah, my swamp! Where you dumped those 
+D|			fairy tale creatures!
+ 
+C|						FARQUAAD
+D|			Indeed. All right, ogre. I'll make you 
+D|			a deal. Go on this quest for me, and 
+D|			I'll give you your swamp back.
+ 
+C|						SHREK
+D|			Exactly the way it was?
+
+C|						FARQUAAD
+D|			Down to the last slime-covered toadstool.
+ 
+                         
+C|						SHREK
+D|			And the squatters?
+
+C|						FARQUAAD
+D|			As good as gone.
+
+C|						SHREK
+D|			What kind of quest?
+
+N|	Time Lapse - Donkey and Shrek are now walking through the field 
+N|	heading away from DuLoc. Shrek is munching on an onion.
+ 
+C|						DONKEY
+D|			Let me get this straight. You're gonna 
+D|			go fight a dragon and rescue a princess 
+D|			just so Farquaad will give you back 
+D|			a swamp which you only don't have because 
+D|			he filled it full of freaks in the first 
+D|			place. Is that about right?
+ 
+C|						SHREK
+D|			You know, maybe there's a good reason 
+D|			donkeys shouldn't talk.
+ 
+C|						DONKEY
+D|			I don't get it. Why don't you just pull 
+D|			some of that ogre stuff on him? Throttle 
+D|			him, lay siege to his fortress, grinds 
+D|			his bones to make your bread, the whole 
+D|			ogre trip.
+ 
+C|						SHREK
+D|			Oh, I know what. Maybe I could have 
+D|			decapitated an entire village and put 
+D|			their heads on a pike, gotten a knife, 
+D|			cut open their spleen and drink their 
+D|			fluids. Does that sound good to you?
+ 
+                         
+C|						DONKEY
+D|			Uh, no, not really, no.
+
+C|						SHREK
+D|			For your information, there's a lot 
+D|			more to ogres than people think.
+ 
+C|						DONKEY
+D|			Example?
+
+C|						SHREK
+D|			Example? Okay, um, ogres are like onions. 
+D|			(he holds out his onion)
+ 
+C|						DONKEY
+D|			(sniffs the onion) They stink?
+
+C|						SHREK
+D|			Yes - - No!
+
+C|						DONKEY
+D|			They make you cry?
+
+C|						SHREK
+D|			No!
+
+C|						DONKEY
+D|			You leave them in the sun, they get 
+D|			all brown, start sproutin' little white 
+D|			hairs.
+ 
+C|						SHREK
+D|			No! Layers! Onions have layers. Ogres 
+D|			have layers! Onions have layers. You 
+D|			get it? We both have layers. (he heaves 
+D|			a sigh and then walks off)
+ 
+C|						DONKEY
+D|			(trailing after Shrek) Oh, you both 
+D|			have layers. Oh. {Sniffs} You know, 
+D|			not everybody likes onions. Cake! Everybody 
+D|			loves cakes! Cakes have layers.
+ 
+C|						SHREK
+D|			I don't care... what everyone likes. 
+D|			Ogres are not like cakes.
+ 
+C|						DONKEY
+D|			You know what else everybody likes? 
+D|			Parfaits. Have you ever met a person, 
+D|			you say, "Let's get some parfait," they 
+D|			say, "Hell no, I don't like no parfait"? 
+D|			Parfaits are delicious.
+ 
+C|						SHREK
+D|			No! You dense, irritating, miniature 
+D|			beast of burden! Ogres are like onions! 
+D|			And of story. Bye-bye. See ya later.
+ 
+                         
+C|						DONKEY
+D|			Parfaits may be the most delicious thing 
+D|			on the whole damn planet.
+ 
+C|						SHREK
+D|			You know, I think I preferred your humming.
+ 
+                         
+C|						DONKEY
+D|			Do you have a tissue or something? I'm 
+D|			making a mess. Just the word parfait 
+D|			make me start slobbering.
+ 
+N|	They head off. There is a montage of their journey. Walking through 
+N|	a field at sunset. Sleeping beneath a bright moon. Shrek trying 
+N|	to put the campfire out the next day and having a bit of a problem, 
+N|	so Donkey pees on the fire to put it out.
+ 
+S|	DRAGON'S KEEP
+
+N|	Shrek and Donkey are walking up to the keep that's supposed to 
+N|	house Princess Fiona. It appears to look like a giant volcano.
+ 
+               
+C|						DONKEY
+D|			(sniffs) Ohh! Shrek! Did you do that? 
+D|			You gotta warn somebody before you just 
+D|			crack one off. My mouth was open and 
+D|			everything.
+ 
+C|						SHREK
+D|			Believe me, Donkey, if it was me, you'd 
+D|			be dead. (sniffs) It's brimstone. We 
+D|			must be getting close.
+ 
+C|						DONKEY
+D|			Yeah, right, brimstone. Don't be talking 
+D|			about it's the brimstone. I know what 
+D|			I smell. It wasn't no brimstone. It 
+D|			didn't come off no stone neither.
+ 
+                         
+N|	They climb up the side of the volcano/keep and look down. There 
+N|	is a small piece of rock right in the center and that is where 
+N|	the castle is. It is surrounded by boiling lava. It looks very 
+N|	foreboding.
+ 
+C|						SHREK
+D|			Sure, it's big enough, but look at the 
+D|			location. (laughs...then the laugh turns 
+D|			into a groan)
+ 
+C|						DONKEY
+D|			Uh, Shrek? Uh, remember when you said 
+D|			ogres have layers?
+ 
+C|						SHREK
+D|			Oh, aye.
+
+C|						DONKEY
+D|			Well, I have a bit of a confession to 
+D|			make. Donkeys don't have layers. We 
+D|			wear our fear right out there on our 
+D|			sleeves.
+ 
+C|						SHREK
+D|			Wait a second. Donkeys don't have sleeves.
+ 
+                         
+C|						DONKEY
+D|			You know what I mean.
+
+C|						SHREK
+D|			You can't tell me you're afraid of heights.
+ 
+                         
+C|						DONKEY
+D|			No, I'm just a little uncomfortable 
+D|			about being on a rickety bridge over 
+D|			a boiling like of lava!
+ 
+C|						SHREK
+D|			Come on, Donkey. I'm right here beside 
+D|			ya, okay? For emotional support., we'll 
+D|			just tackle this thing together one 
+D|			little baby step at a time.
+ 
+C|						DONKEY
+D|			Really?
+
+C|						SHREK
+D|			Really, really.
+
+C|						DONKEY
+D|			Okay, that makes me feel so much better.
+ 
+                         
+C|						SHREK
+D|			Just keep moving. And don't look down.
+ 
+                         
+C|						DONKEY
+D|			Okay, don't look down. Don't look down. 
+D|			Don't look down. Keep on moving. Don't 
+D|			look down. (he steps through a rotting 
+D|			board and ends up looking straight down 
+D|			into the lava) Shrek! I'm lookin' down! 
+D|			Oh, God, I can't do this! Just let me 
+D|			off, please!
+ 
+C|						SHREK
+D|			But you're already halfway.
+
+C|						DONKEY
+D|			But I know that half is safe!
+
+C|						SHREK
+D|			Okay, fine. I don't have time for this. 
+D|			You go back.
+ 
+C|						DONKEY
+D|			Shrek, no! Wait!
+
+C|						SHREK
+D|			Just, Donkey - - Let's have a dance 
+D|			then, shall me? (bounces and sways the 
+D|			bridge)
+ 
+C|						DONKEY
+D|			Don't do that!
+
+C|						SHREK
+D|			Oh, I'm sorry. Do what? Oh, this? (bounces 
+D|			the bridge again)
+ 
+C|						DONKEY
+D|			Yes, that!
+
+C|						SHREK
+D|			Yes? Yes, do it. Okay. (continues to 
+D|			bounce and sway as he backs Donkey across 
+D|			the bridge)
+ 
+C|						DONKEY
+D|			No, Shrek! No! Stop it!
+
+C|						SHREK
+D|			You said do it! I'm doin' it.
+
+C|						DONKEY
+D|			I'm gonna die. I'm gonna die. Shrek, 
+D|			I'm gonna die. (steps onto solid ground) 
+D|			Oh!
+ 
+C|						SHREK
+D|			That'll do, Donkey. That'll do. (walks 
+D|			towards the castle)
+ 
+C|						DONKEY
+D|			Cool. So where is this fire-breathing 
+D|			pain-in-the-neck anyway?
+ 
+C|						SHREK
+D|			Inside, waiting for us to rescue her. 
+D|			(chuckles)
+ 
+C|						DONKEY
+D|			I was talkin' about the dragon, Shrek.
+ 
+                         
+S|	INSIDE THE CASTLE
+
+C|						DONKEY
+D|			You afraid?
+
+C|						SHREK
+D|			No.
+
+C|						DONKEY
+D|			But...
+
+C|						SHREK
+D|			Shh.
+
+C|						DONKEY
+D|			Oh, good. Me neither. (sees a skeleton 
+D|			and gasps) 'Cause there's nothin' wrong 
+D|			with bein' afraid. Fear's a sensible 
+D|			response to an unfamiliar situation. 
+D|			Unfamiliar dangerous situation, I might 
+D|			add. With a dragon that breathes fire 
+D|			and eats knights and breathes fire, 
+D|			it sure doesn't mean you're a coward 
+D|			if you're a little scared. I sure as 
+D|			heck ain't no coward. I know that.
+ 
+                         
+C|						SHREK
+D|			Donkey, two things, okay? Shut ... up. 
+D|			Now go over there and see if you can 
+D|			find any stairs.
+ 
+C|						DONKEY
+D|			Stairs? I thought we was lookin' for 
+D|			the princess.
+ 
+C|						SHREK
+D|			(putting on a helmet) The princess will 
+D|			be up the stairs in the highest room 
+D|			in the tallest tower.
+ 
+C|						DONKEY
+D|			What makes you think she'll be there?
+ 
+                         
+C|						SHREK
+D|			I read it in a book once. (walks off)
+ 
+                         
+C|						DONKEY
+D|			Cool. You handle the dragon. I'll handle 
+D|			the stairs. I'll find those stairs. 
+D|			I'll whip their butt too. Those stairs 
+D|			won't know which way they're goin'. 
+D|			(walks off)
+ 
+S|	EMPTY ROOM
+
+N|	Donkey is still talking to himself as he looks around the room.
+ 
+               
+C|						DONKEY
+D|			I'm gonna take drastic steps. Kick it 
+D|			to the curb. Don't mess with me. I'm 
+D|			the stair master. I've mastered the 
+D|			stairs. I wish I had a step right here. 
+D|			I'd step all over it.
+ 
+S|	ELSEWHERE
+
+N|	Shrek spots a light in the tallest tower window.
+
+C|						SHREK
+D|			Well, at least we know where the princess 
+D|			is, but where's the...
+ 
+C|						DONKEY
+D|			(os) Dragon!
+
+N|	Donkey gasps and takes off running as the dragon roars again. 
+N|	Shrek manages to grab Donkey out of the way just as the dragon 
+N|	breathes fire.
+ 
+C|						SHREK
+D|			Donkey, look out! (he manages to get 
+D|			a hold of the dragons tail and holds 
+D|			on) Got ya!
+ 
+N|	The dragon gets irritated at this and flicks it's tail and Shrek 
+N|	goes flying through the air and crashes through the roof of the 
+N|	tallest tower. Fiona wakes up with a jerk and looks at him lying 
+N|	on the floor.
+ 
+C|						DONKEY
+D|			Oh! Aah! Aah!
+
+N|	Donkey get cornered as the Dragon knocks away all but a small 
+N|	part of the bridge he's on.
+ 
+C|						DONKEY
+D|			No. Oh, no, No! (the dragon roars) Oh, 
+D|			what large teeth you have. (the dragon 
+D|			growls) I mean white, sparkling teeth. 
+D|			I know you probably hear this all time 
+D|			from your food, but you must bleach, 
+D|			'cause that is one dazzling smile you 
+D|			got there. Do I detect a hint of minty 
+D|			freshness? And you know what else? You're 
+D|			- - You're a girl dragon! Oh, sure! 
+D|			I mean, of course you're a girl dragon. 
+D|			You're just reeking of feminine beauty. 
+D|			(the dragon begins fluttering her eyes 
+D|			at him) What's the matter with you? 
+D|			You got something in your eye? Ohh. 
+D|			Oh. Oh. Man, I'd really love to stay, 
+D|			but you know, I'm, uh...(the dragon 
+D|			blows a smoke ring in the shape of a 
+D|			heart right at him, and he coughs) I'm 
+D|			an asthmatic, and I don't know if it'd 
+D|			work out if you're gonna blow smoke 
+D|			rings. Shrek! (the dragon picks him 
+D|			up with her teeth and carries him off) 
+D|			No! Shrek! Shrek! Shrek!
+ 
+S|	FIONA'S ROOM
+
+N|	Shrek groans as he gets up off the floor. His back is to Fiona 
+N|	so she straightens her dress and lays back down on the bed. She 
+N|	then quickly reaches over and gets the bouquet of flowers off 
+N|	the side table. She then lays back down and appears to be asleep. 
+N|	Shrek turns and goes over to her. He looks down at Fiona for 
+N|	a moment and she puckers her lips. Shrek takes her by the shoulders 
+N|	and shakes her away.
+ 
+C|						FIONA
+D|			Oh! Oh!
+
+C|						SHREK
+D|			Wake up!
+
+C|						FIONA
+D|			What?
+
+C|						SHREK
+D|			Are you Princess Fiona?
+
+C|						FIONA
+D|			I am, awaiting a knight so bold as to 
+D|			rescue me.
+ 
+C|						SHREK
+D|			Oh, that's nice. Now let's go!
+
+C|						FIONA
+D|			But wait, Sir Knight. This be-ith our 
+D|			first meeting. Should it not be a wonderful, 
+D|			romantic moment?
+ 
+C|						SHREK
+D|			Yeah, sorry, lady. There's no time.
+ 
+                         
+C|						FIONA
+D|			Hey, wait. What are you doing? You should 
+D|			sweep me off my feet out yonder window 
+D|			and down a rope onto your valiant steed.
+ 
+                         
+C|						SHREK
+D|			You've had a lot of time to plan this, 
+D|			haven't you?
+ 
+C|						FIONA
+D|			(smiles) Mm-hmm.
+
+N|	Shrek breaks the lock on her door and pulls her out and down 
+N|	the hallway.
+ 
+C|						FIONA
+D|			But we have to savor this moment! You 
+D|			could recite an epic poem for me. A 
+D|			ballad? A sonnet! A limerick? Or something!
+ 
+                         
+C|						SHREK
+D|			I don't think so.
+
+C|						FIONA
+D|			Can I at least know the name of my champion?
+ 
+                         
+C|						SHREK
+D|			Uh, Shrek.
+
+C|						FIONA
+D|			Sir Shrek. (clears throat and holds 
+D|			out a handkerchief) I pray that you 
+D|			take this favor as a token of my gratitude.
+ 
+                         
+C|						SHREK
+D|			Thanks!
+
+N|	Suddenly they hear the dragon roar.
+
+C|						FIONA
+D|			(surprised)You didn't slay the dragon?
+ 
+                         
+C|						SHREK
+D|			It's on my to-do list. Now come on! 
+D|			(takes off running and drags Fiona behind 
+D|			him.)
+ 
+C|						FIONA
+D|			But this isn't right! You were meant 
+D|			to charge in, sword drawn, banner flying. 
+D|			That's what all the other knights did.
+ 
+                         
+C|						SHREK
+D|			Yeah, right before they burst into flame.
+ 
+                         
+C|						FIONA
+D|			That's not the point. (Shrek suddenly 
+D|			stops and she runs into him.) Oh! (Shrek 
+D|			ignores her and heads for a wooden door 
+D|			off to the side.) Wait. Where are you 
+D|			going? The exit's over there.
+ 
+C|						SHREK
+D|			Well, I have to save my ass.
+
+C|						FIONA
+D|			What kind of knight are you?
+
+C|						SHREK
+D|			One of a kind. (opens the door into 
+D|			the throne room)
+ 
+C|						DONKEY
+D|			(os) Slow down. Slow down, baby, please. 
+D|			I believe it's healthy to get to know 
+D|			someone over a long period of time. 
+D|			Just call me old-fashioned. (laughs 
+D|			worriedly) (we see him up close and 
+D|			from a distance as Shrek sneaks into 
+D|			the room) I don't want to rush into 
+D|			a physical relationship. I'm not emotionally 
+D|			ready for a commitment of, uh, this 
+D|			- - Magnitude really is the word I'm 
+D|			looking for. Magnitude- - Hey, that 
+D|			is unwanted physical contact. Hey, what 
+D|			are you doing? Okay, okay. Let's just 
+D|			back up a little and take this one step 
+D|			at a time. We really should get to know 
+D|			each other first as friends or pen pals. 
+D|			I'm on the road a lot, but I just love 
+D|			receiving cards - - I'd really love 
+D|			to stay, but - - Don't do that! That's 
+D|			my tail! That's my personal tail. You're 
+D|			gonna tear it off. I don't give permission 
+D|			- - What are you gonna do with that? 
+D|			Hey, now. No way. No! No! No, no! No. 
+D|			No, no, no. No! Oh!
+ 
+N|	Shrek grabs a chain that's connected to the chandelier and swings 
+N|	toward the dragon. He misses and he swings back again. He looks 
+N|	up and spots that the chandelier is right above the dragons head. 
+N|	He pulls on the chain and it releases and he falls down and bumps 
+N|	Donkey out of the way right as the dragon is about to kiss him. 
+N|	Instead the dragon kisses Shreks' butt. She opens her eyes and 
+N|	roars. Shrek lets go of the chain and the chandelier falls onto 
+N|	her head, but it's too big and it goes over her head and forms 
+N|	a sort of collar for her. She roars again and Shrek and Donkey 
+N|	take off running. Very 'Matrix' style. Shrek grabs Donkey and 
+N|	then grabs Princess Fiona as he runs past her.
+ 
+C|						DONKEY
+D|			Hi, Princess!
+
+C|						FIONA
+D|			It talks!
+
+C|						SHREK
+D|			Yeah, it's getting him to shut up that's 
+D|			the trick.
+ 
+N|	They all start screaming as the dragon gains on them. Shrek spots 
+N|	a descending slide and jumps on. But unfortunately there is a 
+N|	crack in the stone and it hits Shrek right in the groin. His 
+N|	eyes cross and as he reaches the bottom of the slide he stumbles 
+N|	off and walks lightly.
+ 
+C|						SHREK
+D|			Oh!
+
+N|	Shrek gets them close to the exit and sets down Donkey and Fiona.
+ 
+               
+C|						SHREK
+D|			Okay, you two, heard for the exit! I'll 
+D|			take care of the dragon.
+ 
+N|	Shrek grabs a sword and heads back toward the interior of the 
+N|	castle. He throws the sword down in between several overlapping 
+N|	chain links. The chain links are attached to the chandelier that 
+N|	is still around the dragons neck.
+ 
+C|						SHREK
+D|			(echoing) Run!
+
+N|	They all take off running for the exit with the dragon in hot 
+N|	pursuit. They make it to the bridge and head across. The dragons 
+N|	breathes fire and the bridge begins to burn. They all hang on 
+N|	for dear life as the ropes holding the bridge up collapse. They 
+N|	are swung to the other side. As they hang upside down they look 
+N|	in horror as the dragon makes to fly over the boiling lava to 
+N|	get them. But suddenly the chandelier with the chain jerk the 
+N|	dragon back and she's unable to get to them. Our gang climbs 
+N|	quickly to safety as the dragon looks angry and then gives a 
+N|	sad whimper as she watches Donkey walk away.
+ 
+C|						FIONA
+D|			(sliding down the 'volcano' hill) You 
+D|			did it! You rescued me! You're amazing. 
+D|			(behind her Donkey falls down the hill) 
+D|			You're - - You're wonderful. You're... 
+D|			(turns and sees Shrek fall down the 
+D|			hill and bump into Donkey) a little 
+D|			unorthodox I'll admit. But thy deed 
+D|			is great, and thy heart is pure. I am 
+D|			eternally in your debt. (Donkey clears 
+D|			his throat.) And where would a brave 
+D|			knight be without his noble steed?
+ 
+                         
+C|						DONKEY
+D|			I hope you heard that. She called me 
+D|			a noble steed. She think I'm a steed.
+ 
+                         
+C|						FIONA
+D|			The battle is won. You may remove your 
+D|			helmet, good Sir Knight.
+ 
+C|						SHREK
+D|			Uh, no.
+
+C|						FIONA
+D|			Why not?
+
+C|						SHREK
+D|			I have helmet hair.
+
+C|						FIONA
+D|			Please. I would'st look upon the face 
+D|			of my rescuer.
+ 
+C|						SHREK
+D|			No, no, you wouldn't - - 'st.
+
+C|						FIONA
+D|			But how will you kiss me?
+
+C|						SHREK
+D|			What? (to Donkey) That wasn't in the 
+D|			job description.
+ 
+C|						DONKEY
+D|			Maybe it's a perk.
+
+C|						FIONA
+D|			No, it's destiny. Oh, you must know 
+D|			how it goes. A princess locked in a 
+D|			tower and beset by a dragon is rescued 
+D|			by a brave knight, and then they share 
+D|			true love's first kiss.
+ 
+C|						DONKEY
+D|			Hmm? With Shrek? You think- - Wait. 
+D|			Wait. You think that Shrek is you true 
+D|			love?
+ 
+C|						FIONA
+D|			Well, yes.
+
+N|	Both Donkey and Shrek burst out laughing.
+
+C|						DONKEY
+D|			You think Shrek is your true love!
+ 
+                         
+C|						FIONA
+D|			What is so funny?
+
+C|						SHREK
+D|			Let's just say I'm not your type, okay?Fiona: 
+D|			Of course, you are. You're my rescuer. 
+D|			Now - - Now remove your helmet.
+ 
+C|						SHREK
+D|			Look. I really don't think this is a 
+D|			good idea.
+ 
+C|						FIONA
+D|			Just take off the helmet.
+
+C|						SHREK
+D|			I'm not going to.
+
+C|						FIONA
+D|			Take it off.
+
+C|						SHREK
+D|			No!
+
+C|						FIONA
+D|			Now!
+
+C|						SHREK
+D|			Okay! Easy. As you command. Your Highness. 
+D|			(takes off his helmet)
+ 
+C|						FIONA
+D|			You- - You're a- - an ogre.
+
+C|						SHREK
+D|			Oh, you were expecting Prince Charming.
+ 
+                         
+C|						FIONA
+D|			Well, yes, actually. Oh, no. This is 
+D|			all wrong. You're not supposed to be 
+D|			an ogre.
+ 
+C|						SHREK
+D|			Princess, I was sent to rescue you by 
+D|			Lord Farquaad, okay? He is the one who 
+D|			wants to marry you.
+ 
+C|						FIONA
+D|			Then why didn't he come rescue me?
+ 
+                         
+C|						SHREK
+D|			Good question. You should ask him that 
+D|			when we get there.
+ 
+C|						FIONA
+D|			But I have to be rescued by my true 
+D|			love, not by some ogre and his- - his 
+D|			pet.
+ 
+C|						DONKEY
+D|			Well, so much for noble steed.
+
+C|						SHREK
+D|			You're not making my job any easier.
+ 
+                         
+C|						FIONA
+D|			I'm sorry, but your job is not my problem. 
+D|			You can tell Lord Farquaad that if he 
+D|			wants to rescue me properly, I'll be 
+D|			waiting for him right here.
+ 
+C|						SHREK
+D|			Hey! I'm no one's messenger boy, all 
+D|			right? (ominous) I'm a delivery boy. 
+D|			(he swiftly picks her up and swings 
+D|			her over his shoulder like she was a 
+D|			sack of potatoes)
+ 
+C|						FIONA
+D|			You wouldn't dare. Put me down!
+
+C|						SHREK
+D|			Ya comin', Donkey?
+
+C|						DONKEY
+D|			I'm right behind ya.
+
+C|						FIONA
+D|			Put me down, or you will suffer the 
+D|			consequences! This is not dignified! 
+D|			Put me down!
+ 
+S|	WOODS
+
+N|	A little time has passed and Fiona has calmed down. She just 
+N|	hangs there limply while Shrek carries her.
+ 
+C|						DONKEY
+D|			Okay, so here's another question. Say 
+D|			there's a woman that digs you, right, 
+D|			but you don't really like her that way. 
+D|			How do you let her down real easy so 
+D|			her feelings aren't hurt, but you don't 
+D|			get burned to a crisp and eaten?
+ 
+C|						FIONA
+D|			You just tell her she's not your true 
+D|			love. Everyone knows what happens when 
+D|			you find your...(Shrek drops her on 
+D|			the ground) Hey! The sooner we get to 
+D|			DuLoc the better.
+ 
+C|						DONKEY
+D|			You're gonna love it there, Princess. 
+D|			It's beautiful!
+ 
+C|						FIONA
+D|			And what of my groom-to-be? Lord Farquaad? 
+D|			What's he like?
+ 
+C|						SHREK
+D|			Let me put it this way, Princess. Men 
+D|			of Farquaad's stature are in short supply. 
+D|			(he and Donkey laugh)
+ 
+N|	Shrek then proceeds to splash water onto his face to wash off 
+N|	the dust and grime.
+ 
+C|						DONKEY
+D|			I don't know. There are those who think 
+D|			little of him. (they laugh again) Fiona: 
+D|			Stop it. Stop it, both of you. You're 
+D|			just jealous you can never measure up 
+D|			to a great ruler like Lord Farquaad.
+ 
+                         
+C|						SHREK
+D|			Yeah, well, maybe you're right, Princess. 
+D|			But I'll let you do the "measuring" 
+D|			when you see him tomorrow.
+ 
+C|						FIONA
+D|			(looks at the setting sun) Tomorrow? 
+D|			It'll take that long? Shouldn't we stop 
+D|			to make camp?
+ 
+C|						SHREK
+D|			No, that'll take longer. We can keep 
+D|			going.
+ 
+C|						FIONA
+D|			But there's robbers in the woods.
+
+C|						DONKEY
+D|			Whoa! Time out, Shrek! Camp is starting 
+D|			to sound good.
+ 
+C|						SHREK
+D|			Hey, come on. I'm scarier than anything 
+D|			we're going to see in this forest.
+ 
+                         
+C|						FIONA
+D|			I need to find somewhere to camp now!
+ 
+                         
+N|	Both Donkey and Shrek's ears lower as they shrink away from her.
+ 
+               
+S|	MOUNTAIN CLIFF
+
+N|	Shrek has found a cave that appears to be in good order. He shoves 
+N|	a stone boulder out of the way to reveal the cave.
+ 
+C|						SHREK
+D|			Hey! Over here.
+
+C|						DONKEY
+D|			Shrek, we can do better than that. I 
+D|			don't think this is fit for a princess.
+ 
+                         
+C|						FIONA
+D|			No, no, it's perfect. It just needs 
+D|			a few homey touches.
+ 
+C|						SHREK
+D|			Homey touches? Like what? (he hears 
+D|			a tearing noise and looks over at Fiona 
+D|			who has torn the bark off of a tree.)
+ 
+                         
+C|						FIONA
+D|			A door? Well, gentlemen, I bid thee 
+D|			good night. (goes into the cave and 
+D|			puts the bark door up behind her)
+ 
+                         
+C|						DONKEY
+D|			You want me to read you a bedtime story? 
+D|			I will.
+ 
+C|						FIONA
+D|			(os) I said good night!
+
+N|	Shrek looks at Donkey for a second and then goes to move the 
+N|	boulder back in front of the entrance to the cave with Fiona 
+N|	still inside.
+ 
+C|						DONKEY
+D|			Shrek, What are you doing?
+
+C|						SHREK
+D|			(laughs) I just- - You know - - Oh, 
+D|			come on. I was just kidding.
+ 
+S|	LATER THAT NIGHT
+
+N|	Shrek and Donkey are sitting around a campfire. They are staring 
+N|	up into the sky as Shrek points out certain star constellations 
+N|	to Donkey.
+ 
+C|						SHREK
+D|			And, uh, that one, that's Throwback, 
+D|			the only ogre to ever spit over three 
+D|			wheat fields.
+ 
+C|						DONKEY
+D|			Right. Yeah. Hey, can you tell my future 
+D|			from these stars?
+ 
+C|						SHREK
+D|			The stars don't tell the future, Donkey. 
+D|			They tell stories. Look, there's Bloodnut, 
+D|			the Flatulent. You can guess what he's 
+D|			famous for.
+ 
+C|						DONKEY
+D|			I know you're making this up.
+
+C|						SHREK
+D|			No, look. There he is, and there's the 
+D|			group of hunters running away from his 
+D|			stench.
+ 
+C|						DONKEY
+D|			That ain't nothin' but a bunch of little 
+D|			dots.
+ 
+C|						SHREK
+D|			You know, Donkey, sometimes things are 
+D|			more than they appear. Hmm? Forget it.
+ 
+                         
+C|						DONKEY
+D|			(heaves a big sigh) Hey, Shrek, what 
+D|			we gonna do when we get our swamp anyway?
+ 
+                         
+C|						SHREK
+D|			Our swamp?
+
+C|						DONKEY
+D|			You know, when we're through rescuing 
+D|			the princess.
+ 
+C|						SHREK
+D|			We? Donkey, there's no "we". There's 
+D|			no "our". There's just me and my swamp. 
+D|			The first thing I'm gonna do is build 
+D|			a ten-foot wall around my land.
+ 
+C|						DONKEY
+D|			You cut me deep, Shrek. You cut me real 
+D|			deep just now. You know what I think? 
+D|			I think this whole wall thing is just 
+D|			a way to keep somebody out.
+ 
+C|						SHREK
+D|			No, do ya think?
+
+C|						DONKEY
+D|			Are you hidin' something?
+
+C|						SHREK
+D|			Never mind, Donkey.
+
+C|						DONKEY
+D|			Oh, this is another one of those onion 
+D|			things, isn't it?
+ 
+C|						SHREK
+D|			No, this is one of those drop-it and 
+D|			leave-it alone things.
+ 
+C|						DONKEY
+D|			Why don't you want to talk about it?
+ 
+                         
+C|						SHREK
+D|			Why do you want to talk about it?
+
+C|						DONKEY
+D|			Why are you blocking?
+
+C|						SHREK
+D|			I'm not blocking.
+
+C|						DONKEY
+D|			Oh, yes, you are.
+
+C|						SHREK
+D|			Donkey, I'm warning you.
+
+C|						DONKEY
+D|			Who you trying to keep out?
+
+C|						SHREK
+D|			Everyone! Okay?
+
+C|						DONKEY
+D|			(pause) Oh, now we're gettin' somewhere. 
+D|			(grins)
+ 
+N|	At this point Fiona pulls the 'door' away from the entrance to 
+N|	the cave and peaks out. Neither of the guys see her.
+ 
+C|						SHREK
+D|			Oh! For the love of Pete! (gets up and 
+D|			walks over to the edge of the cliff 
+D|			and sits down)
+ 
+C|						DONKEY
+D|			What's your problem? What you got against 
+D|			the whole world anyway?
+ 
+C|						SHREK
+D|			Look, I'm not the one with the problem, 
+D|			okay? It's the world that seems to have 
+D|			a problem with me. People take one look 
+D|			at me and go. "Aah! Help! Run! A big, 
+D|			stupid, ugly ogre!" They judge me before 
+D|			they even know me. That's why I'm better 
+D|			off alone.
+ 
+C|						DONKEY
+D|			You know what? When we met, I didn't 
+D|			think you was just a big, stupid, ugly 
+D|			ogre.
+ 
+C|						SHREK
+D|			Yeah, I know.
+
+C|						DONKEY
+D|			So, uh, are there any donkeys up there?
+ 
+                         
+C|						SHREK
+D|			Well, there's, um, Gabby, the Small 
+D|			and Annoying.
+ 
+C|						DONKEY
+D|			Okay, okay, I see it now. The big shiny 
+D|			one, right there. That one there?
+ 
+                         
+N|	Fiona puts the door back.
+
+C|						SHREK
+D|			That's the moon.
+
+C|						DONKEY
+D|			Oh, okay.
+
+N|	DuLoc - Farquaad's Bedroom
+
+N|	The camera pans over a lot of wedding stuff. Soft music plays 
+N|	in the background. Farquaad is in bed, watching as the Magic 
+N|	Mirror shows him Princess Fiona.
+ 
+C|						FARQUAAD
+D|			Again, show me again. Mirror, mirror, 
+D|			show her to me. Show me the princess.
+ 
+                         
+C|						MIRROR
+D|			Hmph.
+
+N|	The Mirror rewinds and begins to play again from the beginning.
+ 
+               
+C|						FARQUAAD
+D|			Ah. Perfect.
+
+N|	Farquaad looks down at his bare chest and pulls the sheet up 
+N|	to cover himself as though Fiona could see him as he gazes sheepishly 
+N|	at her image in the mirror.
+ 
+S|	MORNING
+
+N|	Fiona walks out of the cave. She glances at Shrek and Donkey 
+N|	who are still sleeping. She wanders off into the woods and comes 
+N|	across a blue bird. She begins to sing. The bird sings along 
+N|	with her. She hits higher and higher notes and the bird struggles 
+N|	to keep up with her. Suddenly the pressure of the note is too 
+N|	big and the bird explodes. Fiona looks a little sheepish, but 
+N|	she eyes the eggs that the bird left behind. Time lapse, Fiona 
+N|	is now cooking the eggs for breakfast. Shrek and Donkey are still 
+N|	sleeping. Shrek wakes up and looks at Fiona. Donkey's talking 
+N|	in his sleep.
+ 
+C|						DONKEY
+D|			(quietly) Mmm, yeah, you know I like 
+D|			it like that. Come on, baby. I said 
+D|			I like it.
+ 
+C|						SHREK
+D|			Donkey, wake up. (shakes him)
+
+C|						DONKEY
+D|			Huh? What?
+
+C|						SHREK
+D|			Wake up.
+
+C|						DONKEY
+D|			What? (stretches and yawns)
+
+C|						FIONA
+D|			Good morning. Hm, how do you like your 
+D|			eggs?
+ 
+C|						DONKEY
+D|			Oh, good morning, Princess!
+
+N|	Fiona gets up and sets the eggs down in front of them.
+
+C|						SHREK
+D|			What's all this about?
+
+C|						FIONA
+D|			You know, we kind of got off to a bad 
+D|			start yesterday. I wanted to make it 
+D|			up to you. I mean, after all, you did 
+D|			rescue me.
+ 
+C|						SHREK
+D|			Uh, thanks.
+
+N|	Donkey sniffs the eggs and licks his lips.
+
+C|						FIONA
+D|			Well, eat up. We've got a big day ahead 
+D|			of us. (walks off)
+ 
+S|	LATER
+
+N|	They are once again on their way. They are walking through the 
+N|	forest. Shrek belches.
+ 
+C|						DONKEY
+D|			Shrek!
+
+C|						SHREK
+D|			What? It's a compliment. Better out 
+D|			than in, I always say. (laughs)
+ 
+C|						DONKEY
+D|			Well, it's no way to behave in front 
+D|			of a princess.
+ 
+N|	Fiona belches
+
+C|						FIONA
+D|			Thanks.
+
+C|						DONKEY
+D|			She's as nasty as you are.
+
+C|						SHREK
+D|			(chuckles) You know, you're not exactly 
+D|			what I expected.
+ 
+C|						FIONA
+D|			Well, maybe you shouldn't judge people 
+D|			before you get to know them.
+ 
+N|	She smiles and then continues walking, singing softly. Suddenly 
+N|	from out of nowhere, a man swings down and swoops Fiona up into 
+N|	a tree.
+ 
+C|						ROBIN HOOD
+D|			La liberte! Hey!
+
+C|						SHREK
+D|			Princess!
+
+C|						FIONA
+D|			(to Robin Hood) What are you doing?
+ 
+                         
+C|						ROBIN HOOD
+D|			Be still, mon cherie, for I am you savior! 
+D|			And I am rescuing you from this green...(kisses 
+D|			up her arm while Fiona pulls back in 
+D|			disgust)...beast.
+ 
+C|						SHREK
+D|			Hey! That's my princess! Go find you 
+D|			own!
+ 
+C|						ROBIN HOOD
+D|			Please, monster! Can't you see I'm a 
+D|			little busy here?
+ 
+C|						FIONA
+D|			(getting fed up) Look, pal, I don't 
+D|			know who you think you are!
+ 
+C|						ROBIN HOOD
+D|			Oh! Of course! Oh, how rude. Please 
+D|			let me introduce myself. Oh, Merry Men. 
+D|			(laughs)
+ 
+N|	Suddenly an accordion begins to play and the Merry men pop out 
+N|	from the bushes. They begin to sing Robin's theme song.
+ 
+C|						MERRY MEN
+D|			Ta, dah, dah, dah, whoo.
+
+C|						ROBIN HOOD
+D|			I steal from the rich and give to the 
+D|			needy.
+ 
+C|						MERRY MEN
+D|			He takes a wee percentage,
+
+C|						ROBIN HOOD
+D|			But I'm not greedy. I rescue pretty 
+D|			damsels, man, I'm good.
+ 
+C|						MERRY MEN
+D|			What a guy, Monsieur Hood.
+
+C|						ROBIN HOOD
+D|			Break it down. I like an honest fight 
+D|			and a saucy little maid...
+ 
+C|						MERRY MEN
+D|			What he's basically saying is he likes 
+D|			to get...
+ 
+C|						ROBIN HOOD
+D|			Paid. So...When an ogre in the bush 
+D|			grabs a lady by the tush. That's bad.
+ 
+                         
+C|						MERRY MEN
+D|			That's bad.
+
+C|						ROBIN HOOD
+D|			When a beauty's with a beast it makes 
+D|			me awfully mad.
+ 
+C|						MERRY MEN
+D|			He's mad, he's really, really mad.
+ 
+                         
+C|						ROBIN HOOD
+D|			I'll take my blade and ram it through 
+D|			your heart, keep your eyes on me, boys 
+D|			'cause I'm about to start...
+ 
+N|	There is a grunt as Fiona swings down from the tree limb and 
+N|	knocks Robin Hood unconscious.
+ 
+C|						FIONA
+D|			Man, that was annoying!
+
+N|	Shrek looks at her in admiration.
+
+C|						MERRY MAN
+D|			Oh, you little- - (shoots an arrow at 
+D|			Fiona but she ducks out of the way)
+ 
+                         
+N|	The arrow flies toward Donkey who jumps into Shrek's arms to 
+N|	get out of the way. The arrow proceeds to just bounce off a tree.
+ 
+               
+N|	Another fight sequence begins and Fiona gives a karate yell and 
+N|	then proceeds to beat the crap out of the Merry Men. There is 
+N|	a very interesting 'Matrix' moment here when Fiona pauses in 
+N|	mid-air to fix her hair. Finally all of the Merry Men are down, 
+N|	and Fiona begins walking away.
+ 
+C|						FIONA
+D|			Uh, shall we?
+
+C|						SHREK
+D|			Hold the phone. (drops Donkey and begins 
+D|			walking after Fiona) Oh! Whoa, whoa, 
+D|			whoa. Hold on now. Where did that come 
+D|			from?
+ 
+C|						FIONA
+D|			What?
+
+C|						SHREK
+D|			That! Back there. That was amazing! 
+D|			Where did you learn that?
+ 
+C|						FIONA
+D|			Well...(laughs) when one lives alone, 
+D|			uh, one has to learn these things in 
+D|			case there's a...(gasps and points) 
+D|			there's an arrow in your butt!
+ 
+C|						SHREK
+D|			What? (turns and looks) Oh, would you 
+D|			look at that? (he goes to pull it out 
+D|			but flinches because it's tender)
+ 
+                         
+C|						FIONA
+D|			Oh, no. This is all my fault. I'm so 
+D|			sorry.
+ 
+C|						DONKEY
+D|			(walking up) Why? What's wrong?
+
+C|						FIONA
+D|			Shrek's hurt.
+
+C|						DONKEY
+D|			Shrek's hurt. Shrek's hurt? Oh, no, 
+D|			Shrek's gonna die.
+ 
+C|						SHREK
+D|			Donkey, I'm okay.
+
+C|						DONKEY
+D|			You can't do this to me, Shrek. I'm 
+D|			too young for you to die. Keep you legs 
+D|			elevated. Turn your head and cough. 
+D|			Does anyone know the Heimlich?
+ 
+C|						FIONA
+D|			Donkey! Calm down. If you want to help 
+D|			Shrek, run into the woods and find me 
+D|			a blue flower with red thorns.
+ 
+C|						DONKEY
+D|			Blue flower, red thorns. Okay, I'm on 
+D|			it. Blue flower, red thorns. Don't die 
+D|			Shrek. If you see a long tunnel, stay 
+D|			away from the light!
+ 
+C|						SHREK & FIONA
+D|			Donkey!
+
+C|						DONKEY
+D|			Oh, yeah. Right. Blue flower, red thorns. 
+D|			(runs off)
+ 
+C|						SHREK
+D|			What are the flowers for?
+
+C|						FIONA
+D|			(like it's obvious) For getting rid 
+D|			of Donkey.
+ 
+C|						SHREK
+D|			Ah.
+
+C|						FIONA
+D|			Now you hold still, and I'll yank this 
+D|			thing out. (gives the arrow a little 
+D|			pull)
+ 
+C|						SHREK
+D|			(jumps away) Ow! Hey! Easy with the 
+D|			yankin'.
+ 
+N|	As they continue to talk Fiona keeps going after the arrow and 
+N|	Shrek keeps dodging her hands.
+ 
+C|						FIONA
+D|			I'm sorry, but it has to come out.
+ 
+                         
+C|						SHREK
+D|			No, it's tender.
+
+C|						FIONA
+D|			Now, hold on.
+
+C|						SHREK
+D|			What you're doing is the opposite of 
+D|			help.
+ 
+C|						FIONA
+D|			Don't move.
+
+C|						SHREK
+D|			Look, time out.
+
+C|						FIONA
+D|			Would you...(grunts as Shrek puts his 
+D|			hand over her face to stop her from 
+D|			getting at the arrow) Okay. What do 
+D|			you propose we do?
+ 
+S|	ELSEWHERE
+
+N|	Donkey is still looking for the special flower.
+
+C|						DONKEY
+D|			Blue flower, red thorns. Blue flower, 
+D|			red thorns. Blue flower, red thorns. 
+D|			This would be so much easier if I wasn't 
+D|			color-blind! Blue flower, red thorns.
+ 
+                         
+C|						SHREK
+D|			(os) Ow!
+
+C|						DONKEY
+D|			Hold on, Shrek! I'm comin'! (rips a 
+D|			flower off a nearby bush that just happens 
+D|			to be a blue flower with red thorns)
+ 
+                         
+S|	THE FOREST PATH
+
+C|						SHREK
+D|			Ow! Not good.
+
+C|						FIONA
+D|			Okay. Okay. I can nearly see the head. 
+D|			(Shrek grunts as she pulls) It's just 
+D|			about...
+ 
+C|						SHREK
+D|			Ow! Ohh! (he jerks and manages to fall 
+D|			over with Fiona on top of him)
+ 
+C|						DONKEY
+D|			Ahem.
+
+C|						SHREK
+D|			(throwing Fiona off of him) Nothing 
+D|			happend. We were just, uh - -
+ 
+C|						DONKEY
+D|			Look, if you wanted to be alone, all 
+D|			you had to do was ask. Okay?
+ 
+C|						SHREK
+D|			Oh, come on! That's the last thing on 
+D|			my mind. The princess here was just- 
+D|			- (Fiona pulls the arrow out) Ugh! (he 
+D|			turns to look at Fiona who holds up 
+D|			the arrow with a smile) Ow!
+ 
+C|						DONKEY
+D|			Hey, what's that? (nervous chuckle) 
+D|			That's...is that blood?
+ 
+N|	Donkey faints. Shrek walks over and picks him up as they continue 
+N|	on their way.
+ 
+N|	There is a montage of scenes as the group heads back to DuLoc. 
+N|	Shrek crawling up to the top of a tree to make it fall over a 
+N|	small brook so that Fiona won't get wet. Shrek then gets up as 
+N|	Donkey is just about to cross the tree and the tree swings back 
+N|	into it's upright position and Donkey flies off. Shrek swatting 
+N|	and a bunch of flies and mosquitoes. Fiona grabs a nearby spiderweb 
+N|	that's on a tree branch and runs through the field swinging it 
+N|	around to catch the bugs. She then hands it to Shrek who begins 
+N|	eating like it's a treat. As he walks off she licks her fingers. 
+N|	Shrek catching a toad and blowing it up like a balloon and presenting 
+N|	it to Fiona. Fiona catching a snake, blowing it up, fashioning 
+N|	it into a balloon animal and presenting it to Shrek. The group 
+N|	arriving at a windmill that is near DuLoc.
+ 
+S|	WINDMILL
+
+C|						SHREK
+D|			There it is, Princess. Your future awaits 
+D|			you.
+ 
+C|						FIONA
+D|			That's DuLoc?
+
+C|						DONKEY
+D|			Yeah, I know. You know, Shrek thinks 
+D|			Lord Farquaad's compensating for something, 
+D|			which I think means he has a really...(Shrek 
+D|			steps on his hoof) Ow!
+ 
+C|						SHREK
+D|			Um, I, uh- - I guess we better move 
+D|			on.
+ 
+C|						FIONA
+D|			Sure. But, Shrek? I'm - - I'm worried 
+D|			about Donkey.
+ 
+C|						SHREK
+D|			What?
+
+C|						FIONA
+D|			I mean, look at him. He doesn't look 
+D|			so good.
+ 
+C|						DONKEY
+D|			What are you talking about? I'm fine.
+ 
+                         
+C|						FIONA
+D|			(kneels to look him in the eyes) That's 
+D|			what they always say, and then next 
+D|			thing you know, you're on your back. 
+D|			(pause) Dead.
+ 
+C|						SHREK
+D|			You know, she's right. You look awful. 
+D|			Do you want to sit down?
+ 
+C|						FIONA
+D|			Uh, you know, I'll make you some tea.
+ 
+                         
+C|						DONKEY
+D|			I didn't want to say nothin', but I 
+D|			got this twinge in my neck, and when 
+D|			I turn my head like this, look, (turns 
+D|			his neck in a very sharp way until his 
+D|			head is completely sideways) Ow! See?
+ 
+                         
+C|						SHREK
+D|			Who's hungry? I'll find us some dinner.
+ 
+                         
+C|						FIONA
+D|			I'll get the firewood.
+
+C|						DONKEY
+D|			Hey, where you goin'? Oh, man, I can't 
+D|			feel my toes! (looks down and yelps) 
+D|			I don't have any toes! I think I need 
+D|			a hug.
+ 
+S|	SUNSET
+
+N|	Shrek has built a fire and is cooking the rest of dinner while 
+N|	Fiona eats.
+ 
+C|						FIONA
+D|			Mmm. This is good. This is really good. 
+D|			What is this?
+ 
+C|						SHREK
+D|			Uh, weed rat. Rotisserie style.
+
+C|						FIONA
+D|			No kidding. Well, this is delicious.
+ 
+                         
+C|						SHREK
+D|			Well, they're also great in stews. Now, 
+D|			I don't mean to brag, but I make a mean 
+D|			weed rat stew. (chuckles)
+ 
+N|	Fiona looks at DuLoc and sighs.
+
+C|						FIONA
+D|			I guess I'll be dining a little differently 
+D|			tomorrow night.
+ 
+C|						SHREK
+D|			Maybe you can come visit me in the swamp 
+D|			sometime. I'll cook all kind of stuff 
+D|			for you. Swamp toad soup, fish eye tartare 
+D|			- - you name it.
+ 
+C|						FIONA
+D|			(smiles) I'd like that.
+
+N|	They smiles at each other.
+
+C|						SHREK
+D|			Um, Princess?
+
+C|						FIONA
+D|			Yes, Shrek?
+
+C|						SHREK
+D|			I, um, I was wondering...are you...(sighs) 
+D|			Are you gonna eat that?
+ 
+C|						DONKEY
+D|			(chuckles) Man, isn't this romantic? 
+D|			Just look at that sunset.
+ 
+C|						FIONA
+D|			(jumps up) Sunset? Oh, no! I mean, it's 
+D|			late. I-It's very late.
+ 
+C|						SHREK
+D|			What?
+
+C|						DONKEY
+D|			Wait a minute. I see what's goin' on 
+D|			here. You're afraid of the dark, aren't 
+D|			you?
+ 
+C|						FIONA
+D|			Yes! Yes, that's it. I'm terrified. 
+D|			You know, I'd better go inside.
+ 
+C|						DONKEY
+D|			Don't feel bad, Princess. I used to 
+D|			be afraid of the dark, too, until - 
+D|			- Hey, no, wait. I'm still afraid of 
+D|			the dark.
+ 
+N|	Shrek sighs
+
+C|						FIONA
+D|			Good night.
+
+C|						SHREK
+D|			Good night.
+
+N|	Fiona goes inside the windmill and closes the door. Donkey looks 
+N|	at Shrek with a new eye.
+ 
+C|						DONKEY
+D|			Ohh! Now I really see what's goin' on 
+D|			here.
+ 
+C|						SHREK
+D|			Oh, what are you talkin' about?
+
+C|						DONKEY
+D|			I don't even wanna hear it. Look, I'm 
+D|			an animal, and I got instincts. And 
+D|			I know you two were diggin' on each 
+D|			other. I could feel it.
+ 
+C|						SHREK
+D|			You're crazy. I'm just bringing her 
+D|			back to Farquaad.
+ 
+C|						DONKEY
+D|			Oh, come on, Shrek. Wake up and smell 
+D|			the pheromones. Just go on in and tell 
+D|			her how you feel.
+ 
+C|						SHREK
+D|			I- - There's nothing to tell. Besides, 
+D|			even if I did tell her that, well, you 
+D|			know - - and I'm not sayin' I do 'cause 
+D|			I don't - - she's a princess, and I'm 
+D|			- -
+ 
+C|						DONKEY
+D|			An ogre?
+
+C|						SHREK
+D|			Yeah. An ogre.
+
+C|						DONKEY
+D|			Hey, where you goin'?
+
+C|						SHREK
+D|			To get... move firewood. (sighs)
+
+N|	Donkey looks over at the large pile of firewood there already 
+N|	is.
+ 
+S|	TIME LAPSE
+
+N|	Donkey opens the door to the Windmill and walks in. Fiona is 
+N|	nowhere to be seen.
+ 
+C|						DONKEY
+D|			Princess? Princess Fiona? Princess, 
+D|			where are you? Princess?
+ 
+N|	Fiona looks at Donkey from the shadows, but we can't see her.
+ 
+               
+C|						DONKEY
+D|			It's very spooky in here. I ain't playing 
+D|			no games.
+ 
+N|	Suddenly Fiona falls from the railing. She gets up only she doesn't 
+N|	look like herself. She looks like an ogre and Donkey starts freaking 
+N|	out.
+ 
+C|						DONKEY
+D|			Aah!
+
+C|						FIONA
+D|			Oh, no!
+
+C|						DONKEY
+D|			No, help!
+
+C|						FIONA
+D|			Shh!
+
+C|						DONKEY
+D|			Shrek! Shrek! Shrek!
+
+C|						FIONA
+D|			No, it's okay. It's okay.
+
+C|						DONKEY
+D|			What did you do with the princess?
+ 
+                         
+C|						FIONA
+D|			Donkey, I'm the princess.
+
+C|						DONKEY
+D|			Aah!
+
+C|						FIONA
+D|			It's me, in this body.
+
+C|						DONKEY
+D|			Oh, my God! You ate the princess. (to 
+D|			her stomach) Can you hear me?
+ 
+C|						FIONA
+D|			Donkey!
+
+C|						DONKEY
+D|			(still aimed at her stomach) Listen, 
+D|			keep breathing! I'll get you out of 
+D|			there!
+ 
+C|						FIONA
+D|			No!
+
+C|						DONKEY
+D|			Shrek! Shrek! Shrek!
+
+C|						FIONA
+D|			Shh.
+
+C|						DONKEY
+D|			Shrek!
+
+C|						FIONA
+D|			This is me.
+
+N|	Donkey looks into her eyes as she pets his muzzle, and he quiets 
+N|	down.
+ 
+C|						DONKEY
+D|			Princess? What happened to you? You're, 
+D|			uh, uh, uh, different.
+ 
+C|						FIONA
+D|			I'm ugly, okay?
+
+C|						DONKEY
+D|			Well, yeah! Was it something you ate? 
+D|			'Cause I told Shrek those rats was a 
+D|			bad idea. You are what you eat, I said. 
+D|			Now - -
+ 
+C|						FIONA
+D|			No. I - - I've been this way as long 
+D|			as I can remember.
+ 
+C|						DONKEY
+D|			What do you mean? Look, I ain't never 
+D|			seen you like this before.
+ 
+C|						FIONA
+D|			It only happens when sun goes down. 
+D|			"By night one way, by day another. This 
+D|			shall be the norm... until you find 
+D|			true love's first kiss... and then take 
+D|			love's true form."
+ 
+C|						DONKEY
+D|			Ah, that's beautiful. I didn't know 
+D|			you wrote poetry.
+ 
+C|						FIONA
+D|			It's a spell. (sigh) When I was a little 
+D|			girl, a witch cast a spell on me. Every 
+D|			night I become this. This horrible, 
+D|			ugly beast! I was placed in a tower 
+D|			to await the day my true love would 
+D|			rescue me. That's why I have to marry 
+D|			Lord Farquaad tomorrow before the sun 
+D|			sets and he sees me like this. (begins 
+D|			to cry)
+ 
+C|						DONKEY
+D|			All right, all right. Calm down. Look, 
+D|			it's not that bad. You're not that ugly. 
+D|			Well, I ain't gonna lie. You are ugly. 
+D|			But you only look like this at night. 
+D|			Shrek's ugly 24-7.
+ 
+C|						FIONA
+D|			But Donkey, I'm a princess, and this 
+D|			is not how a princess is meant to look.
+ 
+                         
+C|						DONKEY
+D|			Princess, how 'bout if you don't marry 
+D|			Farquaad?
+ 
+C|						FIONA
+D|			I have to. Only my true love's kiss 
+D|			can break the spell.
+ 
+C|						DONKEY
+D|			But, you know, um, you're kind of an 
+D|			orge, and Shrek - - well, you got a 
+D|			lot in common.
+ 
+C|						FIONA
+D|			Shrek?
+
+S|	OUTSIDE
+
+N|	Shrek is walking towards the windmill with a sunflower in his 
+N|	hand.
+ 
+C|						SHREK
+D|			(to himself) Princess, I - - Uh, how's 
+D|			it going, first of all? Good? Um, good 
+D|			for me too. I'm okay. I saw this flower 
+D|			and thought of you because it's pretty 
+D|			and - - well, I don't really like it, 
+D|			but I thought you might like it 'cause 
+D|			you're pretty. But I like you anyway. 
+D|			I'd - - uh, uh...(sighs) I'm in trouble. 
+D|			Okay, here we go.
+ 
+N|	He walks up to the door and pauses outside when he hears Donkey 
+N|	and Fiona talking.
+ 
+C|						FIONA
+D|			(os) I can't just marry whoever I want. 
+D|			Take a good look at me, Donkey. I mean, 
+D|			really, who can ever love a beast so 
+D|			hideous and ugly? "Princess" and "ugly" 
+D|			don't go together. That's why I can't 
+D|			stay here with Shrek.
+ 
+N|	Shrek steps back in shock.
+
+C|						FIONA
+D|			(os) My only chance to live happily 
+D|			ever after is to marry my true love.
+ 
+                         
+N|	Shrek heaves a deep sigh. He throws the flower down and walks 
+N|	away.
+ 
+S|	INSIDE
+
+C|						FIONA
+D|			Don't you see, Donkey? That's just how 
+D|			it has to be. It's the only way to break 
+D|			the spell.
+ 
+C|						DONKEY
+D|			You at least gotta tell Shrek the truth.
+ 
+                         
+C|						FIONA
+D|			No! You can't breathe a word. No one 
+D|			must ever know.
+ 
+C|						DONKEY
+D|			What's the point of being able to talk 
+D|			if you gotta keep secrets?
+ 
+C|						FIONA
+D|			Promise you won't tell. Promise!
+
+C|						DONKEY
+D|			All right, all right. I won't tell him. 
+D|			But you should. (goes outside) I just 
+D|			know before this is over, I'm gonna 
+D|			need a whole lot of serious therapy. 
+D|			Look at my eye twitchin'.
+ 
+N|	Fiona comes out the door and watches him walk away. She looks 
+N|	down and spots the sunflower. She picks it up before going back 
+N|	inside the windmill.
+ 
+S|	MORNING
+
+N|	Donkey is asleep. Shrek is nowhere to be seen. Fiona is still 
+N|	awake. She is plucking petals from the sunflower.
+ 
+C|						FIONA
+D|			I tell him, I tell him not. I tell him, 
+D|			I tell him not. I tell him. (she quickly 
+D|			runs to the door and goes outside) Shrek! 
+D|			Shrek, there's something I want...(she 
+D|			looks and sees the rising sun, and as 
+D|			the sun crests the sky she turns back 
+D|			into a human.)
+ 
+N|	Just as she looks back at the sun she sees Shrek stomping towards 
+N|	her.
+ 
+C|						FIONA
+D|			Shrek. Are you all right?
+
+C|						SHREK
+D|			Perfect! Never been better.
+
+C|						FIONA
+D|			I - - I don't - - There's something 
+D|			I have to tell you.
+ 
+C|						SHREK
+D|			You don't have to tell me anything, 
+D|			Princess. I heard enough last night.
+ 
+                         
+C|						FIONA
+D|			You heard what I said?
+
+C|						SHREK
+D|			Every word.
+
+C|						FIONA
+D|			I thought you'd understand.
+
+C|						SHREK
+D|			Oh, I understand. Like you said, "Who 
+D|			could love a hideous, ugly beast?"
+ 
+                         
+C|						FIONA
+D|			But I thought that wouldn't matter to 
+D|			you.
+ 
+C|						SHREK
+D|			Yeah? Well, it does. (Fiona looks at 
+D|			him in shock. He looks past her and 
+D|			spots a group approaching.) Ah, right 
+D|			on time. Princess, I've brought you 
+D|			a little something.
+ 
+N|	Farquaad has arrived with a group of his men. He looks very regal 
+N|	sitting up on his horse. You would never guess that he's only 
+N|	like 3 feet tall. Donkey wakes up with a yawn as the soldiers 
+N|	march by.
+ 
+C|						DONKEY
+D|			What'd I miss? What'd I miss? (spots 
+D|			the soldiers) (muffled) Who said that? 
+D|			Couldn't have been the donkey.
+ 
+C|						FARQUAAD
+D|			Princess Fiona.
+
+C|						SHREK
+D|			As promised. Now hand it over.
+
+C|						FARQUAAD
+D|			Very well, ogre. (holds out a piece 
+D|			of paper) The deed to your swamp, cleared 
+D|			out, as agreed. Take it and go before 
+D|			I change my mind. (Shrek takes the paper) 
+D|			Forgive me, Princess, for startling 
+D|			you, but you startled me, for I have 
+D|			never seen such a radiant beauty before. 
+D|			I'm Lord Farquaad.
+ 
+C|						FIONA
+D|			Lord Farquaad? Oh, no, no. (Farquaad 
+D|			snaps his fingers) Forgive me, my lord, 
+D|			for I was just saying a short... (Watches 
+D|			as Farquaad is lifted off his horse 
+D|			and set down in front of her. He comes 
+D|			to her waist.) farewell.
+ 
+C|						FARQUAAD
+D|			Oh, that is so sweet. You don't have 
+D|			to waste good manners on the ogre. It's 
+D|			not like it has feelings.
+ 
+C|						FIONA
+D|			No, you're right. It doesn't.
+
+N|	Donkey watches this exchange with a curious look on his face.
+ 
+               
+C|						FARQUAAD
+D|			Princess Fiona, beautiful, fair, flawless 
+D|			Fiona. I ask your hand in marriage. 
+D|			Will you be the perfect bride for the 
+D|			perfect groom?
+ 
+C|						FIONA
+D|			Lord Farquaad, I accept. Nothing would 
+D|			make - -
+ 
+C|						FARQUAAD
+D|			(interrupting) Excellent! I'll start 
+D|			the plans, for tomorrow we wed!
+ 
+C|						FIONA
+D|			No! I mean, uh, why wait? Let's get 
+D|			married today before the sun sets.
+ 
+                         
+C|						FARQUAAD
+D|			Oh, anxious, are you? You're right. 
+D|			The sooner, the better. There's so much 
+D|			to do! There's the caterer, the cake, 
+D|			the band, the guest list. Captain, round 
+D|			up some guests! (a guard puts Fiona 
+D|			on the back of his horse)
+ 
+C|						FIONA
+D|			Fare-thee-well, ogre.
+
+N|	Farquaad's whole party begins to head back to DuLoc. Donkey watches 
+N|	them go.
+ 
+C|						DONKEY
+D|			Shrek, what are you doing? You're letting 
+D|			her get away.
+ 
+C|						SHREK
+D|			Yeah? So what?
+
+C|						DONKEY
+D|			Shrek, there's something about her you 
+D|			don't know. Look, I talked to her last 
+D|			night, She's - -
+ 
+C|						SHREK
+D|			I know you talked to her last night. 
+D|			You're great pals, aren't ya? Now, if 
+D|			you two are such good friends, why don't 
+D|			you follow her home?
+ 
+C|						DONKEY
+D|			Shrek, I - - I wanna go with you.
+
+C|						SHREK
+D|			I told you, didn't I? You're not coming 
+D|			home with me. I live alone! My swamp! 
+D|			Me! Nobody else! Understand? Nobody! 
+D|			Especially useless, pathetic, annoying, 
+D|			talking donkeys!
+ 
+C|						DONKEY
+D|			But I thought - -
+
+C|						SHREK
+D|			Yeah. You know what? You thought wrong! 
+D|			(stomps off)
+ 
+C|						DONKEY
+D|			Shrek.
+
+N|	Montage of different scenes. Shrek arriving back home. Fiona 
+N|	being fitted for the wedding dress. Donkey at a stream running 
+N|	into the dragon. Shrek cleaning up his house. Fiona eating dinner 
+N|	alone. Shrek eating dinner alone.
+ 
+S|	SHREK'S HOME
+
+N|	Shrek is eating dinner when he hears a sound outside. He goes 
+N|	outside to investigate.
+ 
+C|						SHREK
+D|			Donkey? (Donkey ignores him and continues 
+D|			with what he's doing.) What are you 
+D|			doing?
+ 
+C|						DONKEY
+D|			I would think, of all people, you would 
+D|			recognize a wall when you see one.
+ 
+                         
+C|						SHREK
+D|			Well, yeah. But the wall's supposed 
+D|			to go around my swamp, not through it.
+ 
+                         
+C|						DONKEY
+D|			It is around your half. See that's your 
+D|			half, and this is my half.
+ 
+C|						SHREK
+D|			Oh! Your half. Hmm.
+
+C|						DONKEY
+D|			Yes, my half. I helped rescue the princess. 
+D|			I did half the work. I get half the 
+D|			booty. Now hand me that big old rock, 
+D|			the one that looks like your head.
+ 
+                         
+C|						SHREK
+D|			Back off!
+
+C|						DONKEY
+D|			No, you back off.
+
+C|						SHREK
+D|			This is my swamp!
+
+C|						DONKEY
+D|			Our swamp.
+
+C|						SHREK
+D|			(grabs the tree branch Donkey is working 
+D|			with) Let go, Donkey!
+ 
+C|						DONKEY
+D|			You let go.
+
+C|						SHREK
+D|			Stubborn jackass!
+
+C|						DONKEY
+D|			Smelly ogre.
+
+C|						SHREK
+D|			Fine! (drops the tree branch and walks 
+D|			away)
+ 
+C|						DONKEY
+D|			Hey, hey, come back here. I'm not through 
+D|			with you yet.
+ 
+C|						SHREK
+D|			Well, I'm through with you.
+
+C|						DONKEY
+D|			Uh-uh. You know, with you it's always, 
+D|			"Me, me, me!" Well, guess what! Now 
+D|			it's my turn! So you just shut up and 
+D|			pay attention! You are mean to me. You 
+D|			insult me and you don't appreciate anything 
+D|			that I do! You're always pushing me 
+D|			around or pushing me away.
+ 
+C|						SHREK
+D|			Oh, yeah? Well, if I treated you so 
+D|			bad, how come you came back?
+ 
+C|						DONKEY
+D|			Because that's what friends do! They 
+D|			forgive each other!
+ 
+C|						SHREK
+D|			Oh, yeah. You're right, Donkey. I forgive 
+D|			you... for stabbin' me in the back! 
+D|			(goes into the outhouse and slams the 
+D|			door)
+ 
+C|						DONKEY
+D|			Ohh! You're so wrapped up in layers, 
+D|			onion boy, you're afraid of your own 
+D|			feelings.
+ 
+C|						SHREK
+D|			(os) Go away!
+
+C|						DONKEY
+D|			There you are , doing it again just 
+D|			like you did to Fiona. All she ever 
+D|			do was like you, maybe even love you.
+ 
+                         
+C|						SHREK
+D|			(os) Love me? She said I was ugly, a 
+D|			hideous creature. I heard the two of 
+D|			you talking.
+ 
+C|						DONKEY
+D|			She wasn't talkin' about you. She was 
+D|			talkin' about, uh, somebody else.
+ 
+                         
+C|						SHREK
+D|			(opens the door and comes out) She wasn't 
+D|			talking about me? Well, then who was 
+D|			she talking about?
+ 
+C|						DONKEY
+D|			Uh-uh, no way. I ain't saying anything. 
+D|			You don't wanna listen to me. Right? 
+D|			Right?
+ 
+C|						SHREK
+D|			Donkey!
+
+C|						DONKEY
+D|			No!
+
+C|						SHREK
+D|			Okay, look. I'm sorry, all right? (sigh) 
+D|			I'm sorry. I guess I am just a big, 
+D|			stupid, ugly ogre. Can you forgive me?
+ 
+                         
+C|						DONKEY
+D|			Hey, that's what friends are for, right?
+ 
+                         
+C|						SHREK
+D|			Right. Friends?
+
+C|						DONKEY
+D|			Friends.
+
+C|						SHREK
+D|			So, um, what did Fiona say about me?
+ 
+                         
+C|						DONKEY
+D|			What are you asking me for? Why don't 
+D|			you just go ask her?
+ 
+C|						SHREK
+D|			The wedding! We'll never make it in 
+D|			time.
+ 
+C|						DONKEY
+D|			Ha-ha-ha! Never fear, for where, there's 
+D|			a will, there's a way and I have a way. 
+D|			(whistles)
+ 
+N|	Suddenly the dragon arrives overhead and flies low enough so 
+N|	they can climb on.
+ 
+C|						SHREK
+D|			Donkey?
+
+C|						DONKEY
+D|			I guess it's just my animal magnetism.
+ 
+                         
+N|	They both laugh.
+
+C|						SHREK
+D|			Aw, come here, you. (gives Donkey a 
+D|			noogie)
+ 
+C|						DONKEY
+D|			All right, all right. Don't get all 
+D|			slobbery. No one likes a kiss ass. All 
+D|			right, hop on and hold on tight. I haven't 
+D|			had a chance to install the seat belts 
+D|			yet.
+ 
+N|	They climb aboard the dragon and she takes off for DuLoc.
+
+S|	DULOC - CHURCH
+
+N|	Fiona and Farquaad are getting married. The whole town is there. 
+N|	The prompter card guy holds up a card that says 'Revered Silence'.
+ 
+               
+C|						PRIEST
+D|			People of DuLoc, we gather here today 
+D|			to bear witness to the union....
+ 
+C|						FIONA
+D|			(eyeing the setting sun) Um-
+
+C|						PRIEST
+D|			...of our new king...
+
+C|						FIONA
+D|			Excuse me. Could we just skip ahead 
+D|			to the "I do's"?
+ 
+C|						FARQUAAD
+D|			(chuckles and then motions to the priest 
+D|			to indulge Fiona) Go on.
+ 
+S|	COURTYARD
+
+N|	Some guards are milling around. Suddenly the dragon lands with 
+N|	a boom. The guards all take off running.
+ 
+C|						DONKEY
+D|			(to Dragon) Go ahead, HAVE SOME FUN. 
+D|			If we need you, I'll whistle. How about 
+D|			that? (she nods and goes after the guards) 
+D|			Shrek, wait, wait! Wait a minute! You 
+D|			wanna do this right, don't you?
+ 
+C|						SHREK
+D|			(at the Church door) What are you talking 
+D|			about?
+ 
+C|						DONKEY
+D|			There's a line you gotta wait for. The 
+D|			preacher's gonna say, "Speak now or 
+D|			forever hold your peace." That's when 
+D|			you say, "I object!"
+ 
+C|						SHREK
+D|			I don't have time for this!
+
+C|						DONKEY
+D|			Hey, wait. What are you doing? Listen 
+D|			to me! Look, you love this woman, don't 
+D|			you?
+ 
+C|						SHREK
+D|			Yes.
+
+C|						DONKEY
+D|			You wanna hold her?
+
+C|						SHREK
+D|			Yes.
+
+C|						DONKEY
+D|			Please her?
+
+C|						SHREK
+D|			Yes!
+
+C|						DONKEY
+D|			(singing James Brown style) Then you 
+D|			got to, got to try a little tenderness. 
+D|			(normal) The chicks love that romantic 
+D|			crap!
+ 
+C|						SHREK
+D|			All right! Cut it out. When does this 
+D|			guy say the line?
+ 
+C|						DONKEY
+D|			We gotta check it out.
+
+S|	INSIDE CHURCH
+
+N|	As the priest talks we see Donkey's shadow through one of the 
+N|	windows Shrek tosses him up so he can see.
+ 
+C|						PRIEST
+D|			And so, by the power vested in me...
+ 
+                         
+N|	Outside
+
+C|						SHREK
+D|			What do you see?
+
+C|						DONKEY
+D|			The whole town's in there.
+
+N|	Inside
+
+C|						PRIEST
+D|			I now pronounce you husband and wife...
+ 
+                         
+N|	Outside
+
+C|						DONKEY
+D|			They're at the altar.
+
+N|	Inside
+
+C|						PRIEST
+D|			...king and queen.
+
+N|	Outside
+
+C|						DONKEY
+D|			Mother Fletcher! He already said it.
+ 
+                         
+C|						SHREK
+D|			Oh, for the love of Pete!
+
+N|	He runs inside without catching Donkey, who hits the ground hard.
+ 
+               
+S|	INSIDE CHURCH
+
+C|						SHREK
+D|			(running toward the alter) I object!
+ 
+                         
+C|						FIONA
+D|			Shrek?
+
+N|	The whole congregation gasps as they see Shrek.
+
+C|						FARQUAAD
+D|			Oh, now what does he want?
+
+C|						SHREK
+D|			(to congregation as he reaches the front 
+D|			of the Church) Hi, everyone. Havin' 
+D|			a good time, are ya? I love DuLoc, first 
+D|			of all. Very clean.
+ 
+C|						FIONA
+D|			What are you doing here?
+
+C|						SHREK
+D|			Really, it's rude enough being alive 
+D|			when no one wants you, but showing up 
+D|			uninvited to a wedding...
+ 
+C|						SHREK
+D|			Fiona! I need to talk to you.
+
+C|						FIONA
+D|			Oh, now you wanna talk? It's a little 
+D|			late for that, so if you'll excuse me 
+D|			- -
+ 
+C|						SHREK
+D|			But you can't marry him.
+
+C|						FIONA
+D|			And why not?
+
+C|						SHREK
+D|			Because- - Because he's just marring 
+D|			you so he can be king.
+ 
+C|						FARQUAAD
+D|			Outrageous! Fiona, don't listen to him.
+ 
+                         
+C|						SHREK
+D|			He's not your true love.
+
+C|						FIONA
+D|			And what do you know about true love?
+ 
+                         
+C|						SHREK
+D|			Well, I - - Uh - - I mean - -
+
+C|						FARQUAAD
+D|			Oh, this is precious. The ogee has fallen 
+D|			in love with the princess! Oh, good 
+D|			Lord. (laughs)
+ 
+N|	The prompter card guy holds up a card that says 'Laugh'. The 
+N|	whole congregation laughs.
+ 
+C|						FARQUAAD
+D|			An ogre and a princess!
+
+C|						FIONA
+D|			Shrek, is this true?
+
+C|						FARQUAAD
+D|			Who cares? It's preposterous! Fiona, 
+D|			my love, we're but a kiss away from 
+D|			our "happily ever after." Now kiss me! 
+D|			(puckers his lips and leans toward her, 
+D|			but she pulls back.)
+ 
+C|						FIONA
+D|			(looking at the setting sun) "By night 
+D|			one way, by day another." (to Shrek) 
+D|			I wanted to show you before.
+ 
+N|	She backs up and as the sun sets she changes into her ogre self. 
+N|	She gives Shrek a sheepish smile.
+ 
+C|						SHREK
+D|			Well, uh, that explains a lot. (Fiona 
+D|			smiles)
+ 
+C|						FARQUAAD
+D|			Ugh! It's disgusting! Guards! Guards! 
+D|			I order you to get that out of my sight 
+D|			now! Get them! Get them both!
+ 
+N|	The guards run in and separate Fiona and Shrek. Shrek fights 
+N|	them.
+ 
+C|						SHREK
+D|			No, no!
+
+C|						FIONA
+D|			Shrek!
+
+C|						FARQUAAD
+D|			This hocus-pocus alters nothing. This 
+D|			marriage is binding, and that makes 
+D|			me king! See? See?
+ 
+C|						FIONA
+D|			No, let go of me! Shrek!
+
+C|						SHREK
+D|			No!
+
+C|						FARQUAAD
+D|			Don't just stand there, you morons.
+ 
+                         
+C|						SHREK
+D|			Get out of my way! Fiona! Arrgh!
+
+C|						FARQUAAD
+D|			I'll make you regret the day we met. 
+D|			I'll see you drawn and quartered! You'll 
+D|			beg for death to save you!
+ 
+C|						FIONA
+D|			No, Shrek!
+
+C|						FARQUAAD
+D|			(hold a dagger to Fiona's throat) And 
+D|			as for you, my wife...
+ 
+C|						SHREK
+D|			Fiona!
+
+C|						FARQUAAD
+D|			I'll have you locked back in that tower 
+D|			for the rest of your days! I'm king!
+ 
+                         
+N|	Shrek manages to get a hand free and he whistles.
+
+C|						FARQUAAD
+D|			I will have order! I will have perfection! 
+D|			I will have - - (Donkey and the dragon 
+D|			show up and the dragon leans down and 
+D|			eats Farquaad) Aaaah! Aah!
+ 
+C|						DONKEY
+D|			All right. Nobody move. I got a dragon 
+D|			here, and I'm not afraid to use it. 
+D|			(The dragon roars.) I'm a donkey on 
+D|			the edge!
+ 
+N|	The dragon belches and Farquaad's crown flies out of her mouth 
+N|	and falls to the ground.
+ 
+C|						DONKEY
+D|			Celebrity marriages. They never last, 
+D|			do they?
+ 
+N|	The congregation cheers.
+
+C|						DONKEY
+D|			Go ahead, Shrek.
+
+C|						SHREK
+D|			Uh, Fiona?
+
+C|						FIONA
+D|			Yes, Shrek?
+
+C|						SHREK
+D|			I - - I love you.
+
+C|						FIONA
+D|			Really?
+
+C|						SHREK
+D|			Really, really.
+
+C|						FIONA
+D|			(smiles) I love you too.
+
+N|	Shrek and Fiona kiss. Thelonius takes one of the cards and writes 
+N|	'Awwww' on the back and then shows it to the congregation.
+ 
+               
+C|						CONGREGATION
+D|			Aawww!
+
+N|	Suddenly the magic of the spell pulls Fiona away. She's lifted 
+N|	up into the air and she hovers there while the magic works around 
+N|	her.
+ 
+C|						WHISPERS
+D|			"Until you find true love's first kiss 
+D|			and then take love's true form. Take 
+D|			love's true form. Take love's true form."
+ 
+                         
+N|	Suddenly Fiona's eyes open wide. She's consumed by the spell 
+N|	and then is slowly lowered to the ground.
+ 
+C|						SHREK
+D|			(going over to her) Fiona? Fiona. Are 
+D|			you all right?
+ 
+C|						FIONA
+D|			(standing up, she's still an ogre) Well, 
+D|			yes. But I don't understand. I'm supposed 
+D|			to be beautiful.
+ 
+C|						SHREK
+D|			But you ARE beautiful.
+
+N|	They smile at each other.
+
+C|						DONKEY
+D|			(chuckles) I was hoping this would be 
+D|			a happy ending.
+ 
+N|	Shrek and Fiona kiss...and the kiss fades into...
+
+S|	THE SWAMP
+
+N|	...their wedding kiss. Shrek and Fiona are now married. 'I'm 
+N|	a Believer' by Smashmouth is played in the background. Shrek 
+N|	and Fiona break apart and run through the crowd to their awaiting 
+N|	carriage. Which is made of a giant onion. Fiona tosses her bouquet 
+N|	which both Cinderella and Snow White try to catch. But they end 
+N|	up getting into a cat fight and so the dragon catches the bouquet 
+N|	instead. The Gingerbread man has been mended somewhat and now 
+N|	has one leg and walks with a candy cane cane. Shrek and Fiona 
+N|	walk off as the rest of the guests party and Donkey takes over 
+N|	singing the song.
+ 
+C|						GINGERBREAD MAN
+D|			God bless us, every one.
+
+C|						DONKEY
+D|			(as he's done singing and we fade to 
+D|			black) Oh, that's funny. Oh. Oh. I can't 
+D|			breathe. I can't breathe.
+ 
+M|				THE END
