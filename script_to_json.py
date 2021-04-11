@@ -24,9 +24,9 @@ def converter(text):
         elif line.startswith('C|'):
             dialogue = ""
             test_dict = dict()
-            character_dict = add_D_to_C(text, test_dict, dialogue, counter, 0, True)
+            character_dict = \
+                add_D_to_C(text, test_dict, dialogue, counter, 0, True)
             output_dict[counter] = character_dict
-
 
     return output_dict
 
@@ -36,7 +36,7 @@ def add_D_to_C(text, character_dict, dialogue, counter, i, C_line):
     if not text[counter + i].startswith('D|'):
         return character_dict
     else:
-        if C_line == True:
+        if C_line is True:
             character = text[counter - 1][2:].lstrip()
             second_dict = {'Character': str(character)}
         else:
@@ -44,7 +44,7 @@ def add_D_to_C(text, character_dict, dialogue, counter, i, C_line):
             second_dict = {'Dialogue': str(dialogue)}
         character_dict.update(second_dict)
         i += 1
-    
+
     return add_D_to_C(text, character_dict, dialogue, counter, i, False)
 
 
@@ -56,14 +56,17 @@ def main(argv):
         text = inp.readlines()
 
     list_number_of_spaces = label_lines.detect_amount_of_spaces(text)
-    dict_spaces_label = label_lines.give_spaces_label(text, list_number_of_spaces)
+    dict_spaces_label = \
+        label_lines.give_spaces_label(text, list_number_of_spaces)
 
-    new_text = "".join(label_lines.add_describing_letters(text, dict_spaces_label))
+    new_text = \
+        "".join(label_lines.add_describing_letters(text, dict_spaces_label))
 
     output_dict = converter(new_text)
 
     with open('script.json', 'w') as output:
         json.dump(output_dict, output, indent=4)
+
 
 if __name__ == "__main__":
     main(sys.argv)
