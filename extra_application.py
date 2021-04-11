@@ -26,9 +26,17 @@ def extra_application(new_text):
     print("'S' scene boundary      :", list_scene_count)
     print("'N' scene description   :", list_text_count)
 
+    if list_text_count == 0 and list_scene_count == 0:
+        return 'Devision by zero: scene boundary and description are 0'
+    elif list_scene_count == 0:
+        return 'Devision by zero: scene boundary is 0'
+    elif list_text_count == 0:
+        return 'Devision by zero: scene description is 0'
+
     average_scene_des = list_text_count / list_scene_count
 
-    return "{:.2f}".format(average_scene_des)
+    return "This movie script has {:.2f} "\
+    "scene description lines per scene".format(average_scene_des)
 
 
 def main(argv):
@@ -49,8 +57,7 @@ def main(argv):
 
     new_text = \
         "".join(label_lines.add_describing_letters(text, dict_spaces_label))
-    print('This movie script has ', extra_application(new_text), end=" ")
-    print(' scene description lines per scene.')
+    print(extra_application(new_text))
 
 
 if __name__ == "__main__":
