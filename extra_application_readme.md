@@ -1,6 +1,6 @@
 # Extra application
 
-This extra folder is made for the extra application.
+This extra README file is made for the extra application.
 
 Often in Sci-Fi films a whole new world needs to be put into words. 
 This means the scene description needs a lot of lines. This is in many cases more than 
