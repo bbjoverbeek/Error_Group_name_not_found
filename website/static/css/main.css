@@ -825,5 +825,23 @@ h2 {
     .body_text > h3, .flex_text > h3 {
         color: whitesmoke;
     }
+
+
+
+#continue_process {
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0 0 15px rgb(170, 170, 170);
+
+}
+
+#continue_process h3 {
+    color: whitesmoke;
+}
+
+#continue_process svg {
+    fill: whitesmoke;
+
+}
+
    
   }
