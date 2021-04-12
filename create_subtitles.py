@@ -13,10 +13,9 @@ def open_file(text):
 
 
 def order_text(text):
-    """This function turns the text into a dictionary"""
+    """This function turns the subtitles into a dictionary"""
     mydict = {}
 
-    # This turns the text into different blocks per subtitle
     text = re.split("\n\n", text)
 
     for item in text:
@@ -42,7 +41,7 @@ def main(argv):
     text_dict = order_text(text)
 
     # I have added a commented print statement. Remove to test the program.
-    print(text_dict)
+    # print(text_dict)
 
 
 if __name__ == "__main__":

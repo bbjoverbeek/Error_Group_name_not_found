@@ -5,7 +5,7 @@ import re
 import label_lines
 
 
-def extra_application(new_text):
+def count_scenes(new_text):
     """Takes the new_text and will count the lines
     of the number of N lines: scene description
     """
@@ -57,7 +57,7 @@ def main(argv):
 
     new_text = \
         "".join(label_lines.add_describing_letters(text, dict_spaces_label))
-    print(extra_application(new_text))
+    print(count_scenes(new_text))
 
 
 if __name__ == "__main__":
