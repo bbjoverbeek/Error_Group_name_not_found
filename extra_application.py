@@ -39,6 +39,9 @@ def extra_application(new_text):
     print("'S' scene boundary      :", list_scene_count)
     print("'N' scene description   :", list_text_count)
 
+    # if there are no scene boundaries or scene descriptions
+    # in the movie, average_scene_des will get an error: devide by 0.
+
     if list_text_count == 0 and list_scene_count == 0:
         return 'Devision by zero: scene boundary and description are 0'
     elif list_scene_count == 0:
@@ -64,6 +67,7 @@ def main(argv):
     with open(filename, 'r') as inp:
         text = inp.readlines()
 
+    # get the functions of program label_lines.py
     list_number_of_spaces = \
         label_lines.detect_amount_of_spaces(text)
     dict_spaces_label = \
