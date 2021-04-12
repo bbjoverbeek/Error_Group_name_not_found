@@ -1,5 +1,5 @@
 from logging import error
-from flask import Flask, url_for, render_template, redirect, request, jsonify, Response
+from flask import Flask, url_for, render_template, redirect, request
 import os
 import re
 import urllib.request
@@ -86,12 +86,12 @@ subtitles_upload_counter = 0
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    
+
     global script_upload_counter
     global subtitles_upload_counter
-    
+
     if request.method == "POST":
-        
+
         subtitles_file = request.files['subtitles_file']
         # Already giving variables the input the user provided
         no_file_string = "<FileStorage: '' ('application/octet-stream')>"
@@ -113,7 +113,8 @@ def index():
 
         if not str(script_file) == no_file_string:
             script_file.save(os.path.join(app.config['UPLOADED_FILES'],
-                                          f"script_file{script_upload_counter}"".txt"))
+                                          f"script_file{script_upload_counter}"
+                                          ".txt"))
             # Saving the uploaded script.
         elif not script_url == "":
             script_file = get_script_file(script_url)
@@ -123,7 +124,8 @@ def index():
             else:
                 print("not the good one")
                 print(script_file)
-                with open(f"uploads_user/script_file{script_upload_counter}.txt", "w") as file:
+                with open(f"uploads_user/script_file{script_upload_counter}"
+                          ".txt", "w") as file:
                     file.write(script_file)
                     # Saving the cleaned HTML file to script_file.txt
         else:
@@ -133,13 +135,15 @@ def index():
 
         # Check if script and subtitles are from the same movie (maybe
         # here should come the code of the modules editing the file
-        
-        
- 
-        with open(f"uploads_user/subtitles_file{subtitles_upload_counter}.srt", "r", encoding='utf-8') as subtitles:
+
+
+
+        with open(f"uploads_user/subtitles_file{subtitles_upload_counter}.srt",
+                  "r", encoding='utf-8') as subtitles:
             subtitles_opened = subtitles.read()
 
-        with open(f"uploads_user/script_file{script_upload_counter}.txt", "r", encoding='utf-8') as script:
+        with open(f"uploads_user/script_file{script_upload_counter}.txt", "r",
+                  encoding='utf-8') as script:
             script_opened = script.readlines()
         # All outcomes url and normal files are saved as files, so they
         # can be treated the same from now on
@@ -147,7 +151,7 @@ def index():
         subtitles_upload_counter += 1
         if subtitles_upload_counter == 5:
             subtitles_upload_counter = 0
-            
+
         script_upload_counter += 1
         if script_upload_counter == 5:
             script_upload_counter = 0

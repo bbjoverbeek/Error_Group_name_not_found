@@ -56,7 +56,7 @@ Additional explanation will be available on the website itself.
 
 If you want to perform unit tests, you would have to make a little change to test.py. We open the film files in every function by using a function from create_subtitles.py. To execute test.py on a film chosen by you, you have to change the filename inside these lines of codes. So:
 
-```full_text = create_subtitles.open_file('shrek_subtitles.srt')```
+```full_text = create_subtitles.open_file('test_files/shrek_subtitles.srt')```
 
 becomes
 
