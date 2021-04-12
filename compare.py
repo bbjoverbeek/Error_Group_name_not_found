@@ -19,6 +19,7 @@ import script_to_json
 import pprint
 from collections import OrderedDict
 
+
 def process_subtitle(subtitles_dict, i):
     '''Add sentences split over multiple items together.'''
 
@@ -27,17 +28,15 @@ def process_subtitle(subtitles_dict, i):
     item = i
 
     subtitles_dict[item]['text'] = str(subtitles_dict[item]['text'])
-    subtitles_dict[item]['text'] = nltk.sent_tokenize(subtitles_dict[item]['text'])
-
+    subtitles_dict[item]['text'] = \
+        nltk.sent_tokenize(subtitles_dict[item]['text'])
 
     if len(subtitles_dict[item]['text']) > 1:
 
         return subtitles_dict, i+1
 
-
     next_item = i + 1
     next_sentence = nltk.sent_tokenize(subtitles_dict[next_item]['text'])
-
 
     if len(nltk.sent_tokenize(' '.join(
                 subtitles_dict[item]['text'] + next_sentence
@@ -47,8 +46,8 @@ def process_subtitle(subtitles_dict, i):
 
     else:
 
-        subtitles_dict[item]['text'] = ' '.join(subtitles_dict[item]['text'] + next_sentence)
-
+        subtitles_dict[item]['text'] = \
+            ' '.join(subtitles_dict[item]['text'] + next_sentence)
 
         start_time = re.match('.*-->', subtitles_dict[item]['time']).group(0)
 
@@ -59,15 +58,13 @@ def process_subtitle(subtitles_dict, i):
 
         end_time = end_time.group(0)[4:]
 
-
         subtitles_dict[item]['time'] = start_time + end_time
-
 
         subtitles_dict[next_item] = subtitles_dict[item]
         del subtitles_dict[item]
 
-
         return process_subtitle(subtitles_dict, i+1)
+
 
 def compare_script_to_subtitles(script, subtitles):
 
@@ -75,13 +72,13 @@ def compare_script_to_subtitles(script, subtitles):
 
     # Remove the <tags> from the text
     for item in subtitles_dict:
-        subtitles_dict[item]['text'] = re.sub('<.*?>', '', subtitles_dict[item]['text'])
+        subtitles_dict[item]['text'] = \
+            re.sub('<.*?>', '', subtitles_dict[item]['text'])
 
     # merge subtitles for complete lines
     i = 1
-    while i < len(subtitles_dict) +1:
+    while i < len(subtitles_dict) + 1:
         subtitles_dict, i = process_subtitle(subtitles_dict, i)
-
 
     no_spaces = label_lines.detect_amount_of_spaces(script)
 
@@ -93,7 +90,6 @@ def compare_script_to_subtitles(script, subtitles):
 
     script_dict = script_to_json.converter(labelled_script)
 
-
     total_items = len(subtitles_dict)
 
     #print (f'total items: {total_items}')
@@ -101,7 +97,7 @@ def compare_script_to_subtitles(script, subtitles):
     progress = 0
 
     average_ratio = [0, 0]
-    
+
     for item in subtitles_dict:
 
         highest_ratio = 0
@@ -116,11 +112,13 @@ def compare_script_to_subtitles(script, subtitles):
 
                 if 'dialogue' in script_dict[index]:
 
-                    dialogue_text = nltk.sent_tokenize(script_dict[index]['dialogue'])
+                    dialogue_text = \
+                        nltk.sent_tokenize(script_dict[index]['dialogue'])
 
                     for d_sentence in dialogue_text:
 
-                        ratio = SequenceMatcher(None, sub_sentence, d_sentence).ratio()
+                        ratio = \
+                            SequenceMatcher(None, sub_sentence, d_sentence).ratio()
 
                         if ratio > highest_ratio:
 
@@ -136,10 +134,10 @@ def compare_script_to_subtitles(script, subtitles):
 
             if time != '':
                 script_dict[highest_D_match]['time'] = time
-                
+
         if highest_ratio >= 0.7:
 
-            average_ratio[0] += highest_ratio 
+            average_ratio[0] += highest_ratio
             average_ratio[1] += 1
 
         progress += 1
@@ -148,7 +146,6 @@ def compare_script_to_subtitles(script, subtitles):
 
     print(average_ratio[0], average_ratio[1], file=sys.stderr)
     average_ratio = (average_ratio[0] / average_ratio[1]) * 100
-
 
     return average_ratio, script_dict, subtitles_dict
 
@@ -161,11 +158,11 @@ def main(argv):
     # argument example: subtitles.txt script.txt True False
 
     with open(argv[1], 'r') as inp:
-    #with open('shrek_subtitles.srt', 'r') as inp:
+        #with open('shrek_subtitles.srt', 'r') as inp:
         subtitles_input = inp.read()
-    
+
     with open(argv[2], 'r') as inp:
-    #with open('shrek_script.txt', 'r') as inp:
+        #with open('shrek_script.txt', 'r') as inp:
         script_input = inp.readlines()
 
     average_ratio, new_script, new_subtitles = \
@@ -186,7 +183,7 @@ def main(argv):
 
     duration = int((timer.time() - start_time) / 60)
     print(f'Running this program wasted {duration} minutes of your life, congrats!', file=sys.stderr)
-    
+
 
 if __name__ == "__main__":
     main(sys.argv)
