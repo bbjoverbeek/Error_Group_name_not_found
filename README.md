@@ -18,7 +18,9 @@ And summarize the differences between the script and subtitles, to give a percen
 
 ### Noor 
 - Searched for libraries that would compare two strings or files and give the similarity ratio.
-- She came up with different possible options for an extra application of the data.
+- Came up with different possible options for an extra application of the data.
+- Made extra_application.py program for the extra application 
+- Fixed different files > pycodestyle
 
 ### Oscar 
 - Made the website using Flask (user interface).
