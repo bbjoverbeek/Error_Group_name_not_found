@@ -61,3 +61,6 @@ If you want to perform unit tests, you would have to make a little change to tes
 becomes
 
 ```full_text = create_subtitles.open_file('yourfilm_subtitles.srt')```
+
+You can run the unit tests by using the following code:
+```pytest test.py```
