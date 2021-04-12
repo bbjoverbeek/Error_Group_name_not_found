@@ -6,46 +6,62 @@ import json
 from collections import OrderedDict
 
 
-def converter(text):
+def converter(script):
 
-    output_dict = OrderedDict()
-    counter = int()
+    script_dict = OrderedDict()
+    line_no = 0
 
-    text = text.split('\n')
+    while line_no < len(script):
 
-    for line in text:
-        counter += 1
-        if line.startswith('S|'):
-            output_dict[counter] = {'Scene Boundary': line[2:].lstrip()}
-        elif line.startswith('N|'):
-            output_dict[counter] = {'Scene Description': line[2:].lstrip()}
-        elif line.startswith('M|'):
-            output_dict[counter] = {'Metadata': line[2:].lstrip()}
-        elif line.startswith('C|'):
-            dialogue = ""
-            test_dict = dict()
-            character_dict = \
-                add_D_to_C(text, test_dict, dialogue, counter, 0, True)
-            output_dict[counter] = character_dict
+        if script[line_no].startswith('S|'):
+            script_dict[line_no] = \
+                {'scene boundary': script[line_no][2:-1].lstrip()}
 
-    return output_dict
+        elif script[line_no].startswith('N|'):
+            scene_description, line_no = \
+                group_scene_description(dict(), script, line_no, 0)
+            script_dict[line_no] = scene_description
+
+        elif script[line_no].startswith('M|'):
+            script_dict[line_no] = {'metadata': script[line_no][2:-1].lstrip()}
+
+        elif script[line_no].startswith('C|'):
+            character_dict, line_no = \
+                add_D_to_C(OrderedDict(), script, line_no, 0)
+            script_dict[line_no] = character_dict
+
+        line_no += 1
+
+    return script_dict
 
 
-def add_D_to_C(text, character_dict, dialogue, counter, i, C_line):
+def add_D_to_C(character_dict, script, line_no, i):
 
-    if not text[counter + i].startswith('D|'):
-        return character_dict
+    if not script[line_no + i].startswith('D|') and i != 0:
+        return character_dict, (line_no + i - 1)
     else:
-        if C_line is True:
-            character = text[counter - 1][2:].lstrip()
-            second_dict = {'Character': str(character)}
+        if i == 0:
+            character_dict['character'] = script[line_no][2:-1].lstrip()
+            character_dict['dialogue'] = ''
         else:
-            dialogue += text[counter + i][2:].lstrip()
-            second_dict = {'Dialogue': str(dialogue)}
-        character_dict.update(second_dict)
-        i += 1
+            character_dict['dialogue'] += script[line_no + i][2:-1].lstrip()
 
-    return add_D_to_C(text, character_dict, dialogue, counter, i, False)
+    return add_D_to_C(character_dict, script, line_no, i+1)
+
+
+def group_scene_description(scene_description, script, line_no, i):
+
+    if not script[line_no + i].startswith('N|') and i != 0:
+        return scene_description, (line_no + i - 1)
+    else:
+        if i == 0:
+            scene_description['scene description'] = \
+                script[line_no + i][2:-1].lstrip()
+        else:
+            scene_description['scene description'] += \
+               script[line_no + i][2:-1].lstrip()
+
+    return group_scene_description(scene_description, script, line_no, i+1)
 
 
 def main(argv):
@@ -53,19 +69,20 @@ def main(argv):
     filename = argv[1]
 
     with open(filename, 'r') as inp:
-        text = inp.readlines()
+        script = inp.readlines()
 
-    list_number_of_spaces = label_lines.detect_amount_of_spaces(text)
+    no_spaces = label_lines.detect_amount_of_spaces(script)
+
     dict_spaces_label = \
-        label_lines.give_spaces_label(text, list_number_of_spaces)
+        label_lines.give_spaces_label(script, no_spaces)
 
-    new_text = \
-        "".join(label_lines.add_describing_letters(text, dict_spaces_label))
+    labelled_script = \
+        label_lines.add_describing_letters(script, dict_spaces_label)
 
-    output_dict = converter(new_text)
+    script_dict = converter(labelled_script)
 
     with open('script.json', 'w') as output:
-        json.dump(output_dict, output, indent=4)
+        json.dump(script_dict, output, indent=4)
 
 
 if __name__ == "__main__":
