@@ -9,7 +9,7 @@ import time as timer
 from datetime import datetime
 
 # Remove the comment from the line below if you get the nltk punk error
-#nltk.download('punkt')
+# nltk.download('punkt')
 
 from create_subtitles import order_text
 import label_lines
@@ -21,8 +21,6 @@ from collections import OrderedDict
 
 def process_subtitle(subtitles_dict, i):
     '''Add sentences split over multiple items together.'''
-
-    #TODO: make time output spaces equal
 
     item = i
 
@@ -153,11 +151,26 @@ def compare_script_to_subtitles(script, subtitles):
     return average_ratio, script_dict, subtitles_dict
 
 
+def create_output_files(new_script, new_subtitles, script_out, subtitles_out):
+
+    time = datetime.now().strftime("%d-%m-%Y_%H:%M:%S")
+
+    if script_out:
+        filename = 'script_output_' + time + '.json'
+        with open(filename, 'w') as output:
+            json.dump(new_script, output, indent=4)
+
+    if subtitles_out:
+        filename = 'subtitles_output_' + time + '.json'
+        with open(filename, 'w') as output:
+            json.dump(new_subtitles, output, indent=4)
+
+
 def main(argv):
 
     start_time = timer.time()
 
-    # argument order: subtitles file   script file   subtitles output   script output
+    # argument order: subtitles file   script file   script output   subtitles output
     # argument example: subtitles.txt script.txt True False
 
     with open(argv[1], 'r') as inp:
@@ -171,18 +184,18 @@ def main(argv):
     average_ratio, new_script, new_subtitles = \
         compare_script_to_subtitles(script_input, subtitles_input)
 
-    print(f'The subtitles were {average_ratio:.2f}% equal to the script', file=sys.stderr)
-
-    time = datetime.now().strftime("%d-%m-%Y_%H:%M:%S")
-
     if argv[3] == 'True':
-        filename = 'subtitles_output_' + time + '.json'
-        with open(filename, 'w') as output:
-            json.dump(new_subtitles, output, indent=4)
+        script_out = True
+    else:
+        script_out = False
     if argv[4] == 'True':
-        filename = 'script_output_' + time + '.json'
-        with open(filename, 'w') as output:
-            json.dump(new_script, output, indent=4)
+        subtitles_out = True
+    else:
+        subtitles_out = False
+
+    create_output_files(new_script, new_subtitles, script_out, subtitles_out)
+
+    print(f'The subtitles were {average_ratio:.2f}% equal to the script', file=sys.stderr)
 
     duration = int((timer.time() - start_time) / 60)
     print(f'Running this program wasted {duration} minutes of your life, congrats!', file=sys.stderr)
