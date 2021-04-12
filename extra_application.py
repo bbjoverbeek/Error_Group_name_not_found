@@ -7,7 +7,7 @@ import label_lines
 
 def count_scenes(new_text):
     """Takes the new_text and will count the lines
-  
+
     Takes the new_text and will count the lines
     of the number of N lines: scene description
 
