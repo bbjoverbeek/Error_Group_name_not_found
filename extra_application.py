@@ -6,20 +6,20 @@ import label_lines
 
 
 def extra_application(new_text):
-    """ 
+    """
     Takes the new_text and will count the lines
     of the number of N lines: scene description
-    
-    new_text_split are the lines of the 
-    output of label_lines, but splitted on the newline. 
-    
+
+    new_text_split are the lines of the
+    output of label_lines, but splitted on the newline.
+
     list_text_count is the counter
     that counts the scene descriptions.
-    
-    list_scene_count is the counter 
-    that counts the scene boundaries. 
-    
-    average_scene_des is the final number of 
+
+    list_scene_count is the counter
+    that counts the scene boundaries.
+
+    average_scene_des is the final number of
     scene description lines per scene boundaries.
     """
 
