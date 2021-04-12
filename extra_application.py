@@ -6,8 +6,21 @@ import label_lines
 
 
 def extra_application(new_text):
-    """Takes the new_text and will count the lines
+    """ 
+    Takes the new_text and will count the lines
     of the number of N lines: scene description
+    
+    new_text_split are the lines of the 
+    output of label_lines, but splitted on the newline. 
+    
+    list_text_count is the counter
+    that counts the scene descriptions.
+    
+    list_scene_count is the counter 
+    that counts the scene boundaries. 
+    
+    average_scene_des is the final number of 
+    scene description lines per scene boundaries.
     """
 
     list_text_count = int()
@@ -40,7 +53,8 @@ def extra_application(new_text):
 
 
 def main(argv):
-    """Takes the file name/-path to the script file,
+    """
+    Takes the file name/-path to the script file,
     applies the functions, and prints the number of
     scene descriptions in a movie.
     """
