@@ -11,10 +11,13 @@ And summarize the differences between the script and subtitles, to give a percen
 ### Björn 
 - Labeled each line of the script (D for Dialoge etc.) using regular expressions.
 - Created the program to compare the subtitles and the script with each other.
+- Put the timestamp in the script file
 
 ### Dennis 
 - Put the '.srt'(the subtitle) file into a dictionary using the format: {number{time: x, text:"x"}}.
 - Created the pytests for the python scripts.
+- Improved the extra application program.
+- Helped with the README.md 
 
 ### Noor 
 - Searched for libraries that would compare two strings or files and give the similarity ratio.
@@ -24,6 +27,7 @@ And summarize the differences between the script and subtitles, to give a percen
 
 ### Oscar 
 - Made the website using Flask (user interface).
+- Made the script dict and subtitles dict and turned into json file on website.
 - He made a function that takes a url from IMSDb and makes a text file.
 
 ## How to use the program / reproduce the results: 
@@ -35,7 +39,7 @@ Before trying to access our website, you will need to install some extensions to
 pip3 install -r requirements.txt
 ```
 
-Once this is installed, you need to run the following code in the terminal to access the website:
+Once this is installed, you need to run the following code in the website folder in the terminal to access the website:
 
 ``` 
 source env/bin/activate
