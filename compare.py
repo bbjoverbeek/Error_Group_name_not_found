@@ -209,7 +209,7 @@ def main(argv):
     create_output_files(new_script, new_subtitles, script_out, subtitles_out)
 
     print(
-        f'The subtitles were {average_ratio:.2f}% equal to the script',
+        f'The subtitles were {average_ratio:.2f}% equal to the script dialogue',
         file=sys.stderr
         )
 
