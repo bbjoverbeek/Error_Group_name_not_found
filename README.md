@@ -11,13 +11,15 @@ And summarize the differences between the script and subtitles, to give a percen
 ### Björn 
 - Labeled each line of the script (D for Dialoge etc.) using regular expressions.
 - Created the program to compare the subtitles and the script with each other.
-- Put the timestamp in the script file
+- Put the timestamp in the script file and the character name in the subtitles.
+- Helped creating script_to_json.py
 
 ### Dennis 
 - Put the '.srt'(the subtitle) file into a dictionary using the format: {number{time: x, text:"x"}}.
 - Created the pytests for the python scripts.
 - Improved the extra application program.
-- Helped with the README.md 
+- Helped with the README.md
+- Created script_to_json.py 
 
 ### Noor 
 - Searched for libraries that would compare two strings or files and give the similarity ratio.
