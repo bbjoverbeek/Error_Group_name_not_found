@@ -153,6 +153,9 @@ def compare_script_to_subtitles(script, subtitles):
 
         print(f'{progress[0]}/{progress[1]}', file=sys.stderr)
 
+    for item in subtitles_dict:
+        subtitles_dict[item]['text'] = ' '.join(subtitles_dict[item]['text'])
+
     print(average_ratio[0], average_ratio[1], file=sys.stderr)
     average_ratio = (average_ratio[0] / average_ratio[1]) * 100
 
