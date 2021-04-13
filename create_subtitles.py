@@ -13,7 +13,14 @@ def open_file(filename):
 
 
 def order_text(text):
-    """This function turns the text into a dictionary"""
+    """This function turns the text into a dictionary
+
+    subtitles_dict (dict) = The final dictionary
+
+    subtitle_dict (dict) = The temporary dictionary containing
+    the data that will be put into subtitles_dict
+
+    """
     subtitles_dict = {}
 
     text = re.split("\n\n", text)
@@ -27,8 +34,6 @@ def order_text(text):
         time = item[1]
         subtitle_text = ' '.join(item[2:])
 
-        # The following lines of code make two dictionaries,
-        # with inside_dict sitting inside of script_dict
         subtitle_dict = {'time': time, 'text': subtitle_text}
         subtitles_dict[number] = subtitle_dict
 
@@ -41,7 +46,7 @@ def main(argv):
     subtitle_dict = order_text(subtitles)
 
     # I have added a commented print statement. Remove to test the program.
-    #print(subtitles_dict)
+    # print(subtitles_dict)
 
 
 if __name__ == "__main__":
