@@ -5,9 +5,23 @@ import re
 import label_lines
 
 
-def extra_application(new_text):
+def count_scenes(new_text):
     """Takes the new_text and will count the lines
+
+    Takes the new_text and will count the lines
     of the number of N lines: scene description
+
+    new_text_split are the lines of the
+    output of label_lines, but splitted on the newline.
+
+    list_text_count is the counter
+    that counts the scene descriptions.
+
+    list_scene_count is the counter
+    that counts the scene boundaries.
+
+    average_scene_des is the final number of
+    scene description lines per scene boundaries.
     """
 
     list_text_count = int()
@@ -26,6 +40,9 @@ def extra_application(new_text):
     print("'S' scene boundary      :", list_scene_count)
     print("'N' scene description   :", list_text_count)
 
+    # if there are no scene boundaries or scene descriptions
+    # in the movie, average_scene_des will get an error: devide by 0.
+
     if list_text_count == 0 and list_scene_count == 0:
         return 'Devision by zero: scene boundary and description are 0'
     elif list_scene_count == 0:
@@ -40,7 +57,8 @@ def extra_application(new_text):
 
 
 def main(argv):
-    """Takes the file name/-path to the script file,
+    """
+    Takes the file name/-path to the script file,
     applies the functions, and prints the number of
     scene descriptions in a movie.
     """
@@ -50,6 +68,7 @@ def main(argv):
     with open(filename, 'r') as inp:
         text = inp.readlines()
 
+    # get the functions of program label_lines.py
     list_number_of_spaces = \
         label_lines.detect_amount_of_spaces(text)
     dict_spaces_label = \
@@ -57,7 +76,7 @@ def main(argv):
 
     new_text = \
         "".join(label_lines.add_describing_letters(text, dict_spaces_label))
-    print(extra_application(new_text))
+    print(count_scenes(new_text))
 
 
 if __name__ == "__main__":

@@ -14,9 +14,8 @@ def open_file(filename):
 
 def order_text(text):
     """This function turns the text into a dictionary"""
-    script_dict = {}
+    subtitles_dict = {}
 
-    # This turns the text into different blocks per subtitle
     text = re.split("\n\n", text)
 
     for item in text:
@@ -31,9 +30,9 @@ def order_text(text):
         # The following lines of code make two dictionaries,
         # with inside_dict sitting inside of script_dict
         subtitle_dict = {'time': time, 'text': subtitle_text}
-        script_dict[number] = subtitle_dict
+        subtitles_dict[number] = subtitle_dict
 
-    return script_dict
+    return subtitles_dict
 
 
 def main(argv):

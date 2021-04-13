@@ -3,21 +3,22 @@
 import re
 import create_subtitles
 import label_lines
+import extra_application
 
 
 def test_open_file():
 
-    with open('shrek_subtitles.srt', 'r') as inp:
+    with open('test_files/shrek_subtitles.srt', 'r') as inp:
         full_text = inp.read()
 
-    text = create_subtitles.open_file('shrek_subtitles.srt')
+    text = create_subtitles.open_file('test_files/shrek_subtitles.srt')
 
     assert len(full_text) == len(text)
 
 
 def test_order_text():
 
-    text = create_subtitles.open_file('shrek_subtitles.srt')
+    text = create_subtitles.open_file('test_files/shrek_subtitles.srt')
     mydict = create_subtitles.order_text(text)
     subtitle_text = re.split("\n\n", text)
     assert len(mydict) == len(subtitle_text)
@@ -33,7 +34,7 @@ def test_order_text():
 
 def test_detect_amount_of_spaces():
 
-    with open('shrek_script.txt', 'r') as inp:
+    with open('test_files/shrek_script.txt', 'r') as inp:
         full_text = inp.readlines()
 
     mylist = label_lines.detect_amount_of_spaces(full_text)
@@ -43,7 +44,7 @@ def test_detect_amount_of_spaces():
 
 def test_give_spaces_label():
 
-    with open('shrek_script.txt', 'r') as inp:
+    with open('test_files/shrek_script.txt', 'r') as inp:
         full_text = inp.readlines()
 
     first_list = label_lines.detect_amount_of_spaces(full_text)
@@ -55,7 +56,7 @@ def test_give_spaces_label():
 
 def test_add_describing_letters():
 
-    with open('shrek_script.txt', 'r') as inp:
+    with open('test_files/shrek_script.txt', 'r') as inp:
         full_text = inp.readlines()
 
     first_list = label_lines.detect_amount_of_spaces(full_text)
