@@ -83,7 +83,7 @@ def compare_script_to_subtitles(script, subtitles):
     # merge subtitles for complete lines
     subtitle_dict_length = len(subtitles_dict)
     i = 1
-    while i <= subtitle_dict_length:
+    while i < subtitle_dict_length:
         subtitles_dict, i = process_subtitle(subtitles_dict, i)
 
     #print(f'subtitles_dict length: {len(subtitles_dict)}')
@@ -105,6 +105,8 @@ def compare_script_to_subtitles(script, subtitles):
     progress = [0, len(subtitles_dict)]
 
     average_ratio = [0, 0]
+
+    time = ''
 
     for item in subtitles_dict:
 
