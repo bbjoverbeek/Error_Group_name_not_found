@@ -45,7 +45,7 @@ Once this is installed, you need to run the following code in the website folder
 ``` 
 source env/bin/activate
 ```
-  - This will create a virtual environment to run the website.
+This will create a virtual environment to run the website.
 
 When you have created a virtual environment, you have to run the following code in order to open the website:
 
@@ -53,7 +53,9 @@ When you have created a virtual environment, you have to run the following code 
 python3 app.py
 ```
 
-  - Opening index.html will not work.
+Flask will provide some information about the local server you are running from your computer. Among the information, a url for the website is given. Open this link via the terminal or copy and paste it into your browser of choice.
+
+Opening index.html will not work.
 
 Additional explanation will be available on the website itself.
 
