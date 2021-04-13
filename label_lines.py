@@ -33,6 +33,10 @@ def detect_amount_of_spaces(text):
 
 def give_spaces_label(text, list_number_of_spaces):
     """
+    Each type of data in the script has a standard amount of spaces
+    before it. This function tries to figure out what amount of spaces
+    belongs to what kind of data in the script.
+
     Parameters:
         text (list): the text of the script in a list with every line as
         an item
@@ -93,8 +97,8 @@ def give_spaces_label(text, list_number_of_spaces):
 
 def surrounding_empty(i, text):
     """
-    This is mostly added to the code for the beginning of mission
-    impossible.
+    It will check if line that are suppose to be scene boundary or scene
+    discription are actually metadata.
 
     Parameters:
         i (int): index of the current sentence. The surrounding of this
@@ -179,8 +183,16 @@ def add_describing_letters(text, spaces_and_label):
 
 
 def main(argv):
-    """Takes the file name/-path to the script file,
-    applies the functions, and prints the text.
+    """
+    Takes the file name/-path to the script file, applies the functions,
+    and prints the text.
+
+    Parameters:
+        argv (str): a string that is the file name of the script.
+
+    Prints:
+        (str): the new text with the description characters before each
+        line
     """
 
     filename = argv[1]
