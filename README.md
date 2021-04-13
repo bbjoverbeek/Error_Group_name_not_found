@@ -30,7 +30,6 @@ And summarize the differences between the script and subtitles, to give a percen
 ### Oscar 
 - Made the website using Flask (user interface).
 - Made the label_lines.py script
-- He made a function that takes a url from IMSDb and makes a text file.
 
 ## How to use the program / reproduce the results: 
 We used a web-based user interface, using flask. On this website it is possible to retreave the program for the script and the subtitles data.
