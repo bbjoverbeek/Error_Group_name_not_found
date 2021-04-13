@@ -77,7 +77,7 @@ is Alexander Golitsyn...</i>
 
 19
 00:04:53,212 --> 00:04:55,631
-<i>an attaché at our embassy in Prague.</i>
+<i>an attachÃ© at our embassy in Prague.</i>
 
 20
 00:04:55,714 --> 00:04:57,508
