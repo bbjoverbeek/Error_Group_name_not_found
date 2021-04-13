@@ -97,9 +97,9 @@ def compare_script_to_subtitles(script, subtitles):
 
     average_ratio = [0, 0]
 
-    time = ''
-
     for item in subtitles_dict:
+
+        time = ''
 
         highest_ratio = 0
 
@@ -135,6 +135,7 @@ def compare_script_to_subtitles(script, subtitles):
                 subtitles_dict[item]['character'] = character
 
             if time != '':
+                print()
                 script_dict[highest_D_match]['time'] = time
 
         average_ratio[0] += highest_ratio
@@ -197,7 +198,8 @@ def main(argv):
     create_output_files(new_script, new_subtitles, script_out, subtitles_out)
 
     print(
-        f'The subtitles were {average_ratio:.2f}% equal to the script dialogue',
+        f'The subtitles were {average_ratio:.2f}% equal to the script',
+        'dialogue',
         file=sys.stderr
         )
 
