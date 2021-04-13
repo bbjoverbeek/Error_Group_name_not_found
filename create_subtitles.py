@@ -30,12 +30,13 @@ def order_text(text):
 
         # The following lines of code connect the different lines of item
         # to the correct name
-        number = int(item[0])
-        time = item[1]
-        subtitle_text = ' '.join(item[2:])
+        if len(item) > 2:
+            number = int(item[0])
+            time = item[1]
+            subtitle_text = ' '.join(item[2:])
 
-        subtitle_dict = {'time': time, 'text': subtitle_text}
-        subtitles_dict[number] = subtitle_dict
+            subtitle_dict = {'time': time, 'text': subtitle_text}
+            subtitles_dict[number] = subtitle_dict
 
     return subtitles_dict
 
@@ -46,7 +47,7 @@ def main(argv):
     subtitle_dict = order_text(subtitles)
 
     # I have added a commented print statement. Remove to test the program.
-    # print(subtitles_dict)
+    print(subtitle_dict)
 
 
 if __name__ == "__main__":
