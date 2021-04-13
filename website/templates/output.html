@@ -20,6 +20,18 @@
 <div class="row content">
     <div class="col-8 body_text">
 
+        <div class="download_list">
+            <p>The current process number is {{ process_number }}</p>
+            <ul>
+                <li>
+                    <a class="inline_link" href="downloads_user/script{{ process_number }}.json">download json script file</a>
+                </li>
+                <li>
+                    <a class="inline_line" href="downloads_user/subtitles{{ process_number }}.json">download json subtitles file</a>
+                </li>
+            </ul>
+        </div>
+
         <p class="average_rating">The average similarity ratio was: {{ average_ratio }}</p>
 
         <h2 class="output_heading" id="subtitles_output_heading" >Subtitles output</h2>
@@ -41,7 +53,7 @@
                             {{ item[1]['character'] }}
                         </div>
                         <div class="dialogue_sub">
-                            {{ item[1]['text'][0] }}
+                            {{ item[1]['text'] }}
                         </div>
                     </div>
                 </div>
@@ -57,11 +69,7 @@
                     </div>
                     <div class="character_dialogue_sub">
                         <div class="dialogue_sub">
-                            {{ item[1]['text'][0] }}
-
-                            <!-- MAYBE REMOVE THE [0] IF A LIST IS NOT NECESSARY -->
-
-
+                            {{ item[1]['text'] }}
                         </div>
                     </div>
                 </div>
