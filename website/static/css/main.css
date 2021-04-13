@@ -263,6 +263,14 @@ footer > div {
     padding: 0;
 }
 
+.checkbox:last-of-type {
+    margin-bottom: 15px;
+}
+
+.checkbox input {
+    margin-left: 0;
+}
+
 .upload_button {
     background-color: rgb(39, 39, 39);
     color: whitesmoke;
@@ -328,6 +336,20 @@ footer > div {
     display: inline-block;
     width: 252px;
 }
+
+.info_checkbox {
+    font-size: 13px;
+    color: rgb(65, 65, 65);    
+}
+
+.info_checkbox > svg {
+    height: 15px;
+    margin-bottom: -2.5px;
+    width: 15px;
+    fill: rgb(65, 65, 65);
+    margin-right: -1px;    
+}
+
 
 hr {
     margin: 15px 0;
@@ -825,7 +847,7 @@ h2 {
     }
 
     .form {
-        background-color: rgb(65, 65, 65);
+        background-color:  rgb(39, 39, 39);
     }
     
     .form > h3 {
@@ -866,6 +888,14 @@ h2 {
 
     .checkbox label {
         color: whitesmoke;
+    }
+    
+    .info_checkbox {
+        color: whitesmoke;    
+    }
+
+    .info_checkbox > svg {
+        fill: whitesmoke;
     }
     
     #url_or_script:active{

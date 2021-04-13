@@ -146,7 +146,7 @@ def compare_script_to_subtitles(script, subtitles):
 
 
 def create_output_files(new_script, new_subtitles, script_out, subtitles_out,
-                        filename_sub, filename_script):
+                        filename_script, filename_sub):
 
     if script_out:
         filename = filename_script + '.json'

@@ -1,5 +1,5 @@
 from logging import error
-from flask import Flask, url_for, render_template, redirect, request
+from flask import Flask, json, url_for, render_template, redirect, request, send_file
 import os
 import re
 import urllib.request
@@ -101,18 +101,16 @@ def get_script_file(script_url):
 
 # THE ROUTES FOR THE WEBSITE
 
-script_upload_counter = 0
-subtitles_upload_counter = 0
+process_counter = 0
 # Because this website will probalbly be deployed on heroku, we need to
-# take into account the available that we can use for free. That is why
-# there will not be more than 5 files.
+# take into account the available space that we can use for free. That
+# is why there will not be more than 5 files.
 
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
 
-    global script_upload_counter
-    global subtitles_upload_counter
+    global process_counter
 
     if request.method == "POST":
 
@@ -129,22 +127,21 @@ def index():
 
         subtitles_file.save(os.path.join(app.config['UPLOADED_FILES'],
                                          f"subtitles_file"
-                                         f"{subtitles_upload_counter}.srt"))
+                                         f"{process_counter}.srt"))
 
         script_file = request.files['script_file']
         script_url = request.form['url_script']
         # Already giving variables the input the user provided
-        
+
         if not str(script_file) == no_file_string and not script_url == "":
             error_message = """Both a file and a URL were submitted to the
             form. Hard refresh the page the home page (ctr + shift + r on
-            windows, or command + shift + r on mac) if the filenames and the 
-            url are still visible to delete both inputs and start over. """ 
+            windows, or command + shift + r on mac) if the filenames and the
+            url are still visible to delete both inputs and start over. """
             return redirect(url_for('error_page', error_message=error_message))
         elif not str(script_file) == no_file_string:
             script_file.save(os.path.join(app.config['UPLOADED_FILES'],
-                                          f"script_file{script_upload_counter}"
-                                          ".txt"))
+                                          f"script_file{process_counter}.txt"))
             # Saving the uploaded script.
         elif not script_url == "":
             script_file = get_script_file(script_url)
@@ -152,22 +149,34 @@ def index():
                 return redirect(url_for('error_page', 
                                         error_message=script_file))
             else:
-                print("not the good one")
-                print(script_file)
-                with open(f"uploads_user/script_file{script_upload_counter}"
+                with open(f"uploads_user/script_file{process_counter}"
                           ".txt", "w") as file:
                     file.write(script_file)
                     # Saving the cleaned HTML file to script_file.txt
-        
+
         else:
             error_message = """No URL or script file has been submitted. To
             make the program work one of them needs to be submitted."""
             return redirect(url_for('error_page', error_message=error_message))
 
+        subtitles_file_option = request.form.get("checkbox1")
+        script_file_option = request.form.get("checkbox2")
+
+        if subtitles_file_option == "on":
+            subtitles_file_option = True
+        else:
+            subtitles_file_option = False
+        if script_file_option == "on":
+            script_file_option = True
+        else:
+            script_file_option = False
+
         # Check if script and subtitles are from the same movie (maybe
         # here should come the code of the modules editing the file
 
-        return redirect(url_for('process_files'))
+        return redirect(url_for('process_files',
+                                script_file_option=script_file_option,
+                                subtitles_file_option=subtitles_file_option))
 
 
     else:
@@ -175,41 +184,48 @@ def index():
         # so the homepage gets loaded when clicking on a link to the
         # page
 
-@app.route('/process_files')
-def process_files():
+@app.route('/process_files/<script_file_option>/<subtitles_file_option>')
+def process_files(script_file_option, subtitles_file_option):
     
-    global script_upload_counter
-    global subtitles_upload_counter
-    
-    with open(f"uploads_user/subtitles_file{subtitles_upload_counter}.srt",
+    global process_counter
+        
+    with open(f"uploads_user/subtitles_file{process_counter}.srt",
               "r", encoding='utf-8') as subtitles:
         subtitles_opened = subtitles.read()
 
-    with open(f"uploads_user/script_file{script_upload_counter}.txt", "r",
+    with open(f"uploads_user/script_file{process_counter}.txt", "r",
               encoding='utf-8') as script:
         script_opened = script.readlines()
     # All outcomes url and normal files are saved as files, so they
     # can be treated the same from now on
 
-    subtitles_upload_counter += 1
-    if subtitles_upload_counter == 5:
-        subtitles_upload_counter = 0
-
-    script_upload_counter += 1
-    if script_upload_counter == 5:
-        script_upload_counter = 0
-
     average_ratio, new_script, new_subtitles = compare_script_to_subtitles(
         script_opened, subtitles_opened)
+
+    create_output_files(new_script, new_subtitles, script_file_option,
+                        subtitles_file_option,
+                        f"downloads_user/script{process_counter}.json",
+                        f"downloads_user/subtitles{process_counter}.json")
 
     normal_script_dict = dict(new_script)
     normal_subtitles_dict = dict(new_subtitles)
 
+    process_number = process_counter
+
+    process_counter += 1
+    if process_counter == 5:
+        process_counter = 0
+
     return render_template('output.html', average_ratio=average_ratio,
                            script_dict=normal_script_dict,
-                           subtitles_dict=normal_subtitles_dict)
+                           subtitles_dict=normal_subtitles_dict,
+                           process_number=str(process_number)
+                           )
 
 
+@app.route('/downloads_user/<filename>')
+def download_file(filename):
+    return send_file(f"downloads_user/{filename}", as_attachment=True)
 
 
 @app.route('/about')
