@@ -40,14 +40,15 @@ Before trying to access our website, you will need to install some extensions to
 pip3 install -r requirements.txt
 ```
 
-Once this is installed, you need to run the following code in the website folder in the terminal to access the website:
+Once this is installed, you need to run the following code in the website folder in the terminal to access the website (Opening index.html will not work.
+):
 
 ``` 
 source env/bin/activate
 ```
-This will create a virtual environment to run the website.
+This will create a virtual environment to run the website on the flask version we have used during development.
 
-When you have created a virtual environment, you have to run the following code in order to open the website:
+When you have created a virtual environment, you have to run the following code in order to create a local server. With the virtual server you are able to run this website locally:
 
 ```
 python3 app.py
@@ -55,11 +56,7 @@ python3 app.py
 
 Flask will provide some information about the local server you are running from your computer. Among the information, a url for the website is given. Open this link via the terminal or copy and paste it into your browser of choice.
 
-Opening index.html will not work.
-
-Additional explanation will be available on the website itself.
-
-When the script is processing the two files, a web page will load. This can take up to 10 minutes. Your computer should not go into sleep mode, because there is a change the web page will stop loading and you will not get an output.
+Documentation about how to use the website, is available on the website itself. This can be accessed on the documentation page. Among the documentation page there is a page to search for subtitles on opensubtitles.org and for scripts on IMSDb. This read.me can be found on the website as well. Furthermore, you are able to run our compare script on the homepage. After loading you are able to view the output with a user interface and to download the output as JSON files. 
 
 ### Unit tests:
 
