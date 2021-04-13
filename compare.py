@@ -72,8 +72,6 @@ def compare_script_to_subtitles(script, subtitles):
 
     subtitles_dict = OrderedDict(order_text(subtitles))
 
-    print(subtitles_dict)
-
     #pp = pprint.PrettyPrinter()
     #pp.pprint(subtitles_dict)
 
@@ -83,15 +81,16 @@ def compare_script_to_subtitles(script, subtitles):
             re.sub('<.*?>', '', subtitles_dict[item]['text'])
 
     # merge subtitles for complete lines
+    subtitle_dict_length = len(subtitles_dict)
     i = 1
-    while i < len(subtitles_dict) + 1:
+    while i <= subtitle_dict_length:
         subtitles_dict, i = process_subtitle(subtitles_dict, i)
 
     #print(f'subtitles_dict length: {len(subtitles_dict)}')
 
 
-    #pp = pprint.PrettyPrinter()
-    #pp.pprint(subtitles_dict)
+    pp = pprint.PrettyPrinter()
+    pp.pprint(subtitles_dict)
 
     no_spaces = label_lines.detect_amount_of_spaces(script)
 
@@ -145,10 +144,10 @@ def compare_script_to_subtitles(script, subtitles):
             if time != '':
                 script_dict[highest_D_match]['time'] = time
 
-        if highest_ratio >= 0.7:
-
-            average_ratio[0] += highest_ratio
-            average_ratio[1] += 1
+        print(item)
+        print(highest_ratio)
+        average_ratio[0] += highest_ratio
+        average_ratio[1] += 1
 
         progress[0] += 1
 
