@@ -19,10 +19,130 @@
 
 <div class="row content">
     <div class="col-8 body_text">
-        <p>The average similarity ratio was: {{ average_ratio }}</p>
-        {% for item in dialoge_dict %}
-            <p>{{ item }}</p>
+
+        <p class="average_rating">The average similarity ratio was: {{ average_ratio }}</p>
+
+        <h2 class="output_heading" id="subtitles_output_heading" >Subtitles output</h2>
+
+        <div id="subtitles_output">
+            {% for item in subtitles_dict.items() %}
+            {% if item | has_character_name() %}
+                <div class="has_character_item_sub">
+                    <div class="line_information_sub" >
+                        <div class="line_number_sub">
+                            Line: {{ item[0] }}
+                        </div>
+                        <div class="time_sub"> 
+                            {{ item[1]['time'] }}
+                        </div>
+                    </div>
+                    <div class="character_dialogue_sub">
+                        <div class="character_name_sub">
+                            {{ item[1]['character'] }}
+                        </div>
+                        <div class="dialogue_sub">
+                            {{ item[1]['text'][0] }}
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <div class="other_item_sub">
+                    <div class="line_information_sub" >
+                        <div class="line_number_sub">
+                            Line: {{ item[0] }}
+                        </div>
+                        <div class="time_sub"> 
+                            {{ item[1]['time'] }}
+                        </div>
+                    </div>
+                    <div class="character_dialogue_sub">
+                        <div class="dialogue_sub">
+                            {{ item[1]['text'][0] }}
+
+                            <!-- MAYBE REMOVE THE [0] IF A LIST IS NOT NECESSARY -->
+
+
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
         {% endfor %}
+        </div>
+
+        <h2 class="output_heading" id="script_output_heading" >Script output</h2>
+
+        <div id="script_output">
+            {% for item in script_dict.items() %}
+                {% if item | is_type("character") %}
+                <div class="has_character_item_script">
+                    <div class="line_information_script" >
+                        <div class="line_number_script">
+                            Line: {{ item[0] }}
+                        </div>
+                        <div class="type_of_data_script"> 
+                            character & dialogue
+                        </div>
+                    </div>
+                    <div class="character_dialogue_script">
+                        <div class="character_name_script">
+                            {{ item[1]['character'] }}
+                        </div>
+                        <div class="dialogue_script">
+                            {{ item[1]['dialogue'] }}
+                        </div>
+                    </div>
+                </div>
+                {% elif item | is_type("metadata") %}
+                <div class="other_item_script">
+                    <div class="line_information_script" >
+                        <div class="line_number_script">
+                            Line: {{ item[0] }}
+                        </div>
+                        <div class="type_of_data_script"> 
+                            metadata
+                        </div>
+                    </div>
+                    <div class="character_dialogue_script">
+                        <div class="dialogue_sub_script">
+                            {{ item[1]['metadata'] }}
+                        </div>
+                    </div>
+                </div>
+                {% elif item | is_type("scene boundary") %}
+                <div class="other_item_script">
+                    <div class="line_information_script" >
+                        <div class="line_number_script">
+                            Line: {{ item[0] }}
+                        </div>
+                        <div class="type_of_data_script"> 
+                            scene boundary
+                        </div>
+                    </div>
+                    <div class="character_dialogue_script">
+                        <div class="dialogue_script">
+                            {{ item[1]['scene boundary'] }}
+                        </div>
+                    </div>
+                </div>
+                {% elif item | is_type("scene description") %}
+                <div class="other_item_script">
+                    <div class="line_information_script" >
+                        <div class="line_number_script">
+                            Line: {{ item[0] }}
+                        </div>
+                        <div class="type_of_data_script"> 
+                            scene description
+                        </div>
+                    </div>
+                    <div class="character_dialogue_script">
+                        <div class="dialogue_script">
+                            {{ item[1]['scene description'] }}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </div>
 

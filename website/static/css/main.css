@@ -585,6 +585,73 @@ h2 {
 
 
 
+.average_rating {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.output_heading {
+    margin-bottom: 200px 0 50px 0;
+}
+
+.has_character_item_sub, .other_item_sub, .has_character_item_script, .other_item_script {
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+
+.line_information_sub, .line_information_script {
+    display: flex;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding-bottom: 3px;
+}
+
+.line_number_sub, .line_number_script {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.time_sub, .type_of_data_script {
+    margin-left: auto;
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.character_dialogue_sub, .character_dialogue_script {
+    display: flex;
+    padding: 10px 0;
+}
+
+
+.other_item_sub .dialogue_sub, .other_item_script .dialogue_script {
+    margin-left: 0;
+}
+
+.character_name_sub, .character_name_script {
+    border-right: 1px solid rgb(214, 214, 214);
+    /*! max-width: 200px; */
+    padding-right: 10px
+}
+
+.dialogue_sub, .dialogue_script {
+    margin-left: 10px;
+    min-width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 767.98px) { 
@@ -669,6 +736,31 @@ h2 {
     .other_header > div > h1 {
         font-size: 36px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .navigation_container {
         justify-content: left;
@@ -826,22 +918,23 @@ h2 {
         color: whitesmoke;
     }
 
+    #continue_process {
+        background-color: rgb(39, 39, 39);
+        box-shadow: 0 0 15px rgb(170, 170, 170);
 
+    }
 
-#continue_process {
-    background-color: rgb(39, 39, 39);
-    box-shadow: 0 0 15px rgb(170, 170, 170);
+    #continue_process h3 {
+        color: whitesmoke;
+    }
 
-}
+    #continue_process svg {
+        fill: whitesmoke;
 
-#continue_process h3 {
-    color: whitesmoke;
-}
-
-#continue_process svg {
-    fill: whitesmoke;
-
-}
-
+    }
+    
+    .has_character_item_sub, .other_item_sub, .other_item_script, .has_character_item_script {
+    color: white;
+    }
    
-  }
+}

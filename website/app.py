@@ -3,8 +3,10 @@ from flask import Flask, url_for, render_template, redirect, request
 import os
 import re
 import urllib.request
-from compare import compare_script_to_subtitles
+import jinja2
+from compare import compare_script_to_subtitles, create_output_files
 import time
+from collections import OrderedDict
 
 # NOTE: maybe disable the upload counter for the normal github version
 # by commentting the code. Only use the upload counter for the heroku
@@ -18,6 +20,28 @@ import time
 app = Flask(__name__)
 app.config['UPLOADED_FILES'] = 'uploads_user'
 app.config['SECRET_KEY'] = "finalprojectadvancedprogrammingrejklsfjlklfkdklsfj"
+
+
+def has_character_name(item):
+    key_name = "character"
+    if key_name in item[1]:
+        return True
+    else:
+        return False
+
+
+def is_type(item, type_info):
+    key_name = type_info
+    if key_name in item[1]:
+        return True
+    else:
+        return False
+
+
+app.add_template_filter(has_character_name)
+app.add_template_filter(is_type)
+
+
 # SCRIPT AND SUBTITLES CODE
 
 def get_script_file(script_url):
@@ -110,8 +134,14 @@ def index():
         script_file = request.files['script_file']
         script_url = request.form['url_script']
         # Already giving variables the input the user provided
-
-        if not str(script_file) == no_file_string:
+        
+        if not str(script_file) == no_file_string and not script_url == "":
+            error_message = """Both a file and a URL were submitted to the
+            form. Hard refresh the page the home page (ctr + shift + r on
+            windows, or command + shift + r on mac) if the filenames and the 
+            url are still visible to delete both inputs and start over. """ 
+            return redirect(url_for('error_page', error_message=error_message))
+        elif not str(script_file) == no_file_string:
             script_file.save(os.path.join(app.config['UPLOADED_FILES'],
                                           f"script_file{script_upload_counter}"
                                           ".txt"))
@@ -128,6 +158,7 @@ def index():
                           ".txt", "w") as file:
                     file.write(script_file)
                     # Saving the cleaned HTML file to script_file.txt
+        
         else:
             error_message = """No URL or script file has been submitted. To
             make the program work one of them needs to be submitted."""
@@ -136,39 +167,49 @@ def index():
         # Check if script and subtitles are from the same movie (maybe
         # here should come the code of the modules editing the file
 
+        return redirect(url_for('process_files'))
 
-
-        with open(f"uploads_user/subtitles_file{subtitles_upload_counter}.srt",
-                  "r", encoding='utf-8') as subtitles:
-            subtitles_opened = subtitles.read()
-
-        with open(f"uploads_user/script_file{script_upload_counter}.txt", "r",
-                  encoding='utf-8') as script:
-            script_opened = script.readlines()
-        # All outcomes url and normal files are saved as files, so they
-        # can be treated the same from now on
-
-        subtitles_upload_counter += 1
-        if subtitles_upload_counter == 5:
-            subtitles_upload_counter = 0
-
-        script_upload_counter += 1
-        if script_upload_counter == 5:
-            script_upload_counter = 0
-
-        output = compare_script_to_subtitles(script_opened, subtitles_opened)
-
-        average_ratio = output[0]
-        dialoge_dict = output[1]
-        subtitles_dict = output[2]
-        return render_template('output.html', average_ratio=average_ratio,
-                               dialoge_dict=dialoge_dict,
-                               subtitles_dict=subtitles_dict)
 
     else:
         return render_template('index.html')
         # so the homepage gets loaded when clicking on a link to the
         # page
+
+@app.route('/process_files')
+def process_files():
+    
+    global script_upload_counter
+    global subtitles_upload_counter
+    
+    with open(f"uploads_user/subtitles_file{subtitles_upload_counter}.srt",
+              "r", encoding='utf-8') as subtitles:
+        subtitles_opened = subtitles.read()
+
+    with open(f"uploads_user/script_file{script_upload_counter}.txt", "r",
+              encoding='utf-8') as script:
+        script_opened = script.readlines()
+    # All outcomes url and normal files are saved as files, so they
+    # can be treated the same from now on
+
+    subtitles_upload_counter += 1
+    if subtitles_upload_counter == 5:
+        subtitles_upload_counter = 0
+
+    script_upload_counter += 1
+    if script_upload_counter == 5:
+        script_upload_counter = 0
+
+    average_ratio, new_script, new_subtitles = compare_script_to_subtitles(
+        script_opened, subtitles_opened)
+
+    normal_script_dict = dict(new_script)
+    normal_subtitles_dict = dict(new_subtitles)
+
+    return render_template('output.html', average_ratio=average_ratio,
+                           script_dict=normal_script_dict,
+                           subtitles_dict=normal_subtitles_dict)
+
+
 
 
 @app.route('/about')
