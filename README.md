@@ -30,7 +30,6 @@ And summarize the differences between the script and subtitles, to give a percen
 ### Oscar 
 - Made the website using Flask (user interface).
 - Made the label_lines.py script
-- He made a function that takes a url from IMSDb and makes a text file.
 
 ## How to use the program / reproduce the results: 
 We used a web-based user interface, using flask. On this website it is possible to retreave the program for the script and the subtitles data.
@@ -41,22 +40,23 @@ Before trying to access our website, you will need to install some extensions to
 pip3 install -r requirements.txt
 ```
 
-Once this is installed, you need to run the following code in the website folder in the terminal to access the website:
+Once this is installed, you need to run the following code in the website folder in the terminal to access the website (Opening index.html will not work.
+):
 
 ``` 
 source env/bin/activate
 ```
-  - This will create a virtual environment to run the website.
+This will create a virtual environment to run the website on the flask version we have used during development.
 
-When you have created a virtual environment, you have to run the following code in order to open the website:
+When you have created a virtual environment, you have to run the following code in order to create a local server. With the virtual server you are able to run this website locally:
 
 ```
 python3 app.py
 ```
 
-  - Opening index.html will not work.
+Flask will provide some information about the local server you are running from your computer. Among the information, a url for the website is given. Open this link via the terminal or copy and paste it into your browser of choice.
 
-Additional explanation will be available on the website itself.
+Documentation about how to use the website, is available on the website itself. This can be accessed on the documentation page. Among the documentation page there is a page to search for subtitles on opensubtitles.org and for scripts on IMSDb. This read.me can be found on the website as well. Furthermore, you are able to run our compare script on the homepage. After loading you are able to view the output with a user interface and to download the output as JSON files. 
 
 ### Unit tests:
 
