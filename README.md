@@ -58,6 +58,8 @@ python3 app.py
 
 Additional explanation will be available on the website itself.
 
+When the script is processing the two files, a web page will load. This can take up to 10 minutes. Your computer should not go into sleep mode, because there is a change the web page will stop loading and you will not get an output.
+
 ### Unit tests:
 
 If you want to perform unit tests, you would have to make a little change to test.py. We open the film files in every function by using a function from create_subtitles.py. To execute test.py on a film chosen by you, you have to change the filename inside these lines of codes. So:
