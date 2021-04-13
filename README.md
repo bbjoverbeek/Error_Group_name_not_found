@@ -29,7 +29,7 @@ And summarize the differences between the script and subtitles, to give a percen
 
 ### Oscar 
 - Made the website using Flask (user interface).
-- Made the script dict and subtitles dict and turned into json file on website.
+- Made the label_lines.py script
 - He made a function that takes a url from IMSDb and makes a text file.
 
 ## How to use the program / reproduce the results: 
@@ -62,11 +62,17 @@ Additional explanation will be available on the website itself.
 
 If you want to perform unit tests, you would have to make a little change to test.py. We open the film files in every function by using a function from create_subtitles.py. To execute test.py on a film chosen by you, you have to change the filename inside these lines of codes. So:
 
-```full_text = create_subtitles.open_file('test_files/shrek_subtitles.srt')```
+```
+full_text = create_subtitles.open_file('test_files/shrek_subtitles.srt')
+```
 
 becomes
 
-```full_text = create_subtitles.open_file('yourfilm_subtitles.srt')```
+```
+full_text = create_subtitles.open_file('yourfilm_subtitles.srt')
+```
 
 You can run the unit tests by using the following code:
-```pytest test.py```
+```
+pytest test.py
+```
