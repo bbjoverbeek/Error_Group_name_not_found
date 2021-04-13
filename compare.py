@@ -90,7 +90,7 @@ def compare_script_to_subtitles(script, subtitles):
 
     total_items = len(subtitles_dict)
 
-    #print (f'total items: {total_items}')
+    # print (f'total items: {total_items}')
 
     progress = 0
 
@@ -116,7 +116,8 @@ def compare_script_to_subtitles(script, subtitles):
                     for d_sentence in dialogue_text:
 
                         ratio = \
-                            SequenceMatcher(None, sub_sentence, d_sentence).ratio()
+                            SequenceMatcher(None,
+                                            sub_sentence, d_sentence).ratio()
 
                         if ratio > highest_ratio:
 
@@ -167,15 +168,16 @@ def main(argv):
 
     start_time = timer.time()
 
-    # argument order: subtitles file   script file   script output   subtitles output
+    # argument order:
+    # subtitles file   script file   script output   subtitles output
     # argument example: subtitles.txt script.txt True False
 
     with open(argv[1], 'r') as inp:
-        #with open('shrek_subtitles.srt', 'r') as inp:
+        # with open('shrek_subtitles.srt', 'r') as inp:
         subtitles_input = inp.read()
 
     with open(argv[2], 'r') as inp:
-        #with open('shrek_script.txt', 'r') as inp:
+        # with open('shrek_script.txt', 'r') as inp:
         script_input = inp.readlines()
 
     average_ratio, new_script, new_subtitles = \
@@ -192,10 +194,12 @@ def main(argv):
 
     create_output_files(new_script, new_subtitles, script_out, subtitles_out)
 
-    print(f'The subtitles were {average_ratio:.2f}% equal to the script', file=sys.stderr)
+    print(f'The subtitles were
+          {average_ratio: .2f} % equal to the script', file=sys.stderr)
 
     duration = int((timer.time() - start_time) / 60)
-    print(f'Running this program wasted {duration} minutes of your life, congrats!', file=sys.stderr)
+    print(f'Running this program wasted
+          {duration} minutes of your life, congrats!', file=sys.stderr)
 
 
 if __name__ == "__main__":
