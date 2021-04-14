@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 
-import sys
+import argparse
+from collections import OrderedDict
+from datetime import datetime
 from difflib import SequenceMatcher
+import json
 import nltk
 import re
-import json
 import time as timer
-from datetime import datetime
 
 # Remove the comment from the line below if you get the nltk punk error
 # nltk.download('punkt')
@@ -15,17 +16,22 @@ from create_subtitles import order_text
 import label_lines
 import script_to_json
 
-# Modules for development purposes
-import pprint
-from collections import OrderedDict
-
-# TODO: add docstrings & explaining comments
-# TODO: add unit tests
-# TODO: write my part of task division
-
 
 def process_subtitle(subtitles_dict, i):
-    '''Add sentences split over multiple items together.'''
+    '''
+    Add subtitle sentences, that are split over multiple items, together.
+    This is done for better matching.
+
+    Parameters:
+        subtitles_dict(dict): all subtitles in a dictionary, done by
+            create_subtitles.order_text().
+        i(int): The index of the subtitle that is to be combined.
+
+    Returns:
+        subtitles_dict(dict): The updated dictionary with the subtitle(i)
+        combined with the next subtitle(s) if necessary.
+        i(int): The updated index for the while loop.
+    '''
 
     item = i
 
@@ -69,6 +75,21 @@ def process_subtitle(subtitles_dict, i):
 
 
 def compare_script_to_subtitles(script, subtitles):
+    '''
+    Compares all the sentences of the subtitles to all the sentences
+    of the script to find the best matches. Will add the character to
+    the subtitles and the time to the script if the match is higher than
+    70%. Also calculates the total similarity of the dialogue.
+
+    Parameters:
+        script(list): A list of the input script lines
+        subtitles(str): A string of the subtitles file
+
+    Returns:
+        average_ratio(float): The similarity of the dialogue in percentage
+        script_dict(dict): The new script, with timestamps
+        subtitles_dict(dict): The new subtitles, with characters
+    '''
 
     subtitles_dict = OrderedDict(order_text(subtitles))
 
@@ -83,6 +104,7 @@ def compare_script_to_subtitles(script, subtitles):
     while i < subtitle_dict_length:
         subtitles_dict, i = process_subtitle(subtitles_dict, i)
 
+    # process the script
     no_spaces = label_lines.detect_amount_of_spaces(script)
 
     dict_spaces_label = \
@@ -93,6 +115,7 @@ def compare_script_to_subtitles(script, subtitles):
 
     script_dict = script_to_json.converter(labelled_script)
 
+    # loop to compare the texts
     progress = [0, len(subtitles_dict)]
 
     average_ratio = [0, 0]
@@ -135,7 +158,6 @@ def compare_script_to_subtitles(script, subtitles):
                 subtitles_dict[item]['character'] = character
 
             if time != '':
-                print()
                 script_dict[highest_D_match]['time'] = time
 
         average_ratio[0] += highest_ratio
@@ -143,7 +165,7 @@ def compare_script_to_subtitles(script, subtitles):
 
         progress[0] += 1
 
-        print(f'{progress[0]}/{progress[1]}', file=sys.stderr)
+        print(f'{progress[0]}/{progress[1]}')
 
     for item in subtitles_dict:
         subtitles_dict[item]['text'] = ' '.join(subtitles_dict[item]['text'])
@@ -154,6 +176,16 @@ def compare_script_to_subtitles(script, subtitles):
 
 
 def create_output_files(new_script, new_subtitles, script_out, subtitles_out):
+    '''
+    Creates the output files from the dictionaries with the time of creation
+    in the filename.
+
+    Parameters:
+        new_script(dict): The script to be a json file
+        new_subtitles(dict): The subtitles to be a json file
+        script_out(bool): Boolean to decide if the file should be created
+        subtitles_out(bool): Boolean to decide if the file should be created
+    '''
 
     time = datetime.now().strftime("%d-%m-%Y_%H:%M:%S")
 
@@ -168,48 +200,61 @@ def create_output_files(new_script, new_subtitles, script_out, subtitles_out):
             json.dump(new_subtitles, output, indent=4)
 
 
-def main(argv):
+def main():
+    '''Compares the subtitles and script of a movie to calculate similarity'''
 
-    # TODO: add CLI
+    parser = argparse.ArgumentParser(
+        description='Adds the character from the script to the\
+            subtitles, and the time from the subtitles to the script.\
+            Also calculates the similarity between the dialogue.'
+        )
+    parser.add_argument(
+        'subtitles',
+        help='The name or path to a subtitles (.srt) file.')
+    parser.add_argument(
+        'script',
+        help='The name or path to a script (.txt) file.')
+    parser.add_argument(
+        '-nosub', '--no_subtitles_out',
+        help='Use this option to supress the subtitles output',
+        default=True)
+    parser.add_argument(
+        '-noscr', '--no_script_out',
+        help='Use this option to supress the script output',
+        default=True)
+
+    args = parser.parse_args()
 
     start_time = timer.time()
 
     # argument order: subtitles_file script_file script_output subtitles_output
     # argument example: subtitles.txt script.txt True False
 
-    with open(argv[1], 'r') as inp:
+    with open(args.subtitles, 'r') as inp:
         subtitles_input = inp.read()
 
-    with open(argv[2], 'r') as inp:
+    with open(args.script, 'r') as inp:
         script_input = inp.readlines()
 
     average_ratio, new_script, new_subtitles = \
         compare_script_to_subtitles(script_input, subtitles_input)
 
-    if argv[3] == 'True':
-        script_out = True
-    else:
-        script_out = False
-    if argv[4] == 'True':
-        subtitles_out = True
-    else:
-        subtitles_out = False
-
-    create_output_files(new_script, new_subtitles, script_out, subtitles_out)
+    create_output_files(
+        new_script, new_subtitles,
+        args.no_subtitles_out, args.no_script_out
+        )
 
     print(
         f'The subtitles were {average_ratio:.2f}% equal to the script',
-        'dialogue',
-        file=sys.stderr
+        'dialogue'
         )
 
     duration = int((timer.time() - start_time) / 60)
     print(
         f'Running this program wasted {duration} minutes '
-        'of your life, congrats!',
-        file=sys.stderr
+        'of your life, congrats!'
         )
 
 
 if __name__ == "__main__":
-    main(sys.argv)
+    main()
