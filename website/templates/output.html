@@ -19,20 +19,25 @@
 
 <div class="row content">
     <div class="col-8 body_text">
+        <p class="average_rating">The average similarity ratio was: {{ average_ratio }}</p>
 
         <div class="download_list">
-            <p>The current process number is {{ process_number }}</p>
-            <ul>
-                <li>
-                    <a class="inline_link" href="downloads_user/script{{ process_number }}.json">download json script file</a>
-                </li>
-                <li>
-                    <a class="inline_line" href="downloads_user/subtitles{{ process_number }}.json">download json subtitles file</a>
-                </li>
-            </ul>
-        </div>
+            <div class="download_list">
+                {% if script_file_option == "True" %}
+                    <a class="download_button" href="{{ url_for('download_file', filename='script' + process_number + '.json') }}">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"><g><rect fill="none" height="24" width="24"/></g><g><path d="M18,15v3H6v-3H4v3c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-3H18z M17,11l-1.41-1.41L13,12.17V4h-2v8.17L8.41,9.59L7,11l5,5 L17,11z"/></g></svg>
+                        <p>Download the script</p>
+                    </a>
+                {% endif %}
 
-        <p class="average_rating">The average similarity ratio was: {{ average_ratio }}</p>
+                {% if subtitles_file_option == "True" %}
+                    <a class="download_button" href="{{ url_for('download_file', filename='subtitles' + process_number + '.json') }}">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"><g><rect fill="none" height="24" width="24"/></g><g><path d="M18,15v3H6v-3H4v3c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-3H18z M17,11l-1.41-1.41L13,12.17V4h-2v8.17L8.41,9.59L7,11l5,5 L17,11z"/></g></svg>
+                        <p>Download the subtitles</p>
+                    </a>
+                {% endif %}
+            </div>
+        </div>
 
         <h2 class="output_heading" id="subtitles_output_heading" >Subtitles output</h2>
 

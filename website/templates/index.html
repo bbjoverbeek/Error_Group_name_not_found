@@ -130,18 +130,9 @@
                 </g>
             </svg>
             
-  
 
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sapien in urna laoreet egestas nec eu nibh. Donec finibus ullamcorper augue, nec vulputate nibh aliquet vitae. Vestibulum ac mauris metus. Quisque nec augue massa. Pellentesque nec orci dui. Nulla ut sollicitudin urna. Aliquam sit amet lacus eget elit scelerisque vulputate. Donec vel mi orci.
-        
-            Morbi vel posuere ante. Phasellus volutpat tincidunt arcu, sit amet gravida lectus ultricies eget. Morbi et odio eget quam ornare scelerisque id et leo. Nulla facilisi. Aliquam eget lacinia diam. Sed iaculis velit id gravida facilisis. Nulla id finibus sapien. Fusce ac vulputate magna. Curabitur ut enim sit amet dui dictum vehicula. Nulla facilisi. Nulla dictum vehicula est, nec tempor neque rutrum ac.
-        
-            Sed convallis feugiat pulvinar. Nam augue quam, blandit non nibh quis, luctus dapibus tellus. Nulla eget euismod tellus. Quisque varius fringilla pellentesque. Mauris efficitur nec nisl sit amet convallis. Nullam tempus erat eu porttitor hendrerit. Proin cursus sem a porttitor eleifend. Donec dignissim id felis a vestibulum. Nullam porta lectus ac ante feugiat, a laoreet risus faucibus. Aliquam feugiat et augue ac condimentum.
-        
-            Integer feugiat finibus quam, in sollicitudin odio aliquam eget. Nulla lobortis nunc ut elit dictum blandit. Suspendisse faucibus risus at erat ornare gravida. Sed commodo interdum tincidunt. Donec scelerisque sem faucibus, facilisis nisi tincidunt, volutpat elit. Cras eget tortor dapibus, vulputate dolor sed, ullamcorper odio. Curabitur sodales mi ut odio porta consequat. Praesent a magna feugiat, fringilla dolor nec, varius nisi. Suspendisse scelerisque vitae eros nec posuere. Aenean semper tortor eget turpis accumsan, vel venenatis tortor fermentum. Fusce nulla nulla, efficitur sed velit quis, consectetur congue urna. Mauris quis magna lectus. Donec placerat euismod eros et interdum. Etiam sodales, lacus nec faucibus pharetra, lectus lorem pretium felis, vitae porta ex tortor sit amet orci. Pellentesque a tellus bibendum, aliquam sapien eget, vehicula odio. In hac habitasse platea dictumst.
-        
-            Integer ut velit vel elit ultricies feugiat sit amet at augue. Sed tempus, dui eu ullamcorper blandit, ipsum tortor rutrum nunc, eu aliquet risus augue vel lectus. Ut accumsan facilisis nulla nec cursus. Quisque dolor eros, consectetur quis enim ac, consectetur maximus sapien. Praesent suscipit metus ut odio porta, sed venenatis sapien sagittis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam posuere nibh eget efficitur dapibus. Nam ornare porttitor scelerisque. Morbi consequat, tellus in tempus ultrices, urna felis venenatis eros, tempus rutrum erat sapien nec leo. Mauris id pharetra quam, sed molestie mi. 
+            This website will create an output based on the subtitles and the script of a movie. Combining both will give you a better impression of the events that occur in a movie. This is because movie scripts and subtitles contain different information. Scripts contain the characters that occur in a movie, gives you a description of the scene, and also has metadata. Subtitles on the other hand, contain the text that was actually spoken by the actors and at what point in the movie that text was spoken. Based on the text of the script (the text that was supposed to be spoken) and the text of the subtitles (the text that was actually spoken), we will combine this information. The output can be viewed on this website and we will also provide two JSON files to view the output.
         </p>            
     </div>
     <div class="col-4 form index_form">
@@ -165,7 +156,7 @@
             </div>
             <p class="info_checkbox">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
-                The results, as a file in JSON format. Choose which files you want to be able to download. Deselecting one won't make the process faster.
+                Choose to select which files you want to be able to download as output. Keep in mind, deselecting an option will not increase the speed of processing the files.
             </p>
             <hr>
 
@@ -174,7 +165,7 @@
             <div id="continue_process" class="not_active">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/></svg>
                 <h3>Be aware</h3>
-                <p>This process may take a while. In our personal experiences we have seen this taking up to 10 minutes. Due to technical difficulties we were not able to add a progress bar. Choose to submit the files and wait a few minutes or choose to cancel the action.</p>
+                <p>This process may take a while. In our personal experiences we have seen this taking up to 3 minutes. Due to technical difficulties we were not able to add a progress bar. Choose to submit the files and wait a few minutes or choose to cancel the action.</p>
                 <div class="process_button">
                     <button type="submit" id="submit_button">Submit</button>
                     <button class="cancel_button"  type="button" onclick="show_continue_process()">Cancel</button>

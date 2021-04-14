@@ -1,21 +1,16 @@
 from logging import error
-from flask import Flask, json, url_for, render_template, redirect, request, send_file
+from flask import Flask, json, render_template, redirect, request
+from flask import send_file, url_for
 import os
 import re
 import urllib.request
 import jinja2
-from compare import compare_script_to_subtitles, create_output_files
-import time
+# I think this one was necessary for some of the jinja code inside the
+# html
+from compare import compare_script_to_subtitles, create_website_output_files
+# create_website_output_files does exist
 from collections import OrderedDict
 
-# NOTE: maybe disable the upload counter for the normal github version
-# by commentting the code. Only use the upload counter for the heroku
-# version of this file.
-
-
-# the virtual invironment for this file has been placed wrong, because
-# in order for the order files to work they should be placed inside this
-# file
 
 app = Flask(__name__)
 app.config['UPLOADED_FILES'] = 'uploads_user'
@@ -76,7 +71,7 @@ def get_script_file(script_url):
         html = match.group().replace("qq11qq", "\n")
     except AttributeError:
         error_message = """This URL did not work. Please try another
-        URL and make sure the URL is from IMSDb or try to upload a file 
+        URL and make sure the URL is from IMSDb or try to upload a file
         instead."""
         return error_message
     # This happens when the content between the tags "<pre>.*</pre>",
@@ -146,7 +141,7 @@ def index():
         elif not script_url == "":
             script_file = get_script_file(script_url)
             if "This URL did not work." in script_file:
-                return redirect(url_for('error_page', 
+                return redirect(url_for('error_page',
                                         error_message=script_file))
             else:
                 with open(f"uploads_user/script_file{process_counter}"
@@ -178,17 +173,17 @@ def index():
                                 script_file_option=script_file_option,
                                 subtitles_file_option=subtitles_file_option))
 
-
     else:
         return render_template('index.html')
         # so the homepage gets loaded when clicking on a link to the
         # page
 
+
 @app.route('/process_files/<script_file_option>/<subtitles_file_option>')
 def process_files(script_file_option, subtitles_file_option):
-    
+
     global process_counter
-        
+
     with open(f"uploads_user/subtitles_file{process_counter}.srt",
               "r", encoding='utf-8') as subtitles:
         subtitles_opened = subtitles.read()
@@ -202,10 +197,10 @@ def process_files(script_file_option, subtitles_file_option):
     average_ratio, new_script, new_subtitles = compare_script_to_subtitles(
         script_opened, subtitles_opened)
 
-    create_output_files(new_script, new_subtitles, script_file_option,
-                        subtitles_file_option,
-                        f"downloads_user/script{process_counter}.json",
-                        f"downloads_user/subtitles{process_counter}.json")
+    create_website_output_files(new_script, new_subtitles, script_file_option,
+                                subtitles_file_option,
+                                f"downloads_user/script{process_counter}",
+                                f"downloads_user/subtitles{process_counter}")
 
     normal_script_dict = dict(new_script)
     normal_subtitles_dict = dict(new_subtitles)
@@ -219,8 +214,9 @@ def process_files(script_file_option, subtitles_file_option):
     return render_template('output.html', average_ratio=average_ratio,
                            script_dict=normal_script_dict,
                            subtitles_dict=normal_subtitles_dict,
-                           process_number=str(process_number)
-                           )
+                           process_number=str(process_number),
+                           script_file_option=str(script_file_option),
+                           subtitles_file_option=str(subtitles_file_option))
 
 
 @app.route('/downloads_user/<filename>')
@@ -260,7 +256,7 @@ def error_page(error_message):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0')
+    app.run(host='0.0.0.0')
     # If you are running this file and you know the ip-address of your
     # computer (connected to your router), you can open the website with
     # the following url: http://<your_ip-address>:5000
