@@ -215,20 +215,17 @@ def main():
         'script',
         help='The name or path to a script (.txt) file.')
     parser.add_argument(
-        '-nosub', '--no_subtitles_out',
-        help='Use this option to supress the subtitles output',
-        default=True)
+        "-nosub", "--no_subtitles_output",
+        help='Use this option to suppress the subtitles output',
+        action='store_false')
     parser.add_argument(
-        '-noscr', '--no_script_out',
-        help='Use this option to supress the script output',
-        default=True)
+        '-noscr', '--no_script_output',
+        help='Use this option to suppress the script output',
+        action='store_false')
 
     args = parser.parse_args()
 
     start_time = timer.time()
-
-    # argument order: subtitles_file script_file script_output subtitles_output
-    # argument example: subtitles.txt script.txt True False
 
     with open(args.subtitles, 'r') as inp:
         subtitles_input = inp.read()
@@ -241,7 +238,7 @@ def main():
 
     create_output_files(
         new_script, new_subtitles,
-        args.no_subtitles_out, args.no_script_out
+        args.no_subtitles_output, args.no_script_output
         )
 
     print(
