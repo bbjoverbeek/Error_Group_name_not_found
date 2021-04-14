@@ -1,21 +1,16 @@
 from logging import error
-from flask import Flask, json, url_for, render_template, redirect, request, send_file
+from flask import Flask, json, render_template, redirect, request
+from flask import send_file, url_for
 import os
 import re
 import urllib.request
 import jinja2
+# I think this one was necessary for some of the jinja code inside the
+# html
 from compare import compare_script_to_subtitles, create_website_output_files
-import time
+# create_website_output_files does exist
 from collections import OrderedDict
 
-# NOTE: maybe disable the upload counter for the normal github version
-# by commentting the code. Only use the upload counter for the heroku
-# version of this file.
-
-
-# the virtual invironment for this file has been placed wrong, because
-# in order for the order files to work they should be placed inside this
-# file
 
 app = Flask(__name__)
 app.config['UPLOADED_FILES'] = 'uploads_user'
@@ -76,7 +71,7 @@ def get_script_file(script_url):
         html = match.group().replace("qq11qq", "\n")
     except AttributeError:
         error_message = """This URL did not work. Please try another
-        URL and make sure the URL is from IMSDb or try to upload a file 
+        URL and make sure the URL is from IMSDb or try to upload a file
         instead."""
         return error_message
     # This happens when the content between the tags "<pre>.*</pre>",
@@ -186,9 +181,9 @@ def index():
 
 @app.route('/process_files/<script_file_option>/<subtitles_file_option>')
 def process_files(script_file_option, subtitles_file_option):
-    
+
     global process_counter
-        
+
     with open(f"uploads_user/subtitles_file{process_counter}.srt",
               "r", encoding='utf-8') as subtitles:
         subtitles_opened = subtitles.read()
@@ -261,7 +256,7 @@ def error_page(error_message):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0')
+    app.run(host='0.0.0.0')
     # If you are running this file and you know the ip-address of your
     # computer (connected to your router), you can open the website with
     # the following url: http://<your_ip-address>:5000
