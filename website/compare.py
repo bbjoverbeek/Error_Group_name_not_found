@@ -19,6 +19,10 @@ import script_to_json
 import pprint
 from collections import OrderedDict
 
+# TODO: add docstrings & explaining comments
+# TODO: add unit tests
+# TODO: write my part of task division
+
 
 def process_subtitle(subtitles_dict, i):
     '''Add sentences split over multiple items together.'''
@@ -68,15 +72,25 @@ def compare_script_to_subtitles(script, subtitles):
 
     subtitles_dict = OrderedDict(order_text(subtitles))
 
+    #pp = pprint.PrettyPrinter()
+    #pp.pprint(subtitles_dict)
+
     # Remove the <tags> from the text
     for item in subtitles_dict:
         subtitles_dict[item]['text'] = \
             re.sub('<.*?>', '', subtitles_dict[item]['text'])
 
     # merge subtitles for complete lines
+    subtitle_dict_length = len(subtitles_dict)
     i = 1
-    while i < len(subtitles_dict) + 1:
+    while i < subtitle_dict_length:
         subtitles_dict, i = process_subtitle(subtitles_dict, i)
+
+    #print(f'subtitles_dict length: {len(subtitles_dict)}')
+
+
+    pp = pprint.PrettyPrinter()
+    pp.pprint(subtitles_dict)
 
     no_spaces = label_lines.detect_amount_of_spaces(script)
 
@@ -88,13 +102,11 @@ def compare_script_to_subtitles(script, subtitles):
 
     script_dict = script_to_json.converter(labelled_script)
 
-    total_items = len(subtitles_dict)
-
-    #print (f'total items: {total_items}')
-
-    progress = 0
+    progress = [0, len(subtitles_dict)]
 
     average_ratio = [0, 0]
+
+    time = ''
 
     for item in subtitles_dict:
 
@@ -113,8 +125,11 @@ def compare_script_to_subtitles(script, subtitles):
 
                     for d_sentence in dialogue_text:
 
-                        ratio = \
-                            SequenceMatcher(None, sub_sentence, d_sentence).ratio()
+                        ratio = SequenceMatcher(
+                            None,
+                            sub_sentence,
+                            d_sentence
+                            ).ratio()
 
                         if ratio > highest_ratio:
 
@@ -131,22 +146,41 @@ def compare_script_to_subtitles(script, subtitles):
             if time != '':
                 script_dict[highest_D_match]['time'] = time
 
-        if highest_ratio >= 0.7:
+        print(item)
+        print(highest_ratio)
+        average_ratio[0] += highest_ratio
+        average_ratio[1] += 1
 
-            average_ratio[0] += highest_ratio
-            average_ratio[1] += 1
+        progress[0] += 1
 
-        progress += 1
+        print(f'{progress[0]}/{progress[1]}', file=sys.stderr)
 
-        print(f'{progress}/{total_items}', file=sys.stderr)
+    for item in subtitles_dict:
+        subtitles_dict[item]['text'] = ' '.join(subtitles_dict[item]['text'])
 
+    print(average_ratio[0], average_ratio[1], file=sys.stderr)
     average_ratio = (average_ratio[0] / average_ratio[1]) * 100
 
     return average_ratio, script_dict, subtitles_dict
 
 
-def create_output_files(new_script, new_subtitles, script_out, subtitles_out,
-                        filename_script, filename_sub):
+def create_output_files(new_script, new_subtitles, script_out, subtitles_out):
+
+    time = datetime.now().strftime("%d-%m-%Y_%H:%M:%S")
+
+    if script_out:
+        filename = 'script_output_' + time + '.json'
+        with open(filename, 'w') as output:
+            json.dump(new_script, output, indent=4)
+
+    if subtitles_out:
+        filename = 'subtitles_output_' + time + '.json'
+        with open(filename, 'w') as output:
+            json.dump(new_subtitles, output, indent=4)
+
+
+def create_website_output_files(new_script, new_subtitles, script_out,
+                                subtitles_out, filename_script, filename_sub):
 
     if script_out:
         filename = filename_script + '.json'
@@ -161,17 +195,17 @@ def create_output_files(new_script, new_subtitles, script_out, subtitles_out,
 
 def main(argv):
 
+    # TODO: add CLI
+
     start_time = timer.time()
 
-    # argument order: subtitles file   script file   script output   subtitles output
+    # argument order: subtitles_file script_file script_output subtitles_output
     # argument example: subtitles.txt script.txt True False
 
     with open(argv[1], 'r') as inp:
-        #with open('shrek_subtitles.srt', 'r') as inp:
         subtitles_input = inp.read()
 
     with open(argv[2], 'r') as inp:
-        #with open('shrek_script.txt', 'r') as inp:
         script_input = inp.readlines()
 
     average_ratio, new_script, new_subtitles = \
@@ -188,10 +222,17 @@ def main(argv):
 
     create_output_files(new_script, new_subtitles, script_out, subtitles_out)
 
-    print(f'The subtitles were {average_ratio:.2f}% equal to the script', file=sys.stderr)
+    print(
+        f'The subtitles were {average_ratio:.2f}% equal to the script dialogue',
+        file=sys.stderr
+        )
 
     duration = int((timer.time() - start_time) / 60)
-    print(f'Running this program wasted {duration} minutes of your life, congrats!', file=sys.stderr)
+    print(
+        f'Running this program wasted {duration} minutes '
+        'of your life, congrats!',
+        file=sys.stderr
+        )
 
 
 if __name__ == "__main__":

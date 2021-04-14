@@ -4,19 +4,25 @@ import sys
 import re
 
 
-def open_file(text):
+def open_file(filename):
     """This function opens the srt file"""
-    with open(text, 'r') as inp:
-        file = inp.read()
+    with open(filename, 'r') as inp:
+        subtitles = inp.read()
 
-    return file
+    return subtitles
 
 
 def order_text(text):
-    """This function turns the text into a dictionary"""
-    mydict = {}
+    """This function turns the text into a dictionary
 
-    # This turns the text into different blocks per subtitle
+    subtitles_dict (dict) = The final dictionary
+
+    subtitle_dict (dict) = The temporary dictionary containing
+    the data that will be put into subtitles_dict
+
+    """
+    subtitles_dict = {}
+
     text = re.split("\n\n", text)
 
     for item in text:
@@ -24,25 +30,24 @@ def order_text(text):
 
         # The following lines of code connect the different lines of item
         # to the correct name
-        number = int(item[0])
-        time = item[1]
-        text = ' '.join(item[2:])
+        if len(item) > 2:
+            number = int(item[0])
+            time = item[1]
+            subtitle_text = ' '.join(item[2:])
 
-        # The following lines of code make two dictionaries,
-        # with inside_dict sitting inside of mydict
-        inside_dict = {'time': time, 'text': text}
-        mydict[number] = inside_dict
+            subtitle_dict = {'time': time, 'text': subtitle_text}
+            subtitles_dict[number] = subtitle_dict
 
-    return mydict
+    return subtitles_dict
 
 
 def main(argv):
 
-    text = open_file(argv[1])
-    text_dict = order_text(text)
+    subtitles = open_file(argv[1])
+    subtitle_dict = order_text(subtitles)
 
     # I have added a commented print statement. Remove to test the program.
-    print(text_dict)
+    print(subtitle_dict)
 
 
 if __name__ == "__main__":

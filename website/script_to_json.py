@@ -7,6 +7,15 @@ from collections import OrderedDict
 
 
 def converter(script):
+    """This function adds all the lines that return from label_lines.py
+    into an ordered dictionary
+
+    script (str) = The full script that returned from label_lines.py.
+    It has all the labels in front of the text.
+
+    script_dict (dict) = The script to which all data will be added
+
+    """
 
     script_dict = OrderedDict()
     line_no = 0
@@ -36,6 +45,13 @@ def converter(script):
 
 
 def add_D_to_C(character_dict, script, line_no, i):
+    """This function connects the dialogue to the correct character
+    and places them together in the dictionary
+
+    character_dict = The temporary dictionary that will be put into
+    script_dict in the converter function
+
+    """
 
     if not script[line_no + i].startswith('D|') and i != 0:
         return character_dict, (line_no + i - 1)
@@ -50,6 +66,13 @@ def add_D_to_C(character_dict, script, line_no, i):
 
 
 def group_scene_description(scene_description, script, line_no, i):
+    """The scene description that follow each other are put
+    into the same location in script_dict
+
+    scene_description = The temporary dictionary that will be put
+    into script_dict in the converter function
+
+    """
 
     if not script[line_no + i].startswith('N|') and i != 0:
         return scene_description, (line_no + i - 1)

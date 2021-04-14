@@ -4,7 +4,7 @@ import os
 import re
 import urllib.request
 import jinja2
-from compare import compare_script_to_subtitles, create_output_files
+from compare import compare_script_to_subtitles, create_website_output_files
 import time
 from collections import OrderedDict
 
@@ -202,10 +202,10 @@ def process_files(script_file_option, subtitles_file_option):
     average_ratio, new_script, new_subtitles = compare_script_to_subtitles(
         script_opened, subtitles_opened)
 
-    create_output_files(new_script, new_subtitles, script_file_option,
-                        subtitles_file_option,
-                        f"downloads_user/script{process_counter}.json",
-                        f"downloads_user/subtitles{process_counter}.json")
+    create_website_output_files(new_script, new_subtitles, script_file_option,
+                                subtitles_file_option,
+                                f"downloads_user/script{process_counter}",
+                                f"downloads_user/subtitles{process_counter}")
 
     normal_script_dict = dict(new_script)
     normal_subtitles_dict = dict(new_subtitles)
@@ -219,8 +219,9 @@ def process_files(script_file_option, subtitles_file_option):
     return render_template('output.html', average_ratio=average_ratio,
                            script_dict=normal_script_dict,
                            subtitles_dict=normal_subtitles_dict,
-                           process_number=str(process_number)
-                           )
+                           process_number=str(process_number),
+                           script_file_option=str(script_file_option),
+                           subtitles_file_option=str(subtitles_file_option))
 
 
 @app.route('/downloads_user/<filename>')

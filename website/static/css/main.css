@@ -339,6 +339,7 @@ footer > div {
 
 .info_checkbox {
     font-size: 13px;
+    margin-top: 10px;
     color: rgb(65, 65, 65);    
 }
 
@@ -357,7 +358,7 @@ hr {
     border: 0.5px solid lightgray;
 }
 
-#url_or_script:active, #process_files:active, #submit_button:active, .cancel_button:active {
+#url_or_script:active, #process_files:active, #submit_button:active, .cancel_button:active, .download_button:active {
     transform: scale(0.98);
 }
 
@@ -605,7 +606,45 @@ h2 {
 
 
 
+.download_button {
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    min-width: calc(50% - 60px);
+    flex-basis: calc(50% - 60px);
+    background-color: whitesmoke;
+    border-radius: 3px;
+    align-items: center;
+    text-decoration: none;
+    transition: all 200ms ease;
+}
 
+
+
+
+
+
+.download_button > svg {
+    height: 28px;
+    width: 28px;
+}
+
+.download_button > p {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.download_button:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+
+.download_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
 
 .average_rating {
     margin-bottom: 10px;
@@ -614,7 +653,7 @@ h2 {
 }
 
 .output_heading {
-    margin-bottom: 200px 0 50px 0;
+    margin-bottom: 125px 0 50px 0;
 }
 
 .has_character_item_sub, .other_item_sub, .has_character_item_script, .other_item_script {
@@ -759,7 +798,9 @@ h2 {
         font-size: 36px;
     }
 
-
+    .download_list {
+        flex-direction: column;
+    }
 
 
 
@@ -960,11 +1001,22 @@ h2 {
 
     #continue_process svg {
         fill: whitesmoke;
+    }
+    
+    .download_button:hover {
+        background-color: rgb(65, 65, 65);
+    }
 
+    .download_button {
+        background-color: rgb(39, 39, 39)
+    }
+
+    .download_button > svg {
+        fill: whitesmoke;
     }
     
     .has_character_item_sub, .other_item_sub, .other_item_script, .has_character_item_script {
-    color: white;
+        color: white;
     }
    
 }

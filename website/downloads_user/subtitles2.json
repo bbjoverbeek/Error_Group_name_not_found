@@ -1,0 +1,3794 @@
+{
+    "1": {
+        "time": "00:00:52,346 --> 00:00:55,099",
+        "text": "Come on, come on. She's been under too long.",
+        "character": "JACK "
+    },
+    "2": {
+        "time": "00:01:23,210 --> 00:01:24,170",
+        "text": "Come on.",
+        "character": "JACK "
+    },
+    "3": {
+        "time": "00:01:26,839 --> 00:01:29,341",
+        "text": "The name, pal. Give us the name.",
+        "character": "MAX "
+    },
+    "4": {
+        "time": "00:01:54,366 --> 00:01:55,659",
+        "text": "Za druziye."
+    },
+    "5": {
+        "time": "00:02:16,639 --> 00:02:18,015",
+        "text": "Get rid of that scum."
+    },
+    "6": {
+        "time": "00:02:26,398 --> 00:02:27,691",
+        "text": "Hold her still."
+    },
+    "7": {
+        "time": "00:02:30,736 --> 00:02:32,279",
+        "text": "Come on.",
+        "character": "JACK "
+    },
+    "8": {
+        "time": "00:02:57,429 --> 00:02:58,889",
+        "text": "Did we get it?",
+        "character": "CLAIRE "
+    },
+    "9": {
+        "time": "00:03:00,015 --> 00:03:00,975",
+        "text": "We got it.",
+        "character": "ETHAN "
+    },
+    "10": {
+        "time": "00:03:56,822 --> 00:03:58,699",
+        "text": "Would you like to watch a movie, Mr. Rosen?",
+        "character": "FLIGHT ATTENDANT "
+    },
+    "11": {
+        "time": "00:03:58,824 --> 00:04:00,284",
+        "text": "No, thank you.",
+        "character": "ETHAN"
+    },
+    "12": {
+        "time": "00:04:05,748 --> 00:04:08,626",
+        "text": "Would you like to watch a movie, Mr. Phelps?",
+        "character": "(CONT'D) "
+    },
+    "13": {
+        "time": "00:04:08,709 --> 00:04:10,669",
+        "text": "No, I prefer the theater.",
+        "character": "PHELPS "
+    },
+    "14": {
+        "time": "00:04:11,003 --> 00:04:13,464",
+        "text": "Would you consider the cinema of the Ukraine?",
+        "character": "FLIGHT ATTENDANT "
+    },
+    "15": {
+        "time": "00:04:15,591 --> 00:04:17,426",
+        "text": "Perhaps you'll choose one for me.",
+        "character": "PHELPS "
+    },
+    "16": {
+        "time": "00:04:22,223 --> 00:04:23,265",
+        "text": "Thank you.",
+        "character": "PHELPS "
+    },
+    "17": {
+        "time": "00:04:48,374 --> 00:04:50,209",
+        "text": "Good morning, Mr. Phelps.",
+        "character": "KITTRIDGE"
+    },
+    "19": {
+        "time": "00:04:50,334 --> 00:04:55,631",
+        "text": "The man you're looking at is Alexander Golitsyn... an attach\u00e9 at our embassy in Prague."
+    },
+    "20": {
+        "time": "00:04:55,714 --> 00:04:57,508",
+        "text": "He is also a traitor."
+    },
+    "22": {
+        "time": "00:04:58,467 --> 00:05:05,391",
+        "text": "He has stolen one half of a CIA NOC list... a record of all our deep-cover agents working in Eastern Europe."
+    },
+    "23": {
+        "time": "00:05:05,891 --> 00:05:09,311",
+        "text": "For security reasons, the NOC list is divided in two.",
+        "character": "KITTRIDGE (O.S.) "
+    },
+    "26": {
+        "time": "00:05:10,271 --> 00:05:18,404",
+        "text": "The portion that Golitsyn already has contains code names... but this half is useless without its mate... which matches the code names with their true names."
+    },
+    "28": {
+        "time": "00:05:19,238 --> 00:05:25,619",
+        "text": "It is this half which Golitsyn plans to steal from the embassy... during a reception tomorrow night."
+    },
+    "31": {
+        "time": "00:05:25,744 --> 00:05:35,421",
+        "text": "Your mission, Jim, should you choose to accept it... is to obtain photographic proof of the theft... shadow Golitsyn to his buyer, and apprehend them both.",
+        "character": "KITTRIDGE (O.S.) "
+    },
+    "32": {
+        "time": "00:05:36,172 --> 00:05:39,884",
+        "text": "I've already dispatched a team, selected from your usual group.",
+        "character": "KITTRIDGE (O.S.) "
+    },
+    "33": {
+        "time": "00:05:39,967 --> 00:05:42,261",
+        "text": "Sarah Davies is already undercover."
+    },
+    "34": {
+        "time": "00:05:42,386 --> 00:05:45,389",
+        "text": "Jack Harmon can hack into any security system."
+    },
+    "35": {
+        "time": "00:05:45,514 --> 00:05:47,766",
+        "text": "Hannah Williams will handle surveillance."
+    },
+    "37": {
+        "time": "00:05:47,892 --> 00:05:53,856",
+        "text": "Your wife, Claire, will cover transport... and Ethan Hunt will be your point man, as usual."
+    },
+    "39": {
+        "time": "00:05:54,523 --> 00:05:58,986",
+        "text": "He is now in Kiev and will rendezvous in Prague... at a safe house of your choosing."
+    },
+    "42": {
+        "time": "00:05:59,153 --> 00:06:07,745",
+        "text": "As always, should you or any member of your IM Force... be caught or killed... the Secretary will disavow all knowledge of your actions.",
+        "character": "KITTRIDGE (O.S.) "
+    },
+    "43": {
+        "time": "00:06:08,120 --> 00:06:10,873",
+        "text": "This tape will self-destruct in five seconds.",
+        "character": "KITTRIDGE (O.S.) "
+    },
+    "44": {
+        "time": "00:06:10,956 --> 00:06:12,500",
+        "text": "Good luck, Jim.",
+        "character": "KITTRIDGE (O.S.) "
+    },
+    "45": {
+        "time": "00:06:35,105 --> 00:06:37,191",
+        "text": "A very straightforward objective."
+    },
+    "48": {
+        "time": "00:06:37,983 --> 00:06:44,698",
+        "text": "We photograph Golitsyn stealing the NOC list... follow him to his buyer... apprehend both of them."
+    },
+    "49": {
+        "time": "00:06:45,449 --> 00:06:46,617",
+        "text": "Now here's the plot."
+    },
+    "51": {
+        "time": "00:06:47,326 --> 00:06:53,290",
+        "text": "Ethan, you're going into the embassy in character, during a party... hide in plain sight, highest possible profile."
+    },
+    "52": {
+        "time": "00:06:53,958 --> 00:06:57,002",
+        "text": "- You game? - Wouldn't have it any other way."
+    },
+    "54": {
+        "time": "00:06:58,003 --> 00:07:02,633",
+        "text": "Sarah, you're at the party already... as the embassy's Washington visitor liaison."
+    },
+    "55": {
+        "time": "00:07:02,800 --> 00:07:05,511",
+        "text": "Make contact with Ethan. You'll run the game together."
+    },
+    "56": {
+        "time": "00:07:05,845 --> 00:07:07,137",
+        "text": "I haven't a thing to wear."
+    },
+    "57": {
+        "time": "00:07:09,557 --> 00:07:11,267",
+        "text": "Well, I'm sure you'll work it out."
+    },
+    "58": {
+        "time": "00:07:13,227 --> 00:07:14,687",
+        "text": "You'll mark Golitsyn, hand him off to Hannah."
+    },
+    "59": {
+        "time": "00:07:14,812 --> 00:07:16,981",
+        "text": "Hannah, you'll have him for the duration of the interior."
+    },
+    "60": {
+        "time": "00:07:17,398 --> 00:07:20,234",
+        "text": "- Find yourself a perch and stay on him. - No problem."
+    },
+    "61": {
+        "time": "00:07:20,359 --> 00:07:21,694",
+        "text": "- Jack? - Yeah?",
+        "character": "ETHAN "
+    },
+    "62": {
+        "time": "00:07:22,152 --> 00:07:25,531",
+        "text": "Fingerprint security, there's access through the elevator shaft here."
+    },
+    "63": {
+        "time": "00:07:26,198 --> 00:07:27,867",
+        "text": "So I guess I'm not wearing my tux."
+    },
+    "64": {
+        "time": "00:07:27,992 --> 00:07:29,535",
+        "text": "Open, close, get out."
+    },
+    "65": {
+        "time": "00:07:30,119 --> 00:07:31,662",
+        "text": "Zero residual presence."
+    },
+    "66": {
+        "time": "00:07:33,289 --> 00:07:36,125",
+        "text": "Claire, you're cover outside in the vehicle."
+    },
+    "67": {
+        "time": "00:07:36,208 --> 00:07:38,878",
+        "text": "Hannah will join you as Golitsyn goes exterior..."
+    },
+    "68": {
+        "time": "00:07:39,003 --> 00:07:41,630",
+        "text": "- you two stay on him from there. - Okay.",
+        "character": "CLAIRE"
+    },
+    "69": {
+        "time": "00:07:41,714 --> 00:07:43,215",
+        "text": "Anything goes wrong, I call abort."
+    },
+    "70": {
+        "time": "00:07:43,591 --> 00:07:45,676",
+        "text": "Everybody walk away immediately."
+    },
+    "71": {
+        "time": "00:07:47,219 --> 00:07:50,181",
+        "text": "Regroup here at 4:00 a. m. That's 0400."
+    },
+    "72": {
+        "time": "00:07:50,806 --> 00:07:52,266",
+        "text": "Any questions?"
+    },
+    "73": {
+        "time": "00:07:53,851 --> 00:07:54,935",
+        "text": "Yeah.",
+        "character": "ETHAN "
+    },
+    "74": {
+        "time": "00:07:56,061 --> 00:07:57,813",
+        "text": "Can we get a cappuccino machine in here?"
+    },
+    "75": {
+        "time": "00:07:57,897 --> 00:07:59,356",
+        "text": "'Cause I don't know what you call this."
+    },
+    "76": {
+        "time": "00:07:59,732 --> 00:08:01,734",
+        "text": "I call it cruel and unusual."
+    },
+    "77": {
+        "time": "00:08:01,817 --> 00:08:04,069",
+        "text": "- I made that coffee. - Exactly."
+    },
+    "78": {
+        "time": "00:08:04,195 --> 00:08:06,822",
+        "text": "Is it possible it's even worse than that sludge you made..."
+    },
+    "79": {
+        "time": "00:08:06,906 --> 00:08:08,532",
+        "text": "- in that barn in Kiev? - Thank you.",
+        "character": "PHELPS "
+    },
+    "80": {
+        "time": "00:08:08,657 --> 00:08:10,451",
+        "text": "Take it easy on my wife's coffee, will you?"
+    },
+    "81": {
+        "time": "00:08:11,493 --> 00:08:14,038",
+        "text": "- We missed you in Kiev, Jim. - Missed you, too, Ethan."
+    },
+    "82": {
+        "time": "00:08:14,121 --> 00:08:16,665",
+        "text": "Were you off on one of your cushy recruiting assignments again?"
+    },
+    "83": {
+        "time": "00:08:16,749 --> 00:08:18,459",
+        "text": "Where'd they put you up this time? The Plaza?"
+    },
+    "84": {
+        "time": "00:08:19,627 --> 00:08:20,920",
+        "text": "Drake Hotel, Chicago."
+    },
+    "85": {
+        "time": "00:08:22,379 --> 00:08:23,547",
+        "text": "What a shame."
+    },
+    "86": {
+        "time": "00:08:23,631 --> 00:08:26,300",
+        "text": "- 24-hour room service. - Chauffeured cars."
+    },
+    "87": {
+        "time": "00:08:26,425 --> 00:08:27,843",
+        "text": "Fat expense account."
+    },
+    "88": {
+        "time": "00:08:27,927 --> 00:08:30,429",
+        "text": "- Now he's getting soft in his old age. - Yeah, he is. Look at him.",
+        "character": "BARNES "
+    },
+    "89": {
+        "time": "00:08:31,430 --> 00:08:32,389",
+        "text": "Okay, listen."
+    },
+    "92": {
+        "time": "00:08:33,140 --> 00:08:40,189",
+        "text": "If that list gets out into the open... the names of our agents in every country in Eastern Europe... will be up for grabs to the highest bidders."
+    },
+    "94": {
+        "time": "00:08:41,106 --> 00:08:47,154",
+        "text": "Third world terrorists, arms dealers, drug lords... any and everybody who'd love to get rid of long-term coverts like us.",
+        "character": "PHELPS (CONT'D) "
+    },
+    "95": {
+        "time": "00:08:47,863 --> 00:08:51,575",
+        "text": "If they're exposed, they'll be executed.",
+        "character": "PHELPS (CONT'D) "
+    },
+    "96": {
+        "time": "00:08:53,285 --> 00:08:56,705",
+        "text": "So I'll run the whole show from the crow's nest here."
+    },
+    "97": {
+        "time": "00:08:56,831 --> 00:08:59,500",
+        "text": "Everyone knows their roles. Let's punch out the details."
+    },
+    "98": {
+        "time": "00:08:59,792 --> 00:09:02,169",
+        "text": "There's a camera built right into the bridge.",
+        "character": "JACK "
+    },
+    "99": {
+        "time": "00:09:02,920 --> 00:09:05,589",
+        "text": "Whatever you see, it sees, and then it transmits it back here.",
+        "character": "JACK "
+    },
+    "100": {
+        "time": "00:09:06,423 --> 00:09:07,424",
+        "text": "See?",
+        "character": "PHELPS (CONT'D) "
+    },
+    "101": {
+        "time": "00:09:08,133 --> 00:09:09,635",
+        "text": "Can you hear me?",
+        "character": "JACK "
+    },
+    "102": {
+        "time": "00:09:09,718 --> 00:09:12,263",
+        "text": "- Of course I can hear you. - No, in your...",
+        "character": "SARAH "
+    },
+    "103": {
+        "time": "00:09:12,388 --> 00:09:14,181",
+        "text": "- You need an earpiece. - Oh.",
+        "character": "GUARD "
+    },
+    "104": {
+        "time": "00:09:18,435 --> 00:09:19,770",
+        "text": "You have lovely eyes.",
+        "character": "JACK "
+    },
+    "105": {
+        "time": "00:09:19,854 --> 00:09:22,064",
+        "text": "- Can you hear me now? - Loud and clear.",
+        "character": "JACK "
+    },
+    "107": {
+        "time": "00:09:22,481 --> 00:09:27,027",
+        "text": "If he has a car waiting, and he rolls... you stay with him no matter what."
+    },
+    "109": {
+        "time": "00:09:27,611 --> 00:09:30,447",
+        "text": "You should take the afternoon... drive the streets around this little quarter."
+    },
+    "110": {
+        "time": "00:09:30,531 --> 00:09:32,241",
+        "text": "They're confusing as hell."
+    },
+    "111": {
+        "time": "00:09:32,616 --> 00:09:34,577",
+        "text": "What do you think I've been doing all morning?"
+    },
+    "112": {
+        "time": "00:09:34,952 --> 00:09:37,830",
+        "text": "- We're using Waltzer? - He's our guy.",
+        "character": "PHELPS "
+    },
+    "113": {
+        "time": "00:09:39,165 --> 00:09:41,041",
+        "text": "Isn't he chairing the armed services hearing?",
+        "character": "ETHAN "
+    },
+    "114": {
+        "time": "00:09:42,209 --> 00:09:45,462",
+        "text": "Not this week. This week, he's fly-fishing...",
+        "character": "PHELPS "
+    },
+    "115": {
+        "time": "00:09:45,713 --> 00:09:47,840",
+        "text": "at the Oughterard Slough in County Kildare..."
+    },
+    "116": {
+        "time": "00:09:47,965 --> 00:09:50,384",
+        "text": "- with one of our best Irish guides. - Yep."
+    },
+    "117": {
+        "time": "00:09:50,509 --> 00:09:52,636",
+        "text": "And he won't be back anytime soon."
+    },
+    "119": {
+        "time": "00:09:53,512 --> 00:09:57,725",
+        "text": "...irrelevant at best... or unconstitutional at worst."
+    },
+    "123": {
+        "time": "00:09:57,892 --> 00:10:09,153",
+        "text": "With all due respect, Senator... it sounds as if you want to lead the kind of charge... that Senator Frank Church led in the 1970s... and in the process destroy the intelligence capability..."
+    },
+    "124": {
+        "time": "00:10:09,278 --> 00:10:10,237",
+        "text": "- of this country. - No, John."
+    },
+    "126": {
+        "time": "00:10:10,362 --> 00:10:15,201",
+        "text": "I want to know who these people are... and how they're spending our taxpayers' money."
+    },
+    "127": {
+        "time": "00:10:15,326 --> 00:10:18,704",
+        "text": "We were living in a democracy the last time I checked.",
+        "character": "SENATOR WALTZER "
+    },
+    "128": {
+        "time": "00:10:20,122 --> 00:10:21,373",
+        "text": "Stick of gum, right?",
+        "character": "JACK "
+    },
+    "129": {
+        "time": "00:10:22,416 --> 00:10:23,626",
+        "text": "- No? - No.",
+        "character": "PHELPS"
+    },
+    "130": {
+        "time": "00:10:24,168 --> 00:10:25,836",
+        "text": "Red light, green light.",
+        "character": "ETHAN "
+    },
+    "132": {
+        "time": "00:10:26,170 --> 00:10:32,968",
+        "text": "You come up against a lock you can't pick, you mash them together... hasta lasagna, don't get any on ya."
+    },
+    "133": {
+        "time": "00:10:33,761 --> 00:10:35,221",
+        "text": "You'll have about five seconds."
+    },
+    "134": {
+        "time": "00:10:38,516 --> 00:10:41,227",
+        "text": "Just don't chew it.",
+        "character": "JACK "
+    },
+    "135": {
+        "time": "00:11:18,430 --> 00:11:20,266",
+        "text": "Ethan, Jack's inside.",
+        "character": "PHELPS "
+    },
+    "136": {
+        "time": "00:11:20,975 --> 00:11:21,976",
+        "text": "Let's go.",
+        "character": "GUARD RANDALL "
+    },
+    "137": {
+        "time": "00:11:27,147 --> 00:11:28,232",
+        "text": "How do you do, Senator?"
+    },
+    "138": {
+        "time": "00:11:28,315 --> 00:11:29,859",
+        "text": "I'm Rand Housman, the ambassador's aide.",
+        "character": "DIPLOMAT "
+    },
+    "139": {
+        "time": "00:11:29,942 --> 00:11:31,569",
+        "text": "- Hello, Mr. Housman. - How was the opera?"
+    },
+    "140": {
+        "time": "00:11:33,362 --> 00:11:34,905",
+        "text": "It was boring.",
+        "character": "MATTHIAS"
+    },
+    "141": {
+        "time": "00:11:35,155 --> 00:11:37,616",
+        "text": "Let me see if I can steer you through this reception line.",
+        "character": "DIPLOMAT "
+    },
+    "142": {
+        "time": "00:11:47,334 --> 00:11:50,129",
+        "text": "- How do you do, Senator? - His wife, Mrs. Reid."
+    },
+    "143": {
+        "time": "00:11:50,254 --> 00:11:52,047",
+        "text": "Windows open by 2300."
+    },
+    "144": {
+        "time": "00:11:52,173 --> 00:11:54,592",
+        "text": "- Petr Brandl, the mayor of Prague. - How do you do, sir?"
+    },
+    "145": {
+        "time": "00:11:54,675 --> 00:11:56,260",
+        "text": "And Mrs. Brandl."
+    },
+    "146": {
+        "time": "00:11:58,804 --> 00:12:00,681",
+        "text": "I bet you don't remember me, do you?",
+        "character": "SARAH "
+    },
+    "147": {
+        "time": "00:12:00,806 --> 00:12:03,142",
+        "text": "Why, of course I do. How are you, Miss Norman?",
+        "character": "SENATOR WALTZER "
+    },
+    "148": {
+        "time": "00:12:03,225 --> 00:12:05,561",
+        "text": "He's in pocket, on the stairway."
+    },
+    "149": {
+        "time": "00:12:10,191 --> 00:12:12,943",
+        "text": "Mr. Golitsyn, nice to see you."
+    },
+    "151": {
+        "time": "00:12:14,987 --> 00:12:20,784",
+        "text": "Hannah... pull the shade."
+    },
+    "152": {
+        "time": "00:12:31,128 --> 00:12:33,756",
+        "text": "Sarah, mark the package and go to tunnel.",
+        "character": "PHELPS "
+    },
+    "153": {
+        "time": "00:12:39,303 --> 00:12:42,223",
+        "text": "Your advance team mentioned that you'd like a tour of the facilities..."
+    },
+    "154": {
+        "time": "00:12:42,348 --> 00:12:44,475",
+        "text": "so I've gone ahead and set one up. Excuse me."
+    },
+    "155": {
+        "time": "00:12:44,600 --> 00:12:45,809",
+        "text": "This way. Thank you.",
+        "character": "PHELPS "
+    },
+    "156": {
+        "time": "00:12:57,738 --> 00:12:59,114",
+        "text": "Oh, great."
+    },
+    "158": {
+        "time": "00:12:59,615 --> 00:13:05,204",
+        "text": "...which leads to the denied area... which is the only limited-access area in the whole facility.",
+        "character": "SARAH "
+    },
+    "159": {
+        "time": "00:13:30,229 --> 00:13:31,564",
+        "text": "Governor's in position now.",
+        "character": "JACK "
+    },
+    "160": {
+        "time": "00:13:41,574 --> 00:13:43,993",
+        "text": "- Excuse me. Can I help you? - I'm sorry.",
+        "character": "CLAIRE "
+    },
+    "161": {
+        "time": "00:13:44,076 --> 00:13:47,538",
+        "text": "As you can see, there's a Marine guard and video surveillance..."
+    },
+    "162": {
+        "time": "00:13:47,621 --> 00:13:49,999",
+        "text": "and this place is like... Excuse me. I'm sorry.",
+        "character": "CLAIRE "
+    },
+    "163": {
+        "time": "00:13:50,082 --> 00:13:51,876",
+        "text": "I know it's in here somewhere."
+    },
+    "164": {
+        "time": "00:13:51,959 --> 00:13:54,920",
+        "text": "Now, Sergeant, why are you not in your uniform this evening?"
+    },
+    "165": {
+        "time": "00:13:56,505 --> 00:13:59,758",
+        "text": "We've been ordered to wear civilian clothes this evening, sir."
+    },
+    "166": {
+        "time": "00:14:02,011 --> 00:14:03,470",
+        "text": "Be right back."
+    },
+    "167": {
+        "time": "00:14:04,930 --> 00:14:08,100",
+        "text": "Tell me, Senator, do you not have someone on your staff named Jack?"
+    },
+    "168": {
+        "time": "00:14:08,767 --> 00:14:11,854",
+        "text": "Jack? Well, I think we did have a Jack.",
+        "character": "ETHAN "
+    },
+    "170": {
+        "time": "00:14:11,937 --> 00:14:17,401",
+        "text": "An unreliable fellow, as I recall, constantly late... behind in his work."
+    },
+    "173": {
+        "time": "00:14:20,279 --> 00:14:26,577",
+        "text": "We were forced to tie him behind one of my best stallions... and drag him around... my barn for a few days."
+    },
+    "174": {
+        "time": "00:14:26,660 --> 00:14:28,746",
+        "text": "Relax your crap, Foghorn. I'm working on it.",
+        "character": "ETHAN"
+    },
+    "175": {
+        "time": "00:14:42,426 --> 00:14:43,761",
+        "text": "Sorry, sir.",
+        "character": "GUARD "
+    },
+    "176": {
+        "time": "00:14:44,428 --> 00:14:45,846",
+        "text": "- Thank you. - Have a nice evening.",
+        "character": "PHELPS "
+    },
+    "177": {
+        "time": "00:14:45,971 --> 00:14:46,931",
+        "text": "Thank you.",
+        "character": "PHELPS "
+    },
+    "178": {
+        "time": "00:14:58,400 --> 00:15:01,570",
+        "text": "That date with Sarah is definitely off.",
+        "character": "JACK "
+    },
+    "179": {
+        "time": "00:15:31,058 --> 00:15:32,059",
+        "text": "Higher.",
+        "character": "SARAH "
+    },
+    "180": {
+        "time": "00:15:37,565 --> 00:15:39,859",
+        "text": "He's heading to the denied area.",
+        "character": "HANNAH "
+    },
+    "181": {
+        "time": "00:15:42,528 --> 00:15:43,654",
+        "text": "Get moving, Ethan.",
+        "character": "PHELPS "
+    },
+    "182": {
+        "time": "00:15:43,863 --> 00:15:44,905",
+        "text": "He's rolling to you.",
+        "character": "PHELPS "
+    },
+    "183": {
+        "time": "00:15:55,833 --> 00:15:56,876",
+        "text": "Jack.",
+        "character": "ETHAN "
+    },
+    "184": {
+        "time": "00:15:59,545 --> 00:16:00,713",
+        "text": "Jack, we're in position here.",
+        "character": "ETHAN "
+    },
+    "185": {
+        "time": "00:16:02,548 --> 00:16:04,550",
+        "text": "- Jack. - I didn't touch it.",
+        "character": "JACK "
+    },
+    "186": {
+        "time": "00:16:07,636 --> 00:16:09,180",
+        "text": "What about my coat? I'm going to freeze.",
+        "character": "SARAH "
+    },
+    "187": {
+        "time": "00:16:09,305 --> 00:16:10,514",
+        "text": "Jack, open the doors.",
+        "character": "ETHAN "
+    },
+    "188": {
+        "time": "00:16:20,858 --> 00:16:22,860",
+        "text": "He's in the box, Ethan. He's in the box.",
+        "character": "ETHAN"
+    },
+    "189": {
+        "time": "00:16:23,736 --> 00:16:24,737",
+        "text": "Okay.",
+        "character": "CLAIRE"
+    },
+    "190": {
+        "time": "00:16:24,862 --> 00:16:26,864",
+        "text": "We're taking Golitsyn's exit. Open these doors.",
+        "character": "PHELPS "
+    },
+    "191": {
+        "time": "00:16:26,989 --> 00:16:28,324",
+        "text": "I don't have it.",
+        "character": "JACK (O.S.) "
+    },
+    "192": {
+        "time": "00:16:29,950 --> 00:16:32,119",
+        "text": "I'm opening the doors. Go under.",
+        "character": "PHELPS "
+    },
+    "193": {
+        "time": "00:16:34,830 --> 00:16:35,873",
+        "text": "Go.",
+        "character": "ETHAN "
+    },
+    "194": {
+        "time": "00:17:15,788 --> 00:17:17,748",
+        "text": "- He's got it. - All right.",
+        "character": "ETHAN "
+    },
+    "195": {
+        "time": "00:17:18,624 --> 00:17:21,961",
+        "text": "- Saved your ass again, Jack. - Give me a break, pops.",
+        "character": "ETHAN "
+    },
+    "196": {
+        "time": "00:17:22,086 --> 00:17:23,629",
+        "text": "Such a nice ass.",
+        "character": "SARAH "
+    },
+    "197": {
+        "time": "00:17:24,088 --> 00:17:25,673",
+        "text": "And a lonely ass.",
+        "character": "JACK (O.S.) "
+    },
+    "198": {
+        "time": "00:17:26,590 --> 00:17:29,301",
+        "text": "- Transport in five minutes. - Yes, indeed.",
+        "character": "ETHAN "
+    },
+    "199": {
+        "time": "00:18:12,553 --> 00:18:15,598",
+        "text": "Jack, we're in position. Open the doors and let the package roll.",
+        "character": "ETHAN "
+    },
+    "200": {
+        "time": "00:18:15,681 --> 00:18:17,850",
+        "text": "Roger that. Opening doors now.",
+        "character": "CLAIRE (O.S.) "
+    },
+    "201": {
+        "time": "00:18:19,185 --> 00:18:20,644",
+        "text": "Stairway, you're wrapped.",
+        "character": "ETHAN"
+    },
+    "202": {
+        "time": "00:18:20,728 --> 00:18:22,313",
+        "text": "Go to transport."
+    },
+    "203": {
+        "time": "00:18:28,319 --> 00:18:29,320",
+        "text": "Hey.",
+        "character": "JACK"
+    },
+    "204": {
+        "time": "00:18:32,031 --> 00:18:34,408",
+        "text": "- Jack, what are you doing? - I'm not doing anything.",
+        "character": "PHELPS"
+    },
+    "205": {
+        "time": "00:18:41,081 --> 00:18:42,333",
+        "text": "I don't have control, Jack."
+    },
+    "206": {
+        "time": "00:18:43,000 --> 00:18:45,377",
+        "text": "- Then I got a problem. - Cut the power.",
+        "character": "ETHAN"
+    },
+    "207": {
+        "time": "00:18:47,922 --> 00:18:50,257",
+        "text": "- Cut the power, Jack. - Come on, Jack.",
+        "character": "ETHAN"
+    },
+    "208": {
+        "time": "00:18:51,091 --> 00:18:52,551",
+        "text": "Cut the power.",
+        "character": "ETHAN"
+    },
+    "209": {
+        "time": "00:18:52,676 --> 00:18:53,761",
+        "text": "Jack?",
+        "character": "ETHAN "
+    },
+    "210": {
+        "time": "00:18:54,970 --> 00:18:56,055",
+        "text": "Jack?",
+        "character": "ETHAN "
+    },
+    "211": {
+        "time": "00:19:02,561 --> 00:19:03,604",
+        "text": "Jack?",
+        "character": "ETHAN "
+    },
+    "212": {
+        "time": "00:19:05,731 --> 00:19:06,815",
+        "text": "Jack?",
+        "character": "ETHAN "
+    },
+    "213": {
+        "time": "00:19:08,859 --> 00:19:09,944",
+        "text": "Jack?",
+        "character": "ETHAN "
+    },
+    "214": {
+        "time": "00:19:11,237 --> 00:19:12,905",
+        "text": "Jack, do you copy?"
+    },
+    "215": {
+        "time": "00:19:13,405 --> 00:19:15,491",
+        "text": "- Jack? - Man down, Ethan.",
+        "character": "ETHAN "
+    },
+    "216": {
+        "time": "00:19:15,950 --> 00:19:17,201",
+        "text": "Man down.",
+        "character": "PHELPS"
+    },
+    "217": {
+        "time": "00:19:36,804 --> 00:19:38,806",
+        "text": "Ethan, stay where you are.",
+        "character": "PHELPS"
+    },
+    "218": {
+        "time": "00:19:39,640 --> 00:19:41,267",
+        "text": "I'm coming to you.",
+        "character": "ETHAN"
+    },
+    "219": {
+        "time": "00:19:56,240 --> 00:19:57,992",
+        "text": "The package is out in the open.",
+        "character": "SARAH"
+    },
+    "221": {
+        "time": "00:20:02,454 --> 00:20:05,916",
+        "text": "Jim... he's in the open.",
+        "character": "ETHAN"
+    },
+    "222": {
+        "time": "00:20:06,041 --> 00:20:07,042",
+        "text": "En route.",
+        "character": "HANNAH "
+    },
+    "223": {
+        "time": "00:20:27,062 --> 00:20:28,230",
+        "text": "Jim, he's in the open.",
+        "character": "ETHAN"
+    },
+    "224": {
+        "time": "00:20:30,900 --> 00:20:32,443",
+        "text": "Jim, the package is in the open.",
+        "character": "SARAH"
+    },
+    "225": {
+        "time": "00:20:37,198 --> 00:20:39,783",
+        "text": "- I've got a shadow. - Can you lose him?",
+        "character": "ETHAN"
+    },
+    "226": {
+        "time": "00:20:40,326 --> 00:20:41,744",
+        "text": "No. Abort.",
+        "character": "PHELPS (O.S.)"
+    },
+    "227": {
+        "time": "00:20:42,453 --> 00:20:43,496",
+        "text": "Ethan, he's out of pocket.",
+        "character": "SARAH"
+    },
+    "228": {
+        "time": "00:20:48,667 --> 00:20:49,960",
+        "text": "I can't do that.",
+        "character": "ETHAN "
+    },
+    "229": {
+        "time": "00:20:50,044 --> 00:20:52,963",
+        "text": "We're being ambushed, Ethan. Abort. That's an order.",
+        "character": "PHELPS (O.S.)"
+    },
+    "230": {
+        "time": "00:20:53,047 --> 00:20:55,508",
+        "text": "Negative. Golitsyn is on the move.",
+        "character": "ETHAN"
+    },
+    "231": {
+        "time": "00:20:55,633 --> 00:20:57,801",
+        "text": "No, damn it! No! I said abort!",
+        "character": "CLAIRE "
+    },
+    "232": {
+        "time": "00:21:08,437 --> 00:21:10,648",
+        "text": "Sarah, eye on the package. Jim, I'm coming to you.",
+        "character": "ETHAN"
+    },
+    "233": {
+        "time": "00:21:10,731 --> 00:21:12,608",
+        "text": "Jim gave an abort. We should walk away."
+    },
+    "234": {
+        "time": "00:21:12,691 --> 00:21:16,445",
+        "text": "No. We are going to recover that disk. You understand me?",
+        "character": "PHELPS (O.S.)"
+    },
+    "235": {
+        "time": "00:21:17,446 --> 00:21:18,656",
+        "text": "Now, go."
+    },
+    "236": {
+        "time": "00:21:51,105 --> 00:21:52,481",
+        "text": "Where are you?",
+        "character": "PHELPS (O.S.)"
+    },
+    "237": {
+        "time": "00:21:52,565 --> 00:21:54,400",
+        "text": "About 200 yards from the bridge.",
+        "character": "ETHAN"
+    },
+    "238": {
+        "time": "00:21:54,483 --> 00:21:55,860",
+        "text": "They're covering this frequency."
+    },
+    "239": {
+        "time": "00:21:55,943 --> 00:21:57,820",
+        "text": "Cut all radio communication.",
+        "character": "PHELPS (O.S.)"
+    },
+    "240": {
+        "time": "00:21:57,903 --> 00:22:00,614",
+        "text": "Repeat. Cut all radio communication.",
+        "character": "PHELPS (O.S.)"
+    },
+    "241": {
+        "time": "00:22:26,098 --> 00:22:27,224",
+        "text": "Ethan!",
+        "character": "PHELPS "
+    },
+    "243": {
+        "time": "00:22:33,647 --> 00:23:01,926",
+        "text": "Ethan... Sarah, abort."
+    },
+    "244": {
+        "time": "00:23:02,468 --> 00:23:04,094",
+        "text": "Repeat, abort."
+    },
+    "245": {
+        "time": "00:23:07,598 --> 00:23:08,724",
+        "text": "Abort!",
+        "character": "PHELPS (O.S.)"
+    },
+    "246": {
+        "time": "00:23:09,266 --> 00:23:10,267",
+        "text": "Do you read me?",
+        "character": "ETHAN"
+    },
+    "247": {
+        "time": "00:23:14,772 --> 00:23:16,607",
+        "text": "Sarah? God!"
+    },
+    "248": {
+        "time": "00:23:48,013 --> 00:23:50,391",
+        "text": "Claire. Oh, my God.",
+        "character": "JACK "
+    },
+    "249": {
+        "time": "00:23:51,350 --> 00:23:52,476",
+        "text": "My God."
+    },
+    "250": {
+        "time": "00:24:40,733 --> 00:24:43,068",
+        "text": "Oh, no. Sarah.",
+        "character": "TECHNICIAN "
+    },
+    "251": {
+        "time": "00:25:38,457 --> 00:25:39,625",
+        "text": "My God."
+    },
+    "252": {
+        "time": "00:25:40,626 --> 00:25:42,086",
+        "text": "Satcom seven.",
+        "character": "FLAT VOICE (O.S.)"
+    },
+    "253": {
+        "time": "00:25:42,586 --> 00:25:45,297",
+        "text": "- Central Europe, unsecured. - Designator?",
+        "character": "FLAT VOICE (O.S.)"
+    },
+    "254": {
+        "time": "00:25:46,048 --> 00:25:48,884",
+        "text": "- Bravo-echo-one-one. - Switching.",
+        "character": "FLAT VOICE (O.S.)"
+    },
+    "255": {
+        "time": "00:25:51,011 --> 00:25:53,722",
+        "text": "- This is Kittridge. - Go secure.",
+        "character": "KITTRIDGE (O.S.)"
+    },
+    "256": {
+        "time": "00:25:54,056 --> 00:25:55,724",
+        "text": "Okay, go ahead."
+    },
+    "257": {
+        "time": "00:25:57,184 --> 00:25:59,812",
+        "text": "This is Ethan Hunt. They're dead.",
+        "character": "ETHAN"
+    },
+    "258": {
+        "time": "00:26:01,480 --> 00:26:03,190",
+        "text": "What? Who's dead?",
+        "character": "KITTRIDGE "
+    },
+    "259": {
+        "time": "00:26:03,315 --> 00:26:05,985",
+        "text": "- My team. My team is dead! - Jesus.",
+        "character": "ETHAN"
+    },
+    "260": {
+        "time": "00:26:06,485 --> 00:26:08,070",
+        "text": "Golitsyn's gone."
+    },
+    "261": {
+        "time": "00:26:08,153 --> 00:26:09,655",
+        "text": "They knew we were coming, man.",
+        "character": "ETHAN"
+    },
+    "262": {
+        "time": "00:26:09,738 --> 00:26:12,491",
+        "text": "They knew we were coming, and the disk is gone."
+    },
+    "263": {
+        "time": "00:26:12,575 --> 00:26:13,951",
+        "text": "Are you intact?",
+        "character": "KITTRIDGE (O.S.)"
+    },
+    "264": {
+        "time": "00:26:14,034 --> 00:26:17,663",
+        "text": "The disk is gone, did you... Do you read me? The list is in the open!",
+        "character": "ETHAN"
+    },
+    "265": {
+        "time": "00:26:17,746 --> 00:26:19,081",
+        "text": "Listen, I read you."
+    },
+    "266": {
+        "time": "00:26:19,707 --> 00:26:22,376",
+        "text": "Let's just bring you in safely and then we'll worry about that, okay?",
+        "character": "KITTRIDGE (O.S.)"
+    },
+    "267": {
+        "time": "00:26:23,335 --> 00:26:24,920",
+        "text": "Were you followed?",
+        "character": "KITTRIDGE (O.S.)"
+    },
+    "268": {
+        "time": "00:26:27,339 --> 00:26:30,676",
+        "text": "- I don't think so. I don't think so. - Don't think. Be sure.",
+        "character": "ETHAN"
+    },
+    "269": {
+        "time": "00:26:31,010 --> 00:26:33,304",
+        "text": "- Are you clean? - Yes.",
+        "character": "KITTRIDGE (O.S.)"
+    },
+    "270": {
+        "time": "00:26:34,638 --> 00:26:38,017",
+        "text": "Okay. Location green, one hour. I'll be there myself.",
+        "character": "KITTRIDGE (O.S.)"
+    },
+    "271": {
+        "time": "00:26:39,602 --> 00:26:41,687",
+        "text": "- You're in Prague? - One hour.",
+        "character": "KITTRIDGE (O.S.)"
+    },
+    "272": {
+        "time": "00:27:37,993 --> 00:27:39,119",
+        "text": "I am..."
+    },
+    "273": {
+        "time": "00:27:40,538 --> 00:27:43,749",
+        "text": "I can't tell you how sorry I am.",
+        "character": "KITTRIDGE "
+    },
+    "275": {
+        "time": "00:27:44,917 --> 00:27:51,298",
+        "text": "I know how much Jim, in particular, meant to you, Ethan... personally as well as professionally.",
+        "character": "KITTRIDGE "
+    },
+    "276": {
+        "time": "00:27:52,591 --> 00:27:53,634",
+        "text": "Yeah.",
+        "character": "ETHAN "
+    },
+    "277": {
+        "time": "00:27:58,597 --> 00:28:01,684",
+        "text": "Here's a passport, visa. Usual drill."
+    },
+    "278": {
+        "time": "00:28:03,102 --> 00:28:05,938",
+        "text": "We'll work the exfiltration through Canada, debrief you at Langley.",
+        "character": "KITTRIDGE"
+    },
+    "279": {
+        "time": "00:28:06,272 --> 00:28:08,190",
+        "text": "Throw the Prague police a bone or two."
+    },
+    "280": {
+        "time": "00:28:08,315 --> 00:28:10,442",
+        "text": "You know, toss them a few suspects."
+    },
+    "281": {
+        "time": "00:28:14,947 --> 00:28:15,948",
+        "text": "You follow me?",
+        "character": "KITTRIDGE"
+    },
+    "282": {
+        "time": "00:28:18,284 --> 00:28:19,410",
+        "text": "Yeah, I follow."
+    },
+    "283": {
+        "time": "00:28:22,037 --> 00:28:23,956",
+        "text": "I think we've lost enough agents for one night.",
+        "character": "KITTRIDGE "
+    },
+    "284": {
+        "time": "00:28:24,874 --> 00:28:27,793",
+        "text": "You mean, I've lost enough agents for one night.",
+        "character": "ETHAN "
+    },
+    "285": {
+        "time": "00:28:29,753 --> 00:28:32,047",
+        "text": "You seem hell-bent on blaming yourself, Ethan.",
+        "character": "KITTRIDGE "
+    },
+    "286": {
+        "time": "00:28:34,133 --> 00:28:35,092",
+        "text": "Who else is left?",
+        "character": "ETHAN "
+    },
+    "287": {
+        "time": "00:28:37,094 --> 00:28:39,805",
+        "text": "Yeah. I see your point.",
+        "character": "ETHAN "
+    },
+    "288": {
+        "time": "00:28:45,644 --> 00:28:46,770",
+        "text": "Why was there another team?",
+        "character": "ETHAN "
+    },
+    "289": {
+        "time": "00:28:48,105 --> 00:28:49,064",
+        "text": "What?",
+        "character": "KITTRIDGE "
+    },
+    "290": {
+        "time": "00:28:50,900 --> 00:28:53,485",
+        "text": "Of IMF agents at the embassy tonight."
+    },
+    "291": {
+        "time": "00:28:55,654 --> 00:28:56,864",
+        "text": "I don't quite follow you.",
+        "character": "KITTRIDGE "
+    },
+    "292": {
+        "time": "00:29:00,868 --> 00:29:02,912",
+        "text": "Well, see if you can follow me around the room.",
+        "character": "ETHAN"
+    },
+    "295": {
+        "time": "00:29:03,829 --> 00:29:15,883",
+        "text": "The drunk Russians on the embankment at 7:00 and 8:00... the couple waltzing around me at the embassy at 9:00 and 11:00... the waiter standing behind Hannah at the top of the stairs."
+    },
+    "296": {
+        "time": "00:29:16,008 --> 00:29:17,510",
+        "text": "Bow tie, 12:00."
+    },
+    "297": {
+        "time": "00:29:18,385 --> 00:29:19,803",
+        "text": "The other IMF team."
+    },
+    "298": {
+        "time": "00:29:20,930 --> 00:29:23,766",
+        "text": "You're worried about me. Why?",
+        "character": "ETHAN "
+    },
+    "300": {
+        "time": "00:29:26,519 --> 00:29:32,358",
+        "text": "Well, for a little over two years... we've been spotting serious blowback in IMF operations.",
+        "character": "KITTRIDGE (CONT'D) "
+    },
+    "301": {
+        "time": "00:29:32,483 --> 00:29:34,026",
+        "text": "We have a penetration.",
+        "character": "KITTRIDGE (CONT'D) "
+    },
+    "303": {
+        "time": "00:29:34,902 --> 00:29:39,740",
+        "text": "The other day, we decoded a message on the internet... from a Czech we know as Max.",
+        "character": "KITTRIDGE (CONT'D) "
+    },
+    "304": {
+        "time": "00:29:40,032 --> 00:29:42,368",
+        "text": "- The arms dealer. - That's right.",
+        "character": "ETHAN "
+    },
+    "306": {
+        "time": "00:29:43,536 --> 00:29:51,001",
+        "text": "Max, it seems, has two unique gifts... a capacity for anonymity and for corrupting susceptible agents.",
+        "character": "KITTRIDGE "
+    },
+    "307": {
+        "time": "00:29:52,086 --> 00:29:54,421",
+        "text": "This time, he'd gotten to someone on the inside."
+    },
+    "308": {
+        "time": "00:29:55,339 --> 00:29:58,717",
+        "text": "He'd gotten himself in a position to buy our NOC list."
+    },
+    "310": {
+        "time": "00:29:58,968 --> 00:30:04,056",
+        "text": "An operation he referred to as job 314... the job he thought Golitsyn was doing tonight."
+    },
+    "311": {
+        "time": "00:30:07,101 --> 00:30:09,186",
+        "text": "But the list Golitsyn stole was a decoy.",
+        "character": "ETHAN "
+    },
+    "312": {
+        "time": "00:30:10,229 --> 00:30:14,233",
+        "text": "That's correct. The actual list is secure at Langley.",
+        "character": "KITTRIDGE "
+    },
+    "313": {
+        "time": "00:30:14,525 --> 00:30:16,485",
+        "text": "Golitsyn was a lightning rod. He was one of ours.",
+        "character": "KITTRIDGE "
+    },
+    "314": {
+        "time": "00:30:19,446 --> 00:30:23,576",
+        "text": "This whole operation was a mole hunt.",
+        "character": "ETHAN "
+    },
+    "315": {
+        "time": "00:30:29,248 --> 00:30:31,750",
+        "text": "This whole operation was a mole hunt.",
+        "character": "ETHAN "
+    },
+    "316": {
+        "time": "00:30:32,334 --> 00:30:33,419",
+        "text": "Yeah.",
+        "character": "ETHAN "
+    },
+    "319": {
+        "time": "00:30:35,963 --> 00:30:47,641",
+        "text": "The mole's deep inside... and like you said... you survived."
+    },
+    "320": {
+        "time": "00:30:50,394 --> 00:30:52,521",
+        "text": "I want to show you something, Ethan.",
+        "character": "KITTRIDGE (CONT'D)"
+    },
+    "323": {
+        "time": "00:30:55,024 --> 00:31:04,283",
+        "text": "Since your father's death... your family's farm has been in receivership... and now, suddenly, they're flush with over 120 grand in the bank.",
+        "character": "KITTRIDGE (CONT'D) "
+    },
+    "325": {
+        "time": "00:31:04,366 --> 00:31:07,953",
+        "text": "Your father's illness... was supposed to have wiped out that bank account."
+    },
+    "327": {
+        "time": "00:31:08,996 --> 00:31:14,084",
+        "text": "Dying slowly in America, after all... can be a very expensive proposition."
+    },
+    "329": {
+        "time": "00:31:16,086 --> 00:31:22,343",
+        "text": "So... why don't we quietly get out of here and onto a plane?",
+        "character": "KITTRIDGE (CONT'D) "
+    },
+    "330": {
+        "time": "00:31:25,137 --> 00:31:27,431",
+        "text": "I can understand you're very upset.",
+        "character": "KITTRIDGE (CONT'D) "
+    },
+    "331": {
+        "time": "00:31:27,515 --> 00:31:30,100",
+        "text": "Kittridge, you've never seen me very upset.",
+        "character": "ETHAN "
+    },
+    "332": {
+        "time": "00:31:30,184 --> 00:31:32,937",
+        "text": "All right, Hunt. Enough is enough."
+    },
+    "334": {
+        "time": "00:31:33,020 --> 00:31:37,483",
+        "text": "You have bribed, cajoled, and killed... and you have done it using loyalties on the inside."
+    },
+    "335": {
+        "time": "00:31:37,566 --> 00:31:39,610",
+        "text": "You want to shake hands with the devil, that's fine with me."
+    },
+    "336": {
+        "time": "00:31:39,693 --> 00:31:41,695",
+        "text": "I just want to make sure that you do it in hell."
+    },
+    "337": {
+        "time": "00:33:42,900 --> 00:33:45,903",
+        "text": "Money, money. Where's the damn money?"
+    },
+    "339": {
+        "time": "00:34:12,847 --> 00:34:17,643",
+        "text": "The other day, we decoded a message on the internet... from a Czech we know as Max.",
+        "character": "KITTRIDGE (CONT'D) "
+    },
+    "340": {
+        "time": "00:34:19,270 --> 00:34:21,981",
+        "text": "He'd gotten himself in a position to buy our NOC list."
+    },
+    "341": {
+        "time": "00:34:22,147 --> 00:34:24,817",
+        "text": "An operation he referred to as job 314.",
+        "character": "KITTRIDGE "
+    },
+    "342": {
+        "time": "00:34:31,365 --> 00:34:33,033",
+        "text": "Job 314.",
+        "character": "ETHAN"
+    },
+    "343": {
+        "time": "00:34:40,708 --> 00:34:43,878",
+        "text": "Job 314. I can't...",
+        "character": "ETHAN"
+    },
+    "345": {
+        "time": "00:35:00,769 --> 00:35:22,541",
+        "text": "Job... Job 3:14?"
+    },
+    "346": {
+        "time": "00:35:23,250 --> 00:35:24,627",
+        "text": "Job 3:14.",
+        "character": "ETHAN"
+    },
+    "347": {
+        "time": "00:35:46,607 --> 00:35:48,442",
+        "text": "You son of a bitch.",
+        "character": "PHELPS"
+    },
+    "349": {
+        "time": "00:37:27,750 --> 00:37:32,922",
+        "text": "Ethan... what are you doing?",
+        "character": "PHELPS"
+    },
+    "350": {
+        "time": "00:37:34,715 --> 00:37:38,177",
+        "text": "I needed you, Ethan. I needed you on the bridge...",
+        "character": "PHELPS (CONT'D) "
+    },
+    "351": {
+        "time": "00:37:40,554 --> 00:37:42,431",
+        "text": "but you weren't there."
+    },
+    "352": {
+        "time": "00:37:45,809 --> 00:37:47,186",
+        "text": "Ethan.",
+        "character": "PHELPS "
+    },
+    "353": {
+        "time": "00:37:49,063 --> 00:37:50,314",
+        "text": "Ethan.",
+        "character": "PHELPS "
+    },
+    "354": {
+        "time": "00:37:51,899 --> 00:37:53,192",
+        "text": "Ethan?",
+        "character": "PHELPS (CONT'D) "
+    },
+    "355": {
+        "time": "00:37:58,405 --> 00:37:59,740",
+        "text": "Don't move.",
+        "character": "ETHAN "
+    },
+    "356": {
+        "time": "00:38:01,492 --> 00:38:02,701",
+        "text": "Ethan.",
+        "character": "PHELPS "
+    },
+    "357": {
+        "time": "00:38:03,327 --> 00:38:06,205",
+        "text": "Ethan, it's okay. Just calm down."
+    },
+    "358": {
+        "time": "00:38:06,789 --> 00:38:08,207",
+        "text": "It's Claire.",
+        "character": "JACK "
+    },
+    "359": {
+        "time": "00:38:08,999 --> 00:38:11,293",
+        "text": "- It's okay. - You were in the car.",
+        "character": "ETHAN "
+    },
+    "360": {
+        "time": "00:38:11,877 --> 00:38:13,629",
+        "text": "No, I wasn't.",
+        "character": "CLAIRE "
+    },
+    "361": {
+        "time": "00:38:15,756 --> 00:38:17,174",
+        "text": "I heard on the radio..."
+    },
+    "362": {
+        "time": "00:38:17,258 --> 00:38:20,427",
+        "text": "Shut up, I saw you. You were in the car.",
+        "character": "ETHAN "
+    },
+    "363": {
+        "time": "00:38:21,095 --> 00:38:23,097",
+        "text": "No, I got out of the car."
+    },
+    "364": {
+        "time": "00:38:23,639 --> 00:38:26,392",
+        "text": "I ran to the bridge. He said someone was just...",
+        "character": "CLAIRE "
+    },
+    "365": {
+        "time": "00:38:26,517 --> 00:38:29,228",
+        "text": "Don't give me that. I was on the bridge.",
+        "character": "ETHAN "
+    },
+    "366": {
+        "time": "00:38:29,353 --> 00:38:32,481",
+        "text": "- There was nobody on the bridge. - What happened to Jim?",
+        "character": "ETHAN "
+    },
+    "367": {
+        "time": "00:38:32,606 --> 00:38:34,733",
+        "text": "Wake up, Claire! Jim's dead!",
+        "character": "ETHAN "
+    },
+    "368": {
+        "time": "00:38:34,942 --> 00:38:37,236",
+        "text": "They're dead! They're all dead!",
+        "character": "ETHAN "
+    },
+    "369": {
+        "time": "00:38:45,244 --> 00:38:48,164",
+        "text": "- Who sent you for me? - Jim's dead?",
+        "character": "ETHAN "
+    },
+    "370": {
+        "time": "00:38:48,289 --> 00:38:50,583",
+        "text": "- Who sent you here? - Jim...",
+        "character": "ETHAN"
+    },
+    "371": {
+        "time": "00:38:52,001 --> 00:38:53,002",
+        "text": "Take off your coat.",
+        "character": "ETHAN"
+    },
+    "372": {
+        "time": "00:39:01,802 --> 00:39:03,929",
+        "text": "- Where were you, huh? - I...",
+        "character": "ETHAN (CONT'D) "
+    },
+    "373": {
+        "time": "00:39:06,307 --> 00:39:07,808",
+        "text": "Where were you?",
+        "character": "ETHAN (CONT'D) "
+    },
+    "374": {
+        "time": "00:39:08,976 --> 00:39:12,938",
+        "text": "I walked away. He said abort. I just walked away.",
+        "character": "CLAIRE "
+    },
+    "375": {
+        "time": "00:39:13,355 --> 00:39:15,941",
+        "text": "That was four hours ago. Who sent you?",
+        "character": "ETHAN "
+    },
+    "376": {
+        "time": "00:39:16,317 --> 00:39:18,152",
+        "text": "- Did they send you for me? - Who's \"they\"?",
+        "character": "ETHAN "
+    },
+    "377": {
+        "time": "00:39:18,277 --> 00:39:19,904",
+        "text": "Did they send you?",
+        "character": "ETHAN "
+    },
+    "378": {
+        "time": "00:39:19,987 --> 00:39:21,739",
+        "text": "Look, who sent you? Who sent you?",
+        "character": "ETHAN "
+    },
+    "379": {
+        "time": "00:39:21,822 --> 00:39:24,158",
+        "text": "No one sent me. No one sent me.",
+        "character": "MATTHIAS "
+    },
+    "380": {
+        "time": "00:39:24,283 --> 00:39:26,327",
+        "text": "We were supposed to be back here at 4:00."
+    },
+    "381": {
+        "time": "00:39:26,911 --> 00:39:31,165",
+        "text": "4:00 if we abort. We don't return here until 4:00, 0400..."
+    },
+    "382": {
+        "time": "00:39:31,332 --> 00:39:34,293",
+        "text": "4:00 a. m. 4:00, Ethan, 4:00."
+    },
+    "383": {
+        "time": "00:39:35,002 --> 00:39:36,337",
+        "text": "If we abort."
+    },
+    "385": {
+        "time": "00:39:38,339 --> 00:39:59,985",
+        "text": "4:00 a. m. I've been disavowed.",
+        "character": "ETHAN"
+    },
+    "386": {
+        "time": "00:40:07,201 --> 00:40:09,453",
+        "text": "They actually think I killed Jim and everyone else.",
+        "character": "ETHAN"
+    },
+    "387": {
+        "time": "00:40:16,627 --> 00:40:20,381",
+        "text": "Somehow $100,000 finds its way into my parent's bank account.",
+        "character": "ETHAN"
+    },
+    "391": {
+        "time": "00:40:20,965 --> 00:40:31,267",
+        "text": "Kittridge assumes I'm the mole they've been tracing... and I've been in the employ of an arms dealer, Max... for the last two years... to get him our NOC list.",
+        "character": "ETHAN"
+    },
+    "392": {
+        "time": "00:40:33,227 --> 00:40:34,311",
+        "text": "What are you gonna do?",
+        "character": "CLAIRE "
+    },
+    "393": {
+        "time": "00:40:35,646 --> 00:40:36,689",
+        "text": "I'm gonna get it for him.",
+        "character": "ETHAN "
+    },
+    "394": {
+        "time": "00:40:38,482 --> 00:40:40,943",
+        "text": "Ethan, you're not making any sense.",
+        "character": "CLAIRE "
+    },
+    "395": {
+        "time": "00:40:42,862 --> 00:40:44,071",
+        "text": "Whoever the mole is..."
+    },
+    "396": {
+        "time": "00:40:45,114 --> 00:40:46,615",
+        "text": "I think goes by the name of Job."
+    },
+    "398": {
+        "time": "00:40:47,616 --> 00:40:53,122",
+        "text": "I can't find him, but if he knows I have the NOC list... he'll find me.",
+        "character": "ETHAN "
+    },
+    "399": {
+        "time": "00:40:53,581 --> 00:40:56,375",
+        "text": "I'm gonna go in and I'm gonna talk to Kittridge myself."
+    },
+    "400": {
+        "time": "00:40:56,458 --> 00:40:58,627",
+        "text": "And I'm gonna tell him you had nothing to do with this.",
+        "character": "CLAIRE "
+    },
+    "402": {
+        "time": "00:40:58,752 --> 00:41:04,675",
+        "text": "Claire, if you're not dead... he's gonna assume you're with me.",
+        "character": "ETHAN"
+    },
+    "403": {
+        "time": "00:41:20,149 --> 00:41:21,484",
+        "text": "The message is for Job.",
+        "character": "CLAIRE "
+    },
+    "404": {
+        "time": "00:41:23,986 --> 00:41:27,114",
+        "text": "That's right, and I'm gonna answer it."
+    },
+    "405": {
+        "time": "00:41:50,930 --> 00:41:52,389",
+        "text": "Excuse me."
+    },
+    "406": {
+        "time": "00:41:53,349 --> 00:41:55,559",
+        "text": "Can I trouble you for a match?",
+        "character": "ETHAN "
+    },
+    "407": {
+        "time": "00:42:11,659 --> 00:42:13,702",
+        "text": "Would you remove your hat, please?",
+        "character": "MATTHIAS"
+    },
+    "408": {
+        "time": "00:42:17,039 --> 00:42:20,209",
+        "text": "- Why? - You wish to meet Max?",
+        "character": "MATTHIAS "
+    },
+    "409": {
+        "time": "00:42:21,335 --> 00:42:22,878",
+        "text": "The price of admission.",
+        "character": "MATTHIAS "
+    },
+    "410": {
+        "time": "00:42:33,514 --> 00:42:36,475",
+        "text": "- I thought I was going to see Max. - You misunderstood.",
+        "character": "ETHAN"
+    },
+    "411": {
+        "time": "00:42:36,559 --> 00:42:38,143",
+        "text": "No one sees Max.",
+        "character": "MATTHIAS "
+    },
+    "412": {
+        "time": "00:42:39,645 --> 00:42:41,021",
+        "text": "Then what the hell am I doing here?",
+        "character": "ETHAN "
+    },
+    "413": {
+        "time": "00:42:42,356 --> 00:42:45,860",
+        "text": "Allowing Max to see you and hear what you've got to say.",
+        "character": "MATTHIAS "
+    },
+    "414": {
+        "time": "00:42:46,318 --> 00:42:48,946",
+        "text": "Well, I don't communicate very well through a shroud.",
+        "character": "ETHAN "
+    },
+    "416": {
+        "time": "00:42:49,029 --> 00:42:55,494",
+        "text": "Well, if Max doesn't like what you have to say... you'll be wearing that shroud indefinitely.",
+        "character": "MATTHIAS "
+    },
+    "417": {
+        "time": "00:42:57,663 --> 00:42:59,123",
+        "text": "I'm willing to take the chance.",
+        "character": "ETHAN "
+    },
+    "418": {
+        "time": "00:43:05,004 --> 00:43:06,338",
+        "text": "Very well.",
+        "character": "MATTHIAS "
+    },
+    "419": {
+        "time": "00:43:10,676 --> 00:43:14,138",
+        "text": "Who are you and what are you doing here?",
+        "character": "MAX "
+    },
+    "420": {
+        "time": "00:43:16,140 --> 00:43:18,309",
+        "text": "I need $150,000."
+    },
+    "421": {
+        "time": "00:43:20,352 --> 00:43:21,478",
+        "text": "Oh, really?"
+    },
+    "423": {
+        "time": "00:43:26,775 --> 00:43:30,738",
+        "text": "And you thought... if you simply showed up, I might give it to you?",
+        "character": "MAX"
+    },
+    "424": {
+        "time": "00:43:32,198 --> 00:43:34,200",
+        "text": "Why not? You gave Job $125,000.",
+        "character": "ETHAN"
+    },
+    "425": {
+        "time": "00:43:36,952 --> 00:43:40,873",
+        "text": "The penny drops. You are not Job.",
+        "character": "MAX "
+    },
+    "426": {
+        "time": "00:43:43,626 --> 00:43:47,630",
+        "text": "Job is not given to quoting scripture in his communications.",
+        "character": "MAX "
+    },
+    "427": {
+        "time": "00:43:48,547 --> 00:43:52,927",
+        "text": "Then there was its tone, aggressive but playful.",
+        "character": "MAX "
+    },
+    "428": {
+        "time": "00:43:53,052 --> 00:43:54,762",
+        "text": "Job is not playful.",
+        "character": "MAX "
+    },
+    "429": {
+        "time": "00:43:56,597 --> 00:43:59,850",
+        "text": "So you are something of a paradox.",
+        "character": "MAX "
+    },
+    "430": {
+        "time": "00:44:00,768 --> 00:44:02,937",
+        "text": "- Well, that depends. - On what?",
+        "character": "MAX"
+    },
+    "431": {
+        "time": "00:44:03,729 --> 00:44:05,481",
+        "text": "Whether you like a paradox.",
+        "character": "ETHAN "
+    },
+    "432": {
+        "time": "00:44:07,858 --> 00:44:10,694",
+        "text": "I want $150,000 today."
+    },
+    "433": {
+        "time": "00:44:10,778 --> 00:44:13,322",
+        "text": "No, no. That's quite out of the question.",
+        "character": "MAX"
+    },
+    "434": {
+        "time": "00:44:15,991 --> 00:44:18,911",
+        "text": "The disk Job sold you, it's worthless.",
+        "character": "ETHAN "
+    },
+    "435": {
+        "time": "00:44:19,870 --> 00:44:22,623",
+        "text": "It's bait, part of an internal mole hunt.",
+        "character": "ETHAN "
+    },
+    "436": {
+        "time": "00:44:28,379 --> 00:44:30,005",
+        "text": "And how might you know that?",
+        "character": "MAX"
+    },
+    "437": {
+        "time": "00:44:32,091 --> 00:44:34,218",
+        "text": "Are you another Company man?",
+        "character": "MAX"
+    },
+    "438": {
+        "time": "00:44:36,679 --> 00:44:37,888",
+        "text": "Like Job?",
+        "character": "ETHAN "
+    },
+    "439": {
+        "time": "00:44:42,226 --> 00:44:44,103",
+        "text": "We're asking about you.",
+        "character": "MAX "
+    },
+    "440": {
+        "time": "00:44:45,896 --> 00:44:47,690",
+        "text": "I'm NOC. Was...",
+        "character": "ETHAN"
+    },
+    "441": {
+        "time": "00:44:48,899 --> 00:44:50,401",
+        "text": "Now, disavowed.",
+        "character": "ETHAN"
+    },
+    "442": {
+        "time": "00:44:52,069 --> 00:44:53,362",
+        "text": "Why, may I ask?",
+        "character": "MAX "
+    },
+    "443": {
+        "time": "00:44:54,071 --> 00:44:56,365",
+        "text": "That is the question I want to ask Job.",
+        "character": "ETHAN"
+    },
+    "444": {
+        "time": "00:44:58,325 --> 00:45:02,163",
+        "text": "I don't know Job any more than Job knows me.",
+        "character": "MAX "
+    },
+    "445": {
+        "time": "00:45:02,413 --> 00:45:03,747",
+        "text": "Even so..."
+    },
+    "446": {
+        "time": "00:45:04,165 --> 00:45:06,375",
+        "text": "I'm sure you could arrange an introduction.",
+        "character": "ETHAN "
+    },
+    "447": {
+        "time": "00:45:06,458 --> 00:45:07,668",
+        "text": "Why should I?",
+        "character": "MAX "
+    },
+    "448": {
+        "time": "00:45:07,793 --> 00:45:10,004",
+        "text": "Because I can deliver the actual NOC list.",
+        "character": "ETHAN "
+    },
+    "451": {
+        "time": "00:45:10,296 --> 00:45:15,551",
+        "text": "The one you have is not only worthless... it's certain to be equipped with a homing device... to pinpoint your exact location.",
+        "character": "ETHAN "
+    },
+    "452": {
+        "time": "00:45:21,390 --> 00:45:22,349",
+        "text": "Boot it up."
+    },
+    "454": {
+        "time": "00:45:23,142 --> 00:45:28,189",
+        "text": "In anywhere from 30 seconds to 10 minutes... you'll have Virginia farm boys hopping around you like jackrabbits.",
+        "character": "ETHAN "
+    },
+    "456": {
+        "time": "00:45:31,901 --> 00:45:36,405",
+        "text": "It's easy to say the disk is worthless... when you say I can't look at the information...",
+        "character": "MAX "
+    },
+    "457": {
+        "time": "00:45:36,530 --> 00:45:39,992",
+        "text": "and see if it's worthless. Not a tenable position, sir.",
+        "character": "MAX "
+    },
+    "458": {
+        "time": "00:45:41,243 --> 00:45:44,330",
+        "text": "Okay, use it. But...",
+        "character": "ETHAN "
+    },
+    "459": {
+        "time": "00:45:45,289 --> 00:45:47,500",
+        "text": "I'd suggest you pack first.",
+        "character": "ETHAN "
+    },
+    "460": {
+        "time": "00:46:03,349 --> 00:46:05,726",
+        "text": "26, 27. So far, so good.",
+        "character": "MATTHIAS "
+    },
+    "461": {
+        "time": "00:46:06,560 --> 00:46:08,562",
+        "text": "Not so good for you, my friend.",
+        "character": "MAX "
+    },
+    "462": {
+        "time": "00:46:08,687 --> 00:46:10,815",
+        "text": "I'd say you've got about two minutes.",
+        "character": "ETHAN "
+    },
+    "463": {
+        "time": "00:46:43,722 --> 00:46:45,099",
+        "text": "32 and 33."
+    },
+    "464": {
+        "time": "00:46:45,224 --> 00:46:48,310",
+        "text": "Doesn't mean it's a signal. Could just be the hard drive heating up."
+    },
+    "465": {
+        "time": "00:46:56,068 --> 00:46:57,403",
+        "text": "44 and 45."
+    },
+    "466": {
+        "time": "00:47:12,960 --> 00:47:13,919",
+        "text": "Now.",
+        "character": "PHELPS (O.S.)"
+    },
+    "467": {
+        "time": "00:47:46,202 --> 00:47:48,162",
+        "text": "Man's gone black, Barnes.",
+        "character": "KITTRIDGE "
+    },
+    "468": {
+        "time": "00:47:49,538 --> 00:47:51,582",
+        "text": "He's under until he decides to surface.",
+        "character": "KITTRIDGE "
+    },
+    "469": {
+        "time": "00:47:51,707 --> 00:47:54,585",
+        "text": "Look, we can use somebody at the embassy. Involve the local authorities."
+    },
+    "470": {
+        "time": "00:47:54,668 --> 00:47:58,255",
+        "text": "- We can cut off his transportation... - What can we do, Barnes?"
+    },
+    "471": {
+        "time": "00:47:58,339 --> 00:48:00,299",
+        "text": "Put a guy at the airport?",
+        "character": "KITTRIDGE "
+    },
+    "472": {
+        "time": "00:48:00,799 --> 00:48:02,635",
+        "text": "How many identities do you think Hunt has?",
+        "character": "KITTRIDGE "
+    },
+    "474": {
+        "time": "00:48:02,718 --> 00:48:06,514",
+        "text": "How many times has he slipped past customs... in how many countries?",
+        "character": "KITTRIDGE "
+    },
+    "475": {
+        "time": "00:48:06,972 --> 00:48:08,766",
+        "text": "These guys are trained to be ghosts.",
+        "character": "KITTRIDGE "
+    },
+    "476": {
+        "time": "00:48:10,059 --> 00:48:11,852",
+        "text": "We taught them to do it, for Christ's sake.",
+        "character": "KITTRIDGE "
+    },
+    "477": {
+        "time": "00:48:11,977 --> 00:48:13,270",
+        "text": "Well, what do you suggest?",
+        "character": "BARNES "
+    },
+    "478": {
+        "time": "00:48:15,606 --> 00:48:18,734",
+        "text": "Let's not waste time chasing after him, just make him come to us."
+    },
+    "479": {
+        "time": "00:48:19,443 --> 00:48:21,320",
+        "text": "Everybody has pressure points, Barnes.",
+        "character": "KITTRIDGE "
+    },
+    "481": {
+        "time": "00:48:21,445 --> 00:48:25,991",
+        "text": "You find something that's personally important to him... and you squeeze.",
+        "character": "KITTRIDGE "
+    },
+    "482": {
+        "time": "00:48:31,330 --> 00:48:35,000",
+        "text": "Gunther will never let me have one of his apartments again.",
+        "character": "MAX "
+    },
+    "483": {
+        "time": "00:48:37,002 --> 00:48:40,589",
+        "text": "Sorry I doubted you, dear boy. You are a good sport."
+    },
+    "484": {
+        "time": "00:48:41,131 --> 00:48:42,091",
+        "text": "Thanks, Max.",
+        "character": "ETHAN "
+    },
+    "485": {
+        "time": "00:48:43,467 --> 00:48:44,718",
+        "text": "Or is it Maxine?",
+        "character": "ETHAN "
+    },
+    "487": {
+        "time": "00:48:46,846 --> 00:48:51,225",
+        "text": "I don't have to tell you... what a comfort anonymity can be in my profession.",
+        "character": "MAX"
+    },
+    "488": {
+        "time": "00:48:53,018 --> 00:48:55,020",
+        "text": "It's like a warm blanket."
+    },
+    "489": {
+        "time": "00:48:58,983 --> 00:49:02,027",
+        "text": "My deal with Job was subject to a successful boot scan."
+    },
+    "490": {
+        "time": "00:49:02,153 --> 00:49:04,488",
+        "text": "Obviously it didn't pass muster. Deal's off."
+    },
+    "491": {
+        "time": "00:49:06,699 --> 00:49:07,950",
+        "text": "What was your deal with Job?",
+        "character": "ETHAN "
+    },
+    "492": {
+        "time": "00:49:08,868 --> 00:49:10,202",
+        "text": "$6 million.",
+        "character": "ETHAN "
+    },
+    "494": {
+        "time": "00:49:11,579 --> 00:49:16,167",
+        "text": "I'll give you the same, but I want the complete list now... not just Eastern Europe.",
+        "character": "MAX "
+    },
+    "495": {
+        "time": "00:49:16,250 --> 00:49:18,252",
+        "text": "I won't do this piecemeal. It's too dangerous.",
+        "character": "MAX "
+    },
+    "496": {
+        "time": "00:49:18,335 --> 00:49:20,713",
+        "text": "- I want the entire list. - $10 million."
+    },
+    "498": {
+        "time": "00:49:21,881 --> 00:49:26,677",
+        "text": "$10 million in negotiable US Treasury certificates... in bearer form, coupons attached.",
+        "character": "ETHAN "
+    },
+    "499": {
+        "time": "00:49:27,511 --> 00:49:28,762",
+        "text": "And one more thing."
+    },
+    "500": {
+        "time": "00:49:30,723 --> 00:49:35,060",
+        "text": "Your personal assurance that Job will be at the exchange.",
+        "character": "ETHAN "
+    },
+    "501": {
+        "time": "00:49:48,324 --> 00:49:49,283",
+        "text": "Oh.",
+        "character": "GUARD "
+    },
+    "502": {
+        "time": "00:49:51,869 --> 00:49:53,245",
+        "text": "Max made a deal with you?",
+        "character": "CLAIRE "
+    },
+    "503": {
+        "time": "00:49:54,872 --> 00:49:57,666",
+        "text": "I deliver the NOC list, Max delivers Job.",
+        "character": "ETHAN"
+    },
+    "504": {
+        "time": "00:50:01,420 --> 00:50:05,424",
+        "text": "We've got 75 rounds for your Beretta but only 20 for the SIG Sauer."
+    },
+    "507": {
+        "time": "00:50:05,966 --> 00:50:17,478",
+        "text": "One pair of Visco glasses with monitor... plenty of passports, and... What?"
+    },
+    "508": {
+        "time": "00:50:18,479 --> 00:50:20,356",
+        "text": "You said it yourself."
+    },
+    "509": {
+        "time": "00:50:20,773 --> 00:50:22,525",
+        "text": "If I'm not dead, I'm with you."
+    },
+    "510": {
+        "time": "00:50:24,527 --> 00:50:25,736",
+        "text": "Are you sure about this?",
+        "character": "ETHAN "
+    },
+    "511": {
+        "time": "00:50:26,695 --> 00:50:28,239",
+        "text": "Jim was my husband.",
+        "character": "CLAIRE "
+    },
+    "512": {
+        "time": "00:50:28,364 --> 00:50:30,616",
+        "text": "I want to get the son of a bitch who did this.",
+        "character": "CLAIRE "
+    },
+    "513": {
+        "time": "00:50:33,160 --> 00:50:34,286",
+        "text": "We're gonna need some help."
+    },
+    "514": {
+        "time": "00:50:35,079 --> 00:50:37,540",
+        "text": "We don't have a lot of time, so they're gonna have to be local."
+    },
+    "515": {
+        "time": "00:50:38,374 --> 00:50:39,416",
+        "text": "What kind of help?",
+        "character": "CLAIRE "
+    },
+    "516": {
+        "time": "00:51:13,534 --> 00:51:14,910",
+        "text": "Simple game.",
+        "character": "ETHAN"
+    },
+    "517": {
+        "time": "00:51:15,828 --> 00:51:17,246",
+        "text": "Four players.",
+        "character": "ETHAN"
+    },
+    "518": {
+        "time": "00:51:17,746 --> 00:51:19,623",
+        "text": "Exfil opens the pocket."
+    },
+    "519": {
+        "time": "00:51:19,832 --> 00:51:21,500",
+        "text": "Cyber ops lifts the wallet."
+    },
+    "520": {
+        "time": "00:51:22,793 --> 00:51:23,836",
+        "text": "Bank?",
+        "character": "KRIEGER "
+    },
+    "521": {
+        "time": "00:51:24,795 --> 00:51:25,963",
+        "text": "IMF mainframe.",
+        "character": "ETHAN "
+    },
+    "522": {
+        "time": "00:51:27,756 --> 00:51:29,049",
+        "text": "Where exactly is it?"
+    },
+    "523": {
+        "time": "00:51:29,758 --> 00:51:30,843",
+        "text": "In Langley.",
+        "character": "ETHAN "
+    },
+    "524": {
+        "time": "00:51:34,054 --> 00:51:35,014",
+        "text": "In Langley?",
+        "character": "LUTHER "
+    },
+    "525": {
+        "time": "00:51:36,557 --> 00:51:37,766",
+        "text": "The one in Virginia, Langley?",
+        "character": "LUTHER "
+    },
+    "526": {
+        "time": "00:51:39,560 --> 00:51:42,021",
+        "text": "Inside CIA headquarters at Langley?",
+        "character": "KRIEGER "
+    },
+    "527": {
+        "time": "00:51:43,898 --> 00:51:44,857",
+        "text": "Is he serious?",
+        "character": "KRIEGER (CONT'D) "
+    },
+    "528": {
+        "time": "00:51:46,025 --> 00:51:46,984",
+        "text": "Always.",
+        "character": "ETHAN"
+    },
+    "529": {
+        "time": "00:51:49,361 --> 00:51:53,073",
+        "text": "If we're going to Virginia, why don't we drop by Fort Knox?",
+        "character": "KRIEGER "
+    },
+    "532": {
+        "time": "00:51:53,282 --> 00:52:01,582",
+        "text": "I can fly a helicopter right in through the lobby... and set it down inside the vault... and it would be a hell of a lot easier than breaking into the goddamn CIA.",
+        "character": "KRIEGER "
+    },
+    "533": {
+        "time": "00:52:01,707 --> 00:52:02,875",
+        "text": "What are we downloading?",
+        "character": "LUTHER "
+    },
+    "534": {
+        "time": "00:52:03,834 --> 00:52:05,586",
+        "text": "- Information. - What kind?",
+        "character": "ETHAN "
+    },
+    "535": {
+        "time": "00:52:06,003 --> 00:52:07,087",
+        "text": "Profitable.",
+        "character": "ETHAN "
+    },
+    "536": {
+        "time": "00:52:08,214 --> 00:52:09,632",
+        "text": "Payment on delivery.",
+        "character": "CLAIRE "
+    },
+    "537": {
+        "time": "00:52:12,426 --> 00:52:13,427",
+        "text": "I don't know.",
+        "character": "SARAH "
+    },
+    "538": {
+        "time": "00:52:14,887 --> 00:52:16,055",
+        "text": "I just don't know.",
+        "character": "SARAH "
+    },
+    "539": {
+        "time": "00:52:19,058 --> 00:52:21,185",
+        "text": "This doesn't sound like the Luther Stickell I heard of.",
+        "character": "ETHAN"
+    },
+    "540": {
+        "time": "00:52:22,686 --> 00:52:24,480",
+        "text": "What did they used to call you, the Net Ranger?",
+        "character": "ETHAN"
+    },
+    "541": {
+        "time": "00:52:24,980 --> 00:52:26,190",
+        "text": "Phineas Phreak?",
+        "character": "ETHAN"
+    },
+    "542": {
+        "time": "00:52:27,608 --> 00:52:30,361",
+        "text": "The only man alive who actually hacked NATO Ghost Com.",
+        "character": "ETHAN"
+    },
+    "543": {
+        "time": "00:52:30,569 --> 00:52:33,906",
+        "text": "There was never any physical evidence that I had anything to do with that.",
+        "character": "LUTHER "
+    },
+    "545": {
+        "time": "00:52:35,407 --> 00:52:39,870",
+        "text": "With that... that exceptional piece of work."
+    },
+    "546": {
+        "time": "00:52:43,916 --> 00:52:45,209",
+        "text": "You don't know what you're missing.",
+        "character": "ETHAN "
+    },
+    "547": {
+        "time": "00:52:46,961 --> 00:52:50,840",
+        "text": "- This is the Mount Everest of hacks. - Y'all are kidding yourselves.",
+        "character": "LUTHER "
+    },
+    "549": {
+        "time": "00:52:52,132 --> 00:52:58,138",
+        "text": "Even with top of the line crypto, Cray access, STU-III... Krieger can get it, right?"
+    },
+    "550": {
+        "time": "00:53:00,057 --> 00:53:01,392",
+        "text": "May take a little time.",
+        "character": "KRIEGER "
+    },
+    "551": {
+        "time": "00:53:01,517 --> 00:53:02,726",
+        "text": "What the hell do you mean, \"a little time\"?"
+    },
+    "552": {
+        "time": "00:53:03,644 --> 00:53:05,020",
+        "text": "That's not what Claire tells me about you.",
+        "character": "ETHAN"
+    },
+    "553": {
+        "time": "00:53:05,896 --> 00:53:07,857",
+        "text": "Thinking-machine laptops."
+    },
+    "554": {
+        "time": "00:53:09,567 --> 00:53:14,363",
+        "text": "I'm talking about the 686 prototypes with the artificial intelligence risk chip.",
+        "character": "LUTHER "
+    },
+    "555": {
+        "time": "00:53:15,281 --> 00:53:16,532",
+        "text": "24 hours."
+    },
+    "556": {
+        "time": "00:53:19,118 --> 00:53:22,705",
+        "text": "And I get to keep the equipment when we're done.",
+        "character": "LUTHER "
+    },
+    "557": {
+        "time": "00:53:23,330 --> 00:53:25,374",
+        "text": "Luther, I guess you're all out of excuses.",
+        "character": "ETHAN "
+    },
+    "558": {
+        "time": "00:53:31,088 --> 00:53:34,633",
+        "text": "Look, I just can't hack my way inside.",
+        "character": "LUTHER "
+    },
+    "559": {
+        "time": "00:53:35,926 --> 00:53:38,387",
+        "text": "See, there's no modem access to the mainframe.",
+        "character": "LUTHER "
+    },
+    "561": {
+        "time": "00:53:39,346 --> 00:53:45,561",
+        "text": "It's in what we call the stand-alone... which means I'd have to be physically at the terminal."
+    },
+    "562": {
+        "time": "00:53:47,021 --> 00:53:48,439",
+        "text": "Relax, Luther.",
+        "character": "KITTRIDGE"
+    },
+    "563": {
+        "time": "00:53:49,106 --> 00:53:50,399",
+        "text": "It's much worse than you think."
+    },
+    "564": {
+        "time": "00:53:51,859 --> 00:53:53,986",
+        "text": "The terminal is in a black vault lockdown.",
+        "character": "ETHAN "
+    },
+    "566": {
+        "time": "00:53:54,737 --> 00:53:58,908",
+        "text": "The only person allowed in the room... has to pass through a series of security checks."
+    },
+    "567": {
+        "time": "00:53:59,033 --> 00:54:00,367",
+        "text": "William Donloe.",
+        "character": "CIA ANALYST"
+    },
+    "568": {
+        "time": "00:54:01,285 --> 00:54:05,498",
+        "text": "The first is a voiceprint identification and a six-digit access code."
+    },
+    "569": {
+        "time": "00:54:09,126 --> 00:54:10,711",
+        "text": "This only gets him into the outer room."
+    },
+    "570": {
+        "time": "00:54:12,588 --> 00:54:14,507",
+        "text": "Next, he has to pass a retinal scan."
+    },
+    "573": {
+        "time": "00:54:18,761 --> 00:54:26,477",
+        "text": "And finally, the intrusion countermeasures... are only deactivated by a double-electronic keycard... which we won't have."
+    },
+    "576": {
+        "time": "00:54:29,021 --> 00:54:36,070",
+        "text": "Now, inside the black vault... there are three systems operating... whenever the technician is out of the room."
+    },
+    "577": {
+        "time": "00:54:36,570 --> 00:54:40,658",
+        "text": "The first is sound-sensitive. Anything above a whisper sets it off."
+    },
+    "578": {
+        "time": "00:54:42,451 --> 00:54:45,538",
+        "text": "The second system detects any increase in temperature.",
+        "character": "ETHAN (V.O.) "
+    },
+    "580": {
+        "time": "00:54:45,621 --> 00:54:51,502",
+        "text": "Even the body heat of an unauthorized person in the room... will trigger it if the temperature rises just a single degree.",
+        "character": "ETHAN (V.O.) "
+    },
+    "582": {
+        "time": "00:54:56,924 --> 00:55:03,264",
+        "text": "Now, that temperature is controlled by the air conditioning... coming in through an overhead duct, 30 feet above the floor."
+    },
+    "583": {
+        "time": "00:55:06,016 --> 00:55:08,477",
+        "text": "That vent is guarded by a laser net."
+    },
+    "584": {
+        "time": "00:55:11,939 --> 00:55:15,151",
+        "text": "The third system is on the floor, and is pressure-sensitive.",
+        "character": "ETHAN (V.O.) "
+    },
+    "585": {
+        "time": "00:55:16,443 --> 00:55:19,363",
+        "text": "The slightest increase in weight will trigger the alarm."
+    },
+    "587": {
+        "time": "00:55:20,990 --> 00:55:25,744",
+        "text": "And any one of these systems, if set off... will activate an automatic lockdown."
+    },
+    "589": {
+        "time": "00:55:27,121 --> 00:55:33,586",
+        "text": "Now, believe me when I tell you, gentlemen... all three systems are state-of-the-art."
+    },
+    "590": {
+        "time": "00:55:38,048 --> 00:55:39,758",
+        "text": "And you really think we can do this?",
+        "character": "LUTHER "
+    },
+    "591": {
+        "time": "00:55:43,929 --> 00:55:44,930",
+        "text": "We're going to do it."
+    },
+    "592": {
+        "time": "00:56:18,172 --> 00:56:20,633",
+        "text": "We picked up alarms in Sector 3, 7, and 12."
+    },
+    "593": {
+        "time": "00:56:20,758 --> 00:56:23,511",
+        "text": "Yeah, that's what I've got, too. What sector's the air conditioning?",
+        "character": "GUARD RICHARD "
+    },
+    "594": {
+        "time": "00:56:23,636 --> 00:56:26,096",
+        "text": "21, but there's no alarm in Sector 21."
+    },
+    "595": {
+        "time": "00:56:26,222 --> 00:56:28,015",
+        "text": "No, I gotta get in there and shut it down.",
+        "character": "ETHAN "
+    },
+    "597": {
+        "time": "00:56:28,140 --> 00:56:30,935",
+        "text": "I'm sorry, but nobody gets into any sector... where an alarm hasn't gone off.",
+        "character": "GUARD RANDALL "
+    },
+    "598": {
+        "time": "00:56:31,060 --> 00:56:32,895",
+        "text": "You wanna blow the fire through this whole building?",
+        "character": "ETHAN"
+    },
+    "599": {
+        "time": "00:56:32,978 --> 00:56:35,606",
+        "text": "Look, no one goes into any sector where the alarm hasn't gone off...",
+        "character": "GUARD RANDALL "
+    },
+    "600": {
+        "time": "00:56:35,689 --> 00:56:38,234",
+        "text": "- and it hasn't gone off in 21. - Wait."
+    },
+    "601": {
+        "time": "00:56:42,905 --> 00:56:44,323",
+        "text": "It's gone off. Let's go.",
+        "character": "GUARD RANDALL "
+    },
+    "602": {
+        "time": "00:56:44,406 --> 00:56:45,741",
+        "text": "Let's move.",
+        "character": "ETHAN"
+    },
+    "603": {
+        "time": "00:56:57,920 --> 00:57:00,589",
+        "text": "- Can I get you anything? - No, thank you.",
+        "character": "ETHAN"
+    },
+    "604": {
+        "time": "00:57:03,509 --> 00:57:05,177",
+        "text": "21's through here."
+    },
+    "605": {
+        "time": "00:57:12,560 --> 00:57:13,519",
+        "text": "He's recruiting.",
+        "character": "KITTRIDGE "
+    },
+    "606": {
+        "time": "00:57:13,644 --> 00:57:16,105",
+        "text": "- For what purpose? - Survival.",
+        "character": "KITTRIDGE "
+    },
+    "607": {
+        "time": "00:57:16,522 --> 00:57:19,400",
+        "text": "Too shortsighted. This guy initiates. He's proactive.",
+        "character": "KITTRIDGE"
+    },
+    "608": {
+        "time": "00:57:19,525 --> 00:57:22,862",
+        "text": "The question is, what does he want? Where does he need to get it?"
+    },
+    "609": {
+        "time": "00:57:22,987 --> 00:57:25,447",
+        "text": "And Barnes, what the hell's that noise?"
+    },
+    "610": {
+        "time": "00:57:26,699 --> 00:57:27,825",
+        "text": "Fire alarm, Gene.",
+        "character": "AGENT "
+    },
+    "611": {
+        "time": "00:57:31,287 --> 00:57:32,621",
+        "text": "Do we have to evacuate?",
+        "character": "KITTRIDGE "
+    },
+    "612": {
+        "time": "00:58:20,711 --> 00:58:23,547",
+        "text": "Hey, there were three of you. Where's the other guy?",
+        "character": "GUARD "
+    },
+    "613": {
+        "time": "00:58:25,382 --> 00:58:27,968",
+        "text": "Krieger! Zero body count.",
+        "character": "ETHAN "
+    },
+    "614": {
+        "time": "00:58:28,719 --> 00:58:29,803",
+        "text": "We'll see."
+    },
+    "615": {
+        "time": "01:00:03,397 --> 01:00:04,482",
+        "text": "Hi there.",
+        "character": "LUTHER "
+    },
+    "616": {
+        "time": "01:01:05,417 --> 01:01:09,713",
+        "text": "One, two, three."
+    },
+    "617": {
+        "time": "01:01:10,506 --> 01:01:12,716",
+        "text": "Toast. Toast."
+    },
+    "618": {
+        "time": "01:01:13,801 --> 01:01:15,845",
+        "text": "- Check. - Good.",
+        "character": "ETHAN "
+    },
+    "619": {
+        "time": "01:01:17,763 --> 01:01:19,390",
+        "text": "Okay, Luther, I'm going in.",
+        "character": "ETHAN "
+    },
+    "620": {
+        "time": "01:01:19,515 --> 01:01:22,852",
+        "text": "Everest, man. You ready to plant the flag?"
+    },
+    "621": {
+        "time": "01:01:31,193 --> 01:01:32,278",
+        "text": "Damn.",
+        "character": "MAX"
+    },
+    "622": {
+        "time": "01:01:32,403 --> 01:01:36,240",
+        "text": "Krieger, from here on in, absolute silence.",
+        "character": "ETHAN "
+    },
+    "623": {
+        "time": "01:02:52,650 --> 01:02:54,109",
+        "text": "He's rolling to you.",
+        "character": "PHELPS "
+    },
+    "624": {
+        "time": "01:02:58,405 --> 01:03:00,074",
+        "text": "He's at the voiceprint corridor."
+    },
+    "625": {
+        "time": "01:03:00,491 --> 01:03:01,450",
+        "text": "William Donloe.",
+        "character": "CIA ANALYST"
+    },
+    "626": {
+        "time": "01:03:17,675 --> 01:03:18,759",
+        "text": "Outer room."
+    },
+    "627": {
+        "time": "01:03:23,639 --> 01:03:25,349",
+        "text": "He's coming in the vault."
+    },
+    "628": {
+        "time": "01:03:31,147 --> 01:03:32,148",
+        "text": "Come on, move.",
+        "character": "JACK "
+    },
+    "629": {
+        "time": "01:05:01,237 --> 01:05:02,613",
+        "text": "He's in the bathroom."
+    },
+    "631": {
+        "time": "01:06:20,357 --> 01:06:24,820",
+        "text": "A- W-9... 6- B-6."
+    },
+    "632": {
+        "time": "01:06:44,548 --> 01:06:46,217",
+        "text": "Holy mother of God.",
+        "character": "LUTHER "
+    },
+    "633": {
+        "time": "01:06:46,800 --> 01:06:48,135",
+        "text": "The NOC list.",
+        "character": "ETHAN"
+    },
+    "634": {
+        "time": "01:09:45,771 --> 01:09:47,106",
+        "text": "He's at the vault."
+    },
+    "635": {
+        "time": "01:10:00,661 --> 01:10:01,871",
+        "text": "Four yellows."
+    },
+    "636": {
+        "time": "01:10:05,082 --> 01:10:06,041",
+        "text": "One red.",
+        "character": "KITTRIDGE (O.S.)"
+    },
+    "637": {
+        "time": "01:10:17,636 --> 01:10:18,762",
+        "text": "Get moving.",
+        "character": "LUTHER "
+    },
+    "638": {
+        "time": "01:10:20,639 --> 01:10:21,640",
+        "text": "Toast."
+    },
+    "639": {
+        "time": "01:10:23,184 --> 01:10:24,185",
+        "text": "Toast."
+    },
+    "640": {
+        "time": "01:10:28,230 --> 01:10:29,231",
+        "text": "Merci.",
+        "character": "KRIEGER "
+    },
+    "641": {
+        "time": "01:11:27,164 --> 01:11:28,374",
+        "text": "Oh, my God.",
+        "character": "TECHNICIAN "
+    },
+    "642": {
+        "time": "01:11:39,927 --> 01:11:40,928",
+        "text": "Yeah.",
+        "character": "ETHAN "
+    },
+    "643": {
+        "time": "01:11:44,306 --> 01:11:45,808",
+        "text": "It's for you.",
+        "character": "AGENT "
+    },
+    "644": {
+        "time": "01:11:47,768 --> 01:11:48,811",
+        "text": "Kittridge.",
+        "character": "ETHAN "
+    },
+    "645": {
+        "time": "01:12:12,168 --> 01:12:16,505",
+        "text": "You and I know about this. That's where it stops, you understand?"
+    },
+    "646": {
+        "time": "01:12:16,589 --> 01:12:18,174",
+        "text": "It never happened."
+    },
+    "647": {
+        "time": "01:12:18,299 --> 01:12:19,800",
+        "text": "What about him?",
+        "character": "BARNES "
+    },
+    "648": {
+        "time": "01:12:20,176 --> 01:12:23,637",
+        "text": "I want him manning a radar tower in Alaska by the end of the day.",
+        "character": "KITTRIDGE "
+    },
+    "649": {
+        "time": "01:12:23,762 --> 01:12:25,389",
+        "text": "Just mail him his clothes.",
+        "character": "KITTRIDGE "
+    },
+    "650": {
+        "time": "01:13:04,512 --> 01:13:05,679",
+        "text": "You contacting your buyer?",
+        "character": "KRIEGER "
+    },
+    "651": {
+        "time": "01:13:08,057 --> 01:13:09,183",
+        "text": "Ethan.",
+        "character": "PHELPS "
+    },
+    "652": {
+        "time": "01:13:15,231 --> 01:13:16,357",
+        "text": "Ethan.",
+        "character": "PHELPS "
+    },
+    "653": {
+        "time": "01:13:23,239 --> 01:13:24,198",
+        "text": "Ethan.",
+        "character": "PHELPS "
+    },
+    "654": {
+        "time": "01:13:27,243 --> 01:13:29,286",
+        "text": "Excuse me. Mr. Hunt."
+    },
+    "655": {
+        "time": "01:13:39,338 --> 01:13:41,215",
+        "text": "You're not going to any meeting without me.",
+        "character": "KRIEGER "
+    },
+    "656": {
+        "time": "01:13:43,884 --> 01:13:46,512",
+        "text": "My contact is extremely shy.",
+        "character": "ETHAN "
+    },
+    "657": {
+        "time": "01:13:49,098 --> 01:13:52,810",
+        "text": "I don't think you're in any position to give orders. Do you?",
+        "character": "KRIEGER "
+    },
+    "658": {
+        "time": "01:13:53,185 --> 01:13:55,396",
+        "text": "Not while I'm holding this.",
+        "character": "KRIEGER "
+    },
+    "659": {
+        "time": "01:13:55,938 --> 01:13:57,898",
+        "text": "- Krieger... - Ta gueule."
+    },
+    "660": {
+        "time": "01:14:03,571 --> 01:14:04,572",
+        "text": "Don't you mean this?",
+        "character": "ETHAN "
+    },
+    "661": {
+        "time": "01:14:05,739 --> 01:14:06,907",
+        "text": "That's not the list.",
+        "character": "KRIEGER"
+    },
+    "662": {
+        "time": "01:14:07,616 --> 01:14:10,286",
+        "text": "Oh, what's the matter? You, you've never seen this trick?"
+    },
+    "663": {
+        "time": "01:14:18,586 --> 01:14:20,045",
+        "text": "Where'd it go?"
+    },
+    "664": {
+        "time": "01:14:24,216 --> 01:14:25,217",
+        "text": "It's gone.",
+        "character": "GUARD RANDALL "
+    },
+    "665": {
+        "time": "01:14:26,760 --> 01:14:27,845",
+        "text": "What?",
+        "character": "KITTRIDGE "
+    },
+    "666": {
+        "time": "01:14:28,596 --> 01:14:29,597",
+        "text": "- You. - No.",
+        "character": "PHELPS"
+    },
+    "667": {
+        "time": "01:14:29,722 --> 01:14:30,681",
+        "text": "No?"
+    },
+    "668": {
+        "time": "01:14:37,563 --> 01:14:38,898",
+        "text": "But not too far.",
+        "character": "ETHAN (CONT'D) "
+    },
+    "669": {
+        "time": "01:14:43,277 --> 01:14:45,738",
+        "text": "I know what you're thinking, Krieger.",
+        "character": "ETHAN (CONT'D) "
+    },
+    "671": {
+        "time": "01:14:45,821 --> 01:14:50,242",
+        "text": "You're thinking, \"Back in the computer room... \"I was up here, he was down there.",
+        "character": "ETHAN (CONT'D) "
+    },
+    "673": {
+        "time": "01:14:52,953 --> 01:14:58,042",
+        "text": "\"Yes, and he was... \"He was carrying two disks. \""
+    },
+    "674": {
+        "time": "01:15:00,377 --> 01:15:02,379",
+        "text": "It's so hard to keep track of these things.",
+        "character": "ETHAN (CONT'D) "
+    },
+    "675": {
+        "time": "01:15:03,672 --> 01:15:04,715",
+        "text": "Where is it?"
+    },
+    "676": {
+        "time": "01:15:19,980 --> 01:15:22,441",
+        "text": "Do you actually think I'd let you have the NOC list?",
+        "character": "ETHAN "
+    },
+    "677": {
+        "time": "01:15:24,443 --> 01:15:26,904",
+        "text": "Try any sleight of hand with my money, I'll cut your throat.",
+        "character": "KRIEGER "
+    },
+    "678": {
+        "time": "01:15:54,890 --> 01:15:57,351",
+        "text": "You're off on one of your cushy recruiting assignments again?"
+    },
+    "679": {
+        "time": "01:15:57,434 --> 01:15:59,645",
+        "text": "Yeah, where'd they put you up this time, The Plaza?"
+    },
+    "680": {
+        "time": "01:15:59,770 --> 01:16:01,105",
+        "text": "Drake Hotel, Chicago."
+    },
+    "681": {
+        "time": "01:16:04,066 --> 01:16:05,526",
+        "text": "I'm so sorry.",
+        "character": "CLAIRE "
+    },
+    "682": {
+        "time": "01:16:12,116 --> 01:16:13,909",
+        "text": "Krieger was my call.",
+        "character": "CLAIRE "
+    },
+    "683": {
+        "time": "01:16:20,708 --> 01:16:22,293",
+        "text": "I'm sorry, Ethan.",
+        "character": "CLAIRE "
+    },
+    "684": {
+        "time": "01:16:27,631 --> 01:16:29,550",
+        "text": "We did what we had to do.",
+        "character": "ETHAN "
+    },
+    "685": {
+        "time": "01:16:31,427 --> 01:16:33,888",
+        "text": "I'm going to try and get some sleep.",
+        "character": "CLAIRE "
+    },
+    "686": {
+        "time": "01:17:12,927 --> 01:17:14,220",
+        "text": "Krieger did have the NOC list?",
+        "character": "LUTHER "
+    },
+    "687": {
+        "time": "01:17:24,605 --> 01:17:25,898",
+        "text": "Now I want you to hold on to it.",
+        "character": "ETHAN "
+    },
+    "688": {
+        "time": "01:17:25,981 --> 01:17:27,107",
+        "text": "What makes you trust me?",
+        "character": "LUTHER "
+    },
+    "690": {
+        "time": "01:17:27,733 --> 01:17:30,903",
+        "text": "Because if you knew what you were getting into... you never would have done it.",
+        "character": "ETHAN "
+    },
+    "691": {
+        "time": "01:17:36,867 --> 01:17:38,953",
+        "text": "I'm not going to let this get out in the open.",
+        "character": "LUTHER "
+    },
+    "692": {
+        "time": "01:17:40,412 --> 01:17:42,790",
+        "text": "Exactly. That's your job tomorrow, on the train."
+    },
+    "693": {
+        "time": "01:17:44,041 --> 01:17:45,876",
+        "text": "Don't let this NOC list get out in the open.",
+        "character": "LUTHER "
+    },
+    "694": {
+        "time": "01:17:53,425 --> 01:17:54,635",
+        "text": "What is the range of this thing?",
+        "character": "ETHAN "
+    },
+    "695": {
+        "time": "01:17:56,178 --> 01:17:58,973",
+        "text": "It's hard to tell. I'm gonna have to be close.",
+        "character": "LUTHER "
+    },
+    "696": {
+        "time": "01:18:00,766 --> 01:18:02,143",
+        "text": "Ethan, I need to talk to you.",
+        "character": "CLAIRE "
+    },
+    "700": {
+        "time": "01:18:03,853 --> 01:18:13,237",
+        "text": "The unlikely setting, a farm in the heartland of America... the state of Wisconsin... where federal agents claim to have found... the brains behind an international drugs ring.",
+        "character": "ANCHOR "
+    },
+    "702": {
+        "time": "01:18:13,737 --> 01:18:19,243",
+        "text": "The operation was masterminded by Margaret Ethan Hunt... and her brother-in-law, Donald Hunt."
+    },
+    "706": {
+        "time": "01:18:19,326 --> 01:18:29,962",
+        "text": "They were arrested this morning by drug enforcement officers... in a major sting operation... designed to expose the illegal manufacture... of the drug methcathinone, known as khat.",
+        "character": "REPORTER "
+    },
+    "708": {
+        "time": "01:18:30,087 --> 01:18:33,716",
+        "text": "I'm afraid what we have here is a case of a naive and lonely widower... Kittridge."
+    },
+    "709": {
+        "time": "01:19:03,245 --> 01:19:04,246",
+        "text": "Kittridge.",
+        "character": "ETHAN "
+    },
+    "710": {
+        "time": "01:19:04,330 --> 01:19:06,332",
+        "text": "I see you've been out visiting the folks.",
+        "character": "ETHAN (O.S.) "
+    },
+    "711": {
+        "time": "01:19:07,166 --> 01:19:08,792",
+        "text": "It's Hunt. What do you need for a pinpoint?"
+    },
+    "712": {
+        "time": "01:19:10,169 --> 01:19:13,130",
+        "text": "You've been watching a little TV, have you?"
+    },
+    "713": {
+        "time": "01:19:14,840 --> 01:19:18,594",
+        "text": "Hauling Mom off to jail in shackles was an especially nice touch.",
+        "character": "ETHAN"
+    },
+    "714": {
+        "time": "01:19:18,886 --> 01:19:20,638",
+        "text": "- He's in England. - Get Ml5.",
+        "character": "TECHNICIAN "
+    },
+    "718": {
+        "time": "01:19:21,388 --> 01:19:32,858",
+        "text": "Ethan, I wanna assure you... that my first order of business after you come in... is to have these ridiculous charges against your family dropped... and eliminated completely from their files.",
+        "character": "KITTRIDGE "
+    },
+    "720": {
+        "time": "01:19:32,942 --> 01:19:38,739",
+        "text": "Look, if you come in now... we can plea down the charges against you, as well.",
+        "character": "KITTRIDGE "
+    },
+    "721": {
+        "time": "01:19:40,825 --> 01:19:42,535",
+        "text": "Can I ask you something, Kittridge?",
+        "character": "ETHAN (O.S.) "
+    },
+    "722": {
+        "time": "01:19:44,328 --> 01:19:45,663",
+        "text": "Certainly, Ethan.",
+        "character": "KITTRIDGE "
+    },
+    "728": {
+        "time": "01:19:46,080 --> 01:20:04,640",
+        "text": "If you're dealing with someone... who's crushed, stabbed... shot, and detonated... five members of his own IMF team... how devastated do you think you're gonna make him... by marching Ma and Uncle Donald down to the county courthouse?",
+        "character": "ETHAN "
+    },
+    "729": {
+        "time": "01:20:04,765 --> 01:20:07,768",
+        "text": "I don't know, Ethan. Why don't you tell me?",
+        "character": "KITTRIDGE "
+    },
+    "730": {
+        "time": "01:20:11,105 --> 01:20:12,356",
+        "text": "Lost him.",
+        "character": "BARNES "
+    },
+    "731": {
+        "time": "01:20:14,066 --> 01:20:15,526",
+        "text": "We needed three more seconds.",
+        "character": "BARNES "
+    },
+    "732": {
+        "time": "01:20:15,609 --> 01:20:18,237",
+        "text": "He wanted us to know he was in London.",
+        "character": "KITTRIDGE "
+    },
+    "733": {
+        "time": "01:20:31,959 --> 01:20:33,419",
+        "text": "You're a hard man to catch up with.",
+        "character": "PHELPS "
+    },
+    "734": {
+        "time": "01:20:42,678 --> 01:20:45,473",
+        "text": "Next day I managed to drag myself back to the safe house."
+    },
+    "735": {
+        "time": "01:20:45,598 --> 01:20:46,807",
+        "text": "I must have just missed you."
+    },
+    "736": {
+        "time": "01:20:46,932 --> 01:20:49,727",
+        "text": "Anyway, I checked our aliases."
+    },
+    "737": {
+        "time": "01:20:49,977 --> 01:20:51,479",
+        "text": "And that's when you picked us up in the States.",
+        "character": "ETHAN"
+    },
+    "738": {
+        "time": "01:20:51,979 --> 01:20:54,899",
+        "text": "But you left before I could get there, and I could check just so many places.",
+        "character": "PHELPS "
+    },
+    "739": {
+        "time": "01:20:55,316 --> 01:20:57,735",
+        "text": "Smaller countries don't computerize customs records.",
+        "character": "ETHAN "
+    },
+    "740": {
+        "time": "01:20:58,027 --> 01:20:59,361",
+        "text": "So I watched Europe.",
+        "character": "PHELPS "
+    },
+    "741": {
+        "time": "01:21:00,154 --> 01:21:03,199",
+        "text": "Once you turned up in England, it was easy.",
+        "character": "PHELPS "
+    },
+    "742": {
+        "time": "01:21:04,033 --> 01:21:06,118",
+        "text": "You knew I liked the rentals at Liverpool Street.",
+        "character": "ETHAN "
+    },
+    "743": {
+        "time": "01:21:06,202 --> 01:21:07,870",
+        "text": "Hey, I showed them to you.",
+        "character": "PHELPS "
+    },
+    "744": {
+        "time": "01:21:10,039 --> 01:21:11,081",
+        "text": "I remember.",
+        "character": "ETHAN "
+    },
+    "745": {
+        "time": "01:21:13,876 --> 01:21:16,504",
+        "text": "Jim, look, who do you think you're kidding here?",
+        "character": "ETHAN "
+    },
+    "746": {
+        "time": "01:21:16,587 --> 01:21:18,881",
+        "text": "A doctor's gotta look at that. You can't sit up straight.",
+        "character": "ETHAN "
+    },
+    "747": {
+        "time": "01:21:19,006 --> 01:21:20,466",
+        "text": "I can sit up straight.",
+        "character": "PHELPS "
+    },
+    "748": {
+        "time": "01:21:21,217 --> 01:21:22,760",
+        "text": "I just can't sit up straight very well.",
+        "character": "PHELPS "
+    },
+    "749": {
+        "time": "01:21:23,636 --> 01:21:26,305",
+        "text": "Sit down. Sit down. It's not important.",
+        "character": "PHELPS "
+    },
+    "750": {
+        "time": "01:21:28,057 --> 01:21:29,058",
+        "text": "Ethan...",
+        "character": "PHELPS "
+    },
+    "751": {
+        "time": "01:21:31,560 --> 01:21:34,271",
+        "text": "I saw who shot me. I saw the mole.",
+        "character": "PHELPS "
+    },
+    "752": {
+        "time": "01:21:36,357 --> 01:21:39,401",
+        "text": "- It was Kittridge. - Kittridge.",
+        "character": "PHELPS "
+    },
+    "753": {
+        "time": "01:21:40,402 --> 01:21:42,029",
+        "text": "Kittridge, Ethan.",
+        "character": "ETHAN "
+    },
+    "754": {
+        "time": "01:21:47,618 --> 01:21:49,411",
+        "text": "Kittridge is the mole.",
+        "character": "ETHAN "
+    },
+    "755": {
+        "time": "01:21:50,454 --> 01:21:52,456",
+        "text": "My God, of course. You're right.",
+        "character": "KASIMOV"
+    },
+    "756": {
+        "time": "01:21:58,629 --> 01:22:00,089",
+        "text": "He was at the embassy that night."
+    },
+    "757": {
+        "time": "01:22:04,552 --> 01:22:07,847",
+        "text": "First, he took out Jack at the elevator.",
+        "character": "ETHAN VO "
+    },
+    "758": {
+        "time": "01:22:15,563 --> 01:22:17,523",
+        "text": "He shot you on the bridge.",
+        "character": "ETHAN VO "
+    },
+    "759": {
+        "time": "01:22:47,720 --> 01:22:48,888",
+        "text": "Ethan!",
+        "character": "PHELPS "
+    },
+    "760": {
+        "time": "01:23:02,693 --> 01:23:05,446",
+        "text": "He must have had backup take out Golitsyn and Sarah at the fence.",
+        "character": "ETHAN VO "
+    },
+    "761": {
+        "time": "01:23:24,757 --> 01:23:26,550",
+        "text": "How did he do Hannah?",
+        "character": "ETHAN VO "
+    },
+    "762": {
+        "time": "01:23:52,117 --> 01:23:54,912",
+        "text": "No. No, he could have done Hannah himself.",
+        "character": "PHELPS (O.S.)"
+    },
+    "763": {
+        "time": "01:24:22,356 --> 01:24:23,607",
+        "text": "Why, Jim?",
+        "character": "ETHAN"
+    },
+    "764": {
+        "time": "01:24:25,651 --> 01:24:26,652",
+        "text": "Why?",
+        "character": "ETHAN "
+    },
+    "765": {
+        "time": "01:24:29,738 --> 01:24:31,824",
+        "text": "When you think about it, Ethan, it was inevitable.",
+        "character": "PHELPS"
+    },
+    "766": {
+        "time": "01:24:31,907 --> 01:24:33,492",
+        "text": "No more Cold War."
+    },
+    "767": {
+        "time": "01:24:35,202 --> 01:24:38,038",
+        "text": "No more secrets you keep from everyone but yourself."
+    },
+    "768": {
+        "time": "01:24:38,164 --> 01:24:41,041",
+        "text": "Operations, you answer to no one but yourself."
+    },
+    "770": {
+        "time": "01:24:41,917 --> 01:24:47,006",
+        "text": "And then one day, you wake up, the President of the United States is... running the country without your permission.",
+        "character": "PHELPS"
+    },
+    "771": {
+        "time": "01:24:48,174 --> 01:24:49,925",
+        "text": "The son of a bitch, how dare he?"
+    },
+    "772": {
+        "time": "01:24:51,552 --> 01:24:53,637",
+        "text": "Then you realize, it's over."
+    },
+    "773": {
+        "time": "01:24:54,346 --> 01:24:57,057",
+        "text": "You're an obsolete piece of hardware not worth upgrading."
+    },
+    "774": {
+        "time": "01:24:57,183 --> 01:25:00,227",
+        "text": "You've got a lousy marriage and 62 grand a year."
+    },
+    "775": {
+        "time": "01:25:02,313 --> 01:25:03,647",
+        "text": "Kittridge.",
+        "character": "ETHAN "
+    },
+    "776": {
+        "time": "01:25:04,398 --> 01:25:07,026",
+        "text": "We'll go after the no-good son of a bitch big time.",
+        "character": "PHELPS"
+    },
+    "777": {
+        "time": "01:25:12,364 --> 01:25:15,826",
+        "text": "We won't have to. He'll come after us.",
+        "character": "ETHAN"
+    },
+    "778": {
+        "time": "01:25:17,661 --> 01:25:19,872",
+        "text": "What's gonna make him do that?",
+        "character": "PHELPS"
+    },
+    "779": {
+        "time": "01:25:19,955 --> 01:25:23,334",
+        "text": "What he didn't get in Prague. The NOC list.",
+        "character": "ETHAN"
+    },
+    "780": {
+        "time": "01:25:25,794 --> 01:25:28,798",
+        "text": "Whoa. Jesus, Ethan.",
+        "character": "PHELPS"
+    },
+    "781": {
+        "time": "01:25:30,591 --> 01:25:32,051",
+        "text": "Good for you.",
+        "character": "PHELPS"
+    },
+    "782": {
+        "time": "01:25:33,803 --> 01:25:36,889",
+        "text": "I'm meeting him tomorrow on the TGV en route to Paris.",
+        "character": "ETHAN"
+    },
+    "783": {
+        "time": "01:25:37,056 --> 01:25:39,266",
+        "text": "Tight security. No guns.",
+        "character": "PHELPS"
+    },
+    "784": {
+        "time": "01:25:39,809 --> 01:25:41,143",
+        "text": "A real plus.",
+        "character": "PHELPS"
+    },
+    "786": {
+        "time": "01:25:41,936 --> 01:25:45,940",
+        "text": "If I supposedly deliver the NOC list to Max... Max has agreed to deliver Job to me.",
+        "character": "ETHAN"
+    },
+    "787": {
+        "time": "01:25:46,649 --> 01:25:48,776",
+        "text": "I'll have Claire and Luther Stickell with me on the train."
+    },
+    "788": {
+        "time": "01:25:48,859 --> 01:25:51,278",
+        "text": "Krieger is gonna have helicopter transport waiting in Paris.",
+        "character": "ETHAN"
+    },
+    "789": {
+        "time": "01:25:54,865 --> 01:25:55,866",
+        "text": "Jim?",
+        "character": "ETHAN"
+    },
+    "790": {
+        "time": "01:26:05,709 --> 01:26:07,461",
+        "text": "I was in a cafe waiting for you, Ethan."
+    },
+    "793": {
+        "time": "01:26:11,215 --> 01:26:18,806",
+        "text": "And there she was... standing in the rain, alive and beautiful... thinking I'm dead and gone."
+    },
+    "795": {
+        "time": "01:26:22,935 --> 01:26:27,523",
+        "text": "God knows what she's had to do to forget me... to keep going, get the job done.",
+        "character": "PHELPS"
+    },
+    "796": {
+        "time": "01:26:32,486 --> 01:26:33,904",
+        "text": "She can't know about me, Ethan.",
+        "character": "PHELPS"
+    },
+    "797": {
+        "time": "01:26:34,029 --> 01:26:36,198",
+        "text": "No one can, not till this is over.",
+        "character": "PHELPS"
+    },
+    "798": {
+        "time": "01:26:36,949 --> 01:26:37,908",
+        "text": "You're probably right.",
+        "character": "ETHAN"
+    },
+    "799": {
+        "time": "01:26:39,660 --> 01:26:41,036",
+        "text": "There's too much at stake.",
+        "character": "PHELPS"
+    },
+    "800": {
+        "time": "01:26:43,664 --> 01:26:46,417",
+        "text": "Once we leave the safe house, Jim, you get in there and crash.",
+        "character": "ETHAN"
+    },
+    "801": {
+        "time": "01:26:48,377 --> 01:26:51,130",
+        "text": "- I'll call you from Paris. - You got it.",
+        "character": "PHELPS"
+    },
+    "802": {
+        "time": "01:27:14,945 --> 01:27:15,946",
+        "text": "What happened?",
+        "character": "CLAIRE"
+    },
+    "803": {
+        "time": "01:27:20,326 --> 01:27:21,785",
+        "text": "I sent the message to Max."
+    },
+    "804": {
+        "time": "01:27:26,665 --> 01:27:27,750",
+        "text": "We're on for tomorrow."
+    },
+    "805": {
+        "time": "01:27:35,966 --> 01:27:36,967",
+        "text": "Okay.",
+        "character": "CLAIRE"
+    },
+    "806": {
+        "time": "01:27:47,603 --> 01:27:48,562",
+        "text": "Come here.",
+        "character": "PHELPS (CONT'D) "
+    },
+    "807": {
+        "time": "01:28:31,147 --> 01:28:32,189",
+        "text": "Sir."
+    },
+    "808": {
+        "time": "01:28:33,149 --> 01:28:34,984",
+        "text": "- What's this? - Incoming, sir, for you."
+    },
+    "809": {
+        "time": "01:28:35,067 --> 01:28:37,695",
+        "text": "X- ray's clean, electronics, and no explosives."
+    },
+    "810": {
+        "time": "01:28:49,248 --> 01:28:50,291",
+        "text": "Gene?"
+    },
+    "811": {
+        "time": "01:28:55,713 --> 01:28:58,466",
+        "text": "- How long to the London Terminus? - Twenty, twenty-five minutes.",
+        "character": "AGENT"
+    },
+    "812": {
+        "time": "01:28:58,591 --> 01:29:00,092",
+        "text": "You've got 10 minutes. Move!",
+        "character": "KITTRIDGE"
+    },
+    "813": {
+        "time": "01:29:38,130 --> 01:29:39,882",
+        "text": "- Yes? - Give me Max."
+    },
+    "814": {
+        "time": "01:29:41,008 --> 01:29:42,009",
+        "text": "It's him.",
+        "character": "ETHAN "
+    },
+    "815": {
+        "time": "01:29:45,805 --> 01:29:47,640",
+        "text": "This was not what we discussed."
+    },
+    "816": {
+        "time": "01:29:47,723 --> 01:29:50,434",
+        "text": "My apologies, Max. It couldn't be helped."
+    },
+    "817": {
+        "time": "01:29:50,768 --> 01:29:52,728",
+        "text": "There's a piece of black cloth under your seat."
+    },
+    "818": {
+        "time": "01:29:52,853 --> 01:29:54,313",
+        "text": "Tear it away, you'll find the disk."
+    },
+    "819": {
+        "time": "01:30:29,557 --> 01:30:31,142",
+        "text": "Dear boy..."
+    },
+    "820": {
+        "time": "01:30:32,685 --> 01:30:36,105",
+        "text": "I hope this doesn't preclude a meeting in private."
+    },
+    "821": {
+        "time": "01:30:36,272 --> 01:30:38,149",
+        "text": "Not as long as you tell me where the money is.",
+        "character": "ETHAN (O.S.)"
+    },
+    "822": {
+        "time": "01:30:38,941 --> 01:30:41,777",
+        "text": "The mere possibility is worth $10 million.",
+        "character": "MAX"
+    },
+    "823": {
+        "time": "01:30:41,902 --> 01:30:44,029",
+        "text": "Baggage car, rack 3.",
+        "character": "MAX"
+    },
+    "824": {
+        "time": "01:30:44,196 --> 01:30:47,867",
+        "text": "Silver briefcase, combination 3-1-4."
+    },
+    "825": {
+        "time": "01:30:48,534 --> 01:30:50,077",
+        "text": "What about Job?",
+        "character": "ETHAN (O.S.)"
+    },
+    "826": {
+        "time": "01:30:50,161 --> 01:30:53,706",
+        "text": "Wouldn't worry about him. When you get the money, he'll find you.",
+        "character": "MAX"
+    },
+    "827": {
+        "time": "01:31:11,557 --> 01:31:13,184",
+        "text": "What's the matter?",
+        "character": "PHELPS"
+    },
+    "828": {
+        "time": "01:31:13,350 --> 01:31:15,811",
+        "text": "- It's not transmitting. - Try it. Try it again.",
+        "character": "MAX"
+    },
+    "829": {
+        "time": "01:31:15,936 --> 01:31:19,023",
+        "text": "Damn it, I've got to get this through before we hit the Chunnel."
+    },
+    "830": {
+        "time": "01:31:31,911 --> 01:31:34,371",
+        "text": "- What's the problem? - Connection denied.",
+        "character": "ETHAN "
+    },
+    "831": {
+        "time": "01:31:35,414 --> 01:31:38,083",
+        "text": "I can see that. Did you check the batteries?",
+        "character": "MATTHIAS"
+    },
+    "832": {
+        "time": "01:31:38,209 --> 01:31:40,294",
+        "text": "I always check the batteries.",
+        "character": "MATTHIAS"
+    },
+    "833": {
+        "time": "01:31:40,377 --> 01:31:43,005",
+        "text": "Don't you give me that. Run it through from the top.",
+        "character": "MAX"
+    },
+    "834": {
+        "time": "01:31:48,010 --> 01:31:48,969",
+        "text": "This is bullshit."
+    },
+    "835": {
+        "time": "01:31:49,053 --> 01:31:50,721",
+        "text": "We don't even know what Max looks like.",
+        "character": "KITTRIDGE"
+    },
+    "836": {
+        "time": "01:31:51,013 --> 01:31:52,681",
+        "text": "Look, we don't need to know."
+    },
+    "837": {
+        "time": "01:31:53,057 --> 01:31:54,892",
+        "text": "If he's got that list, he's gonna want to check it.",
+        "character": "BARNES"
+    },
+    "838": {
+        "time": "01:31:55,017 --> 01:31:56,227",
+        "text": "And that means laptops."
+    },
+    "839": {
+        "time": "01:32:08,239 --> 01:32:10,866",
+        "text": "Excuse me, sir. Your telephone.",
+        "character": "FLIGHT ATTENDANT "
+    },
+    "840": {
+        "time": "01:32:10,991 --> 01:32:13,202",
+        "text": "Hello? Hello?"
+    },
+    "841": {
+        "time": "01:32:14,787 --> 01:32:16,622",
+        "text": "I can't hear anything."
+    },
+    "842": {
+        "time": "01:32:17,581 --> 01:32:20,459",
+        "text": "- Is everything all right, sir? - It's just the battery is gone."
+    },
+    "843": {
+        "time": "01:32:20,584 --> 01:32:21,961",
+        "text": "It's working.",
+        "character": "MATTHIAS"
+    },
+    "844": {
+        "time": "01:32:34,306 --> 01:32:36,183",
+        "text": "He's in the baggage car.",
+        "character": "ETHAN (O/S)"
+    },
+    "845": {
+        "time": "01:32:38,018 --> 01:32:40,312",
+        "text": "Ethan, Kittridge is on the train.",
+        "character": "CLAIRE"
+    },
+    "846": {
+        "time": "01:32:40,437 --> 01:32:41,689",
+        "text": "I'm right behind you."
+    },
+    "847": {
+        "time": "01:32:41,814 --> 01:32:43,899",
+        "text": "The money's in the baggage car. I'll meet you there.",
+        "character": "ETHAN (O/S)"
+    },
+    "848": {
+        "time": "01:33:01,250 --> 01:33:02,459",
+        "text": "Barnes?"
+    },
+    "849": {
+        "time": "01:33:40,664 --> 01:33:42,082",
+        "text": "Ethan's right behind me.",
+        "character": "CLAIRE"
+    },
+    "850": {
+        "time": "01:33:44,460 --> 01:33:47,880",
+        "text": "Listen, Jim, is it such a good idea to kill him?"
+    },
+    "851": {
+        "time": "01:33:52,384 --> 01:33:53,552",
+        "text": "Kittridge is here.",
+        "character": "ETHAN "
+    },
+    "852": {
+        "time": "01:33:57,848 --> 01:33:58,849",
+        "text": "We take the money.",
+        "character": "ETHAN (O/S)"
+    },
+    "853": {
+        "time": "01:34:00,017 --> 01:34:01,477",
+        "text": "Ethan takes the blame.",
+        "character": "CLAIRE"
+    },
+    "854": {
+        "time": "01:34:04,271 --> 01:34:05,981",
+        "text": "No one else has seen you alive."
+    },
+    "855": {
+        "time": "01:34:09,109 --> 01:34:11,403",
+        "text": "No one will believe him."
+    },
+    "856": {
+        "time": "01:34:39,140 --> 01:34:40,391",
+        "text": "Of course...",
+        "character": "SENATOR WALTZER "
+    },
+    "857": {
+        "time": "01:34:40,474 --> 01:34:43,269",
+        "text": "I'm very sorry to hear you say that, Claire.",
+        "character": "ETHAN"
+    },
+    "858": {
+        "time": "01:34:47,148 --> 01:34:48,858",
+        "text": "- Ethan. - Yes.",
+        "character": "PHELPS "
+    },
+    "859": {
+        "time": "01:34:50,359 --> 01:34:53,445",
+        "text": "Ethan Hunt, darling. You remember him, don't you?",
+        "character": "PHELPS"
+    },
+    "860": {
+        "time": "01:34:55,823 --> 01:34:58,409",
+        "text": "- You knew about Jim? - Of course.",
+        "character": "CLAIRE"
+    },
+    "861": {
+        "time": "01:35:01,370 --> 01:35:03,956",
+        "text": "Just exactly when he knew is something of a question.",
+        "character": "PHELPS"
+    },
+    "862": {
+        "time": "01:35:04,039 --> 01:35:05,249",
+        "text": "Mind telling me, Ethan?"
+    },
+    "863": {
+        "time": "01:35:06,584 --> 01:35:08,252",
+        "text": "Before or after I showed up in London?",
+        "character": "PHELPS"
+    },
+    "865": {
+        "time": "01:35:10,045 --> 01:35:14,675",
+        "text": "Before London... but after you took the Bible from the Drake Hotel in Chicago.",
+        "character": "ETHAN"
+    },
+    "866": {
+        "time": "01:35:16,218 --> 01:35:19,305",
+        "text": "They stamped it, didn't they? Those damn Gideons.",
+        "character": "PHELPS"
+    },
+    "867": {
+        "time": "01:35:21,348 --> 01:35:24,602",
+        "text": "Ethan, if you knew about Jim, why...",
+        "character": "CLAIRE"
+    },
+    "868": {
+        "time": "01:35:24,727 --> 01:35:27,605",
+        "text": "Why the masquerade? Why take the risk?",
+        "character": "PHELPS"
+    },
+    "869": {
+        "time": "01:35:28,481 --> 01:35:31,400",
+        "text": "Well, Claire, you've asked the question."
+    },
+    "870": {
+        "time": "01:35:32,443 --> 01:35:33,611",
+        "text": "And you are the answer."
+    },
+    "871": {
+        "time": "01:35:35,196 --> 01:35:36,655",
+        "text": "I knew about Jim.",
+        "character": "ETHAN"
+    },
+    "872": {
+        "time": "01:35:36,989 --> 01:35:38,491",
+        "text": "But he didn't know about you.",
+        "character": "PHELPS"
+    },
+    "874": {
+        "time": "01:35:39,783 --> 01:35:44,038",
+        "text": "In all fairness, Ethan... Claire was never convinced her charms would work on you."
+    },
+    "875": {
+        "time": "01:35:45,247 --> 01:35:48,792",
+        "text": "But I was supremely confident, having tasted the goods."
+    },
+    "876": {
+        "time": "01:35:51,295 --> 01:35:56,258",
+        "text": "\"Thou shalt not covet thy neighbor's wife,\" Ethan.",
+        "character": "PHELPS"
+    },
+    "877": {
+        "time": "01:35:58,052 --> 01:36:00,471",
+        "text": "Let's just get the money and get out of here.",
+        "character": "CLAIRE"
+    },
+    "878": {
+        "time": "01:36:00,596 --> 01:36:01,764",
+        "text": "Yes, let's get the money."
+    },
+    "879": {
+        "time": "01:36:02,932 --> 01:36:05,976",
+        "text": "Ethan, the money.",
+        "character": "PHELPS "
+    },
+    "880": {
+        "time": "01:36:08,646 --> 01:36:09,730",
+        "text": "Give her the money.",
+        "character": "ETHAN (O/S)"
+    },
+    "881": {
+        "time": "01:36:13,859 --> 01:36:14,944",
+        "text": "You've earned it.",
+        "character": "ETHAN"
+    },
+    "882": {
+        "time": "01:36:22,785 --> 01:36:24,411",
+        "text": "All $10 million.",
+        "character": "CLAIRE"
+    },
+    "883": {
+        "time": "01:36:24,620 --> 01:36:27,665",
+        "text": "You know, Claire was wrong about one thing, Jim.",
+        "character": "ETHAN"
+    },
+    "884": {
+        "time": "01:36:28,249 --> 01:36:29,208",
+        "text": "Oh?",
+        "character": "ETHAN "
+    },
+    "885": {
+        "time": "01:36:29,959 --> 01:36:30,960",
+        "text": "What's that?",
+        "character": "PHELPS"
+    },
+    "886": {
+        "time": "01:36:50,396 --> 01:36:52,064",
+        "text": "Good morning, Mr. Phelps.",
+        "character": "KITTRIDGE"
+    },
+    "887": {
+        "time": "01:36:54,024 --> 01:36:56,485",
+        "text": "I'm not the only one who's seen you alive.",
+        "character": "ETHAN"
+    },
+    "888": {
+        "time": "01:37:00,030 --> 01:37:01,740",
+        "text": "You son of a bitch.",
+        "character": "PHELPS"
+    },
+    "889": {
+        "time": "01:37:02,199 --> 01:37:03,200",
+        "text": "It's over, Jim."
+    },
+    "890": {
+        "time": "01:37:10,124 --> 01:37:12,751",
+        "text": "Don't. Don't, Jim.",
+        "character": "CLAIRE"
+    },
+    "891": {
+        "time": "01:37:12,877 --> 01:37:13,836",
+        "text": "\"Don't, Jim. \"",
+        "character": "CLAIRE"
+    },
+    "892": {
+        "time": "01:40:24,819 --> 01:40:25,778",
+        "text": "Damn!",
+        "character": "MAX"
+    },
+    "893": {
+        "time": "01:40:29,240 --> 01:40:31,075",
+        "text": "No, it's in the tunnel!",
+        "character": "CONDUCTOR "
+    },
+    "894": {
+        "time": "01:40:31,867 --> 01:40:33,994",
+        "text": "No, no, don't! It'll crash into us!",
+        "character": "CONDUCTOR "
+    },
+    "895": {
+        "time": "01:40:34,078 --> 01:40:35,955",
+        "text": "Accelerate! Accelerate!"
+    },
+    "896": {
+        "time": "01:42:37,827 --> 01:42:39,161",
+        "text": "Red light!",
+        "character": "JACK (CONT'D) "
+    },
+    "897": {
+        "time": "01:42:40,412 --> 01:42:41,747",
+        "text": "Green light!",
+        "character": "JACK (CONT'D) "
+    },
+    "898": {
+        "time": "01:43:30,087 --> 01:43:34,425",
+        "text": "Look, we cannot just be sitting around, okay? We need..."
+    },
+    "899": {
+        "time": "01:43:34,508 --> 01:43:36,302",
+        "text": "I think this is what you're looking for.",
+        "character": "LUTHER"
+    },
+    "900": {
+        "time": "01:43:43,267 --> 01:43:44,685",
+        "text": "Hello, Max."
+    },
+    "901": {
+        "time": "01:43:45,644 --> 01:43:48,647",
+        "text": "My lawyers are going to have a field day with this.",
+        "character": "MAX "
+    },
+    "903": {
+        "time": "01:43:48,772 --> 01:43:54,778",
+        "text": "Entrapment, jurisdictional conflict... Well, maybe we'll just leave the courts out of this one."
+    },
+    "904": {
+        "time": "01:43:57,531 --> 01:44:02,119",
+        "text": "I'm sure we can find something I have that you need.",
+        "character": "MAX "
+    },
+    "907": {
+        "time": "01:44:02,495 --> 01:44:11,545",
+        "text": "In a freak accident... a helicopter lost altitude, veered into a tunnel... and collided with a high-speed train on its way from London to Paris."
+    },
+    "908": {
+        "time": "01:44:12,004 --> 01:44:15,591",
+        "text": "The pilot was killed, but no one on the train was hurt."
+    },
+    "909": {
+        "time": "01:44:16,050 --> 01:44:19,678",
+        "text": "Authorities have attributed the accident to instrument failure."
+    },
+    "910": {
+        "time": "01:44:19,762 --> 01:44:22,556",
+        "text": "Reach your folks? How are they feeling?",
+        "character": "LUTHER "
+    },
+    "911": {
+        "time": "01:44:22,681 --> 01:44:24,058",
+        "text": "About what?",
+        "character": "ETHAN"
+    },
+    "913": {
+        "time": "01:44:24,308 --> 01:44:30,272",
+        "text": "The apology from the Justice Department, VIP treatment... you know, the whole nine yards.",
+        "character": "LUTHER "
+    },
+    "916": {
+        "time": "01:44:30,856 --> 01:44:38,113",
+        "text": "Well, my mom was a little confused... how the DEA could mistake her and Uncle Donald... for a couple of dope smugglers in the Florida Keys.",
+        "character": "ETHAN "
+    },
+    "917": {
+        "time": "01:44:41,200 --> 01:44:42,368",
+        "text": "Cheers.",
+        "character": "JACK "
+    },
+    "918": {
+        "time": "01:44:43,953 --> 01:44:47,414",
+        "text": "To you, Luther, for being off the disavowed list."
+    },
+    "919": {
+        "time": "01:44:47,498 --> 01:44:48,958",
+        "text": "Hey, I'm the flavor of the month.",
+        "character": "LUTHER "
+    },
+    "920": {
+        "time": "01:44:52,586 --> 01:44:53,921",
+        "text": "Why don't you come back with me?",
+        "character": "LUTHER "
+    },
+    "921": {
+        "time": "01:44:56,841 --> 01:44:58,217",
+        "text": "I just..."
+    },
+    "922": {
+        "time": "01:44:58,592 --> 01:45:00,302",
+        "text": "I just don't know why I'd be doing it.",
+        "character": "ETHAN "
+    },
+    "923": {
+        "time": "01:45:03,264 --> 01:45:05,266",
+        "text": "Gotta go catch my flight."
+    },
+    "924": {
+        "time": "01:45:06,475 --> 01:45:08,435",
+        "text": "So how's it feel to be a solid citizen again?",
+        "character": "ETHAN "
+    },
+    "925": {
+        "time": "01:45:11,105 --> 01:45:12,731",
+        "text": "Man, I don't know.",
+        "character": "SARAH "
+    },
+    "926": {
+        "time": "01:45:14,817 --> 01:45:16,610",
+        "text": "I'm gonna miss being disreputable.",
+        "character": "LUTHER "
+    },
+    "927": {
+        "time": "01:45:17,486 --> 01:45:20,197",
+        "text": "Well, Luther, if it makes you feel any better..."
+    },
+    "928": {
+        "time": "01:45:20,322 --> 01:45:21,615",
+        "text": "I'll always think of you that way."
+    },
+    "929": {
+        "time": "01:45:33,502 --> 01:45:35,254",
+        "text": "Excuse me. Mr. Hunt?"
+    },
+    "930": {
+        "time": "01:45:36,922 --> 01:45:38,340",
+        "text": "Would you like to watch a movie?",
+        "character": "FLIGHT ATTENDANT "
+    },
+    "931": {
+        "time": "01:45:42,511 --> 01:45:43,971",
+        "text": "No, thank you.",
+        "character": "ETHAN"
+    },
+    "932": {
+        "time": "01:45:44,263 --> 01:45:46,682",
+        "text": "Would you consider the cinema of the Caribbean?",
+        "character": "FLIGHT ATTENDANT "
+    },
+    "933": {
+        "time": "01:45:49,435 --> 01:45:50,936",
+        "text": "A r u b a ,   p e r h a p s ?"
+    }
+}
