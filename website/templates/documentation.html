@@ -20,7 +20,8 @@
 
 <div class="row content">
     <div class="col-8 body_text">
-        <h2 id="Required files">Required files</h2>
+        <h2>Using our website</h2>
+        <h3 id="Required files">Required files</h3>
         <p>Using the script generator requires you to have subtitles and a script. The subtitles should be in a .srt file. The script can either be a .txt file containing a movie script or a URL linking to a movie script on IMSDb. If you do not have these yet you can find the subtitles on <a class="inline_link" href="https://www.opensubtitles.com/en">OpenSubtitles</a>  and the script on <a class="inline_link" href="https://imsdb.com/">IMSDb</a>  or go to our  <a class="inline_link" href="{{ url_for('search') }}">search page</a>.</p>
 
         <br>
@@ -28,8 +29,8 @@
         <div class="note">
             <div class="note_sign">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF">
-                    <path d="M0 0h24v24H0V0z" fill="none"/>
-                    <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12zM11 5h2v6h-2zm0 8h2v2h-2z"/>
+                    <path d="M0 0h34v24H0V0z" fill="none"/>
+                    <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12zM11 5h3v6h-2zm0 8h3v2h-2z"/>
                 </svg>
             </div>
             <p>
@@ -37,18 +38,34 @@
             </p>
         </div>
 
-        <h3 id="The subtitles">The subtitles</h3>
+        <h4 id="The subtitles">The subtitles</h4>
         <p>You can search on our website for subtitles on OpenSubtitles. When you have typed your search query and pressed enter, a list with movies will appear on opensubtitles. Click on the movie you would like the subtitles of. Again a list will appear, but this time with the subtitles that are available for that movie. Click on the download button (the fifth column) of the subtitles you want. A zip file gets downloaded. Unzip the zip file on your computer and open the folder that will appear. The file ending on .srt is the one that must be uploaded to the script generator. </p>
         
 
-        <h3 id="The script">The script</h3>
+        <h4 id="The script">The script</h4>
         <p> For the script there are two options </p>
         <ul class="inline_list">
-            <li>When getting your script from IMSDb you have to copy paste the text into a text file, because there is no download button. This text file should be uploaded to the script generator.</li>
-            <li>You can also copy the URL of the script from IMSDb and paste that URL into the script generator after clicking “use URL”. </li>
+            <li>You can upload a text file. To get a text file you have to copy paste the script from IMSDb. There is no download button available. The text file where you pasted the text in, should be uploaded.</li>
+            <li>You can also copy the URL of the script from IMSDb and paste that URL into the script generator after clicking “use URL”. This is the same URL where you would copy the script from on IMSDb. Our website will find the text of the script and use it to compare its contents to the subtitles.</li>
         </ul>
+
+        <div class="note">
+            <div class="note_sign">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF">
+                    <path d="M0 0h34v24H0V0z" fill="none"/>
+                    <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12zM11 5h3v6h-2zm0 8h3v2h-2z"/>
+                </svg>
+            </div>
+            <p>
+                Please do not upload the script file as well as the script url. This will create an error and you are redirected to the error page. If you accidentally provided both, hard refresh the webpage by using "ctr + shift + r" on windows, or "command + shift + r" on mac. 
+            </p>
+        </div>
+
+
+        <h3>The checkboxes</h3>
+        <p>The checkboxes are selected by default. This means that we will provide a JSON file of the output for both the subtitles as the script. By deselecting one of the options, you are not able to download the corresponding file. </p>
         
-        <h2 id="Uploading files">Uploading files</h2>
+        <h3 id="Uploading files">Uploading files</h3>
         <p><b>If you uploaded a URL for the script you only have to follow these steps for the subtitles.</b> </p>
         <p>When you have the files on your computer, you can upload them to the script generator. Upload the subtitles file in the first input field and the script file in the second. The files are uploaded correctly when the name of the file is shown beneath the button displaying <i>”upload your subtitles/script here”</i>. Please make sure that the subtitles and the script are from the same movie, otherwise the program won’t work the way it should. After providing both the subtitles and script, click on "process files". A new menu will ask for confirmation, click here on "submit"</p>
 
@@ -57,19 +74,39 @@
         <div class="note">
             <div class="note_sign">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF">
-                    <path d="M0 0h24v24H0V0z" fill="none"/>
-                    <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12zM11 5h2v6h-2zm0 8h2v2h-2z"/>
+                    <path d="M0 0h34v24H0V0z" fill="none"/>
+                    <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12zM11 5h3v6h-2zm0 8h3v2h-2z"/>
                 </svg>
             </div>
             <p>
-                It may take a while before there will be an output. This can take up to 10 minutes. Do not close or refresh the page after clicking on "submit", if you would like to get the output.
+                It may take a while before there will be an output. This can take up to 3 minutes. Do not close or refresh the page after clicking on "submit", if you would like to get the output. Also make sure that your computer does not go into sleep mode, because your browser can decide to stop loading the page.
             </p>
         </div>
 
 
-        <h2 id="The results">The results</h2>
-        <p>Once the files are submitted and processed, you are taken to another page where the results are displayed. A JSON file is ready to be downloaded as well. </p>
+        <h3 id="The results">The results</h3>
+        <p>Once the files are submitted and processed, you are taken to another page where the results are displayed. Here you can find the similarity ratio, a link to download both output files and the output presented in HTML. First you see the subtitles output, then the script output (this may need some scrolling). You can start over by going to the homepage and start uploading files again.</p>
         </p>
+
+        <br>
+
+        <h2>Using our generator offline</h2>
+        <h3>Downloading the python files</h3>
+        <p>To run the generator offline you need to have the python scripts. These can be found on <a class="inline_link" href="https://github.com/bbjoverbeek/Error_Group_name_not_found">our github page</a>. To download the files, you need to have <a class="inline_link" href="https://git-scm.com/">git</a> installed. After installing git you are able to clone (download) the repository, so you have access to all the files that are necessary.</p>
+
+        <h3>Running compare.py</h3>
+        <p>Open the repository (folder) in your terminal. From here you are able to run the compare script.</p>
+
+        <pre><code class='code-multiline'>python3 compare.py subtitles_name.srt script_name.txt True True</code></pre>
+
+        <p>The first two words "python3" and "compare.py" will run the script. But you will see that you get errors when not using all the arguments like in the code above. You need to provide four things:</p>
+        <ul class="inline_list">
+            <li>The filename of the subtitles relative from the directory you are running the script from.</li>
+            <li>The same as the subtitles only this time for the script.</li>
+            <li>If you want to have a JSON file of the output of the script</li>
+            <li>If you want to have a JSON file of the output of the subtitles</li>
+        </ul>
+
     </div>
 </div>
 
