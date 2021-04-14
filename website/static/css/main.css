@@ -1014,6 +1014,10 @@ h2 {
     .download_button > svg {
         fill: whitesmoke;
     }
+
+    h4 {
+        color: whitesmoke;
+    }
     
     .has_character_item_sub, .other_item_sub, .other_item_script, .has_character_item_script {
         color: white;
