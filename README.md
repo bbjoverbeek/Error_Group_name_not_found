@@ -31,7 +31,8 @@ And summarize the differences between the script and subtitles, to give a percen
 - Made the website using Flask (user interface).
 - Made the label_lines.py script
 
-## How to use the program / reproduce the results: 
+## How to use the program / reproduce the results:
+### Run the website locally
 We used a web-based user interface, using flask. On this website it is possible to retreave the program for the script and the subtitles data.
 
 Before trying to access our website, you will need to install some extensions to make it work. This can be done by running the following line of code in your terminal:
