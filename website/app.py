@@ -141,7 +141,7 @@ def index():
         elif not script_url == "":
             script_file = get_script_file(script_url)
             if "This URL did not work." in script_file:
-                return redirect(url_for('error_page', 
+                return redirect(url_for('error_page',
                                         error_message=script_file))
             else:
                 with open(f"uploads_user/script_file{process_counter}"
@@ -173,11 +173,11 @@ def index():
                                 script_file_option=script_file_option,
                                 subtitles_file_option=subtitles_file_option))
 
-
     else:
         return render_template('index.html')
         # so the homepage gets loaded when clicking on a link to the
         # page
+
 
 @app.route('/process_files/<script_file_option>/<subtitles_file_option>')
 def process_files(script_file_option, subtitles_file_option):
