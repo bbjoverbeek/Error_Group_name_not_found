@@ -41,8 +41,7 @@ Before trying to access our website, you will need to install some extensions to
 pip3 install -r requirements.txt
 ```
 
-Once this is installed, you need to run the following code in the website folder in the terminal to access the website (Opening index.html will not work.
-):
+Once this is installed, you need to run the following code in the website folder in the terminal to access the website (Opening index.html will not work.):
 
 ``` 
 source env/bin/activate
