@@ -31,7 +31,8 @@ And summarize the differences between the script and subtitles, to give a percen
 - Made the website using Flask (user interface).
 - Made the label_lines.py script
 
-## How to use the program / reproduce the results: 
+## How to use the program / reproduce the results:
+### Run the website locally
 We used a web-based user interface, using flask. On this website it is possible to retreave the program for the script and the subtitles data.
 
 Before trying to access our website, you will need to install some extensions to make it work. This can be done by running the following line of code in your terminal:
@@ -40,13 +41,12 @@ Before trying to access our website, you will need to install some extensions to
 pip3 install -r requirements.txt
 ```
 
-Once this is installed, you need to run the following code in the website folder in the terminal to access the website (Opening index.html will not work.
-):
+Once this is installed, you need to run the following code in the website folder in the terminal to access the website (Opening index.html will not work.):
 
 ``` 
 source env/bin/activate
 ```
-This will create a virtual environment to run the website on the flask version we have used during development.
+This will create a virtual environment to run the website with the same flask version that we have used during development.
 
 When you have created a virtual environment, you have to run the following code in order to create a local server. With the virtual server you are able to run this website locally:
 
