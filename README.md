@@ -46,7 +46,7 @@ Once this is installed, you need to run the following code in the website folder
 ``` 
 source env/bin/activate
 ```
-This will create a virtual environment to run the website on the flask version we have used during development.
+This will create a virtual environment to run the website with the same flask version that we have used during development.
 
 When you have created a virtual environment, you have to run the following code in order to create a local server. With the virtual server you are able to run this website locally:
 
