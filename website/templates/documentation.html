@@ -61,7 +61,6 @@
             </p>
         </div>
 
-
         <h3>The checkboxes</h3>
         <p>The checkboxes are selected by default. This means that we will provide a JSON file of the output for both the subtitles as the script. By deselecting one of the options, you are not able to download the corresponding file. </p>
         
@@ -91,10 +90,11 @@
         <br>
 
         <h2>Using our generator offline</h2>
-        <h3>Downloading the python files</h3>
+        <h3>With the command line interface</h3>
+        <h4>Downloading the python files</h4>
         <p>To run the generator offline you need to have the python scripts. These can be found on <a class="inline_link" href="https://github.com/bbjoverbeek/Error_Group_name_not_found">our github page</a>. To download the files, you need to have <a class="inline_link" href="https://git-scm.com/">git</a> installed. After installing git you are able to clone (download) the repository, so you have access to all the files that are necessary.</p>
 
-        <h3>Running compare.py</h3>
+        <h4>Running compare.py</h4>
         <p>Open the repository (folder) in your terminal. From here you are able to run the compare script.</p>
 
         <pre><code class='code-multiline'>python3 compare.py subtitles_name.srt script_name.txt True True</code></pre>
@@ -106,6 +106,18 @@
             <li>If you want to have a JSON file of the output of the script</li>
             <li>If you want to have a JSON file of the output of the subtitles</li>
         </ul>
+
+        <h3>Run the website locally (when you were not doing this already)</h3>
+        <p>We used a web-based user interface, using flask. On this website it is possible to retreave the program for the script and the subtitles data.</p>
+        <p>Before trying to access our website, you will need to install some extensions to make it work. This can be done by running the following line of code in your terminal:</p>
+        <pre><code class='code-multiline'>pip3 install -r requirements.txt</code></pre>
+        <p>Once this is installed, you need to run the following code in the website folder in the terminal to access the website (opening index.html will not work.):</p>
+        <pre><code class='code-multiline'>source env/bin/activate</code></pre>
+        <p>This will create a virtual environment to run the website with the same flask version that we have used during development.</p>
+        <p>When you have created a virtual environment, you have to run the following code in order to create a local server. With the virtual server you are able to run this website locally:</p> 
+        <pre><code class='code-multiline'>python3 app.py</code></pre>
+        <p>Flask will provide some information about the local server you are running from your computer. Among the information, a url for the website is given. Open this link via the terminal or copy and paste it into your browser of choice.</p>
+
 
     </div>
 </div>
